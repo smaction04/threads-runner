@@ -8,7 +8,7 @@ import urllib.request
 
 BASE = "https://graph.threads.net/v1.0"
 TOKEN = os.environ["THREADS_TOKEN"]
-UID = os.environ["THREADS_USER_ID"]
+UID = "me"
 DRY = os.environ.get("DRY_RUN", "1") != "0"
 MIN_GAP = 3600
 DAILY_CAP = 5
