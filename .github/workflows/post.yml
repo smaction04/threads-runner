@@ -1,0 +1,36 @@
+name: post-due
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1=연습(올리지 않음), 0=실제 발행"
+        default: "1"
+permissions:
+  contents: write
+concurrency:
+  group: post-due
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: post due items
+        env:
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || '0' }}
+        run: python post_due.py
+      - name: save state
+        if: always()
+        run: |
+          git config user.name "threads-runner"
+          git config user.email "threads-runner@users.noreply.github.com"
+          git add queue.json log.jsonl
+          git diff --cached --quiet || (git commit -m "state update" && git pull --rebase && git push)
