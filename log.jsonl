@@ -31,3 +31,8 @@
 {"step": "status", "due": [], "pending": 12, "t": "2026-10-11 18:11:18Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-11 21:58:10Z"}
 {"step": "status", "due": [], "pending": 12, "t": "2026-10-11 21:58:10Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-12 00:54:37Z"}
+{"step": "status", "due": [26], "pending": 12, "t": "2026-10-12 00:54:37Z"}
+{"id": 26, "step": "post", "post_id": "17928259425183117", "t": "2026-10-12 00:54:49Z"}
+{"id": 26, "step": "reply", "reply_id": "17997900483001215", "t": "2026-10-12 00:55:06Z"}
+{"id": 26, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DeX_lK-DMIf", "t": "2026-10-12 00:55:07Z"}
