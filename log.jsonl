@@ -41,3 +41,8 @@
 {"id": 28, "step": "post", "post_id": "18192417685392295", "t": "2026-10-12 06:39:34Z"}
 {"id": 28, "step": "reply", "reply_id": "17973698853152776", "t": "2026-10-12 06:39:51Z"}
 {"id": 28, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DeYnCR9mzQ3", "t": "2026-10-12 06:39:51Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-12 16:03:42Z"}
+{"step": "status", "due": [23], "pending": 10, "t": "2026-10-12 16:03:42Z"}
+{"id": 23, "step": "post", "post_id": "18117718987980202", "t": "2026-10-12 16:03:53Z"}
+{"id": 23, "step": "reply", "reply_id": "18118348187006753", "t": "2026-10-12 16:04:10Z"}
+{"id": 23, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DeZnnZzIIXN", "t": "2026-10-12 16:04:10Z"}
