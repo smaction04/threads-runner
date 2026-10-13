@@ -58,3 +58,5 @@
 {"id": 27, "step": "post", "post_id": "18123395264295887", "t": "2026-10-13 07:10:30Z"}
 {"id": 27, "step": "reply", "reply_id": "18449546272124238", "t": "2026-10-13 07:10:46Z"}
 {"id": 27, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DebPXzhG3QQ", "t": "2026-10-13 07:10:47Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-13 07:20:20Z"}
+{"step": "status", "due": [], "pending": 7, "t": "2026-10-13 07:20:20Z"}
