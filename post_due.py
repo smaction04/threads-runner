@@ -48,7 +48,12 @@ def save(q):
 def wait_ready(cid, timeout=120):
     waited = 0
     while waited <= timeout:
-        st = api("GET", f"/{cid}", {"fields": "status,error_message"})
+        try:
+            st = api("GET", f"/{cid}", {"fields": "status,error_message"})
+        except RuntimeError:
+            time.sleep(5)
+            waited += 5
+            continue
         if st.get("status") == "FINISHED":
             return
         if st.get("status") in ("ERROR", "EXPIRED"):
@@ -90,6 +95,19 @@ def main():
     today = [i for i in done if now - i["at"] < 86400]
     due = [i for i in q["items"] if i["status"] == "scheduled" and i["at"] <= now]
     log(step="status", due=[i["id"] for i in due], pending=sum(i["status"] == "scheduled" for i in q["items"]))
+    for it in q["items"]:
+        if DRY or it["status"] != "partial" or not it.get("post_id") or it.get("reply_id"):
+            continue
+        try:
+            it["reply_id"] = publish(it["comment"], reply_to=it["post_id"])
+            it["status"] = "published"
+            save(q)
+            log(id=it["id"], step="reply", reply_id=it["reply_id"], retry=True)
+            verify(it)
+        except Exception as e:
+            it["error"] = str(e)[:300]
+            log(id=it["id"], step="error", error=it["error"], status=it["status"], retry=True)
+        save(q)
     for it in sorted(due, key=lambda x: x["at"]):
         if len(today) >= DAILY_CAP:
             log(id=it["id"], step="skip", why="daily cap")
