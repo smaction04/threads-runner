@@ -1,0 +1,151 @@
+import json
+import os
+import random
+import re
+import sys
+import time
+import urllib.error
+import urllib.request
+
+Q = "queue.json"
+LOG = "log.jsonl"
+POOL = "products.json"
+DASH = "dash/dash_base.json"
+KEY = os.environ.get("GEMINI_API_KEY", "")
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
+DRY = os.environ.get("DRY_RUN", "0") != "0"
+MIN_PENDING = int(os.environ.get("MIN_PENDING", "6"))
+TARGET = int(os.environ.get("TARGET", "12"))
+KST = 9 * 3600
+DISCLOSURE = "[광고] 이 게시글은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
+PERSONA = (
+    "스레드 살림템 계정의 말투. 반드시 지킬 형식: 1) 전체 120자 이내. 2) 한 줄에 한 문장, 줄바꿈으로 4~6줄. "
+    "3) 첫 줄은 짧은 충격·공감·질문 한 문장(예: 나만 몰랐어?, 이거 보고 충격받음, 아직도 이렇게 해?). "
+    "4) 설명하지 말고 한 사람의 반응처럼 쓴다. 5) 가격·구성 숫자·스펙은 본문에 쓰지 않는다. 상품 종류와 쓰임새만 말한다. "
+    "6) 반말, 커뮤니티 말투 ㅋㅋ ㄷㄷ ;; 허용. 7) 이모지는 0~1개, 해시태그 금지, 링크·URL 금지. "
+    "8) 마지막 줄은 댓글을 부르는 짧은 질문이나 한마디. "
+    "9) 적히지 않은 구체 수치·효능·인증·기간(몇 분 만에, 며칠 만에 등)은 지어내지 않는다."
+)
+
+
+def log(**kw):
+    kw["t"] = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()) + "Z"
+    with open(LOG, "a", encoding="utf-8") as f:
+        f.write(json.dumps(kw, ensure_ascii=False) + "\n")
+    print(kw)
+
+
+def gemini(prompt):
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+    body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
+                       "generationConfig": {"temperature": 1.0, "responseMimeType": "application/json"}}).encode()
+    req = urllib.request.Request(url, data=body, headers={"x-goog-api-key": KEY, "Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            d = json.loads(r.read().decode())
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"gemini {e.code} {e.read().decode(errors='replace')[:200]}") from None
+    return d["candidates"][0]["content"]["parts"][0]["text"]
+
+
+def valid(t):
+    lines = [l for l in t.splitlines() if l.strip()]
+    if not 4 <= len(lines) <= 6 or len(t) > 130:
+        return False
+    if re.search(r"https?://|www\.|#\w|\.com|\.kr", t):
+        return False
+    return True
+
+
+def norm(t):
+    return re.sub(r"\s+", "", t)
+
+
+def make_text(prod, recent):
+    prompt = (f"너는 스레드에 올릴 짧은 후킹 글 작성자다.\n[말투 설정]\n{PERSONA}\n[상품명] {prod['name']}\n"
+              "[이미 쓴 글: 첫 줄과 표현이 겹치지 않게 새로 쓸 것]\n" + "\n---\n".join(recent[-8:]) +
+              '\n출력은 JSON만: {"text": "글"}')
+    for _ in range(3):
+        try:
+            raw = gemini(prompt)
+            t = str(json.loads(raw).get("text", "")).strip()
+        except Exception as e:
+            log(step="refill-llm-error", error=str(e)[:200])
+            continue
+        if valid(t) and norm(t.splitlines()[0]) not in {norm(r.splitlines()[0]) for r in recent}:
+            return t
+    return None
+
+
+def slots(start, n):
+    out, d = [], start
+    day0 = (d + KST) // 86400 * 86400 - KST
+    while len(out) < n:
+        k = random.choice([2, 3])
+        ts = sorted(day0 + random.randint(8 * 3600, 23 * 3600) for _ in range(k))
+        ok = []
+        for t in ts:
+            if t > d + 5400 and (not ok or t - ok[-1] >= 5400):
+                ok.append(t)
+        out += ok
+        d = max(d, ok[-1]) if ok else d
+        day0 += 86400
+    return out[:n]
+
+
+def main():
+    q = json.load(open(Q, encoding="utf-8"))
+    items = q["items"]
+    pend = [i for i in items if i["status"] == "scheduled"]
+    if len(pend) >= MIN_PENDING:
+        log(step="refill-skip", pending=len(pend))
+        return
+    if not KEY:
+        log(step="refill-fatal", error="GEMINI_API_KEY 없음")
+        sys.exit(1)
+    pool = [p for p in json.load(open(POOL, encoding="utf-8")) if p.get("use")]
+    need = TARGET - len(pend)
+    last_at = max([i["at"] for i in items], default=int(time.time()))
+    times = slots(max(last_at, int(time.time())), need)
+    nid = max(i["id"] for i in items) + 1
+    used = {}
+    for i in items:
+        used[i.get("product")] = max(used.get(i.get("product"), 0), i["at"])
+    recent = [i["text"] for i in items]
+    dash = json.load(open(DASH, encoding="utf-8"))
+    added = 0
+    last_prod = (sorted(items, key=lambda x: x["at"])[-1].get("product") if items else None)
+    for at in times:
+        cand = sorted((p for p in pool if p["id"] != last_prod), key=lambda p: used.get(p["id"], 0))
+        prod = cand[0]
+        text = make_text(prod, recent)
+        if not text:
+            log(step="refill-skip-one", product=prod["id"])
+            used[prod["id"]] = at
+            continue
+        it = {"id": nid, "at": at, "text": text, "comment": f"{DISCLOSURE}\n{prod['link']}", "status": "scheduled",
+              "post_id": None, "reply_id": None, "verified": None, "error": None, "source_draft": None,
+              "product": prod["id"], "auto": True}
+        sched = time.strftime("%Y-%m-%d %H:%M", time.gmtime(at + KST))
+        row = {"no": len(dash) + 1, "when": sched, "status": "예약", "how": "깃허브", "product": prod["name"][:20],
+               "price": prod["price"], "style": "신형", "first_line": text.splitlines()[0], "chars": len(text),
+               "views": None, "likes": None, "replies": None, "reposts": None, "verify": "발행 전", "url": "",
+               "sched": sched, "lag_min": None, "hour": int(sched[11:13])}
+        items.append(it)
+        dash.append(row)
+        recent.append(text)
+        used[prod["id"]] = at
+        last_prod = prod["id"]
+        nid += 1
+        added += 1
+        log(step="refill-add", id=it["id"], product=prod["id"], at=sched)
+    if DRY:
+        log(step="refill-dry", would_add=added)
+        return
+    json.dump(q, open(Q, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(dash, open(DASH, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    log(step="refill-done", added=added)
+
+
+if __name__ == "__main__":
+    main()

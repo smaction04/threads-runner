@@ -1,0 +1,35 @@
+name: refill-queue
+on:
+  schedule:
+    - cron: "17 */4 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1=연습(저장 안 함), 0=실제 추가"
+        default: "1"
+permissions:
+  contents: write
+concurrency:
+  group: post-due
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: refill
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || '0' }}
+        run: python refill.py
+      - name: save state
+        if: always()
+        run: |
+          git config user.name "threads-runner"
+          git config user.email "threads-runner@users.noreply.github.com"
+          git add queue.json log.jsonl dash/dash_base.json
+          git diff --cached --quiet || (git commit -m "refill queue" && git pull --rebase && git push)
