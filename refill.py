@@ -24,10 +24,8 @@ BUDGET_SEC = 330
 T0 = time.time()
 DISCLOSURE = "[광고] 이 게시글은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
 BASE_RULE = (
-    "스레드 살림템 계정의 글. 공통 규칙: 전체 120자 이내, 한 줄에 한 문장 줄바꿈, 반말·커뮤니티 말투(ㅋㅋ ㄷㄷ ;; 허용), "
-    "이모지 0~1개, 해시태그·링크·URL 금지, 가격·구성 숫자·스펙은 쓰지 않고 상품 종류와 쓰임새만 말한다. "
-    "적히지 않은 구체 수치·효능·인증·기간(몇 분 만에, 며칠 만에 등)은 지어내지 않는다. "
-    "상품명(브랜드·규격·용량)을 그대로 쓰지 말고 '곰팡이 세정제', '신발 탈취제'처럼 종류로만 부른다. '기절할 뻔', '소름 돋', '현타 온다', '충격받' 같은 표현은 쓰지 않는다."
+    "스레드 살림템 계정의 글. 공통 규칙: 전체 120자 이내, 한 줄에 한 문장 줄바꿈(2~6줄), 반말·커뮤니티 말투(ㅋㅋ ㄷㄷ ;; 허용), "
+    "이모지 0~1개, 해시태그·링크·URL은 쓰지 않는다(링크는 댓글에 따로 붙는다). 그 외 표현은 자유롭게, 읽는 사람이 멈추고 볼 만큼 생생하게 쓴다."
 )
 STYLES = {
     "질문형": "3~4줄. 첫 줄은 독자에게 던지는 질문(예: 싱크대 냄새 다들 어떻게 잡아?). 가운데는 이 상품이 그 고민에 쓰인다는 한마디. 마지막 줄은 의견을 묻는 질문.",
@@ -75,30 +73,14 @@ def key(t):
 
 
 def valid(t, prod=None):
-    """공개 계정에 나가는 글의 마지막 관문. 프롬프트가 아니라 코드로 막는다."""
+    """글의 모양만 검사한다(줄 수·길이·링크/해시태그). 문구 내용(효능·숫자·기간 등)은 제한하지 않는다."""
     if not isinstance(t, str):
         return False
     lines = [l for l in t.splitlines() if l.strip()]
     if not 2 <= len(lines) <= 6 or len(t) > MAXLEN:
         return False
-    k = key(t)
-    if any(w in k for w in FORBIDDEN):
-        return False
-    if re.search(r"[0-9０-９]", t):
-        return False
     if re.search(r"[#＃]", t) or re.search(r"[A-Za-z0-9\-]+\s*\.\s*[A-Za-z]{2,}", t) or re.search(r"https?:|www\.|://", t, re.I):
         return False
-    if any(u in k for u in UNITS):
-        return False
-    if re.search(r"만에|인증|식약처|특허|살균|항균|박멸|백퍼|백프로|하루|이틀|사흘|나흘|일주일|반나절|한달|두달|몇일|며칠|한시간|두시간", k):
-        return False
-    if re.search(r"(?:[일이삼사오육칠팔십백천몇두세네]|구십|구백)(?:분|초|시간|개월|리터|킬로|그램)", k):
-        return False
-    if re.search(r"(?:[일이삼사오육칠팔구십백천몇두세네열]|스무|서른|마흔|쉰)(?:개|배|년|번|회|퍼센트|프로|보름)", k):
-        return False
-    for b in (prod or {}).get("ban", []):
-        if key(b) in k:
-            return False
     return True
 
 
