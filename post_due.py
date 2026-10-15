@@ -163,6 +163,18 @@ def find_post(text, since=0):
     return None
 
 
+def notify(msg):
+    """텔레그램으로 경고를 보낸다(실패해도 발행 흐름은 멈추지 않음). 비밀값이 없거나 연습 모드면 보내지 않는다."""
+    tok, chat = os.environ.get("TELEGRAM_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
+    if DRY or not tok or not chat:
+        return
+    try:
+        data = urllib.parse.urlencode({"chat_id": chat, "text": "[스레드 로봇 경고]\n" + msg}).encode()
+        urllib.request.urlopen(urllib.request.Request(f"https://api.telegram.org/bot{tok}/sendMessage", data=data), timeout=15).read()
+    except Exception as e:
+        print("telegram 실패:", type(e).__name__)
+
+
 def alerts(q, now):
     """사람이 봐야 하는 상태를 사유별로 한 번씩(댓글 미게시는 하루 한 번 다시) 로그에 남기고 True 반환 → 실행 실패 표시로 알림."""
     bad = False
@@ -187,6 +199,7 @@ def alerts(q, now):
                 continue
             it[at_key] = now
             log(id=it["id"], step="ALERT", why=why)
+            notify(f"{it['id']}번 글: {why}")
             bad = True
     return bad
 
@@ -194,6 +207,7 @@ def alerts(q, now):
 def main():
     if not TOKEN:
         log(step="fatal", error="THREADS_TOKEN 없음")
+        notify("THREADS_TOKEN이 없어 발행기가 멈췄습니다")
         sys.exit(1)
     me = api("GET", "/me", {"fields": "id,username"})
     log(step="whoami", username=me.get("username"), dry=DRY)
@@ -268,6 +282,7 @@ def main():
             it["status"] = "failed"
             it["error"] = "광고 문구([광고])나 쿠팡 링크가 없는 항목 — 발행 안 함"
             log(id=it["id"], step="ALERT", why=it["error"])
+            notify(f"{it['id']}번 글: {it['error']}")
             save(q)
             flagged_pre = True
             continue
