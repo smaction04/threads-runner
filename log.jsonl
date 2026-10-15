@@ -633,3 +633,5 @@
 {"id": 33, "step": "post", "post_id": "18416284468083164", "t": "2026-10-15 03:50:32Z"}
 {"id": 33, "step": "reply", "reply_id": "17989533771059197", "t": "2026-10-15 03:50:46Z"}
 {"id": 33, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DegCE-LEWzt", "t": "2026-10-15 03:50:47Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-15 04:00:34Z"}
+{"step": "status", "due": [], "pending": 1, "t": "2026-10-15 04:00:34Z"}
