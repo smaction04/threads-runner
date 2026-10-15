@@ -185,13 +185,17 @@
    "at": 1792064040,
    "text": "나만 이거 이제 알았냐고 ㅠㅠ\n지우기 힘들던 낙서가 1초 만에 지워짐 ㄷㄷ\n찌든 때 벗겨지는 거 보고 진짜 경악함..\n청소 스트레스가 하루 만에 완전 끝났어\n너네도 집에서 이거 써봤어?",
    "comment": "[광고] 이 게시글은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\nhttps://link.coupang.com/a/hOsFK8r1Oe",
-   "status": "scheduled",
-   "post_id": null,
-   "reply_id": null,
-   "verified": null,
+   "status": "published",
+   "post_id": "17911855236501003",
+   "reply_id": "18203138209376006",
+   "verified": "ok",
    "error": null,
    "source_draft": 55,
-   "product": 8
+   "product": 8,
+   "publishing_at": 1792064421,
+   "lookup_fail": 0,
+   "posted_at": 1792064432,
+   "reply_tries": 1
   },
   {
    "id": 34,
