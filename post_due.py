@@ -205,6 +205,10 @@ def alerts(q, now):
 
 
 def main():
+    if os.environ.get("NOTIFY_TEST") == "1":
+        notify("알림 시험입니다. 이 메시지가 보이면 서버에서 텔레그램 경고가 정상 작동합니다.")
+        print("notify test done")
+        return
     if not TOKEN:
         log(step="fatal", error="THREADS_TOKEN 없음")
         notify("THREADS_TOKEN이 없어 발행기가 멈췄습니다")
