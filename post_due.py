@@ -20,7 +20,7 @@ UNSURE_AFTER = 1800
 REPLY_RETRY_MAX = 12
 REALERT_SEC = 86400
 DISCLOSURE_HEAD = "[광고]"
-LINK_RE = re.compile(r"https://link\.coupang\.com/a/\w+")
+LINK_RE = re.compile(r"https://link\.coupang\.com/a/[A-Za-z0-9]+")
 Q = "queue.json"
 LOG = "log.jsonl"
 
@@ -156,7 +156,9 @@ def find_post(text, since=0):
     for x in r.get("data", []):
         if norm(x.get("text")) == norm(text):
             t = _ts(x)
-            if t is None or t >= since:
+            if t is None:
+                raise LookupFailed("글 시간 정보를 읽지 못함 — 중복 여부 판단 불가")
+            if t >= since:
                 return x.get("id")
     return None
 
@@ -172,6 +174,8 @@ def alerts(q, now):
                 reasons.append(("c_exhaust", "댓글 반복 실패 — 광고 표기 없는 본문이 공개 중(자동 재시도 끝)"))
             else:
                 reasons.append(("c_first", "광고 댓글 미게시 — 광고 표기 없는 본문이 공개 중(재시도 중)"))
+        if it["status"] == "scheduled" and it.get("lookup_fail", 0) >= 3:
+            reasons.append(("lookup", "최근 글 조회가 계속 실패 — 발행이 멈춰 있음(권한·장애 확인)"))
         if str(it.get("verified") or "").startswith("mismatch"):
             reasons.append(("verify", "원본 대조 불일치"))
         if it["status"] == "unsure":
@@ -275,11 +279,13 @@ def main():
                 dup = find_post(it["text"], it["at"] - 86400)
             except LookupFailed as e:
                 it["status"] = "scheduled"
+                it["lookup_fail"] = it.get("lookup_fail", 0) + 1
                 it.pop("publishing_at", None)
                 it["error"] = "최근 글 조회 실패 — 중복 확인 불가라 이번엔 발행 안 함: " + str(e)
                 log(id=it["id"], step="lookup-failed-post")
                 save(q)
                 break
+            it["lookup_fail"] = 0
             if dup:
                 it["post_id"] = dup
                 log(id=it["id"], step="dup-found", post_id=dup)

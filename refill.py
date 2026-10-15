@@ -92,7 +92,9 @@ def valid(t, prod=None):
         return False
     if re.search(r"만에|인증|식약처|특허|살균|항균|박멸|백퍼|백프로|하루|이틀|사흘|나흘|일주일|반나절|한달|두달|몇일|며칠|한시간|두시간", k):
         return False
-    if re.search(r"(?:[일이삼사오육칠팔십백천몇두세네]|구십|구백)(?:분|초|시간|개월|개|리터|킬로|그램)", k):
+    if re.search(r"(?:[일이삼사오육칠팔십백천몇두세네]|구십|구백)(?:분|초|시간|개월|리터|킬로|그램)", k):
+        return False
+    if re.search(r"(?:[일이삼사오육칠팔구십백천몇두세네열]|스무|서른|마흔|쉰)(?:개|배|년|번|회|퍼센트|프로|보름)", k):
         return False
     for b in (prod or {}).get("ban", []):
         if key(b) in k:
