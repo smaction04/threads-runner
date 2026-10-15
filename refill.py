@@ -13,10 +13,15 @@ POOL = "products.json"
 DASH = "dash/dash_base.json"
 KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
-DRY = os.environ.get("DRY_RUN", "0") != "0"
+DRY = os.environ.get("DRY_RUN", "1") != "0"
 MIN_PENDING = int(os.environ.get("MIN_PENDING", "8"))
 TARGET = int(os.environ.get("TARGET", "15"))
 KST = 9 * 3600
+MAXLEN = 120
+MIN_SLOT_GAP = 4500
+PER_DAY_MIN, PER_DAY_MAX = 3, 4
+BUDGET_SEC = 330
+T0 = time.time()
 DISCLOSURE = "[광고] 이 게시글은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
 BASE_RULE = (
     "스레드 살림템 계정의 글. 공통 규칙: 전체 120자 이내, 한 줄에 한 문장 줄바꿈, 반말·커뮤니티 말투(ㅋㅋ ㄷㄷ ;; 허용), "
@@ -38,8 +43,9 @@ STYLES = {
 
 def log(**kw):
     kw["t"] = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()) + "Z"
-    with open(LOG, "a", encoding="utf-8") as f:
-        f.write(json.dumps(kw, ensure_ascii=False) + "\n")
+    if not DRY:
+        with open(LOG, "a", encoding="utf-8") as f:
+            f.write(json.dumps(kw, ensure_ascii=False) + "\n")
     print(kw)
 
 
@@ -49,60 +55,119 @@ def gemini(prompt):
                        "generationConfig": {"temperature": 1.0, "responseMimeType": "application/json"}}).encode()
     req = urllib.request.Request(url, data=body, headers={"x-goog-api-key": KEY, "Content-Type": "application/json"})
     try:
-        with urllib.request.urlopen(req, timeout=60) as r:
+        with urllib.request.urlopen(req, timeout=30) as r:
             d = json.loads(r.read().decode())
     except urllib.error.HTTPError as e:
         raise RuntimeError(f"gemini {e.code} {e.read().decode(errors='replace')[:200]}") from None
     return d["candidates"][0]["content"]["parts"][0]["text"]
 
 
-def valid(t):
-    lines = [l for l in t.splitlines() if l.strip()]
-    if not 2 <= len(lines) <= 6 or len(t) > 130 or re.search(r"기절|소름|현타|충격받", t):
-        return False
-    if re.search(r"https?://|www\.|#\w|\.com|\.kr", t):
-        return False
-    return True
+FORBIDDEN = ("기절", "소름", "소오름", "현타", "충격받", "충격먹")
+UNITS = ("ml", "kg", "cm", "mm")
 
 
 def norm(t):
     return re.sub(r"\s+", "", t)
 
 
-def make_text(prod, recent, style):
-    prompt = (f"너는 스레드에 올릴 짧은 후킹 글 작성자다.\n[공통 규칙]\n{BASE_RULE}\n[이번 글의 형식: {style}]\n{STYLES[style].replace('{MONTH}', str(int(time.strftime('%m', time.gmtime(time.time() + KST)))))}\n[상품명] {prod['name']}\n"
-              "[이미 쓴 글: 첫 줄과 표현이 겹치지 않게 새로 쓸 것]\n" + "\n---\n".join(recent[-8:]) +
-              '\n출력은 JSON만: {"text": "글"}')
-    for _ in range(3):
+def key(t):
+    return re.sub(r"[\s.,!?~ㅋㅎㅠㅜ;:'\"·…\-_()]+", "", t).lower()
+
+
+def valid(t, prod=None):
+    """공개 계정에 나가는 글의 마지막 관문. 프롬프트가 아니라 코드로 막는다."""
+    if not isinstance(t, str):
+        return False
+    lines = [l for l in t.splitlines() if l.strip()]
+    if not 2 <= len(lines) <= 6 or len(t) > MAXLEN:
+        return False
+    k = key(t)
+    if any(w in k for w in FORBIDDEN):
+        return False
+    if re.search(r"[0-9０-９]", t):
+        return False
+    if re.search(r"[#＃]", t) or re.search(r"[A-Za-z0-9\-]+\s*\.\s*[A-Za-z]{2,}", t) or re.search(r"https?:|www\.|://", t, re.I):
+        return False
+    if any(u in k for u in UNITS):
+        return False
+    if re.search(r"만에|인증|식약처|특허|살균|항균|박멸|백퍼|백프로|하루|이틀|사흘|나흘|일주일|반나절|한달|두달|몇일|며칠|한시간|두시간", k):
+        return False
+    if re.search(r"(?:[일이삼사오육칠팔십백천몇두세네]|구십|구백)(?:분|초|시간|개월|개|리터|킬로|그램)", k):
+        return False
+    for b in (prod or {}).get("ban", []):
+        if key(b) in k:
+            return False
+    return True
+
+
+def month_of(ts):
+    return int(time.strftime("%m", time.gmtime(ts + KST)))
+
+
+def make_text(prod, recent, style, at):
+    kind = prod.get("kind") or prod["name"]
+    rule = STYLES[style].replace("{MONTH}", str(month_of(at)))
+    prompt = "\n".join([
+        "너는 스레드에 올릴 짧은 후킹 글 작성자다.",
+        "[공통 규칙]", BASE_RULE,
+        f"[이번 글의 형식: {style}]", rule,
+        f"[상품 종류] {kind}",
+        "[이미 쓴 글: 첫 줄과 표현이 겹치지 않게 새로 쓸 것]",
+        "\n---\n".join(recent[-8:]),
+        '출력은 JSON만: {"text": "글"}',
+    ])
+    for _ in range(2):
+        if time.time() - T0 > BUDGET_SEC:
+            return None
         try:
-            raw = gemini(prompt)
-            t = str(json.loads(raw).get("text", "")).strip()
+            t = str(json.loads(gemini(prompt)).get("text", "")).strip()
         except Exception as e:
             log(step="refill-llm-error", error=str(e)[:200])
             continue
-        if valid(t) and norm(t.splitlines()[0]) not in {norm(r.splitlines()[0]) for r in recent}:
+        firsts = {norm(r.splitlines()[0]) for r in recent if r.strip()}
+        if valid(t, prod) and norm(t.splitlines()[0]) not in firsts:
             return t
     return None
 
 
-def slots(start, n):
-    out = []
-    day0 = (start + KST) // 86400 * 86400 - KST
-    while len(out) < n:
-        k = random.choice([3, 4])
-        lo, hi = 8 * 3600, 23 * 3600
-        seg = (hi - lo) / k
-        for j in range(k):
-            t = day0 + int(lo + seg * j + random.uniform(0.1, 0.9) * seg)
-            if t > start + 3600:
-                out.append(t)
-        day0 += 86400
-    return out[:n]
+def day_of(ts):
+    return (ts + KST) // 86400
+
+
+def slots(items, n, now, rnd=random):
+    """KST 날짜별로 이미 잡힌 글 수를 세어 하루 3~4건이 되도록 8~23시 안에 배정. 기존 글과 75분 이상 간격.
+    이미 예약이 있는 마지막 날까지는 부족분(3건 미만)을 n과 상관없이 먼저 채우고, 그 뒤 n개가 될 때까지 다음 날로 넘어간다."""
+    taken = sorted(i["at"] for i in items if i.get("status") in ("scheduled", "published", "partial", "publishing", "unsure"))
+    last_day = max([day_of(i["at"]) for i in items if i.get("status") == "scheduled"], default=day_of(now))
+    out, d = [], day_of(now)
+    for _ in range(60):
+        if d > last_day and len(out) >= n:
+            break
+        base = d * 86400 - KST
+        have = [t for t in taken + out if day_of(t) == d]
+        need = 0
+        if len(have) < PER_DAY_MIN:
+            need = rnd.choice([PER_DAY_MIN, PER_DAY_MAX]) - len(have)
+        tries = 0
+        while need > 0 and tries < 300:
+            tries += 1
+            t = base + rnd.randint(8 * 3600, 23 * 3600 - 60)
+            if t <= now + 3600 or any(abs(t - x) < MIN_SLOT_GAP for x in taken + out):
+                continue
+            out.append(t)
+            need -= 1
+        d += 1
+    return sorted(out)
 
 
 def main():
     q = json.load(open(Q, encoding="utf-8"))
     items = q["items"]
+    for i in items:
+        try:
+            i["id"] = int(i["id"])
+        except (TypeError, ValueError):
+            pass
     pend = [i for i in items if i["status"] == "scheduled"]
     if len(pend) >= MIN_PENDING:
         log(step="refill-skip", pending=len(pend))
@@ -110,50 +175,58 @@ def main():
     if not KEY:
         log(step="refill-fatal", error="GEMINI_API_KEY 없음")
         sys.exit(1)
-    pool = [p for p in json.load(open(POOL, encoding="utf-8")) if p.get("use")]
+    pool = [p for p in json.load(open(POOL, encoding="utf-8")) if p.get("use") and re.fullmatch(r"https://link\.coupang\.com/a/[A-Za-z0-9]+", str(p.get("link", "")))]
+    if not pool:
+        log(step="refill-fatal", error="사용할 상품 없음")
+        sys.exit(1)
+    dash = json.load(open(DASH, encoding="utf-8"))
+    now = int(time.time())
     need = TARGET - len(pend)
-    last_at = max([i["at"] for i in items], default=int(time.time()))
-    times = slots(max(last_at, int(time.time())), need)
-    nid = max(i["id"] for i in items) + 1
+    times = slots(items, need, now)
+    nid = max([i["id"] for i in items if isinstance(i["id"], int)], default=0) + 1
+    nno = max([r.get("no", 0) for r in dash], default=0) + 1
+    by_at = sorted(items, key=lambda x: x["at"])
     used = {}
     for i in items:
         used[i.get("product")] = max(used.get(i.get("product"), 0), i["at"])
-    recent = [i["text"] for i in items]
-    recent_styles = [i.get("style") for i in sorted(items, key=lambda x: x["at"])]
-    dash = json.load(open(DASH, encoding="utf-8"))
+    recent = [i["text"] for i in by_at]
+    recent_styles = [i.get("style") for i in by_at]
+    last_prod = by_at[-1].get("product") if by_at else None
     added = 0
-    last_prod = (sorted(items, key=lambda x: x["at"])[-1].get("product") if items else None)
     for at in times:
-        cand = sorted((p for p in pool if p["id"] != last_prod), key=lambda p: used.get(p["id"], 0))
+        if time.time() - T0 > BUDGET_SEC:
+            log(step="refill-budget", added=added)
+            break
+        cand = sorted([p for p in pool if p["id"] != last_prod] or pool, key=lambda p: used.get(p["id"], 0))
         prod = cand[0]
         text = None
         for _ in range(2):
             style = random.choice([x for x in STYLES if x not in recent_styles[-3:]])
-            text = make_text(prod, recent, style)
+            text = make_text(prod, recent, style, at)
             if text:
                 break
         if not text:
             log(step="refill-skip-one", product=prod["id"])
             used[prod["id"]] = at
             continue
-        it = {"id": nid, "at": at, "text": text, "comment": f"{DISCLOSURE}\n{prod['link']}", "status": "scheduled",
+        it = {"id": nid, "at": at, "text": text, "comment": DISCLOSURE + chr(10) + prod["link"], "status": "scheduled",
               "post_id": None, "reply_id": None, "verified": None, "error": None, "source_draft": None,
-              "product": prod["id"], "auto": True}
+              "product": prod["id"], "auto": True, "style": style}
         sched = time.strftime("%Y-%m-%d %H:%M", time.gmtime(at + KST))
-        row = {"no": len(dash) + 1, "when": sched, "status": "예약", "how": "깃허브", "product": prod["name"][:20],
-               "price": prod["price"], "style": "신형", "first_line": text.splitlines()[0], "chars": len(text),
+        row = {"no": nno, "when": sched, "status": "예약", "how": "깃허브", "product": prod["name"][:20],
+               "price": prod["price"], "style": style, "first_line": text.splitlines()[0], "chars": len(text),
                "views": None, "likes": None, "replies": None, "reposts": None, "verify": "발행 전", "url": "",
                "sched": sched, "lag_min": None, "hour": int(sched[11:13])}
-        it["style"] = style
-        recent_styles.append(style)
         items.append(it)
         dash.append(row)
         recent.append(text)
+        recent_styles.append(style)
         used[prod["id"]] = at
         last_prod = prod["id"]
         nid += 1
+        nno += 1
         added += 1
-        log(step="refill-add", id=it["id"], product=prod["id"], at=sched)
+        log(step="refill-add", id=it["id"], product=prod["id"], at=sched, style=style)
     if DRY:
         log(step="refill-dry", would_add=added)
         return

@@ -40,11 +40,13 @@ def main():
             miss.append(it["id"])
             continue
         if not it.get("post_id"):
+            if it.get("status") in ("unsure", "failed"):
+                row["verify"] = "확인 필요: " + ("발행 여부 불명" if it["status"] == "unsure" else "발행 실패")
             continue
         st = (stats["posts"].get(str(it["id"])) or {}).get("latest") or {}
         t = post_t.get(it["id"], it["at"])
         row.update(status="발행 완료", when=kst(t), hour=int(kst(t)[11:13]), lag_min=max(0, round((t - it["at"]) / 60)),
-                   verify="원본과 일치" if it.get("verified") == "ok" else str(it.get("verified") or "확인 필요"),
+                   verify=("광고 댓글 미게시" if not it.get("reply_id") else "원본과 일치" if it.get("verified") == "ok" else str(it.get("verified") or "확인 필요")),
                    url=post_url.get(it["id"], row.get("url", "")))
         for k in ("views", "likes", "replies", "reposts"):
             if k in st:

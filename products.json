@@ -53,7 +53,12 @@
   "price": 9700,
   "link": "https://link.coupang.com/a/hOsFrCFDrh",
   "channel": true,
-  "use": true
+  "use": true,
+  "kind": "신발 탈취제",
+  "ban": [
+   "홈스타",
+   "신발을부탁해"
+  ]
  },
  {
   "id": 8,
@@ -61,7 +66,13 @@
   "price": 5840,
   "link": "https://link.coupang.com/a/hOsFK8r1Oe",
   "channel": true,
-  "use": true
+  "use": true,
+  "kind": "청소 스펀지",
+  "ban": [
+   "코멧",
+   "매직블럭",
+   "매직블록"
+  ]
  },
  {
   "id": 9,
@@ -69,7 +80,15 @@
   "price": 3990,
   "link": "https://link.coupang.com/a/hOsEbffRCe",
   "channel": true,
-  "use": true
+  "use": true,
+  "kind": "배수구 세정제",
+  "ban": [
+   "홈스타",
+   "엘지",
+   "lg",
+   "막힌곳을부탁해",
+   "매직펑펑"
+  ]
  },
  {
   "id": 10,
@@ -77,7 +96,12 @@
   "price": 8700,
   "link": "https://link.coupang.com/a/hOsEuUvcSy",
   "channel": true,
-  "use": true
+  "use": true,
+  "kind": "곰팡이 세정제",
+  "ban": [
+   "홈스타",
+   "곰팡이싹"
+  ]
  },
  {
   "id": 11,
@@ -85,7 +109,11 @@
   "price": 9400,
   "link": "https://link.coupang.com/a/hOsEOvItd6",
   "channel": true,
-  "use": true
+  "use": true,
+  "kind": "산소계 표백제",
+  "ban": [
+   "레인보우샵"
+  ]
  },
  {
   "id": 12,
@@ -93,6 +121,11 @@
   "price": 7150,
   "link": "https://link.coupang.com/a/hOsE75Il2G",
   "channel": true,
-  "use": true
+  "use": true,
+  "kind": "오븐 크리너",
+  "ban": [
+   "코코즈",
+   "골드"
+  ]
  }
 ]
