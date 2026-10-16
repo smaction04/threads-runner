@@ -14,6 +14,9 @@ UID = "me"
 DRY = os.environ.get("DRY_RUN", "1") != "0"
 MIN_GAP = 3600
 DAILY_CAP = 5
+REPLY_DELAY = 8
+REPLY_TRIES = 3
+REPLY_RETRY_GAP = 20
 KST = 9 * 3600
 WIN_START, WIN_END = 8, 23
 UNSURE_AFTER = 1800
@@ -89,6 +92,24 @@ def publish(text, reply_to=None):
     cid = api("POST", f"/{UID}/threads", p)["id"]
     wait_ready(cid)
     return api("POST", f"/{UID}/threads_publish", {"creation_id": cid})["id"]
+
+
+def publish_reply(text, post_id):
+    """방금 올린 글에 곧바로 댓글을 달면 'Media Not Found'(400)가 나는 일이 있어, 잠깐 기다린 뒤 400대 거절에 한해 짧게 재시도한다.
+    응답 없음/5xx(Ambiguous)는 실제로 게시됐을 수 있으니 재시도하지 않고 그대로 올린다."""
+    if not DRY:
+        time.sleep(REPLY_DELAY)
+    for i in range(REPLY_TRIES):
+        try:
+            return publish(text, reply_to=post_id)
+        except Ambiguous:
+            raise
+        except RuntimeError as e:
+            if i == REPLY_TRIES - 1:
+                raise
+            log(step="reply-retry-soon", post_id=post_id, n=i + 1, error=str(e)[:120])
+            if not DRY:
+                time.sleep(REPLY_RETRY_GAP)
 
 
 def norm(s):
@@ -321,7 +342,7 @@ def main():
                     reply = find_reply(it["post_id"], it["comment"])
                 except LookupFailed:
                     raise RuntimeError("기존 글의 댓글 조회 실패 — 다음 실행에서 재시도")
-            it["reply_id"] = reply or publish(it["comment"], reply_to=it["post_id"])
+            it["reply_id"] = reply or publish_reply(it["comment"], it["post_id"])
             it["status"] = "published"
             save(q)
             log(id=it["id"], step="reply", reply_id=it["reply_id"])
