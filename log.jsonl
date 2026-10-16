@@ -921,3 +921,8 @@
 {"step": "status", "due": [], "pending": 14, "t": "2026-10-16 00:20:20Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-16 00:30:30Z"}
 {"step": "status", "due": [], "pending": 14, "t": "2026-10-16 00:30:30Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-16 00:40:21Z"}
+{"step": "status", "due": [34], "pending": 14, "t": "2026-10-16 00:40:21Z"}
+{"id": 34, "step": "post", "post_id": "18062283698794842", "t": "2026-10-16 00:40:29Z"}
+{"id": 34, "step": "reply", "reply_id": "18012818924973290", "t": "2026-10-16 00:40:42Z"}
+{"id": 34, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DeiRIGsFPYS", "t": "2026-10-16 00:40:42Z"}
