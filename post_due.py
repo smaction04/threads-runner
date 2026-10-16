@@ -25,7 +25,7 @@ UNSURE_AFTER = 1800
 REPLY_RETRY_MAX = 12
 REALERT_SEC = 86400
 DISCLOSURE_HEAD = "[광고]"
-MNF_RE = re.compile(r'"error_subcode"\s*:\s*4279009')
+MNF_RE = re.compile(r'"error_subcode"\s*:\s*4279009')
 LINK_RE = re.compile(r"https://link\.coupang\.com/a/[A-Za-z0-9]+")
 Q = "queue.json"
 LOG = "log.jsonl"
@@ -252,7 +252,7 @@ def alerts(q, now):
         if it["status"] != "failed":
             it.pop("alert_failed", None)
         elif not it.get("post_id"):
-            reasons.append(("failed", "발행 실패 — 자동 재시도 안 함(스레드에 올라갔는지 확인 후 예약으로 되돌려야 함): " + str(it.get("error"))[:80]))
+            reasons.append(("failed", "발행 실패 — 자동 재시도 안 함(스레드에 올라갔는지 확인 후 예약으로 되돌려야 함): " + ("[Media Not Found 4279009] " if MNF_RE.search(str(it.get("error"))) else "") + str(it.get("error"))[:80]))
         for key, why in reasons:
             at_key = "alert_" + key
             last = it.get(at_key)
@@ -352,6 +352,7 @@ def main():
             save(q)
             flagged_pre = True
             continue
+        it.pop("alert_failed", None)
         it["status"] = "publishing"
         it["publishing_at"] = now
         save(q)
