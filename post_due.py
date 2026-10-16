@@ -67,6 +67,10 @@ def save(q):
         json.dump(q, f, ensure_ascii=False, indent=1)
 
 
+class NotReady(RuntimeError):
+    """컨테이너가 끝내 준비되지 않음(ERROR·EXPIRED·시간 초과) — 재시도해도 시간만 늘어난다."""
+
+
 def wait_ready(cid, timeout=120):
     waited = 0
     while waited <= timeout:
@@ -79,10 +83,10 @@ def wait_ready(cid, timeout=120):
         if st.get("status") == "FINISHED":
             return
         if st.get("status") in ("ERROR", "EXPIRED"):
-            raise RuntimeError(f"container {st.get('status')}: {st.get('error_message')}")
+            raise NotReady(f"container {st.get('status')}: {st.get('error_message')}")
         time.sleep(5)
         waited += 5
-    raise RuntimeError("container wait timeout")
+    raise NotReady("container wait timeout")
 
 
 def publish(text, reply_to=None):
@@ -96,20 +100,29 @@ def publish(text, reply_to=None):
 
 def publish_reply(text, post_id):
     """방금 올린 글에 곧바로 댓글을 달면 'Media Not Found'(400)가 나는 일이 있어, 잠깐 기다린 뒤 400대 거절에 한해 짧게 재시도한다.
-    응답 없음/5xx(Ambiguous)는 실제로 게시됐을 수 있으니 재시도하지 않고 그대로 올린다."""
+    응답 없음/5xx(Ambiguous)는 실제로 게시됐을 수 있고, 컨테이너 미준비(NotReady)는 재시도해도 시간만 늘어나므로 둘 다 그대로 올린다.
+    재시도 직전에는 이미 달린 댓글이 있는지 찾아보고, 조회가 실패하면 재시도하지 않는다."""
     if not DRY:
         time.sleep(REPLY_DELAY)
-    for i in range(REPLY_TRIES):
+    tries = max(1, REPLY_TRIES)
+    for i in range(tries):
         try:
             return publish(text, reply_to=post_id)
-        except Ambiguous:
+        except (Ambiguous, NotReady):
             raise
         except RuntimeError as e:
-            if i == REPLY_TRIES - 1:
+            if i == tries - 1:
                 raise
             log(step="reply-retry-soon", post_id=post_id, n=i + 1, error=str(e)[:120])
-            if not DRY:
-                time.sleep(REPLY_RETRY_GAP)
+            if DRY:
+                continue
+            time.sleep(REPLY_RETRY_GAP)
+            try:
+                found = find_reply(post_id, text)
+            except LookupFailed:
+                raise e from None
+            if found:
+                return found
 
 
 def norm(s):
