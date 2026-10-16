@@ -241,15 +241,17 @@
    "at": 1792144237,
    "text": "누런 때 가득한 옷가지들 보면 한숨 나옴 ㅠㅠ\n이럴 때 산소계 표백제 하나 쟁여두면 마음 편함\n그냥 담가두기만 해도 찌든 때가 싹 빠져서 유용해\n나중에 쓰려고 꼭 저장해두기",
    "comment": "[광고] 이 게시글은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\nhttps://link.coupang.com/a/hOsEOvItd6",
-   "status": "scheduled",
+   "status": "failed",
    "post_id": null,
    "reply_id": null,
    "verified": null,
-   "error": null,
+   "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":4279009,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with id 17912022498518775 cannot be found.\",\"fbtrace_id\":\"APCKbTQJkaeMGmmpr7tGSEZ\"}}",
    "source_draft": null,
    "product": 11,
    "auto": true,
-   "style": "추천형"
+   "style": "추천형",
+   "publishing_at": 1792144838,
+   "lookup_fail": 0
   },
   {
    "id": 37,

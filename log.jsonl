@@ -1046,3 +1046,6 @@
 {"step": "status", "due": [], "pending": 14, "t": "2026-10-16 09:40:25Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-16 09:50:21Z"}
 {"step": "status", "due": [], "pending": 14, "t": "2026-10-16 09:50:21Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-16 10:00:38Z"}
+{"step": "status", "due": [36], "pending": 14, "t": "2026-10-16 10:00:38Z"}
+{"id": 36, "step": "error", "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":4279009,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with id 17912022498518775 cannot be found.\",\"fbtrace_id\":\"APCKbTQJkaeMGmmpr7tGSEZ\"}}", "status": "failed", "t": "2026-10-16 10:00:41Z"}
