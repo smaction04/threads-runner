@@ -17,12 +17,15 @@ DAILY_CAP = 5
 REPLY_DELAY = 8
 REPLY_TRIES = 3
 REPLY_RETRY_GAP = 20
+PUBLISH_DELAY = 10
+PUBLISH_RETRY_GAPS = (5, 10, 20)
 KST = 9 * 3600
 WIN_START, WIN_END = 8, 23
 UNSURE_AFTER = 1800
 REPLY_RETRY_MAX = 12
 REALERT_SEC = 86400
 DISCLOSURE_HEAD = "[광고]"
+MNF_RE = re.compile(r'"error_subcode"\s*:\s*4279009')
 LINK_RE = re.compile(r"https://link\.coupang\.com/a/[A-Za-z0-9]+")
 Q = "queue.json"
 LOG = "log.jsonl"
@@ -90,12 +93,32 @@ def wait_ready(cid, timeout=120):
 
 
 def publish(text, reply_to=None):
+    if DRY:
+        raise RuntimeError("연습 모드에서는 게시하지 않음")
     p = {"media_type": "TEXT", "text": text}
     if reply_to:
         p["reply_to_id"] = reply_to
     cid = api("POST", f"/{UID}/threads", p)["id"]
+    t_made = time.time()
     wait_ready(cid)
-    return api("POST", f"/{UID}/threads_publish", {"creation_id": cid})["id"]
+    if not DRY:
+        time.sleep(PUBLISH_DELAY)
+    for n in range(len(PUBLISH_RETRY_GAPS) + 1):
+        try:
+            pid = api("POST", f"/{UID}/threads_publish", {"creation_id": cid})["id"]
+            try:
+                log(step="publish-timing", kind="reply" if reply_to else "post", gap_sec=round(time.time() - t_made, 1), attempts=n + 1)
+            except OSError:
+                pass
+            return pid
+        except (Ambiguous, NotReady):
+            raise
+        except RuntimeError as e:
+            if not MNF_RE.search(str(e)) or n == len(PUBLISH_RETRY_GAPS):
+                raise
+            log(step="publish-retry-mnf", kind="reply" if reply_to else "post", gap_sec=round(time.time() - t_made, 1), n=n + 1)
+            if not DRY:
+                time.sleep(PUBLISH_RETRY_GAPS[n])
 
 
 def publish_reply(text, post_id):
@@ -226,6 +249,10 @@ def alerts(q, now):
             reasons.append(("verify", "원본 대조 불일치"))
         if it["status"] == "unsure":
             reasons.append(("unsure", "발행 여부 불명 — 수동 확인 필요"))
+        if it["status"] != "failed":
+            it.pop("alert_failed", None)
+        elif not it.get("post_id"):
+            reasons.append(("failed", "발행 실패 — 자동 재시도 안 함(스레드에 올라갔는지 확인 후 예약으로 되돌려야 함): " + str(it.get("error"))[:80]))
         for key, why in reasons:
             at_key = "alert_" + key
             last = it.get(at_key)
@@ -319,6 +346,7 @@ def main():
         if not cm.startswith(DISCLOSURE_HEAD) or not LINK_RE.search(cm):
             it["status"] = "failed"
             it["error"] = "광고 문구([광고])나 쿠팡 링크가 없는 항목 — 발행 안 함"
+            it["alert_failed"] = now
             log(id=it["id"], step="ALERT", why=it["error"])
             notify(f"{it['id']}번 글: {it['error']}")
             save(q)
