@@ -958,3 +958,8 @@
 {"step": "status", "due": [], "pending": 13, "t": "2026-10-16 03:00:43Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-16 03:10:19Z"}
 {"step": "status", "due": [], "pending": 13, "t": "2026-10-16 03:10:19Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-16 03:20:21Z"}
+{"step": "status", "due": [35], "pending": 13, "t": "2026-10-16 03:20:21Z"}
+{"id": 35, "step": "post", "post_id": "18014911304978048", "t": "2026-10-16 03:20:31Z"}
+{"id": 35, "step": "error", "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":4279009,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with id 17911982421518775 cannot be found.\",\"fbtrace_id\":\"AXeOLPaNjWT4RL3sTZor0EN\"}}", "status": "partial", "t": "2026-10-16 03:20:33Z"}
+{"id": 35, "step": "ALERT", "why": "광고 댓글 미게시 — 광고 표기 없는 본문이 공개 중(재시도 중)", "t": "2026-10-16 03:20:33Z"}
