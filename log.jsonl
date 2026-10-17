@@ -1290,3 +1290,10 @@
 {"step": "status", "due": [], "pending": 11, "t": "2026-10-17 03:07:21Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-17 03:10:19Z"}
 {"step": "status", "due": [], "pending": 11, "t": "2026-10-17 03:10:19Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-17 03:20:21Z"}
+{"step": "status", "due": [39], "pending": 11, "t": "2026-10-17 03:20:21Z"}
+{"step": "publish-timing", "kind": "post", "gap_sec": 18.6, "attempts": 1, "t": "2026-10-17 03:20:43Z"}
+{"id": 39, "step": "post", "post_id": "18133729339788102", "t": "2026-10-17 03:20:43Z"}
+{"step": "publish-timing", "kind": "reply", "gap_sec": 24.2, "attempts": 1, "t": "2026-10-17 03:21:17Z"}
+{"id": 39, "step": "reply", "reply_id": "18099856868415104", "t": "2026-10-17 03:21:17Z"}
+{"id": 39, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DelIO-WETsG", "t": "2026-10-17 03:21:18Z"}
