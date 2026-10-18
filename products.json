@@ -62,16 +62,17 @@
  },
  {
   "id": 8,
-  "name": "코멧 매직블럭 중형 100개",
-  "price": 5840,
-  "link": "https://link.coupang.com/a/hOsFK8r1Oe",
+  "name": "바스프 매직블럭 중형 본품 100개",
+  "price": 10240,
+  "link": "https://link.coupang.com/a/hWJ7Lol9Xg",
   "channel": true,
   "use": true,
   "kind": "청소 스펀지",
   "ban": [
-   "코멧",
+   "바스프",
    "매직블럭",
-   "매직블록"
+   "매직블록",
+   "코멧"
   ]
  },
  {
@@ -117,15 +118,16 @@
  },
  {
   "id": 12,
-  "name": "코코즈 오븐크리너 골드 500ml",
-  "price": 7150,
-  "link": "https://link.coupang.com/a/hOsE75Il2G",
+  "name": "피비원 오븐크리너 골드 레몬향 500ml",
+  "price": 5100,
+  "link": "https://link.coupang.com/a/hWJ05inNuu",
   "channel": true,
   "use": true,
   "kind": "오븐 크리너",
   "ban": [
-   "코코즈",
-   "골드"
+   "피비원",
+   "골드",
+   "코코즈"
   ]
  }
 ]
