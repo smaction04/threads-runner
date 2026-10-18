@@ -1635,3 +1635,14 @@
 {"step": "status", "due": [], "pending": 7, "t": "2026-10-18 04:20:20Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-18 04:30:26Z"}
 {"step": "status", "due": [], "pending": 7, "t": "2026-10-18 04:30:26Z"}
+{"step": "refill-add", "id": 50, "product": 11, "at": "2026-10-20 14:21", "style": "추천형", "t": "2026-10-18 04:34:18Z"}
+{"step": "refill-add", "id": 51, "product": 12, "at": "2026-10-20 15:49", "style": "체크리스트형", "t": "2026-10-18 04:34:19Z"}
+{"step": "refill-add", "id": 52, "product": 7, "at": "2026-10-20 17:19", "style": "공감형", "t": "2026-10-18 04:34:19Z"}
+{"step": "refill-add", "id": 53, "product": 8, "at": "2026-10-20 22:01", "style": "한줄형", "t": "2026-10-18 04:34:20Z"}
+{"step": "refill-add", "id": 54, "product": 9, "at": "2026-10-21 08:17", "style": "계절형", "t": "2026-10-18 04:34:21Z"}
+{"step": "refill-add", "id": 55, "product": 10, "at": "2026-10-21 09:59", "style": "질문형", "t": "2026-10-18 04:34:21Z"}
+{"step": "refill-add", "id": 56, "product": 11, "at": "2026-10-21 13:29", "style": "비교형", "t": "2026-10-18 04:34:22Z"}
+{"step": "refill-add", "id": 57, "product": 12, "at": "2026-10-22 08:41", "style": "발견형", "t": "2026-10-18 04:34:23Z"}
+{"step": "refill-add", "id": 58, "product": 7, "at": "2026-10-22 13:06", "style": "공감형", "t": "2026-10-18 04:34:23Z"}
+{"step": "refill-add", "id": 59, "product": 8, "at": "2026-10-22 15:47", "style": "추천형", "t": "2026-10-18 04:34:24Z"}
+{"step": "refill-done", "added": 10, "t": "2026-10-18 04:34:24Z"}
