@@ -2346,3 +2346,10 @@
 {"step": "status", "due": [], "pending": 8, "t": "2026-10-20 08:00:36Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-20 08:10:21Z"}
 {"step": "status", "due": [], "pending": 8, "t": "2026-10-20 08:10:21Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-20 08:20:22Z"}
+{"step": "status", "due": [52], "pending": 8, "t": "2026-10-20 08:20:22Z"}
+{"step": "publish-timing", "kind": "post", "gap_sec": 17.9, "attempts": 1, "t": "2026-10-20 08:20:43Z"}
+{"id": 52, "step": "post", "post_id": "18040333475840994", "t": "2026-10-20 08:20:43Z"}
+{"step": "publish-timing", "kind": "reply", "gap_sec": 23.6, "attempts": 1, "t": "2026-10-20 08:21:16Z"}
+{"id": 52, "step": "reply", "reply_id": "18140611231582096", "t": "2026-10-20 08:21:16Z"}
+{"id": 52, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DetY8-xm7oz", "t": "2026-10-20 08:21:17Z"}
