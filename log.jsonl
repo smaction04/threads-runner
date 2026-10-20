@@ -2433,3 +2433,5 @@
 {"step": "refill-add", "id": 68, "product": 11, "at": "2026-10-25 10:37", "style": "한줄형", "t": "2026-10-20 13:35:12Z"}
 {"step": "refill-add", "id": 69, "product": 12, "at": "2026-10-25 19:55", "style": "질문형", "t": "2026-10-20 13:35:13Z"}
 {"step": "refill-done", "added": 10, "t": "2026-10-20 13:35:13Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-20 13:40:23Z"}
+{"step": "status", "due": [], "pending": 16, "t": "2026-10-20 13:40:23Z"}
