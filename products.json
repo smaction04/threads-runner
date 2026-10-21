@@ -129,5 +129,49 @@
    "골드",
    "코코즈"
   ]
+ },
+ {
+  "id": 13,
+  "name": "필립스 핸디형 스팀다리미 1000 시리즈, STH1010/10, 혼합색상",
+  "price": 30190,
+  "link": "https://link.coupang.com/a/h1LxnQrlLM",
+  "channel": false,
+  "use": true,
+  "kind": "핸디 스팀다리미",
+  "ban": [],
+  "tier": "high"
+ },
+ {
+  "id": 14,
+  "name": "테팔 로프트 전기포트 화이트, KO2501KR",
+  "price": 34750,
+  "link": "https://link.coupang.com/a/h1LxY21dzU",
+  "channel": false,
+  "use": true,
+  "kind": "전기포트",
+  "ban": [],
+  "tier": "high"
+ },
+ {
+  "id": 15,
+  "name": "키친아트 허브 와이드 전기그릴, KNG-W660NK",
+  "price": 47400,
+  "link": "https://link.coupang.com/a/h1LyAlicjA",
+  "channel": false,
+  "use": true,
+  "kind": "전기그릴",
+  "ban": [],
+  "tier": "high"
+ },
+ {
+  "id": 16,
+  "name": "쿠첸 에어프라이어 5L, COV-D050G, GRAY",
+  "price": 62700,
+  "link": "https://link.coupang.com/a/h1LzbpFxmK",
+  "channel": false,
+  "use": true,
+  "kind": "에어프라이어",
+  "ban": [],
+  "tier": "high"
  }
 ]
