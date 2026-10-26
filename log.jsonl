@@ -4072,3 +4072,10 @@
 {"step": "status", "due": [], "pending": 9, "t": "2026-10-26 03:40:19Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-26 03:50:20Z"}
 {"step": "status", "due": [], "pending": 9, "t": "2026-10-26 03:50:20Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-26 04:00:33Z"}
+{"step": "status", "due": [71], "pending": 9, "t": "2026-10-26 04:00:33Z"}
+{"step": "publish-timing", "kind": "post", "gap_sec": 18.4, "attempts": 1, "t": "2026-10-26 04:00:55Z"}
+{"id": 71, "step": "post", "post_id": "18084881123687729", "t": "2026-10-26 04:00:55Z"}
+{"step": "publish-timing", "kind": "reply", "gap_sec": 22.9, "attempts": 1, "t": "2026-10-26 04:01:28Z"}
+{"id": 71, "step": "reply", "reply_id": "18078255833578165", "t": "2026-10-26 04:01:28Z"}
+{"id": 71, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/De8X_ToDjUT", "t": "2026-10-26 04:01:28Z"}
