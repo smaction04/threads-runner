@@ -4870,3 +4870,4 @@
 {"step": "status", "due": [], "pending": 10, "t": "2026-10-28 14:50:21Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-10-28 15:00:40Z"}
 {"step": "status", "due": [], "pending": 10, "t": "2026-10-28 15:00:40Z"}
+{"step": "refill-skip", "pending": 10, "t": "2026-10-28 15:06:16Z"}
