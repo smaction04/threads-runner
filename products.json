@@ -173,5 +173,49 @@
   "kind": "에어프라이어",
   "ban": [],
   "tier": "high"
+ },
+ {
+  "id": 17,
+  "name": "HanilMedical 탄소열선 고급 전기요 HL-D205(25), 북극곰",
+  "price": 30900,
+  "link": "https://link.coupang.com/a/igQ5sfzzeC",
+  "channel": false,
+  "use": true,
+  "kind": "전기장판",
+  "ban": [],
+  "tier": "high"
+ },
+ {
+  "id": 18,
+  "name": "홈플래닛 초음파 가습기 4L, H1001D11",
+  "price": 26900,
+  "link": "https://link.coupang.com/a/igQ9LhIC8i",
+  "channel": false,
+  "use": true,
+  "kind": "가습기",
+  "ban": [],
+  "tier": "high"
+ },
+ {
+  "id": 19,
+  "name": "피크르 304 스테인리스 보온도시락통 전자레인지",
+  "price": 22800,
+  "link": "https://link.coupang.com/a/igRaFenPKS",
+  "channel": false,
+  "use": true,
+  "kind": "보온도시락",
+  "ban": [],
+  "tier": "high"
+ },
+ {
+  "id": 20,
+  "name": "엠디스픽 드 바리스타 핸드크림 무향, 300g, 1개",
+  "price": 18970,
+  "link": "https://link.coupang.com/a/igRbz7KjcW",
+  "channel": false,
+  "use": true,
+  "kind": "핸드크림",
+  "ban": [],
+  "tier": "high"
  }
 ]
