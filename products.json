@@ -445,5 +445,55 @@
   "tier": "high",
   "use": true,
   "kind": "제습기"
+ },
+ {
+  "id": 43,
+  "name": "보만 차량 가정용 핸디형 무선청소기 화이트",
+  "price": 56860,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iibAJfxzAy",
+  "tier": "high",
+  "use": true,
+  "kind": "무선청소기"
+ },
+ {
+  "id": 44,
+  "name": "누비아 식기세척기 6인용 UV케어 고온살균",
+  "price": 369000,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iibCgBoN3s",
+  "tier": "high",
+  "use": true,
+  "kind": "식기세척기"
+ },
+ {
+  "id": 45,
+  "name": "비오카 BEOKA Ti pro max-A1 스마트 가변 진폭 마사지건",
+  "price": 200880,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iibDNw1TFY",
+  "tier": "high",
+  "use": true,
+  "kind": "마사지건"
+ },
+ {
+  "id": 46,
+  "name": "OYEAH 저소음 에어프라이어 4.5L 가정용",
+  "price": 36800,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iibFlJCZTE",
+  "tier": "high",
+  "use": true,
+  "kind": "에어프라이어"
+ },
+ {
+  "id": 47,
+  "name": "네스프레소 버츄오 팝 플러스 커피머신 GCV6 화이트",
+  "price": 98900,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iibGSKZAyG",
+  "tier": "high",
+  "use": true,
+  "kind": "커피머신"
  }
 ]
