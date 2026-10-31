@@ -695,5 +695,105 @@
   "tier": "high",
   "use": true,
   "kind": "인덕션"
+ },
+ {
+  "id": 68,
+  "name": "파쉬 독일 보온물주머니 2L 벨벳커버",
+  "price": 15000,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iiNs9WPVYq",
+  "tier": "high",
+  "use": true,
+  "kind": "보온 물주머니"
+ },
+ {
+  "id": 69,
+  "name": "유유라키 이어플립 방울 스트랩 귀달이모자",
+  "price": 18500,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iiNLjBuyia",
+  "tier": "high",
+  "use": true,
+  "kind": "털모자"
+ },
+ {
+  "id": 70,
+  "name": "고샤인 차량용 길이조절 성에제거기 눈솔",
+  "price": 15800,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iiNxXXwXWC",
+  "tier": "high",
+  "use": true,
+  "kind": "성에제거기"
+ },
+ {
+  "id": 71,
+  "name": "이니스프리 유채꿀 립밤 초보습 3.5g",
+  "price": 6260,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iiNzxWoMuG",
+  "tier": "high",
+  "use": true,
+  "kind": "립밤"
+ },
+ {
+  "id": 72,
+  "name": "갓힛 발열조끼 겨울 열선 온열 패딩",
+  "price": 57800,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iiNA7gGQQS",
+  "tier": "high",
+  "use": true,
+  "kind": "발열조끼"
+ },
+ {
+  "id": 73,
+  "name": "도무스 브뤼셀 투게더 와플메이커",
+  "price": 35910,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iiNCNVQFrM",
+  "tier": "high",
+  "use": true,
+  "kind": "와플메이커"
+ },
+ {
+  "id": 74,
+  "name": "스리크 SRIK 방한화 패딩 방한부츠",
+  "price": 79000,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iiNEmr04L6",
+  "tier": "high",
+  "use": true,
+  "kind": "방한부츠"
+ },
+ {
+  "id": 75,
+  "name": "한양 미니 건조기 5KG 쏙핏5 UV살균",
+  "price": 295000,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iiNFW63MIf",
+  "tier": "high",
+  "use": true,
+  "kind": "미니 의류건조기"
+ },
+ {
+  "id": 76,
+  "name": "브람스 올인S 블루투스 종아리스크럽 안마의자",
+  "price": 1177500,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iiNHDhhj76",
+  "tier": "high",
+  "use": true,
+  "kind": "안마의자"
+ },
+ {
+  "id": 77,
+  "name": "스윙 파워스윙 무선 진공 물걸레 청소기",
+  "price": 428000,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iiNJh6jnzg",
+  "tier": "high",
+  "use": true,
+  "kind": "물걸레청소기"
  }
 ]
