@@ -435,5 +435,15 @@
   "tier": "high",
   "use": true,
   "kind": "공기청정기"
+ },
+ {
+  "id": 42,
+  "name": "위닉스 뽀송 제습기 12L DXTE120-MPK",
+  "price": 226480,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iiaxnRf43M",
+  "tier": "high",
+  "use": true,
+  "kind": "제습기"
  }
 ]
