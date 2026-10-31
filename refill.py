@@ -23,6 +23,7 @@ LIMITS = "limits.json"
 ACTIVE = ("scheduled", "published", "partial", "publishing", "unsure")
 HOURS = [8, 9, 10, 11, 14] * 3 + list(range(12, 23))
 HIGH_PRICE = 30000
+MAX_PER_DAY = 10
 BUDGET_SEC = 330
 T0 = time.time()
 DISCLOSURE = "[광고] 이 게시글은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
@@ -104,7 +105,7 @@ def month_of(ts):
 
 
 def is_high(prod):
-    return prod.get("tier") == "high" or prod.get("price", 0) >= HIGH_PRICE
+    return prod.get("price", 0) > HIGH_PRICE
 
 
 def make_text(prod, recent, style, at):
@@ -193,6 +194,7 @@ def main():
         cap = json.load(open(LIMITS, encoding="utf-8")).get("warn_cap")
     except FileNotFoundError:
         cap = None
+    cap = min(cap, MAX_PER_DAY) if cap is not None else MAX_PER_DAY
     now = int(time.time())
     plan = day_plan([i["at"] for i in items if i.get("status") in ACTIVE], now, cap)
     if not plan:
