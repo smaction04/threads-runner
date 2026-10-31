@@ -305,5 +305,122 @@
   "kind": "로봇청소기",
   "ban": [],
   "tier": "high"
+ },
+ {
+  "id": 29,
+  "name": "물먹는하마 습기제거제 옷장용 300g 8개",
+  "price": 16900,
+  "reviews": 87209,
+  "link": "https://link.coupang.com/a/ihUFvk8Ixg",
+  "tier": "high",
+  "use": true
+ },
+ {
+  "id": 30,
+  "name": "탐사 빛차단 뽁뽁이 단열시트 2개",
+  "price": 11490,
+  "reviews": 6877,
+  "link": "https://link.coupang.com/a/ihUIDArFgz",
+  "tier": "high",
+  "use": true
+ },
+ {
+  "id": 31,
+  "name": "마이핫 보온대 160g 10개",
+  "price": 10000,
+  "reviews": 18813,
+  "link": "https://link.coupang.com/a/ihUDWpxC2e",
+  "tier": "high",
+  "use": true
+ },
+ {
+  "id": 32,
+  "name": "티나인 보풀제거기 TN-3000",
+  "price": 67800,
+  "reviews": 7115,
+  "link": "https://link.coupang.com/a/ihUOlY4pdk",
+  "tier": "high",
+  "use": true
+ },
+ {
+  "id": 33,
+  "name": "HanilElectric 밤하늘고래 양면 전기방석 JH1018A",
+  "price": 26900,
+  "reviews": 4936,
+  "link": "https://link.coupang.com/a/ihUG4izDdA",
+  "tier": "high",
+  "use": true
+ },
+ {
+  "id": 34,
+  "name": "손일병 군용 핫팩 180g 50개",
+  "price": 50000,
+  "reviews": 17872,
+  "link": "https://link.coupang.com/a/ihU7Otvxwi",
+  "tier": "high",
+  "use": true
+ },
+ {
+  "id": 35,
+  "name": "쿠첸 더핏 슬림 압력밥솥 6인용 CRS-FSWD0640W",
+  "price": 209000,
+  "reviews": 10801,
+  "link": "https://link.coupang.com/a/ihUWqZULBI",
+  "tier": "high",
+  "use": true
+ },
+ {
+  "id": 36,
+  "name": "히트키퍼 프리미엄 신소재 20m 문풍지",
+  "price": 29980,
+  "reviews": 4748,
+  "link": "https://link.coupang.com/a/ihUKNdxxPE",
+  "tier": "high",
+  "use": true
+ },
+ {
+  "id": 37,
+  "name": "필립스 보풀제거기 GC-026",
+  "price": 25000,
+  "reviews": 41670,
+  "link": "https://link.coupang.com/a/ihUCijcWSy",
+  "tier": "high",
+  "use": true
+ },
+ {
+  "id": 38,
+  "name": "니코 타워형 카본히터 NKH-T600CB",
+  "price": 69900,
+  "reviews": 193,
+  "link": "https://link.coupang.com/a/ihUURCVXdA",
+  "tier": "high",
+  "use": true
+ },
+ {
+  "id": 39,
+  "name": "이지하임 수면양말 4켤레",
+  "price": 19800,
+  "reviews": 4100,
+  "link": "https://link.coupang.com/a/ihUMMM8V1U",
+  "tier": "high",
+  "use": true
+ },
+ {
+  "id": 40,
+  "name": "단열뽁뽁이원 6중 노워터",
+  "price": 39000,
+  "reviews": 1379,
+  "link": "https://link.coupang.com/a/ihVaHpTspU",
+  "tier": "high",
+  "use": true
+ },
+ {
+  "id": 41,
+  "name": "삼성전자 블루스카이 3100 공기청정기 AP70F03102RVD",
+  "price": 319000,
+  "reviews": 1703,
+  "link": "https://link.coupang.com/a/ihUX2hbBg4",
+  "tier": "high",
+  "use": true
  }
 ]
