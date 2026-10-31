@@ -605,5 +605,95 @@
   "tier": "high",
   "use": true,
   "kind": "무릎담요"
+ },
+ {
+  "id": 59,
+  "name": "커버원 3초 발열 양면 전자 충전식 손난로 대용량",
+  "price": 19800,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iic5PvpYD6",
+  "tier": "high",
+  "use": true,
+  "kind": "손난로"
+ },
+ {
+  "id": 60,
+  "name": "해피제이 소리 구멍 방한 귀마개 블랙",
+  "price": 9400,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iic7n3AAKG",
+  "tier": "high",
+  "use": true,
+  "kind": "귀마개"
+ },
+ {
+  "id": 61,
+  "name": "손더 남녀공용 방한 보온 니트장갑 스마트폰 터치",
+  "price": 6900,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iic8UrmAto",
+  "tier": "high",
+  "use": true,
+  "kind": "장갑"
+ },
+ {
+  "id": 62,
+  "name": "휴앤봇 족욕기 조용한 버블 각탕기",
+  "price": 69360,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iiddIBQkI8",
+  "tier": "high",
+  "use": true,
+  "kind": "족욕기"
+ },
+ {
+  "id": 63,
+  "name": "휴리아 목 어깨 두드림 마사지기 온열",
+  "price": 99800,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iidffLULAG",
+  "tier": "high",
+  "use": true,
+  "kind": "목어깨마사지기"
+ },
+ {
+  "id": 64,
+  "name": "제스파 국내제조 전기 온열 찜질기 SHP6751",
+  "price": 30400,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iidgM94Zum",
+  "tier": "high",
+  "use": true,
+  "kind": "찜질기"
+ },
+ {
+  "id": 65,
+  "name": "필립스 스탠드형 스팀다리미 3000시리즈 STE3170/80",
+  "price": 149900,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iidijIuuSO",
+  "tier": "high",
+  "use": true,
+  "kind": "스탠드 스팀다리미"
+ },
+ {
+  "id": 66,
+  "name": "리빙웰 40L 대용량 컨벡션오븐 상하독립열선",
+  "price": 187000,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iidjQv4512",
+  "tier": "high",
+  "use": true,
+  "kind": "전기오븐"
+ },
+ {
+  "id": 67,
+  "name": "나비엔매직 전기레인지 인덕션 3구 블랙",
+  "price": 529000,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iidln1OLBY",
+  "tier": "high",
+  "use": true,
+  "kind": "인덕션"
  }
 ]
