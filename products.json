@@ -313,7 +313,8 @@
   "reviews": 87209,
   "link": "https://link.coupang.com/a/ihUFvk8Ixg",
   "tier": "high",
-  "use": true
+  "use": true,
+  "kind": "습기제거제"
  },
  {
   "id": 30,
@@ -322,7 +323,8 @@
   "reviews": 6877,
   "link": "https://link.coupang.com/a/ihUIDArFgz",
   "tier": "high",
-  "use": true
+  "use": true,
+  "kind": "단열시트"
  },
  {
   "id": 31,
@@ -331,7 +333,8 @@
   "reviews": 18813,
   "link": "https://link.coupang.com/a/ihUDWpxC2e",
   "tier": "high",
-  "use": true
+  "use": true,
+  "kind": "핫팩"
  },
  {
   "id": 32,
@@ -340,7 +343,8 @@
   "reviews": 7115,
   "link": "https://link.coupang.com/a/ihUOlY4pdk",
   "tier": "high",
-  "use": true
+  "use": true,
+  "kind": "보풀제거기"
  },
  {
   "id": 33,
@@ -349,7 +353,8 @@
   "reviews": 4936,
   "link": "https://link.coupang.com/a/ihUG4izDdA",
   "tier": "high",
-  "use": true
+  "use": true,
+  "kind": "전기방석"
  },
  {
   "id": 34,
@@ -358,7 +363,8 @@
   "reviews": 17872,
   "link": "https://link.coupang.com/a/ihU7Otvxwi",
   "tier": "high",
-  "use": true
+  "use": true,
+  "kind": "핫팩"
  },
  {
   "id": 35,
@@ -367,7 +373,8 @@
   "reviews": 10801,
   "link": "https://link.coupang.com/a/ihUWqZULBI",
   "tier": "high",
-  "use": true
+  "use": true,
+  "kind": "압력밥솥"
  },
  {
   "id": 36,
@@ -376,7 +383,8 @@
   "reviews": 4748,
   "link": "https://link.coupang.com/a/ihUKNdxxPE",
   "tier": "high",
-  "use": true
+  "use": true,
+  "kind": "문풍지"
  },
  {
   "id": 37,
@@ -385,7 +393,8 @@
   "reviews": 41670,
   "link": "https://link.coupang.com/a/ihUCijcWSy",
   "tier": "high",
-  "use": true
+  "use": true,
+  "kind": "보풀제거기"
  },
  {
   "id": 38,
@@ -394,7 +403,8 @@
   "reviews": 193,
   "link": "https://link.coupang.com/a/ihUURCVXdA",
   "tier": "high",
-  "use": true
+  "use": true,
+  "kind": "히터"
  },
  {
   "id": 39,
@@ -403,7 +413,8 @@
   "reviews": 4100,
   "link": "https://link.coupang.com/a/ihUMMM8V1U",
   "tier": "high",
-  "use": true
+  "use": true,
+  "kind": "수면양말"
  },
  {
   "id": 40,
@@ -412,7 +423,8 @@
   "reviews": 1379,
   "link": "https://link.coupang.com/a/ihVaHpTspU",
   "tier": "high",
-  "use": true
+  "use": true,
+  "kind": "단열시트"
  },
  {
   "id": 41,
@@ -421,6 +433,7 @@
   "reviews": 1703,
   "link": "https://link.coupang.com/a/ihUX2hbBg4",
   "tier": "high",
-  "use": true
+  "use": true,
+  "kind": "공기청정기"
  }
 ]

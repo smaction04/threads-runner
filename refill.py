@@ -14,14 +14,15 @@ DASH = "dash/dash_base.json"
 KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 DRY = os.environ.get("DRY_RUN", "1") != "0"
-MIN_PENDING = int(os.environ.get("MIN_PENDING", "8"))
-TARGET = int(os.environ.get("TARGET", "15"))
 KST = 9 * 3600
 MAXLEN = 120
-MIN_SLOT_GAP = 4500
-PER_DAY_MIN, PER_DAY_MAX = 3, 4
+MIN_SLOT_GAP = 3600
+AHEAD_DAYS = 3
+KIND_WINDOW = 3 * 86400
+LIMITS = "limits.json"
+ACTIVE = ("scheduled", "published", "partial", "publishing", "unsure")
+HOURS = [8, 9, 10, 11, 14] * 3 + list(range(12, 23))
 HIGH_PRICE = 30000
-HIGH_SHARE = 0.3
 BUDGET_SEC = 330
 T0 = time.time()
 DISCLOSURE = "[광고] 이 게시글은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
@@ -138,30 +139,46 @@ def day_of(ts):
     return (ts + KST) // 86400
 
 
-def slots(items, n, now, rnd=random):
-    """KST 날짜별로 이미 잡힌 글 수를 세어 하루 3~4건이 되도록 8~23시 안에 배정. 기존 글과 75분 이상 간격.
-    이미 예약이 있는 마지막 날까지는 부족분(3건 미만)을 n과 상관없이 먼저 채우고, 그 뒤 n개가 될 때까지 다음 날로 넘어간다."""
-    taken = sorted(i["at"] for i in items if i.get("status") in ("scheduled", "published", "partial", "publishing", "unsure"))
-    last_day = max([day_of(i["at"]) for i in items if i.get("status") == "scheduled"], default=day_of(now))
-    out, d = [], day_of(now)
-    for _ in range(60):
-        if d > last_day and len(out) >= n:
-            break
-        base = d * 86400 - KST
-        have = [t for t in taken + out if day_of(t) == d]
-        need = 0
-        if len(have) < PER_DAY_MIN:
-            need = rnd.choice([PER_DAY_MIN, PER_DAY_MAX]) - len(have)
-        tries = 0
-        while need > 0 and tries < 300:
-            tries += 1
-            t = base + rnd.randint(8 * 3600, 23 * 3600 - 60)
-            if t <= now + 3600 or any(abs(t - x) < MIN_SLOT_GAP for x in taken + out):
-                continue
-            out.append(t)
-            need -= 1
-        d += 1
-    return sorted(out)
+def band(price):
+    if price < 5000:
+        return None
+    return "S" if price <= 30000 else "M" if price <= 100000 else "L"
+
+
+def kind_of(prod):
+    return prod.get("kind") or re.sub(r"[^가-힣a-z]", "", prod["name"].lower())[:8]
+
+
+def target(times, d, cap):
+    want = sum(day_of(t) == d - 1 for t in times) + 1
+    return min(want, cap) if cap is not None else want
+
+
+def day_plan(times, now, cap):
+    """오늘~3일 뒤까지 날마다 목표 = 전날 개수 + 1 (경고 뒤엔 cap 이하). 모자란 날과 개수만 돌려준다."""
+    times, plan = list(times), []
+    for d in range(day_of(now), day_of(now) + AHEAD_DAYS + 1):
+        n = target(times, d, cap) - sum(day_of(t) == d for t in times)
+        if n > 0:
+            plan.append((d, n))
+            times += [d * 86400 - KST + 12 * 3600] * n
+    return plan
+
+
+def pick_time(d, taken, now, rnd=random):
+    base = d * 86400 - KST
+    for _ in range(500):
+        t = base + rnd.choice(HOURS) * 3600 + rnd.randint(1, 59) * 60
+        if t > now + 3600 and all(abs(t - x) >= MIN_SLOT_GAP for x in taken):
+            return t
+    return None
+
+
+def save(path, obj):
+    crlf = b"\r\n" in open(path, "rb").read(4096)
+    t = json.dumps(obj, ensure_ascii=False, indent=1)
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write(t.replace("\n", "\r\n") if crlf else t)
 
 
 def main():
@@ -172,74 +189,104 @@ def main():
             i["id"] = int(i["id"])
         except (TypeError, ValueError):
             pass
-    pend = [i for i in items if i["status"] == "scheduled"]
-    if len(pend) >= MIN_PENDING:
-        log(step="refill-skip", pending=len(pend))
+    try:
+        cap = json.load(open(LIMITS, encoding="utf-8")).get("warn_cap")
+    except FileNotFoundError:
+        cap = None
+    now = int(time.time())
+    plan = day_plan([i["at"] for i in items if i.get("status") in ACTIVE], now, cap)
+    if not plan:
+        log(step="refill-skip", pending=sum(i["status"] == "scheduled" for i in items))
         return
     if not KEY:
         log(step="refill-fatal", error="GEMINI_API_KEY 없음")
         sys.exit(1)
-    pool = [p for p in json.load(open(POOL, encoding="utf-8")) if p.get("use") and re.fullmatch(r"https://link\.coupang\.com/a/[A-Za-z0-9]+", str(p.get("link", "")))]
-    if not pool:
-        log(step="refill-fatal", error="사용할 상품 없음")
-        sys.exit(1)
+    allp = json.load(open(POOL, encoding="utf-8"))
+    prods = {p["id"]: p for p in allp}
+    used_ids = {i.get("product") for i in items}
+    pool = [p for p in allp if p.get("use") and p["id"] not in used_ids and band(p.get("price", 0))
+            and re.fullmatch(r"https://link\.coupang\.com/a/[A-Za-z0-9]+", str(p.get("link", "")))]
+    pool.sort(key=lambda p: -p.get("reviews", 0))
     dash = json.load(open(DASH, encoding="utf-8"))
-    now = int(time.time())
-    need = TARGET - len(pend)
-    times = slots(items, need, now)
     nid = max([i["id"] for i in items if isinstance(i["id"], int)], default=0) + 1
     nno = max([r.get("no", 0) for r in dash], default=0) + 1
     by_at = sorted(items, key=lambda x: x["at"])
-    used = {}
-    for i in items:
-        used[i.get("product")] = max(used.get(i.get("product"), 0), i["at"])
     recent = [i["text"] for i in by_at]
     recent_styles = [i.get("style") for i in by_at]
-    last_prod = by_at[-1].get("product") if by_at else None
+    act = [(i["at"], prods.get(i.get("product"), {})) for i in items if i.get("status") in ACTIVE]
     added = 0
-    for at in times:
-        if time.time() - T0 > BUDGET_SEC:
-            log(step="refill-budget", added=added)
-            break
-        want_high = random.random() < HIGH_SHARE
-        tier_pool = [p for p in pool if is_high(p) == want_high] or pool
-        cand = sorted([p for p in tier_pool if p["id"] != last_prod] or tier_pool, key=lambda p: used.get(p["id"], 0))
-        prod = cand[0]
-        text = None
-        for _ in range(2):
-            names = HIGH_STYLES if is_high(prod) else STYLES
-            style = random.choice([x for x in names if x not in recent_styles[-3:]] or list(names))
-            text = make_text(prod, recent, style, at)
-            if text:
+    fail = red = None
+    for d in range(plan[0][0], day_of(now) + AHEAD_DAYS + 1):
+        times = [x[0] for x in act]
+        snap = (len(items), len(dash), len(recent), len(recent_styles), len(act), nid, nno, added, list(pool))
+        day = time.strftime("%Y-%m-%d", time.gmtime(d * 86400))
+        for _ in range(target(times, d, cap) - sum(day_of(t) == d for t in times)):
+            if time.time() - T0 > BUDGET_SEC:
+                fail = "refill-budget"
                 break
-        if not text:
-            log(step="refill-skip-one", product=prod["id"])
-            used[prod["id"]] = at
-            continue
-        it = {"id": nid, "at": at, "text": text, "comment": DISCLOSURE + chr(10) + prod["link"], "status": "scheduled",
-              "post_id": None, "reply_id": None, "verified": None, "error": None, "source_draft": None,
-              "product": prod["id"], "auto": True, "style": style}
-        sched = time.strftime("%Y-%m-%d %H:%M", time.gmtime(at + KST))
-        row = {"no": nno, "when": sched, "status": "예약", "how": "깃허브", "product": prod["name"][:20],
-               "price": prod["price"], "style": style, "first_line": text.splitlines()[0], "chars": len(text),
-               "views": None, "likes": None, "replies": None, "reposts": None, "verify": "발행 전", "url": "",
-               "sched": sched, "lag_min": None, "hour": int(sched[11:13])}
-        items.append(it)
-        dash.append(row)
-        recent.append(text)
-        recent_styles.append(style)
-        used[prod["id"]] = at
-        last_prod = prod["id"]
-        nid += 1
-        nno += 1
-        added += 1
-        log(step="refill-add", id=it["id"], product=prod["id"], at=sched, style=style)
+            at = pick_time(d, [x[0] for x in act], now)
+            if at is None:
+                fail = "refill-no-slot"
+                break
+            kinds = {kind_of(p) for t, p in act if p and abs(t - at) < KIND_WINDOW}
+            day_b = [band(p.get("price", 0)) for t, p in act if p and day_of(t) == d]
+            near_b = [band(p.get("price", 0)) for t, p in act if p and d - 2 <= day_of(t) <= d]
+            order = sorted("SML", key=lambda x: (x in day_b, near_b.count(x)))
+            prod = next((p for x in order for p in pool if band(p["price"]) == x and kind_of(p) not in kinds), None)
+            if not prod:
+                fail = "refill-no-product"
+                break
+            pool.remove(prod)
+            text = None
+            for _ in range(2):
+                names = HIGH_STYLES if is_high(prod) else STYLES
+                style = random.choice([x for x in names if x not in recent_styles[-3:]] or list(names))
+                text = make_text(prod, recent, style, at)
+                if text:
+                    break
+            if not text:
+                fail = "refill-no-text"
+                break
+            it = {"id": nid, "at": at, "text": text, "comment": DISCLOSURE + chr(10) + prod["link"], "status": "scheduled",
+                  "post_id": None, "reply_id": None, "verified": None, "error": None, "source_draft": None,
+                  "product": prod["id"], "auto": True, "style": style}
+            sched = time.strftime("%Y-%m-%d %H:%M", time.gmtime(at + KST))
+            row = {"no": nno, "when": sched, "status": "예약", "how": "깃허브", "product": prod["name"][:20],
+                   "price": prod["price"], "style": style, "first_line": text.splitlines()[0], "chars": len(text),
+                   "views": None, "likes": None, "replies": None, "reposts": None, "verify": "발행 전", "url": "",
+                   "sched": sched, "lag_min": None, "hour": int(sched[11:13])}
+            items.append(it)
+            dash.append(row)
+            recent.append(text)
+            recent_styles.append(style)
+            act.append((at, prod))
+            nid += 1
+            nno += 1
+            added += 1
+            log(step="refill-add", id=it["id"], product=prod["id"], at=sched, style=style)
+        if not fail:
+            got = {band(p.get("price", 0)) for t, p in act if p and day_of(t) == d} - {None}
+            if added > snap[7] and sum(day_of(t) == d for t, p in act) >= 3 and len(got) < 3:
+                fail = "refill-band-missing"
+        if fail:
+            del items[snap[0]:], dash[snap[1]:], recent[snap[2]:], recent_styles[snap[3]:], act[snap[4]:]
+            nid, nno, added, pool = snap[5], snap[6], snap[7], snap[8]
+            log(step=fail, day=day, left=len(pool))
+            if d == day_of(now) and fail != "refill-budget":
+                red, fail = fail, None
+                continue
+            break
     if DRY:
         log(step="refill-dry", would_add=added)
+        if fail or red:
+            sys.exit(1)
         return
-    json.dump(q, open(Q, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    json.dump(dash, open(DASH, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    if added:
+        save(Q, q)
+        save(DASH, dash)
     log(step="refill-done", added=added)
+    if fail or red:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
