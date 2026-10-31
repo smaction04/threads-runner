@@ -495,5 +495,115 @@
   "tier": "high",
   "use": true,
   "kind": "커피머신"
+ },
+ {
+  "id": 48,
+  "name": "BARI 가정용 저소음 항공모터 헤어 드라이기",
+  "price": 69700,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iicfR9VBsa",
+  "tier": "high",
+  "use": true,
+  "kind": "헤어드라이어"
+ },
+ {
+  "id": 49,
+  "name": "필립스 소닉케어 3100 시리즈 전동칫솔",
+  "price": 54900,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iichpnMxP2",
+  "tier": "high",
+  "use": true,
+  "kind": "전동칫솔"
+ },
+ {
+  "id": 50,
+  "name": "샤오미 사운드 아웃도어 블루투스 스피커 MDZ-38-DB 블루",
+  "price": 66600,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iiciW8gljw",
+  "tier": "high",
+  "use": true,
+  "kind": "블루투스스피커"
+ },
+ {
+  "id": 51,
+  "name": "필립스 블렌더 3000 시리즈 HR2041/01",
+  "price": 38010,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iickucTS8q",
+  "tier": "high",
+  "use": true,
+  "kind": "믹서기"
+ },
+ {
+  "id": 52,
+  "name": "베이스어스 오픈형 MC2 에어쿠션 블루투스 무선 이어폰",
+  "price": 78880,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iicl1KoFVY",
+  "tier": "high",
+  "use": true,
+  "kind": "무선이어폰"
+ },
+ {
+  "id": 53,
+  "name": "신일 올스텐 자동 전기 물끓이기 9L 온수통",
+  "price": 119900,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iicny48Ho4",
+  "tier": "high",
+  "use": true,
+  "kind": "전기포트"
+ },
+ {
+  "id": 54,
+  "name": "파나소닉 UV살균 이불 침구 청소기 화이트 MC-DC10W",
+  "price": 114000,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iico6djFbE",
+  "tier": "high",
+  "use": true,
+  "kind": "침구청소기"
+ },
+ {
+  "id": 55,
+  "name": "허니앤버니 텀블러 대용량 스텐 보온 보냉 차량용",
+  "price": 28700,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iicqEbD6Wq",
+  "tier": "high",
+  "use": true,
+  "kind": "텀블러"
+ },
+ {
+  "id": 56,
+  "name": "리빙도감 남녀공용 방한 넥워머 목토시",
+  "price": 6400,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iicsa1jCPA",
+  "tier": "high",
+  "use": true,
+  "kind": "넥워머"
+ },
+ {
+  "id": 57,
+  "name": "허그룸 양털 뽀글이 실내화",
+  "price": 22900,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iictHvTZFR",
+  "tier": "high",
+  "use": true,
+  "kind": "털슬리퍼"
+ },
+ {
+  "id": 58,
+  "name": "아즈템 체크 무늬 가벼운 무릎담요",
+  "price": 29900,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iicvepS0Xc",
+  "tier": "high",
+  "use": true,
+  "kind": "무릎담요"
  }
 ]
