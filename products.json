@@ -217,5 +217,93 @@
   "kind": "핸드크림",
   "ban": [],
   "tier": "high"
+ },
+ {
+  "id": 21,
+  "name": "쿠쿠 에코웨일 건조분쇄 음식물처리기 가정용 CFD-ENL201DCGW",
+  "price": 351240,
+  "link": "https://link.coupang.com/a/ihQS3XeDoy",
+  "channel": false,
+  "use": true,
+  "kind": "음식물처리기",
+  "ban": [],
+  "tier": "high"
+ },
+ {
+  "id": 22,
+  "name": "일월 숲속애 온수매트 더블(150x200)",
+  "price": 134100,
+  "link": "https://link.coupang.com/a/ihRaQHe55E",
+  "channel": false,
+  "use": true,
+  "kind": "온수매트",
+  "ban": [],
+  "tier": "high"
+ },
+ {
+  "id": 23,
+  "name": "디베아 원스텝 무선청소기 차이슨 ONE STEP + 클린스테이션",
+  "price": 289000,
+  "link": "https://link.coupang.com/a/ihRcsyDHeS",
+  "channel": false,
+  "use": true,
+  "kind": "무선청소기",
+  "ban": [],
+  "tier": "high"
+ },
+ {
+  "id": 24,
+  "name": "코멧 홈 양면 극세사 솔리드 차렵이불",
+  "price": 47800,
+  "link": "https://link.coupang.com/a/ihRDce6NNc",
+  "channel": false,
+  "use": true,
+  "kind": "차렵이불",
+  "ban": [],
+  "tier": "high"
+ },
+ {
+  "id": 25,
+  "name": "더쿠 겨울 전기 온풍기 PTC 3단계 온도조절 소형 QG20-T17",
+  "price": 89900,
+  "link": "https://link.coupang.com/a/ihRELmZlQG",
+  "channel": false,
+  "use": true,
+  "kind": "소형온풍기",
+  "ban": [],
+  "tier": "high"
+ },
+ {
+  "id": 26,
+  "name": "루니스 발난로 파티션 히터 4면 (+무릎담요)",
+  "price": 69900,
+  "link": "https://link.coupang.com/a/ihRGjJFETk",
+  "channel": false,
+  "use": true,
+  "kind": "발난로",
+  "ban": [],
+  "tier": "high"
+ },
+ {
+  "id": 27,
+  "name": "한경희 초저소음 그래핀 PTC 온풍기 PTC-2280AY",
+  "price": 199000,
+  "link": "https://link.coupang.com/a/ihRHRGy57Y",
+  "channel": false,
+  "use": true,
+  "kind": "온풍기",
+  "ban": [],
+  "tier": "high"
+ },
+ {
+  "id": 28,
+  "name": "홈리아 로봇청소기 스마트 물걸레 자동충전 클린스테이션",
+  "price": 369800,
+  "link": "https://link.coupang.com/a/ihRJqcsVb2",
+  "channel": false,
+  "use": true,
+  "kind": "로봇청소기",
+  "ban": [],
+  "tier": "high"
  }
 ]
