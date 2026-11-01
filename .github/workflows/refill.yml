@@ -1,7 +1,7 @@
 name: refill-queue
 on:
   schedule:
-    - cron: "17 */4 * * *"
+    - cron: "17 */3 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -26,6 +26,8 @@ jobs:
       - name: refill
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || '0' }}
         run: python refill.py
       - name: save state
@@ -34,4 +36,5 @@ jobs:
           git config user.name "threads-runner"
           git config user.email "threads-runner@users.noreply.github.com"
           git add queue.json log.jsonl dash/dash_base.json
+          git add -A -- refill_alert.json 2>/dev/null || true
           git diff --cached --quiet || (git commit -m "refill queue" && git pull --rebase && git push)

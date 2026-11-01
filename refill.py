@@ -5,6 +5,7 @@ import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 
 Q = "queue.json"
@@ -20,6 +21,8 @@ MIN_SLOT_GAP = 3600
 AHEAD_DAYS = 3
 KIND_WINDOW = 3 * 86400
 LIMITS = "limits.json"
+ALERT = "refill_alert.json"
+FOLLOWUP_SEC = 150 * 60
 ACTIVE = ("scheduled", "published", "partial", "publishing", "unsure")
 HOURS = [8, 9, 10, 11, 14] * 3 + list(range(12, 23))
 HIGH_PRICE = 30000
@@ -176,10 +179,82 @@ def pick_time(d, taken, now, rnd=random):
 
 
 def save(path, obj):
-    crlf = b"\r\n" in open(path, "rb").read(4096)
+    crlf = os.path.exists(path) and b"\r\n" in open(path, "rb").read(4096)
     t = json.dumps(obj, ensure_ascii=False, indent=1)
     with open(path, "w", encoding="utf-8", newline="") as f:
         f.write(t.replace("\n", "\r\n") if crlf else t)
+
+
+def notify(msg):
+    tok, chat = os.environ.get("TELEGRAM_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
+    if DRY or not tok or not chat:
+        print("telegram 안 보냄(연습 또는 비밀값 없음):", msg)
+        return DRY
+    try:
+        data = urllib.parse.urlencode({"chat_id": chat, "text": "[스레드 예약 채우기]\n" + msg}).encode()
+        urllib.request.urlopen(urllib.request.Request(f"https://api.telegram.org/bot{tok}/sendMessage", data=data), timeout=15).read()
+        return True
+    except Exception as e:
+        print("telegram 실패:", type(e).__name__)
+        return False
+
+
+REASON = {"refill-no-product": "새 물건이 바닥남(가격 칸·같은 종류 규칙에 맞는 물건 없음)",
+          "refill-band-missing": "가격 세 칸을 다 채울 물건이 없음",
+          "refill-no-slot": "넣을 시간 칸이 없음", "refill-no-text": "글 만들기 실패",
+          "refill-budget": "실행 시간 부족"}
+
+
+FIX = {"refill-no-product": "새 물건(특히 중간·큰 가격 칸)을 products.json에 보충해 주세요.",
+       "refill-band-missing": "비어 있는 가격 칸의 물건을 products.json에 보충해 주세요.",
+       "refill-no-slot": "그날 예약 시간이 꽉 찼는지 queue.json을 확인해 주세요.",
+       "refill-no-text": "글 만들기 키(GEMINI_API_KEY)와 실행 기록을 확인해 주세요.",
+       "refill-budget": "실행 시간이 모자랐어요. 다음 실행에서 이어 채우는지 지켜봐 주세요."}
+
+
+def alert_state(problem, day, now):
+    """문제는 처음 한 번만 알리고, 약 3시간 뒤 한 번 결과를 알린다. 해결되면 해결 알림 후 기록을 지운다. True = 실패로 끝내야 함(첫 알림 전송 실패)."""
+    try:
+        st = json.load(open(ALERT, encoding="utf-8"))
+        if not isinstance(st, dict) or not isinstance(st.get("at"), (int, float)):
+            st = None
+            if not problem and not DRY:
+                os.remove(ALERT)
+    except (FileNotFoundError, ValueError):
+        st = None
+    if not problem:
+        if st:
+            mins = int(now - st["at"]) // 60
+            since = "처음 알림" if st.get("sent") is not False else "처음 문제 발견(첫 알림은 전송 실패)"
+            notify(f"해결됨: 이번 점검에서는 막힌 날 없이 예약을 채웠어요. ({since} 뒤 약 {mins // 60}시간 {mins % 60}분)")
+            if not DRY:
+                os.remove(ALERT)
+            log(step="refill-alert-resolved", reason=st.get("reason"))
+        return False
+    why = REASON.get(problem, problem)
+    fix = FIX.get(problem, "실행 기록을 확인해 주세요.")
+    first = f"문제: {why}\n날짜: {day}\n할 일: {fix}\n이 알림은 한 번만 보내요. 약 3시간 뒤(깃허브 실행이 밀리면 더 늦을 수 있어요) 해결됐는지 다시 알려요."
+    if not st:
+        ok = notify(first)
+        if not DRY:
+            save(ALERT, {"reason": problem, "day": day, "at": now, "followup": False, "sent": ok})
+        log(step="refill-alert-sent", reason=problem, telegram=ok)
+        return not ok
+    if st.get("sent") is False:
+        st["sent"] = notify(first)
+        if st["sent"]:
+            st["at"] = now
+        if not DRY:
+            save(ALERT, st)
+        log(step="refill-alert-resend", reason=problem, telegram=st["sent"])
+        return False
+    if not st.get("followup") and now - st["at"] >= FOLLOWUP_SEC:
+        notify(f"아직 해결 안 됨: {why}\n날짜: {day}\n할 일: {fix}\n해결되면 한 번 더 알려요.")
+        st["followup"] = True
+        if not DRY:
+            save(ALERT, st)
+        log(step="refill-alert-followup", reason=problem)
+    return False
 
 
 def main():
@@ -199,6 +274,7 @@ def main():
     plan = day_plan([i["at"] for i in items if i.get("status") in ACTIVE], now, cap)
     if not plan:
         log(step="refill-skip", pending=sum(i["status"] == "scheduled" for i in items))
+        alert_state(None, None, now)
         return
     if not KEY:
         log(step="refill-fatal", error="GEMINI_API_KEY 없음")
@@ -217,7 +293,7 @@ def main():
     recent_styles = [i.get("style") for i in by_at]
     act = [(i["at"], prods.get(i.get("product"), {})) for i in items if i.get("status") in ACTIVE]
     added = 0
-    fail = red = None
+    fail = red = bad_day = red_day = None
     for d in range(plan[0][0], day_of(now) + AHEAD_DAYS + 1):
         times = [x[0] for x in act]
         snap = (len(items), len(dash), len(recent), len(recent_styles), len(act), nid, nno, added, list(pool))
@@ -274,20 +350,19 @@ def main():
             del items[snap[0]:], dash[snap[1]:], recent[snap[2]:], recent_styles[snap[3]:], act[snap[4]:]
             nid, nno, added, pool = snap[5], snap[6], snap[7], snap[8]
             log(step=fail, day=day, left=len(pool))
+            bad_day = day
             if d == day_of(now) and fail != "refill-budget":
-                red, fail = fail, None
+                red, fail, red_day = fail, None, day
                 continue
             break
     if DRY:
         log(step="refill-dry", would_add=added)
-        if fail or red:
-            sys.exit(1)
-        return
-    if added:
-        save(Q, q)
-        save(DASH, dash)
-    log(step="refill-done", added=added)
-    if fail or red:
+    else:
+        if added:
+            save(Q, q)
+            save(DASH, dash)
+        log(step="refill-done", added=added)
+    if alert_state(fail or red, bad_day if fail else red_day, now):
         sys.exit(1)
 
 
