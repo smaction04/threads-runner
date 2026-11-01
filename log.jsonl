@@ -6152,3 +6152,6 @@
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-01 12:40:21Z"}
 {"step": "status", "due": [], "pending": 25, "t": "2026-11-01 12:40:21Z"}
 {"step": "refill-skip", "pending": 25, "t": "2026-11-01 12:47:13Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-01 12:50:22Z"}
+{"step": "status", "due": [93], "pending": 25, "t": "2026-11-01 12:50:22Z"}
+{"id": 93, "step": "skip", "why": "daily cap", "t": "2026-11-01 12:50:22Z"}
