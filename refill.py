@@ -212,11 +212,18 @@ FIX = {"refill-no-product": "새 물건(특히 중간·큰 가격 칸)을 produc
        "refill-budget": "실행 시간이 모자랐어요. 다음 실행에서 이어 채우는지 지켜봐 주세요."}
 
 
+def new_head(prev, delivered):
+    old = REASON.get(prev, prev)
+    if not old:
+        return "새 문제가 생겼어요.\n"
+    return f"새 문제가 생겼어요(전에 {'알린' if delivered else '발견한'} '{old}'와 달라요).\n"
+
+
 def alert_state(problem, day, now):
     """문제는 처음 한 번만 알리고, 약 3시간 뒤 한 번 결과를 알린다. 해결되면 해결 알림 후 기록을 지운다. True = 실패로 끝내야 함(첫 알림 전송 실패)."""
     try:
         st = json.load(open(ALERT, encoding="utf-8"))
-        if not isinstance(st, dict) or not isinstance(st.get("at"), (int, float)):
+        if not isinstance(st, dict) or not isinstance(st.get("at"), (int, float)) or not isinstance(st.get("reason"), (str, type(None))) or not isinstance(st.get("prev"), (str, type(None))):
             st = None
             if not problem and not DRY:
                 os.remove(ALERT)
@@ -225,7 +232,7 @@ def alert_state(problem, day, now):
     if not problem:
         if st:
             mins = int(now - st["at"]) // 60
-            since = "처음 알림" if st.get("sent") is not False else "처음 문제 발견(첫 알림은 전송 실패)"
+            since = ("마지막 알림" if st.get("sent") is not False else "마지막 문제 발견(알림은 전송 실패)") if "prev" in st else ("처음 알림" if st.get("sent") is not False else "처음 문제 발견(첫 알림은 전송 실패)")
             notify(f"해결됨: 이번 점검에서는 막힌 날 없이 예약을 채웠어요. ({since} 뒤 약 {mins // 60}시간 {mins % 60}분)")
             if not DRY:
                 os.remove(ALERT)
@@ -240,8 +247,17 @@ def alert_state(problem, day, now):
             save(ALERT, {"reason": problem, "day": day, "at": now, "followup": False, "sent": ok})
         log(step="refill-alert-sent", reason=problem, telegram=ok)
         return not ok
+    if st.get("reason") != problem:
+        prev = st.get("reason")
+        head = new_head(prev, st.get("sent") is not False)
+        ok = notify(head + first)
+        if not DRY:
+            save(ALERT, {"reason": problem, "day": day, "at": now, "followup": False, "sent": ok, "prev": prev, "prev_sent": st.get("sent") is not False})
+        log(step="refill-alert-new", reason=problem, prev=prev, telegram=ok)
+        return not ok
     if st.get("sent") is False:
-        st["sent"] = notify(first)
+        head = new_head(st["prev"], st.get("prev_sent", True)) if "prev" in st else ""
+        st["sent"] = notify(head + first)
         if st["sent"]:
             st["at"] = now
         if not DRY:
