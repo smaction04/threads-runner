@@ -795,5 +795,105 @@
   "tier": "high",
   "use": true,
   "kind": "물걸레청소기"
+ },
+ {
+  "id": 78,
+  "name": "르올 마약 구스 이불 거위털 다운 한겨울용 거위털이불",
+  "price": 119000,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/ilk3FAaIqy",
+  "tier": "high",
+  "use": true,
+  "kind": "구스이불"
+ },
+ {
+  "id": 79,
+  "name": "쿠쿠 포터블 제빙기 CIM-AS09M10S",
+  "price": 155160,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/ilk35f3Dbw",
+  "tier": "high",
+  "use": true,
+  "kind": "제빙기"
+ },
+ {
+  "id": 80,
+  "name": "리큅 8단 식품건조기 LD-918BH",
+  "price": 151320,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/ilk4vgiMGO",
+  "tier": "high",
+  "use": true,
+  "kind": "식품건조기"
+ },
+ {
+  "id": 81,
+  "name": "메가썬 스텐 전기온수기 15리터 하향식 벽걸이",
+  "price": 98900,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/ilk4T99X1E",
+  "tier": "high",
+  "use": true,
+  "kind": "전기온수기"
+ },
+ {
+  "id": 82,
+  "name": "VANKYO 빔프로젝터 무선 미러링 블루투스5.0 휴대용",
+  "price": 99000,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/ilk5ju3EhU",
+  "tier": "high",
+  "use": true,
+  "kind": "빔프로젝터"
+ },
+ {
+  "id": 83,
+  "name": "홈앤아트 퓨어 스팀청소기 AMS-200",
+  "price": 164000,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/ilk5ISGgYm",
+  "tier": "high",
+  "use": true,
+  "kind": "스팀청소기"
+ },
+ {
+  "id": 84,
+  "name": "스테인리스 면국수 찜기 전기레인지용 조리기",
+  "price": 22800,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/ilk58tHzc4",
+  "tier": "high",
+  "use": true,
+  "kind": "국수찜기"
+ },
+ {
+  "id": 85,
+  "name": "클래파 2단 올스텐 계란찜기 코드분리형 CES-232W",
+  "price": 39800,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/ilk6xYTv7k",
+  "tier": "high",
+  "use": true,
+  "kind": "계란찜기"
+ },
+ {
+  "id": 86,
+  "name": "퓨어썸 리필 필터 샤워기용 3p",
+  "price": 10350,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/ilk6Xso0zs",
+  "tier": "high",
+  "use": true,
+  "kind": "샤워필터"
+ },
+ {
+  "id": 87,
+  "name": "필립스 데일리 핸드블렌더 3000 시리즈 화이트",
+  "price": 26680,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/ilkzXmtis8",
+  "tier": "high",
+  "use": true,
+  "kind": "핸드블렌더"
  }
 ]
