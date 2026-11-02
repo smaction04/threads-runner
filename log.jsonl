@@ -6631,3 +6631,6 @@
 {"id": 105, "step": "skip", "why": "daily cap", "t": "2026-11-02 13:50:22Z"}
 {"id": 106, "step": "skip", "why": "daily cap", "t": "2026-11-02 13:50:22Z"}
 {"id": 107, "step": "skip", "why": "daily cap", "t": "2026-11-02 13:50:22Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-02 14:00:45Z"}
+{"step": "status", "due": [105, 106, 107], "pending": 30, "t": "2026-11-02 14:00:45Z"}
+{"id": 105, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-02 14:00:45Z"}
