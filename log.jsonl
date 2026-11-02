@@ -6688,3 +6688,6 @@
 {"step": "refill-add", "id": 141, "product": 63, "at": "2026-11-06 20:49", "style": "이야기형", "t": "2026-11-02 15:47:21Z"}
 {"step": "refill-done", "added": 10, "t": "2026-11-02 15:47:21Z"}
 {"step": "refill-alert-resolved", "reason": "refill-no-text", "t": "2026-11-02 15:47:21Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-02 15:50:21Z"}
+{"step": "status", "due": [105, 106, 107], "pending": 40, "t": "2026-11-02 15:50:21Z"}
+{"id": 105, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-02 15:50:21Z"}
