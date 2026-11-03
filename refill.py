@@ -8,6 +8,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+from limits import read_warn_cap
+
 Q = "queue.json"
 LOG = "log.jsonl"
 POOL = "products.json"
@@ -20,7 +22,6 @@ MAXLEN = 120
 MIN_SLOT_GAP = 3600
 AHEAD_DAYS = 3
 KIND_WINDOW = 3 * 86400
-LIMITS = "limits.json"
 ALERT = "refill_alert.json"
 FOLLOWUP_SEC = 150 * 60
 ACTIVE = ("scheduled", "published", "partial", "publishing", "unsure")
@@ -199,13 +200,15 @@ def notify(msg):
         return False
 
 
-REASON = {"refill-no-product": "새 물건이 바닥남(가격 칸·같은 종류 규칙에 맞는 물건 없음)",
+REASON = {"refill-limits-bad": "상한 파일(limits.json)이 이상함",
+          "refill-no-product": "새 물건이 바닥남(가격 칸·같은 종류 규칙에 맞는 물건 없음)",
           "refill-band-missing": "가격 세 칸을 다 채울 물건이 없음",
           "refill-no-slot": "넣을 시간 칸이 없음", "refill-no-text": "글 만들기 실패",
           "refill-budget": "실행 시간 부족"}
 
 
-FIX = {"refill-no-product": "새 물건(특히 중간·큰 가격 칸)을 products.json에 보충해 주세요.",
+FIX = {"refill-limits-bad": "limits.json을 고치거나 지워 주세요. warn_cap 칸 하나에 0 이상 정수만 넣습니다.",
+       "refill-no-product": "새 물건(특히 중간·큰 가격 칸)을 products.json에 보충해 주세요.",
        "refill-band-missing": "비어 있는 가격 칸의 물건을 products.json에 보충해 주세요.",
        "refill-no-slot": "그날 예약 시간이 꽉 찼는지 queue.json을 확인해 주세요.",
        "refill-no-text": "글 만들기 키(GEMINI_API_KEY)와 실행 기록을 확인해 주세요.",
@@ -281,12 +284,14 @@ def main():
             i["id"] = int(i["id"])
         except (TypeError, ValueError):
             pass
-    try:
-        cap = json.load(open(LIMITS, encoding="utf-8")).get("warn_cap")
-    except FileNotFoundError:
-        cap = None
+    cap, limits_bad = read_warn_cap()
     cap = min(cap, MAX_PER_DAY) if cap is not None else MAX_PER_DAY
     now = int(time.time())
+    if limits_bad:
+        log(step="refill-limits-bad", why=limits_bad)
+        if alert_state("refill-limits-bad", time.strftime("%Y-%m-%d", time.gmtime(day_of(now) * 86400)), now):
+            sys.exit(1)
+        return
     plan = day_plan([i["at"] for i in items if i.get("status") in ACTIVE], now, cap)
     if not plan:
         log(step="refill-skip", pending=sum(i["status"] == "scheduled" for i in items))

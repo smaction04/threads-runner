@@ -8,12 +8,15 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+from limits import read_warn_cap
+
 BASE = "https://graph.threads.net/v1.0"
 TOKEN = os.environ.get("THREADS_TOKEN", "")
 UID = "me"
 DRY = os.environ.get("DRY_RUN", "1") != "0"
 MIN_GAP = 3600
-DAILY_CAP = 5
+MIN_DAILY_CAP = 5
+MAX_PER_DAY = 10
 REPLY_DELAY = 8
 REPLY_TRIES = 3
 REPLY_RETRY_GAP = 20
@@ -204,6 +207,28 @@ def _ts(x):
         return None
 
 
+def daily_cap(done, now, warn):
+    """하루 상한 = 전날 실제 올라간 개수 + 1 (최소 5, 최대 10). 경고 상한(warn)이 있으면 그 이하."""
+    yesterday = sum(bool(i.get("post_id")) and kst_day(sent_at(i)) == kst_day(now - 86400) for i in done)
+    cap = min(max(yesterday + 1, MIN_DAILY_CAP), MAX_PER_DAY)
+    return min(cap, warn) if warn is not None else cap
+
+
+def limits_alert(q, problem, now):
+    """상한 파일 문제를 한 번만 알리고, 풀리면 해결을 알린다. True = 이번에 처음 알림."""
+    if not problem:
+        if q.pop("alert_limits", None):
+            log(step="limits-ok")
+            notify("상한 파일(limits.json) 문제가 풀려 새 글을 다시 올립니다.")
+        return False
+    if q.get("alert_limits"):
+        return False
+    q["alert_limits"] = now
+    log(step="ALERT", why="limits.json: " + problem)
+    notify(f"상한 파일(limits.json)이 이상해서 새 글을 멈췄습니다(댓글 재시도는 계속).\n이유: {problem}\n할 일: 파일을 고치거나 지워 주세요.")
+    return True
+
+
 def find_post(text, since=0):
     """내 최근 글 50개 중 같은 본문이 since 이후에 이미 올라가 있으면 그 id, 없으면 None. 조회 실패는 LookupFailed."""
     try:
@@ -297,6 +322,8 @@ def main():
     done = [i for i in q["items"] if i["post_id"] or i["status"] in ("unsure", "publishing")]
     last = max([sent_at(i) for i in done], default=0)
     today = [i for i in done if kst_day(sent_at(i)) == kst_day(now)]
+    warn, limits_bad = read_warn_cap()
+    cap = daily_cap(done, now, warn)
     due = [i for i in q["items"] if i["status"] == "scheduled" and i["at"] <= now]
     log(step="status", due=[i["id"] for i in due], pending=sum(i["status"] == "scheduled" for i in q["items"]))
     for it in q["items"]:
@@ -333,7 +360,7 @@ def main():
         if not WIN_START <= kst_hour(now) < WIN_END:
             log(id=it["id"], step="skip", why="발행 시간대(KST 8~23시) 밖")
             break
-        if len(today) >= DAILY_CAP:
+        if len(today) >= cap:
             log(id=it["id"], step="skip", why="daily cap")
             continue
         if last and now - last < MIN_GAP:
@@ -399,6 +426,7 @@ def main():
         today.append(it)
         break
     flagged = alerts(q, int(time.time()))
+    flagged = limits_alert(q, limits_bad, int(time.time())) or flagged
     save(q)
     if (flagged or flagged_pre) and not DRY:
         sys.exit(1)
