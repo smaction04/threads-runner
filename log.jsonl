@@ -7410,3 +7410,4 @@
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-03 21:40:29Z"}
 {"step": "status", "due": [98, 99, 110, 111, 112], "pending": 44, "t": "2026-11-03 21:40:29Z"}
 {"id": 98, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-03 21:40:29Z"}
+{"step": "refill-skip", "pending": 44, "t": "2026-11-03 21:47:22Z"}
