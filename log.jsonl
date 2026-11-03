@@ -7089,3 +7089,8 @@
 {"id": 98, "step": "skip", "why": "daily cap", "t": "2026-11-03 09:20:21Z"}
 {"id": 110, "step": "skip", "why": "daily cap", "t": "2026-11-03 09:20:21Z"}
 {"id": 111, "step": "skip", "why": "daily cap", "t": "2026-11-03 09:20:21Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-03 09:30:35Z"}
+{"step": "status", "due": [98, 110, 111], "pending": 34, "t": "2026-11-03 09:30:35Z"}
+{"id": 98, "step": "skip", "why": "daily cap", "t": "2026-11-03 09:30:35Z"}
+{"id": 110, "step": "skip", "why": "daily cap", "t": "2026-11-03 09:30:35Z"}
+{"id": 111, "step": "skip", "why": "daily cap", "t": "2026-11-03 09:30:35Z"}
