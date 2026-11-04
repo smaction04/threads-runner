@@ -8105,3 +8105,15 @@
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-04 18:40:21Z"}
 {"step": "status", "due": [113, 114, 116, 118, 119, 120, 121], "pending": 37, "t": "2026-11-04 18:40:21Z"}
 {"id": 116, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-04 18:40:21Z"}
+{"step": "refill-add", "id": 152, "product": 80, "at": "2026-11-08 10:32", "style": "전환형", "t": "2026-11-04 18:47:23Z"}
+{"step": "refill-add", "id": 153, "product": 71, "at": "2026-11-08 14:20", "style": "질문형", "t": "2026-11-04 18:47:35Z"}
+{"step": "refill-add", "id": 154, "product": 74, "at": "2026-11-08 11:46", "style": "가치형", "t": "2026-11-04 18:47:39Z"}
+{"step": "refill-add", "id": 155, "product": 83, "at": "2026-11-08 17:37", "style": "이야기형", "t": "2026-11-04 18:48:38Z"}
+{"step": "refill-add", "id": 156, "product": 84, "at": "2026-11-08 09:24", "style": "공감형", "t": "2026-11-04 18:48:47Z"}
+{"step": "refill-add", "id": 157, "product": 81, "at": "2026-11-08 15:23", "style": "전환형", "t": "2026-11-04 18:48:57Z"}
+{"step": "refill-add", "id": 158, "product": 95, "at": "2026-11-08 13:05", "style": "가치형", "t": "2026-11-04 18:49:36Z"}
+{"step": "refill-add", "id": 159, "product": 86, "at": "2026-11-08 08:13", "style": "발견형", "t": "2026-11-04 18:49:50Z"}
+{"step": "refill-add", "id": 160, "product": 82, "at": "2026-11-08 21:36", "style": "이야기형", "t": "2026-11-04 18:49:58Z"}
+{"step": "refill-add", "id": 161, "product": 96, "at": "2026-11-08 19:15", "style": "전환형", "t": "2026-11-04 18:50:08Z"}
+{"step": "refill-done", "added": 10, "t": "2026-11-04 18:50:08Z"}
+{"step": "refill-alert-resolved", "reason": "refill-no-text", "t": "2026-11-04 18:50:09Z"}
