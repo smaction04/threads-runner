@@ -8042,3 +8042,9 @@
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-04 15:40:25Z"}
 {"step": "status", "due": [113, 114, 116, 118, 119, 120, 121], "pending": 37, "t": "2026-11-04 15:40:25Z"}
 {"id": 116, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-04 15:40:25Z"}
+{"step": "refill-llm-error", "error": "The read operation timed out", "t": "2026-11-04 15:47:42Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-04 15:47:58Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-04 15:47:59Z"}
+{"step": "refill-no-text", "day": "2026-11-08", "left": 20, "t": "2026-11-04 15:47:59Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-04 15:47:59Z"}
+{"step": "refill-alert-sent", "reason": "refill-no-text", "telegram": true, "t": "2026-11-04 15:48:00Z"}
