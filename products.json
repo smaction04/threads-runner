@@ -895,5 +895,105 @@
   "tier": "high",
   "use": true,
   "kind": "핸드블렌더"
+ },
+ {
+  "id": 88,
+  "name": "살림대표 포근한 니트 목도리 12컬러",
+  "price": 9080,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/ioue91Rk3U",
+  "tier": "high",
+  "use": true,
+  "kind": "목도리"
+ },
+ {
+  "id": 89,
+  "name": "쿠잉 컵워머 머그워머 USB 온도유지",
+  "price": 18700,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/ioulKYGynA",
+  "tier": "high",
+  "use": true,
+  "kind": "컵워머"
+ },
+ {
+  "id": 90,
+  "name": "에페이오스 배쓰밤 12종 선물세트 840g",
+  "price": 20900,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iouncxpGRE",
+  "tier": "high",
+  "use": true,
+  "kind": "입욕제"
+ },
+ {
+  "id": 91,
+  "name": "멕리듬 스팀 아이마스크 라벤더향 12매입",
+  "price": 10700,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iouyhI0F1o",
+  "tier": "high",
+  "use": true,
+  "kind": "온열안대"
+ },
+ {
+  "id": 92,
+  "name": "이노웰 세라믹 코팅 멀티쿠커 가정용 전기냄비 2L EX-60B",
+  "price": 33510,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iouoDi2dQy",
+  "tier": "high",
+  "use": true,
+  "kind": "멀티쿠커"
+ },
+ {
+  "id": 93,
+  "name": "올업 미니세탁기 UV살균 12L 속옷 양말 아기옷 분리세탁",
+  "price": 69900,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/ioup3wUVEW",
+  "tier": "high",
+  "use": true,
+  "kind": "미니세탁기"
+ },
+ {
+  "id": 94,
+  "name": "듀플렉스 스탠드형 서큘레이터 DPK-55CF",
+  "price": 39800,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iourtGBQv6",
+  "tier": "high",
+  "use": true,
+  "kind": "서큘레이터"
+ },
+ {
+  "id": 95,
+  "name": "두스룬 접이식 워킹머신 접이식 런닝머신 가정용",
+  "price": 185280,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iousTOknxQ",
+  "tier": "high",
+  "use": true,
+  "kind": "워킹머신"
+ },
+ {
+  "id": 96,
+  "name": "매직쉐프 올 스텐 무회전 25L 대용량 플랫 전자레인지",
+  "price": 199000,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iouuj8pOUu",
+  "tier": "high",
+  "use": true,
+  "kind": "전자레인지"
+ },
+ {
+  "id": 97,
+  "name": "LG전자 미니 1도어 냉장고 43L",
+  "price": 155000,
+  "reviews": 0,
+  "link": "https://link.coupang.com/a/iouvJYik6m",
+  "tier": "high",
+  "use": true,
+  "kind": "미니냉장고"
  }
 ]
