@@ -7859,3 +7859,11 @@
 {"id": 114, "step": "skip", "why": "daily cap", "t": "2026-11-04 10:50:25Z"}
 {"id": 119, "step": "skip", "why": "daily cap", "t": "2026-11-04 10:50:25Z"}
 {"step": "refill-skip", "pending": 37, "t": "2026-11-04 10:51:51Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-04 11:00:49Z"}
+{"step": "status", "due": [113, 114, 116, 118, 119, 121], "pending": 37, "t": "2026-11-04 11:00:49Z"}
+{"id": 116, "step": "skip", "why": "daily cap", "t": "2026-11-04 11:00:49Z"}
+{"id": 118, "step": "skip", "why": "daily cap", "t": "2026-11-04 11:00:49Z"}
+{"id": 113, "step": "skip", "why": "daily cap", "t": "2026-11-04 11:00:49Z"}
+{"id": 121, "step": "skip", "why": "daily cap", "t": "2026-11-04 11:00:49Z"}
+{"id": 114, "step": "skip", "why": "daily cap", "t": "2026-11-04 11:00:49Z"}
+{"id": 119, "step": "skip", "why": "daily cap", "t": "2026-11-04 11:00:49Z"}
