@@ -7630,3 +7630,8 @@
 {"id": 117, "step": "skip", "why": "min gap", "t": "2026-11-04 03:40:22Z"}
 {"id": 116, "step": "skip", "why": "min gap", "t": "2026-11-04 03:40:22Z"}
 {"step": "refill-skip", "pending": 39, "t": "2026-11-04 03:47:12Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-04 03:50:21Z"}
+{"step": "status", "due": [115, 116, 117], "pending": 39, "t": "2026-11-04 03:50:21Z"}
+{"id": 115, "step": "skip", "why": "min gap", "t": "2026-11-04 03:50:21Z"}
+{"id": 117, "step": "skip", "why": "min gap", "t": "2026-11-04 03:50:21Z"}
+{"id": 116, "step": "skip", "why": "min gap", "t": "2026-11-04 03:50:21Z"}
