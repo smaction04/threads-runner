@@ -9064,3 +9064,11 @@
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-05 18:40:24Z"}
 {"step": "status", "due": [122, 123, 125, 126, 127, 128, 129, 130, 131], "pending": 39, "t": "2026-11-05 18:40:24Z"}
 {"id": 122, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-05 18:40:24Z"}
+{"step": "refill-add", "id": 162, "product": 87, "at": "2026-11-09 20:58", "style": "체크리스트형", "t": "2026-11-05 18:47:14Z"}
+{"step": "refill-add", "id": 163, "product": 85, "at": "2026-11-09 14:10", "style": "가치형", "t": "2026-11-05 18:47:23Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-05 18:47:23Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-05 18:47:26Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-05 18:47:27Z"}
+{"step": "refill-no-text", "day": "2026-11-09", "left": 10, "t": "2026-11-05 18:47:27Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-05 18:47:27Z"}
+{"step": "refill-alert-followup", "reason": "refill-no-text", "t": "2026-11-05 18:47:28Z"}
