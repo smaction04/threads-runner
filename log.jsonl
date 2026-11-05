@@ -8655,3 +8655,11 @@
 {"id": 123, "step": "skip", "why": "daily cap", "t": "2026-11-05 08:40:21Z"}
 {"id": 129, "step": "skip", "why": "daily cap", "t": "2026-11-05 08:40:21Z"}
 {"id": 130, "step": "skip", "why": "daily cap", "t": "2026-11-05 08:40:21Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-05 08:50:22Z"}
+{"step": "status", "due": [122, 123, 128, 129, 130, 131], "pending": 39, "t": "2026-11-05 08:50:22Z"}
+{"id": 122, "step": "skip", "why": "daily cap", "t": "2026-11-05 08:50:22Z"}
+{"id": 128, "step": "skip", "why": "daily cap", "t": "2026-11-05 08:50:22Z"}
+{"id": 131, "step": "skip", "why": "daily cap", "t": "2026-11-05 08:50:22Z"}
+{"id": 123, "step": "skip", "why": "daily cap", "t": "2026-11-05 08:50:22Z"}
+{"id": 129, "step": "skip", "why": "daily cap", "t": "2026-11-05 08:50:22Z"}
+{"id": 130, "step": "skip", "why": "daily cap", "t": "2026-11-05 08:50:22Z"}
