@@ -9136,3 +9136,13 @@
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-05 21:40:23Z"}
 {"step": "status", "due": [122, 123, 125, 126, 127, 128, 129, 130, 131], "pending": 39, "t": "2026-11-05 21:40:23Z"}
 {"id": 122, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-05 21:40:23Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-05 21:47:14Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-05 21:47:15Z"}
+{"step": "refill-add", "id": 162, "product": 87, "at": "2026-11-09 09:51", "style": "질문형", "t": "2026-11-05 21:47:16Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-05 21:47:18Z"}
+{"step": "refill-add", "id": 163, "product": 85, "at": "2026-11-09 11:50", "style": "가치형", "t": "2026-11-05 21:47:19Z"}
+{"step": "refill-add", "id": 164, "product": 97, "at": "2026-11-09 16:16", "style": "전환형", "t": "2026-11-05 21:47:20Z"}
+{"step": "refill-add", "id": 165, "product": 88, "at": "2026-11-09 13:43", "style": "추천형", "t": "2026-11-05 21:47:21Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-05 21:47:24Z"}
+{"step": "refill-no-text", "day": "2026-11-09", "left": 10, "t": "2026-11-05 21:47:25Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-05 21:47:25Z"}
