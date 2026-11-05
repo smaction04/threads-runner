@@ -8871,3 +8871,14 @@
 {"id": 125, "step": "skip", "why": "daily cap", "t": "2026-11-05 12:20:22Z"}
 {"id": 126, "step": "skip", "why": "daily cap", "t": "2026-11-05 12:20:22Z"}
 {"id": 127, "step": "skip", "why": "daily cap", "t": "2026-11-05 12:20:22Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-05 12:30:29Z"}
+{"step": "status", "due": [122, 123, 125, 126, 127, 128, 129, 130, 131], "pending": 39, "t": "2026-11-05 12:30:29Z"}
+{"id": 122, "step": "skip", "why": "daily cap", "t": "2026-11-05 12:30:29Z"}
+{"id": 128, "step": "skip", "why": "daily cap", "t": "2026-11-05 12:30:29Z"}
+{"id": 131, "step": "skip", "why": "daily cap", "t": "2026-11-05 12:30:29Z"}
+{"id": 123, "step": "skip", "why": "daily cap", "t": "2026-11-05 12:30:29Z"}
+{"id": 129, "step": "skip", "why": "daily cap", "t": "2026-11-05 12:30:29Z"}
+{"id": 130, "step": "skip", "why": "daily cap", "t": "2026-11-05 12:30:29Z"}
+{"id": 125, "step": "skip", "why": "daily cap", "t": "2026-11-05 12:30:29Z"}
+{"id": 126, "step": "skip", "why": "daily cap", "t": "2026-11-05 12:30:29Z"}
+{"id": 127, "step": "skip", "why": "daily cap", "t": "2026-11-05 12:30:29Z"}
