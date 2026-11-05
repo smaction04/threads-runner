@@ -8432,3 +8432,4 @@
 {"step": "publish-timing", "kind": "reply", "gap_sec": 18.1, "attempts": 1, "t": "2026-11-05 03:41:12Z"}
 {"id": 114, "step": "reply", "reply_id": "18129042532866341", "t": "2026-11-05 03:41:12Z"}
 {"id": 114, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DfWFoGAlseM", "t": "2026-11-05 03:41:13Z"}
+{"step": "refill-skip", "pending": 42, "t": "2026-11-05 03:47:12Z"}
