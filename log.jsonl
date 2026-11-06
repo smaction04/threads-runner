@@ -9879,3 +9879,20 @@
 {"id": 137, "step": "skip", "why": "daily cap", "t": "2026-11-06 10:40:22Z"}
 {"id": 138, "step": "skip", "why": "daily cap", "t": "2026-11-06 10:40:22Z"}
 {"id": 140, "step": "skip", "why": "daily cap", "t": "2026-11-06 10:40:22Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-06 10:48:49Z"}
+{"step": "refill-add", "id": 162, "product": 87, "at": "2026-11-09 14:28", "style": "질문형", "t": "2026-11-06 10:48:50Z"}
+{"step": "refill-add", "id": 163, "product": 85, "at": "2026-11-09 08:28", "style": "가치형", "t": "2026-11-06 10:48:52Z"}
+{"step": "refill-add", "id": 164, "product": 97, "at": "2026-11-09 09:47", "style": "전환형", "t": "2026-11-06 10:48:53Z"}
+{"step": "refill-add", "id": 165, "product": 88, "at": "2026-11-09 11:08", "style": "공감형", "t": "2026-11-06 10:48:54Z"}
+{"step": "refill-add", "id": 166, "product": 92, "at": "2026-11-09 22:36", "style": "이야기형", "t": "2026-11-06 10:48:59Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-06 10:49:03Z"}
+{"step": "refill-add", "id": 167, "product": 89, "at": "2026-11-09 19:14", "style": "체크리스트형", "t": "2026-11-06 10:49:04Z"}
+{"step": "refill-add", "id": 168, "product": 93, "at": "2026-11-09 15:50", "style": "가치형", "t": "2026-11-06 10:49:08Z"}
+{"step": "refill-add", "id": 169, "product": 90, "at": "2026-11-09 18:08", "style": "질문형", "t": "2026-11-06 10:49:08Z"}
+{"step": "refill-add", "id": 170, "product": 94, "at": "2026-11-09 21:06", "style": "이야기형", "t": "2026-11-06 10:49:09Z"}
+{"step": "refill-llm-error", "error": "gemini 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.d", "t": "2026-11-06 10:49:09Z"}
+{"step": "refill-llm-error", "error": "gemini 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.d", "t": "2026-11-06 10:49:09Z"}
+{"step": "refill-llm-error", "error": "gemini 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.d", "t": "2026-11-06 10:49:10Z"}
+{"step": "refill-llm-error", "error": "gemini 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.d", "t": "2026-11-06 10:49:10Z"}
+{"step": "refill-no-text", "day": "2026-11-09", "left": 10, "t": "2026-11-06 10:49:10Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-06 10:49:10Z"}
