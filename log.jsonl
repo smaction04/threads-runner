@@ -9809,3 +9809,7 @@
 {"id": 139, "step": "skip", "why": "daily cap", "t": "2026-11-06 09:40:25Z"}
 {"id": 137, "step": "skip", "why": "daily cap", "t": "2026-11-06 09:40:25Z"}
 {"id": 138, "step": "skip", "why": "daily cap", "t": "2026-11-06 09:40:25Z"}
+{"step": "refill-add", "id": 162, "product": 87, "at": "2026-11-09 11:29", "style": "추천형", "t": "2026-11-06 09:47:12Z"}
+{"step": "refill-add", "id": 163, "product": 85, "at": "2026-11-09 10:02", "style": "가치형", "t": "2026-11-06 09:47:13Z"}
+{"step": "refill-no-text", "day": "2026-11-09", "left": 10, "t": "2026-11-06 09:47:18Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-06 09:47:18Z"}
