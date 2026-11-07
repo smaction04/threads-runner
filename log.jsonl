@@ -10480,3 +10480,10 @@
 {"id": 136, "step": "skip", "why": "min gap", "t": "2026-11-07 01:10:21Z"}
 {"id": 143, "step": "skip", "why": "min gap", "t": "2026-11-07 01:10:21Z"}
 {"id": 151, "step": "skip", "why": "min gap", "t": "2026-11-07 01:10:21Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-07 01:20:20Z"}
+{"step": "status", "due": [133, 134, 136, 137, 138, 139, 140, 141, 143, 151], "pending": 28, "t": "2026-11-07 01:20:20Z"}
+{"step": "publish-timing", "kind": "post", "gap_sec": 12.6, "attempts": 1, "t": "2026-11-07 01:20:35Z"}
+{"id": 134, "step": "post", "post_id": "18121752871943536", "t": "2026-11-07 01:20:35Z"}
+{"step": "publish-timing", "kind": "reply", "gap_sec": 19.9, "attempts": 1, "t": "2026-11-07 01:21:05Z"}
+{"id": 134, "step": "reply", "reply_id": "18169887901477628", "t": "2026-11-07 01:21:05Z"}
+{"id": 134, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/Dfa_MUFCfrr", "t": "2026-11-07 01:21:06Z"}
