@@ -337,7 +337,7 @@ def main():
                 break
             pool.remove(prod)
             text = None
-            for _ in range(2):
+            for _ in range(4):
                 names = HIGH_STYLES if is_high(prod) else STYLES
                 style = random.choice([x for x in names if x not in recent_styles[-3:]] or list(names))
                 text = make_text(prod, recent, style, at)
