@@ -18,7 +18,7 @@ KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 DRY = os.environ.get("DRY_RUN", "1") != "0"
 KST = 9 * 3600
-MAXLEN = 120
+MAXLEN = 140
 MIN_SLOT_GAP = 3600
 AHEAD_DAYS = 3
 KIND_WINDOW = 3 * 86400
