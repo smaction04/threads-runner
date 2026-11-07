@@ -135,6 +135,7 @@ def make_text(prod, recent, style, at):
             log(step="refill-llm-error", error=str(e)[:200])
             continue
         firsts = {norm(r.splitlines()[0]) for r in recent if r.strip()}
+        log(step='refill-reject', prod=prod['id'], dup=norm(t.splitlines()[0]) in firsts if t.strip() else None, n=len(t), text=t[:300])
         if valid(t, prod) and norm(t.splitlines()[0]) not in firsts:
             return t
     return None
