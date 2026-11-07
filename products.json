@@ -1095,5 +1095,315 @@
   "tier": "high",
   "use": true,
   "kind": "압력밥솥"
+ },
+ {
+  "id": 108,
+  "name": "코멧 물티슈",
+  "price": 10890,
+  "reviews": 487698,
+  "link": "https://link.coupang.com/a/iuqPUIN2B2",
+  "tier": "high",
+  "use": true,
+  "kind": "물티슈"
+ },
+ {
+  "id": 109,
+  "name": "미쟝센 쉽고 빠른 거품 염색 새치전용 3N흑갈색 2개",
+  "price": 20360,
+  "reviews": 217721,
+  "link": "https://link.coupang.com/a/iuqR8CR1oG",
+  "tier": "high",
+  "use": true,
+  "kind": "염색약"
+ },
+ {
+  "id": 110,
+  "name": "코멧 코팅 논슬립 옷걸이 그레이 30개",
+  "price": 9790,
+  "reviews": 75030,
+  "link": "https://link.coupang.com/a/iuqUvxYzhQ",
+  "tier": "high",
+  "use": true,
+  "kind": "옷걸이"
+ },
+ {
+  "id": 111,
+  "name": "노바리빙 컬러 백라이트 사각 체중계",
+  "price": 9020,
+  "reviews": 49638,
+  "link": "https://link.coupang.com/a/iuqVLJc0Xs",
+  "tier": "high",
+  "use": true,
+  "kind": "체중계"
+ },
+ {
+  "id": 112,
+  "name": "에코파워탭 순동 일체형 개별 스위치 멀티탭",
+  "price": 14900,
+  "reviews": 33090,
+  "link": "https://link.coupang.com/a/iuqW1MkArk",
+  "tier": "high",
+  "use": true,
+  "kind": "멀티탭"
+ },
+ {
+  "id": 113,
+  "name": "코멧 이동접이식 빨래건조대 특대형",
+  "price": 24130,
+  "reviews": 31788,
+  "link": "https://link.coupang.com/a/iuqYh0mprM",
+  "tier": "high",
+  "use": true,
+  "kind": "빨래건조대"
+ },
+ {
+  "id": 114,
+  "name": "팬톤 PD 22.5W 케이블 일체형 보조배터리 PGB-20",
+  "price": 18590,
+  "reviews": 28208,
+  "link": "https://link.coupang.com/a/iuqZxRGNSS",
+  "tier": "high",
+  "use": true,
+  "kind": "보조배터리"
+ },
+ {
+  "id": 115,
+  "name": "데코퍼니쳐 거치경 전신거울 화이트",
+  "price": 21640,
+  "reviews": 26163,
+  "link": "https://link.coupang.com/a/iuq0NUHgd2",
+  "tier": "high",
+  "use": true,
+  "kind": "전신거울"
+ },
+ {
+  "id": 116,
+  "name": "리코셀 네이처리커버리 마스크팩 100개입",
+  "price": 23180,
+  "reviews": 25390,
+  "link": "https://link.coupang.com/a/iuq130ws9c",
+  "tier": "high",
+  "use": true,
+  "kind": "마스크팩"
+ },
+ {
+  "id": 117,
+  "name": "쿠쿠 전기보온 에그밥솥 6인용 CR-0675FW",
+  "price": 72170,
+  "reviews": 21058,
+  "link": "https://link.coupang.com/a/iuq5xUzzHM",
+  "tier": "high",
+  "use": true,
+  "kind": "전기밥솥"
+ },
+ {
+  "id": 118,
+  "name": "KURUA 침대 매트리스 독립스프링",
+  "price": 69800,
+  "reviews": 17397,
+  "link": "https://link.coupang.com/a/iuq6NQtGlU",
+  "tier": "high",
+  "use": true,
+  "kind": "매트리스"
+ },
+ {
+  "id": 119,
+  "name": "따수미 패브릭 난방텐트 2인용",
+  "price": 64900,
+  "reviews": 8723,
+  "link": "https://link.coupang.com/a/iuq73YQn2i",
+  "tier": "high",
+  "use": true,
+  "kind": "난방텐트"
+ },
+ {
+  "id": 120,
+  "name": "코멧 국내생산 폭 넓은 모던 서랍장 4단 화이트",
+  "price": 37570,
+  "reviews": 7860,
+  "link": "https://link.coupang.com/a/iuq9j6M8Jg",
+  "tier": "high",
+  "use": true,
+  "kind": "서랍장"
+ },
+ {
+  "id": 121,
+  "name": "BBK-112 가정용 무소음 실내자전거",
+  "price": 87800,
+  "reviews": 2544,
+  "link": "https://link.coupang.com/a/iuraAcaDYq",
+  "tier": "high",
+  "use": true,
+  "kind": "실내자전거"
+ },
+ {
+  "id": 122,
+  "name": "Munjjing IPX5 방수 비데 B358C",
+  "price": 98900,
+  "reviews": 2844,
+  "link": "https://link.coupang.com/a/iurbQuU0S4",
+  "tier": "high",
+  "use": true,
+  "kind": "비데"
+ },
+ {
+  "id": 123,
+  "name": "LG전자 트롬 세탁기 10kg TR10WV4",
+  "price": 373140,
+  "reviews": 9479,
+  "link": "https://link.coupang.com/a/iurc6n5Lxs",
+  "tier": "high",
+  "use": true,
+  "kind": "세탁기"
+ },
+ {
+  "id": 124,
+  "name": "오늘비데 WSB-210 필터 없는 비데",
+  "price": 118800,
+  "reviews": 5613,
+  "link": "https://link.coupang.com/a/iuremHXFG8",
+  "tier": "high",
+  "use": true,
+  "kind": "비데"
+ },
+ {
+  "id": 125,
+  "name": "미닉스 더 플렌더 PRO 음식물 처리기",
+  "price": 362780,
+  "reviews": 5197,
+  "link": "https://link.coupang.com/a/iurfCAH3My",
+  "tier": "high",
+  "use": true,
+  "kind": "음식물처리기"
+ },
+ {
+  "id": 126,
+  "name": "LG전자 2도어 일반냉장고 189L B182W13",
+  "price": 369370,
+  "reviews": 3755,
+  "link": "https://link.coupang.com/a/iurgSI52jI",
+  "tier": "high",
+  "use": true,
+  "kind": "일반냉장고"
+ },
+ {
+  "id": 127,
+  "name": "삼익가구 에클레르 3인용 가죽 소파",
+  "price": 329000,
+  "reviews": 2200,
+  "link": "https://link.coupang.com/a/iurh9fJTki",
+  "tier": "high",
+  "use": true,
+  "kind": "소파"
+ },
+ {
+  "id": 128,
+  "name": "바이크TRA 전기 자전거 미니벨로",
+  "price": 264400,
+  "reviews": 1604,
+  "link": "https://link.coupang.com/a/iurjpIpmvY",
+  "tier": "high",
+  "use": true,
+  "kind": "전기자전거"
+ },
+ {
+  "id": 129,
+  "name": "LG 울트라PC 15U560 15.6인치 노트북",
+  "price": 298000,
+  "reviews": 863,
+  "link": "https://link.coupang.com/a/iurkEXRZvM",
+  "tier": "high",
+  "use": true,
+  "kind": "노트북"
+ },
+ {
+  "id": 130,
+  "name": "캐리어 인버터 벽걸이형 냉난방기 ARQ09VB",
+  "price": 577110,
+  "reviews": 170,
+  "link": "https://link.coupang.com/a/iurlVmGb1g",
+  "tier": "high",
+  "use": true,
+  "kind": "냉난방기"
+ },
+ {
+  "id": 131,
+  "name": "엑사이더 접이식 실내자전거 CF1000C",
+  "price": 144530,
+  "reviews": 10290,
+  "link": "https://link.coupang.com/a/iurnbCKclo",
+  "tier": "high",
+  "use": true,
+  "kind": "실내자전거"
+ },
+ {
+  "id": 132,
+  "name": "브라이튼 브이 여행용 확장형 캐리어",
+  "price": 47400,
+  "reviews": 34612,
+  "link": "https://link.coupang.com/a/iurD6CWCGq",
+  "tier": "high",
+  "use": true,
+  "kind": "여행용캐리어"
+ },
+ {
+  "id": 133,
+  "name": "김영주스포츠 남성 웰론 경량 패딩 점퍼 MJ100",
+  "price": 39900,
+  "reviews": 3747,
+  "link": "https://link.coupang.com/a/iurFmLszDw",
+  "tier": "high",
+  "use": true,
+  "kind": "경량패딩"
+ },
+ {
+  "id": 134,
+  "name": "알타이카 남성용 트레킹 등산화 AT-01",
+  "price": 39500,
+  "reviews": 8251,
+  "link": "https://link.coupang.com/a/iurGCV54mq",
+  "tier": "high",
+  "use": true,
+  "kind": "트레킹화"
+ },
+ {
+  "id": 135,
+  "name": "소니 블루투스 헤드폰 WH-CH520",
+  "price": 58000,
+  "reviews": 5314,
+  "link": "https://link.coupang.com/a/iurHS40JAi",
+  "tier": "high",
+  "use": true,
+  "kind": "무선헤드폰"
+ },
+ {
+  "id": 136,
+  "name": "COX 교체축 레인보우 LED 게이밍 기계식 키보드",
+  "price": 31900,
+  "reviews": 18102,
+  "link": "https://link.coupang.com/a/iurI9rbyUu",
+  "tier": "high",
+  "use": true,
+  "kind": "키보드"
+ },
+ {
+  "id": 137,
+  "name": "호이데코 워셔블 코지 러그",
+  "price": 69900,
+  "reviews": 789,
+  "link": "https://link.coupang.com/a/iurKpug0gm",
+  "tier": "high",
+  "use": true,
+  "kind": "러그"
+ },
+ {
+  "id": 138,
+  "name": "코멧 원터치 접이식 이동식 선반 5단",
+  "price": 32970,
+  "reviews": 10980,
+  "link": "https://link.coupang.com/a/iurLFwY0ce",
+  "tier": "high",
+  "use": true,
+  "kind": "선반"
  }
 ]
