@@ -10753,3 +10753,14 @@
 {"step": "refill-add", "id": 181, "product": 98, "at": "2026-11-10 18:45", "style": "공감형", "t": "2026-11-07 03:58:00Z"}
 {"step": "refill-done", "added": 10, "t": "2026-11-07 03:58:00Z"}
 {"step": "refill-alert-resolved", "reason": "refill-no-product", "t": "2026-11-07 03:58:00Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-07 04:00:35Z"}
+{"step": "status", "due": [136, 137, 138, 140, 141, 143, 145, 148, 151], "pending": 45, "t": "2026-11-07 04:00:35Z"}
+{"id": 137, "step": "skip", "why": "min gap", "t": "2026-11-07 04:00:35Z"}
+{"id": 138, "step": "skip", "why": "min gap", "t": "2026-11-07 04:00:35Z"}
+{"id": 140, "step": "skip", "why": "min gap", "t": "2026-11-07 04:00:35Z"}
+{"id": 141, "step": "skip", "why": "min gap", "t": "2026-11-07 04:00:35Z"}
+{"id": 136, "step": "skip", "why": "min gap", "t": "2026-11-07 04:00:35Z"}
+{"id": 143, "step": "skip", "why": "min gap", "t": "2026-11-07 04:00:35Z"}
+{"id": 151, "step": "skip", "why": "min gap", "t": "2026-11-07 04:00:35Z"}
+{"id": 148, "step": "skip", "why": "min gap", "t": "2026-11-07 04:00:35Z"}
+{"id": 145, "step": "skip", "why": "min gap", "t": "2026-11-07 04:00:35Z"}
