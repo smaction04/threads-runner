@@ -92,13 +92,28 @@ def key(t):
     return re.sub(r"[\s.,!?~ㅋㅎㅠㅜ;:'\"·…\-_()]+", "", t).lower()
 
 
+NO_TIP = {"한줄형", "체크리스트형"}
+NO_COUNT = {"비교형", "전환형"}
+
+
+def reviews_of(prod):
+    try:
+        return int(str((prod or {}).get("reviews") or 0).replace(",", ""))
+    except ValueError:
+        return 0
+
+
 def valid(t, prod=None):
-    """글의 모양만 검사한다(줄 수·길이·링크/해시태그). 문구 내용(효능·숫자·기간 등)은 제한하지 않는다."""
+    """글의 모양(줄 수·길이·링크/해시태그)과 후기·별점 줄의 숫자(상품 후기 수 그대로만)를 검사한다."""
     if not isinstance(t, str):
         return False
     lines = [l for l in t.splitlines() if l.strip()]
     if not 2 <= len(lines) <= 6 or len(t) > MAXLEN:
         return False
+    rv = reviews_of(prod)
+    for l in lines:
+        if re.search(r"후기|리뷰|구매평|별점|평점", l) and any(rv <= 0 or n.strip() != f"{rv:,}" for n in re.findall(r"\d[\d,.]*\s*[만천]?", l)):
+            return False
     if re.search(r"[#＃]", t) or re.search(r"[A-Za-z0-9\-]+\s*\.\s*[A-Za-z]{2,}", t) or re.search(r"https?:|www\.|://", t, re.I):
         return False
     return True
@@ -116,12 +131,16 @@ def make_text(prod, recent, style, at):
     kind = prod.get("kind") or prod["name"]
     high = is_high(prod)
     rule = (HIGH_STYLES if high else STYLES)[style].replace("{MONTH}", str(month_of(at)))
+    rv = reviews_of(prod)
     prompt = "\n".join([
         "너는 스레드에 올릴 짧은 후킹 글 작성자다.",
         "[공통 규칙]", BASE_RULE,
         *(["[비싼 상품 규칙]", HIGH_RULE, f"[상품명] {prod['name']}"] if high else []),
         f"[이번 글의 형식: {style}]", rule,
         f"[상품 종류] {kind}",
+        *(["[고르는 법 한 줄] 글 안에 이 종류 물건을 살 때 확인할 점 한 가지를 '살 때 ~부터 봐' 같은 한 줄로 넣는다. 이 상품이 그 점을 갖췄다고 말하지 않는다. 줄 수와 길이는 위 형식·[공통 규칙] 그대로 지킨다."] if style not in NO_TIP else []),
+        *([f"[후기 수] {rv:,}개. 쓰려면 '후기 {rv:,}개'처럼 이 숫자 그대로만 쓴다. 별점·후기 내용은 지어내지 않는다."] if rv and style not in NO_COUNT else []),
+        *([f"[실제 후기에 자주 나온 말] {prod['review_note']} (쓰려면 이 말 그대로 따옴표로)"] if prod.get("review_note") else []),
         "[이미 쓴 글: 첫 줄과 표현이 겹치지 않게 새로 쓸 것]",
         "\n---\n".join(recent[-8:]),
         '출력은 JSON만: {"text": "글"}',
@@ -349,7 +368,7 @@ def main():
                 break
             it = {"id": nid, "at": at, "text": text, "comment": DISCLOSURE + chr(10) + prod["link"], "status": "scheduled",
                   "post_id": None, "reply_id": None, "verified": None, "error": None, "source_draft": None,
-                  "product": prod["id"], "auto": True, "style": style}
+                  "product": prod["id"], "auto": True, "style": style, "spcl": 1}
             sched = time.strftime("%Y-%m-%d %H:%M", time.gmtime(at + KST))
             row = {"no": nno, "when": sched, "status": "예약", "how": "깃허브", "product": prod["name"][:20],
                    "price": prod["price"], "style": style, "first_line": text.splitlines()[0], "chars": len(text),
