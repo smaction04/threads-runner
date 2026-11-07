@@ -995,5 +995,105 @@
   "tier": "high",
   "use": true,
   "kind": "미니냉장고"
+ },
+ {
+  "id": 98,
+  "name": "디누스 별 1인용 극세사 전기방석",
+  "price": 20800,
+  "reviews": 9426,
+  "link": "https://link.coupang.com/a/itzzKlvRTM",
+  "tier": "high",
+  "use": true,
+  "kind": "전기방석"
+ },
+ {
+  "id": 99,
+  "name": "홈플래닛 LED 안티 블루라이트 학습용 스탠드",
+  "price": 23760,
+  "reviews": 20046,
+  "link": "https://link.coupang.com/a/itzUvLdaM0",
+  "tier": "high",
+  "use": true,
+  "kind": "스탠드"
+ },
+ {
+  "id": 100,
+  "name": "비달사순 파워 드라이어 2000W VSD120K",
+  "price": 19500,
+  "reviews": 33698,
+  "link": "https://link.coupang.com/a/itzIxnURdA",
+  "tier": "high",
+  "use": true,
+  "kind": "헤어드라이어"
+ },
+ {
+  "id": 101,
+  "name": "홈플래닛 베이직 2구 토스터 TA1057K",
+  "price": 12060,
+  "reviews": 13610,
+  "link": "https://link.coupang.com/a/itzD8yhgMS",
+  "tier": "high",
+  "use": true,
+  "kind": "토스터"
+ },
+ {
+  "id": 102,
+  "name": "홈플래닛 반반 멀티 전기그릴 AD-SK18",
+  "price": 31650,
+  "reviews": 5664,
+  "link": "https://link.coupang.com/a/itzFrXrXkO",
+  "tier": "high",
+  "use": true,
+  "kind": "전기그릴"
+ },
+ {
+  "id": 103,
+  "name": "트루리빙 멀티 할로겐 광파오븐 12L",
+  "price": 54190,
+  "reviews": 1620,
+  "link": "https://link.coupang.com/a/itzNtTyTbE",
+  "tier": "high",
+  "use": true,
+  "kind": "광파오븐"
+ },
+ {
+  "id": 104,
+  "name": "혼스 침구청소기 HSBC-1000",
+  "price": 57900,
+  "reviews": 6681,
+  "link": "https://link.coupang.com/a/itzONHsoBE",
+  "tier": "high",
+  "use": true,
+  "kind": "침구청소기"
+ },
+ {
+  "id": 105,
+  "name": "삼성 김치플러스 126L 뚜껑형 김치냉장고",
+  "price": 484030,
+  "reviews": 3815,
+  "link": "https://link.coupang.com/a/itzP6cytOK",
+  "tier": "high",
+  "use": true,
+  "kind": "김치냉장고"
+ },
+ {
+  "id": 106,
+  "name": "LG 퓨리케어 360 공기청정기 62㎡",
+  "price": 342130,
+  "reviews": 2227,
+  "link": "https://link.coupang.com/a/itzRpmRLJQ",
+  "tier": "high",
+  "use": true,
+  "kind": "공기청정기"
+ },
+ {
+  "id": 107,
+  "name": "쿠첸 더핏 슬림 전기 압력밥솥 6인용",
+  "price": 128250,
+  "reviews": 10984,
+  "link": "https://link.coupang.com/a/itzSG8AagC",
+  "tier": "high",
+  "use": true,
+  "kind": "압력밥솥"
  }
 ]
