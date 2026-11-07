@@ -10438,3 +10438,21 @@
 {"id": 136, "step": "skip", "why": "min gap", "t": "2026-11-07 00:50:21Z"}
 {"id": 143, "step": "skip", "why": "min gap", "t": "2026-11-07 00:50:21Z"}
 {"id": 151, "step": "skip", "why": "min gap", "t": "2026-11-07 00:50:21Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-07 00:54:38Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-07 00:54:39Z"}
+{"step": "refill-add", "id": 162, "product": 87, "at": "2026-11-09 11:12", "style": "질문형", "t": "2026-11-07 00:54:46Z"}
+{"step": "refill-add", "id": 163, "product": 85, "at": "2026-11-09 14:40", "style": "가치형", "t": "2026-11-07 00:54:47Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-07 00:54:52Z"}
+{"step": "refill-add", "id": 164, "product": 97, "at": "2026-11-09 17:12", "style": "전환형", "t": "2026-11-07 00:54:54Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-07 00:54:56Z"}
+{"step": "refill-add", "id": 165, "product": 88, "at": "2026-11-09 21:10", "style": "공감형", "t": "2026-11-07 00:55:01Z"}
+{"step": "refill-add", "id": 166, "product": 92, "at": "2026-11-09 19:53", "style": "이야기형", "t": "2026-11-07 00:55:02Z"}
+{"step": "refill-add", "id": 167, "product": 89, "at": "2026-11-09 08:23", "style": "발견형", "t": "2026-11-07 00:55:07Z"}
+{"step": "refill-add", "id": 168, "product": 93, "at": "2026-11-09 09:34", "style": "가치형", "t": "2026-11-07 00:55:12Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-07 00:55:12Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-07 00:55:16Z"}
+{"step": "refill-add", "id": 169, "product": 90, "at": "2026-11-09 12:43", "style": "체크리스트형", "t": "2026-11-07 00:55:19Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-07 00:55:20Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-07 00:55:24Z"}
+{"step": "refill-no-text", "day": "2026-11-09", "left": 10, "t": "2026-11-07 00:55:34Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-07 00:55:34Z"}
