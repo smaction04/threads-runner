@@ -11855,3 +11855,14 @@
 {"step": "publish-timing", "kind": "reply", "gap_sec": 25.1, "attempts": 1, "t": "2026-11-08 02:31:26Z"}
 {"id": 145, "step": "reply", "reply_id": "18160860121506773", "t": "2026-11-08 02:31:26Z"}
 {"id": 145, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DfdsBPyFEFz", "t": "2026-11-08 02:31:26Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-08 02:40:21Z"}
+{"step": "status", "due": [142, 144, 146, 147, 149, 150, 152, 156, 159], "pending": 45, "t": "2026-11-08 02:40:21Z"}
+{"id": 147, "step": "skip", "why": "min gap", "t": "2026-11-08 02:40:21Z"}
+{"id": 142, "step": "skip", "why": "min gap", "t": "2026-11-08 02:40:21Z"}
+{"id": 149, "step": "skip", "why": "min gap", "t": "2026-11-08 02:40:21Z"}
+{"id": 144, "step": "skip", "why": "min gap", "t": "2026-11-08 02:40:21Z"}
+{"id": 150, "step": "skip", "why": "min gap", "t": "2026-11-08 02:40:21Z"}
+{"id": 146, "step": "skip", "why": "min gap", "t": "2026-11-08 02:40:21Z"}
+{"id": 159, "step": "skip", "why": "min gap", "t": "2026-11-08 02:40:21Z"}
+{"id": 156, "step": "skip", "why": "min gap", "t": "2026-11-08 02:40:21Z"}
+{"id": 152, "step": "skip", "why": "min gap", "t": "2026-11-08 02:40:21Z"}
