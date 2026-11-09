@@ -114,6 +114,8 @@ def valid(t, prod=None):
     for l in lines:
         if re.search(r"후기|리뷰|구매평|별점|평점", l) and any(rv <= 0 or n.strip() != f"{rv:,}" for n in re.findall(r"\d[\d,.]*\s*[만천]?", l)):
             return False
+    if re.search(r"써 ?보니|써 ?봤|직접 ?써|직접 ?사용", t):
+        return False
     if re.search(r"[#＃]", t) or re.search(r"[A-Za-z0-9\-]+\s*\.\s*[A-Za-z]{2,}", t) or re.search(r"https?:|www\.|://", t, re.I):
         return False
     return True
@@ -138,8 +140,8 @@ def make_text(prod, recent, style, at):
         *(["[비싼 상품 규칙]", HIGH_RULE, f"[상품명] {prod['name']}"] if high else []),
         f"[이번 글의 형식: {style}]", rule,
         f"[상품 종류] {kind}",
-        *(["[고르는 법 한 줄] 글 안에 이 종류 물건을 살 때 확인할 점 한 가지를 '살 때 ~부터 봐' 같은 한 줄로 넣는다. 이 상품이 그 점을 갖췄다고 말하지 않는다. 줄 수와 길이는 위 형식·[공통 규칙] 그대로 지킨다."] if style not in NO_TIP else []),
-        *([f"[후기 수] {rv:,}개. 쓰려면 '후기 {rv:,}개'처럼 이 숫자 그대로만 쓴다. 별점·후기 내용은 지어내지 않는다."] if rv and style not in NO_COUNT else []),
+        *(["[고르는 법 한 줄] 글 안에 이 종류 물건을 살 때 확인할 점 한 가지를 '나는 이런 건 살 때 ~부터 봐'처럼 내 기준을 말하는 한 줄로 넣는다같은 말투·기준으로 일관되게 쓴다. 이 상품이 그 점을 갖췄다고 말하지 않는다. 줄 수와 길이는 위 형식·[공통 규칙] 그대로 지킨다."] if style not in NO_TIP else []),
+        *([f"[후기 수] {rv:,}개. 쓰려면 '후기 {rv:,}개'처럼 이 숫자 그대로만 쓴다. 별점·후기 내용은 지어내지 않는다. 자격을 보일 땐 '후기 {rv:,}개 읽어 보니'처럼 우리가 실제로 한 일(후기 읽기)로만 말하고, '써 보니·써 봤는데·직접 써 보니' 같은 사용 경험은 쓰지 않는다."] if rv and style not in NO_COUNT else []),
         *([f"[실제 후기에 자주 나온 말] {prod['review_note']} (쓰려면 이 말 그대로 따옴표로)"] if prod.get("review_note") else []),
         "[이미 쓴 글: 첫 줄과 표현이 겹치지 않게 새로 쓸 것]",
         "\n---\n".join(recent[-8:]),
