@@ -15115,3 +15115,10 @@
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-10 22:50:25Z"}
 {"step": "status", "due": [172, 173, 174, 175, 176, 177, 178, 179, 180, 181], "pending": 37, "t": "2026-11-10 22:50:25Z"}
 {"id": 173, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-10 22:50:25Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-10 23:00:40Z"}
+{"step": "status", "due": [172, 173, 174, 175, 176, 177, 178, 179, 180, 181], "pending": 37, "t": "2026-11-10 23:00:40Z"}
+{"step": "publish-timing", "kind": "post", "gap_sec": 20.4, "attempts": 1, "t": "2026-11-10 23:01:06Z"}
+{"id": 173, "step": "post", "post_id": "18114239879179199", "t": "2026-11-10 23:01:06Z"}
+{"step": "publish-timing", "kind": "reply", "gap_sec": 23.3, "attempts": 1, "t": "2026-11-10 23:01:40Z"}
+{"id": 173, "step": "reply", "reply_id": "18197287987395399", "t": "2026-11-10 23:01:40Z"}
+{"id": 173, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DflCZFfj8dt", "t": "2026-11-10 23:01:42Z"}
