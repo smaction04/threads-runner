@@ -15091,3 +15091,6 @@
 {"step": "refill-add", "id": 211, "product": 121, "at": "2026-11-14 17:01", "style": "전환형", "t": "2026-11-10 21:47:19Z"}
 {"step": "refill-no-product", "day": "2026-11-14", "left": 4, "t": "2026-11-10 21:47:19Z"}
 {"step": "refill-done", "added": 0, "t": "2026-11-10 21:47:19Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-10 21:50:23Z"}
+{"step": "status", "due": [172, 173, 174, 175, 176, 177, 178, 179, 180, 181], "pending": 37, "t": "2026-11-10 21:50:23Z"}
+{"id": 173, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-10 21:50:23Z"}
