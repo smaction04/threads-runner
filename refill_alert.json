@@ -2,6 +2,6 @@
  "reason": "refill-no-product",
  "day": "2026-11-14",
  "at": 1794325632,
- "followup": false,
+ "followup": true,
  "sent": true
 }
