@@ -16199,3 +16199,14 @@
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-11 18:40:22Z"}
 {"step": "status", "due": [182, 183, 184, 185, 186, 187, 188, 189, 190], "pending": 27, "t": "2026-11-11 18:40:22Z"}
 {"id": 184, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-11 18:40:22Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-11 18:47:19Z"}
+{"step": "refill-reject", "prod": 133, "dup": false, "n": 124, "text": "환절기마다 아침에 뭘 걸쳐야 할지 고민되던 번거로움이 싹 사라짐\n경량패딩 살 때 가볍고 따뜻한지부터 봐\n김영주스포츠 남성 웰론 경량 패딩 점퍼 MJ100 입으니까 간절기 외출이 편해짐\n후기 3,747개인데 써본 사람 있어?", "t": "2026-11-11 18:47:24Z"}
+{"step": "refill-add", "id": 209, "product": 133, "at": "2026-11-14 13:43", "style": "가치형", "t": "2026-11-11 18:47:24Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-11 18:47:27Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 118, "text": "바닥에 먼지 쌓이고 발에 차가운 기운 닿던 번거로움이 싹 사라짐\n러그 살 때 밀림 방지 잘 되고 세탁 편한지부터 봐\n호이데코 워셔블 코지 러그 깔아두니 방 안 분위기가 포근해짐\n후기 789개인데 써본 사람 있어?", "t": "2026-11-11 18:47:28Z"}
+{"step": "refill-add", "id": 210, "product": 137, "at": "2026-11-14 10:55", "style": "가치형", "t": "2026-11-11 18:47:28Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-11 18:47:29Z"}
+{"step": "refill-reject", "prod": 121, "dup": false, "n": 133, "text": "집에서 운동할 때마다 소음 신경 쓰고 층간 소음 걱정하던 번거로움이 싹 사라짐\n실내자전거 살 때 소리 안 나고 튼튼한지부터 봐\nBBK-112 가정용 무소음 실내자전거 타니까 밤에도 조용하게 운동하게 됨\n집콕 운동 시작할지 말지 고민 중임?", "t": "2026-11-11 18:47:34Z"}
+{"step": "refill-add", "id": 211, "product": 121, "at": "2026-11-14 19:59", "style": "전환형", "t": "2026-11-11 18:47:34Z"}
+{"step": "refill-no-product", "day": "2026-11-14", "left": 4, "t": "2026-11-11 18:47:34Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-11 18:47:34Z"}
