@@ -16836,3 +16836,10 @@
 {"step": "refill-add", "id": 210, "product": 137, "at": "2026-11-14 08:09", "style": "이야기형", "t": "2026-11-12 07:06:34Z"}
 {"step": "refill-no-product", "day": "2026-11-14", "left": 4, "t": "2026-11-12 07:06:34Z"}
 {"step": "refill-done", "added": 0, "t": "2026-11-12 07:06:34Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-12 07:10:22Z"}
+{"step": "status", "due": [185, 186, 191, 193, 195, 197, 198, 199], "pending": 20, "t": "2026-11-12 07:10:22Z"}
+{"step": "publish-timing", "kind": "post", "gap_sec": 15.3, "attempts": 1, "t": "2026-11-12 07:10:41Z"}
+{"id": 185, "step": "post", "post_id": "18080681558554708", "t": "2026-11-12 07:10:41Z"}
+{"step": "publish-timing", "kind": "reply", "gap_sec": 35.3, "attempts": 1, "t": "2026-11-12 07:11:28Z"}
+{"id": 185, "step": "reply", "reply_id": "18122213677759951", "t": "2026-11-12 07:11:28Z"}
+{"id": 185, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DfofOjOEROu", "t": "2026-11-12 07:11:29Z"}
