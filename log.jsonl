@@ -17239,3 +17239,13 @@
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-12 15:40:24Z"}
 {"step": "status", "due": [191, 192, 193, 194, 195, 196, 198, 199], "pending": 17, "t": "2026-11-12 15:40:24Z"}
 {"id": 195, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-12 15:40:24Z"}
+{"step": "refill-reject", "prod": 133, "dup": false, "n": 128, "text": "환절기마다 아침에 뭘 입어야 할지 고민하던 번거로움이 싹 사라짐\n경량패딩 살 때 가볍고 보온성 좋은지부터 봐\n김영주스포츠 남성 웰론 경량 패딩 점퍼 MJ100 입으니까 간절기 외출이 가벼워짐\n후기 3,747개인데 써본 사람 있어?", "t": "2026-11-12 15:47:15Z"}
+{"step": "refill-add", "id": 209, "product": 133, "at": "2026-11-14 18:08", "style": "가치형", "t": "2026-11-12 15:47:15Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-12 15:47:22Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 129, "text": "바닥에 먼지 쌓이고 발에 차가운 기운 돌던 번거로움이 싹 사라짐\n러그 살 때 밀림 방지 잘 되고 세탁 편한지부터 봐\n호이데코 워셔블 코지 러그 깔아두니 거실 분위기가 아늑해짐\n교체할지 말지 고민 중이라면 이 방식을 쓰는 것도 괜찮음", "t": "2026-11-12 15:47:28Z"}
+{"step": "refill-add", "id": 210, "product": 137, "at": "2026-11-14 12:38", "style": "이야기형", "t": "2026-11-12 15:47:28Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-12 15:47:28Z"}
+{"step": "refill-reject", "prod": 122, "dup": false, "n": 125, "text": "화장실 갈 때마다 찝찝하고 개운하지 않던 번거로움이 싹 사라짐\n비데 살 때 물청소 편하고 방수 잘 되는지부터 봐\nMunjjing IPX5 방수 비데 B358C 쓰니까 뒷마무리까지 상쾌해짐\n욕실 환경을 바꿀지 말지 고민 중임?", "t": "2026-11-12 15:47:29Z"}
+{"step": "refill-add", "id": 211, "product": 122, "at": "2026-11-14 21:52", "style": "전환형", "t": "2026-11-12 15:47:29Z"}
+{"step": "refill-no-product", "day": "2026-11-14", "left": 4, "t": "2026-11-12 15:47:29Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-12 15:47:29Z"}
