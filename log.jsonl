@@ -17282,3 +17282,16 @@
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-12 17:30:31Z"}
 {"step": "status", "due": [191, 192, 193, 194, 195, 196, 198, 199], "pending": 17, "t": "2026-11-12 17:30:31Z"}
 {"id": 195, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-12 17:30:31Z"}
+{"step": "refill-reject", "prod": 133, "dup": false, "n": 125, "text": "환절기마다 아침에 뭘 걸쳐야 할지 고민되던 번거로움이 싹 사라짐\n경량패딩 살 때 가볍고 따뜻한지부터 봐\n김영주스포츠 남성 웰론 경량 패딩 점퍼 MJ100 입으니까 가볍게 외출하기 편해짐\n후기 3,747개인데 써본 사람 있어?", "t": "2026-11-12 17:34:47Z"}
+{"step": "refill-add", "id": 209, "product": 133, "at": "2026-11-14 09:57", "style": "가치형", "t": "2026-11-12 17:34:47Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-12 17:34:57Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-12 17:35:20Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-12 17:35:37Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 131, "text": "거실 바닥이 차갑고 먼지 날려서 뒹굴기 불편하던 번거로움이 싹 사라짐\n러그 살 때 세탁 편하고 피부에 닿는 촉감 부드러운지부터 봐\n호이데코 워셔블 코지 러그 깔아두니까 맨발로 밟는 느낌이 포근해짐\n거실 분위기를 바꿀지 말지 고민 중임?", "t": "2026-11-12 17:35:43Z"}
+{"step": "refill-add", "id": 210, "product": 137, "at": "2026-11-14 11:11", "style": "전환형", "t": "2026-11-12 17:35:43Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-12 17:35:48Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-12 17:35:53Z"}
+{"step": "refill-reject", "prod": 121, "dup": false, "n": 123, "text": "밤마다 운동 나가기 귀찮고 날씨 눈치 보던 번거로움이 싹 사라짐\n실내자전거 살 때 소음 안 나고 튼튼한지부터 봐\nBBK-112 가정용 무소음 실내자전거 두니까 집에서 편하게 타게 됨\n후기 2,544개인데 써본 사람 있어?", "t": "2026-11-12 17:35:58Z"}
+{"step": "refill-add", "id": 211, "product": 121, "at": "2026-11-14 14:58", "style": "가치형", "t": "2026-11-12 17:35:58Z"}
+{"step": "refill-no-product", "day": "2026-11-14", "left": 4, "t": "2026-11-12 17:35:58Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-12 17:35:58Z"}
