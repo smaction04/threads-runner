@@ -17316,3 +17316,12 @@
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-12 18:40:23Z"}
 {"step": "status", "due": [191, 192, 193, 194, 195, 196, 198, 199], "pending": 17, "t": "2026-11-12 18:40:23Z"}
 {"id": 195, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-12 18:40:23Z"}
+{"step": "refill-reject", "prod": 133, "dup": false, "n": 129, "text": "환절기마다 아침에 뭘 입어야 할지 고민하던 번거로움이 싹 사라짐\n경량패딩 살 때 충전재 빵빵하고 가벼운지부터 봐\n김영주스포츠 남성 웰론 경량 패딩 점퍼 MJ100 입으니까 간절기 외출이 편해짐\n후기 3,747개인데 써본 사람 있어?", "t": "2026-11-12 18:47:21Z"}
+{"step": "refill-add", "id": 209, "product": 133, "at": "2026-11-14 15:44", "style": "가치형", "t": "2026-11-12 18:47:21Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 120, "text": "바닥에 먼지 쌓이고 발에 닿는 촉감이 찝찝하던 번거로움이 싹 사라짐\n러그 살 때 세탁하기 편하고 두께감 적당한지부터 봐\n호이데코 워셔블 코지 러그 깔아두니까 거실 분위기가 아늑해짐\n후기 789개인데 써본 사람 있어?", "t": "2026-11-12 18:47:28Z"}
+{"step": "refill-add", "id": 210, "product": 137, "at": "2026-11-14 10:40", "style": "가치형", "t": "2026-11-12 18:47:28Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-12 18:47:35Z"}
+{"step": "refill-reject", "prod": 121, "dup": false, "n": 127, "text": "집에서 층간소음 신경 쓰느라 운동 못 하던 번거로움이 싹 사라짐\n실내자전거 살 때 소음 안 나고 안정적인지부터 봐\nBBK-112 가정용 무소음 실내자전거 타니까 집에서도 편하게 운동하게 됨\n실내 운동을 시작할지 말지 고민 중임?", "t": "2026-11-12 18:47:44Z"}
+{"step": "refill-add", "id": 211, "product": 121, "at": "2026-11-14 16:58", "style": "전환형", "t": "2026-11-12 18:47:44Z"}
+{"step": "refill-no-product", "day": "2026-11-14", "left": 4, "t": "2026-11-12 18:47:44Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-12 18:47:44Z"}
