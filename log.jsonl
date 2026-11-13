@@ -17978,3 +17978,14 @@
 {"id": 202, "step": "skip", "why": "daily cap", "t": "2026-11-13 09:40:23Z"}
 {"id": 205, "step": "skip", "why": "daily cap", "t": "2026-11-13 09:40:23Z"}
 {"id": 201, "step": "skip", "why": "daily cap", "t": "2026-11-13 09:40:23Z"}
+{"step": "refill-reject", "prod": 133, "dup": false, "n": 130, "text": "환절기마다 아침에 뭘 걸쳐야 할지 고민되던 번거로움이 싹 사라짐\n경량패딩 살 때 가볍고 따뜻하게 감싸주는지부터 봐\n김영주스포츠 남성 웰론 경량 패딩 점퍼 MJ100 입으니까 간절기 외출이 편해짐\n후기 3,747개인데 써본 사람 있어?", "t": "2026-11-13 09:47:16Z"}
+{"step": "refill-add", "id": 209, "product": 133, "at": "2026-11-14 18:38", "style": "가치형", "t": "2026-11-13 09:47:16Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-13 09:47:25Z"}
+{"step": "refill-reject", "prod": 121, "dup": false, "n": 144, "text": "거실에서 TV 보거나 책 읽을 때 가만히 앉아 있기만 하던 번거로움이 싹 사라짐\n실내자전거 살 때 소음 안 나고 튼튼한지부터 봐\n후기 2,544개 읽어 보니 집에서 조용히 운동하기 좋다더라\n실내 운동을 시작할지 말지 고민 중이라면 이 방식을 쓰는 것도 괜찮음", "t": "2026-11-13 09:47:28Z"}
+{"step": "refill-reject", "prod": 121, "dup": false, "n": 127, "text": "퇴근하고 운동 가려니 귀찮고 헬스장 가기 번거롭던 일이 싹 사라짐\n실내자전거 살 때 소음 안 나고 튼튼한지부터 봐\nBBK-112 가정용 무소음 실내자전거 두니까 집에서 편하게 타게 됨\n밤마다 홈트 고민 중이라면 이 정도면 괜찮음", "t": "2026-11-13 09:47:29Z"}
+{"step": "refill-add", "id": 210, "product": 121, "at": "2026-11-14 20:18", "style": "이야기형", "t": "2026-11-13 09:47:29Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-13 09:47:30Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 132, "text": "발바닥 차갑고 먼지 날려서 청소할 때마다 찝찝하던 번거로움이 싹 사라짐\n러그 살 때 세탁하기 편하고 피부에 닿는 촉감 부드러운지부터 봐\n호이데코 워셔블 코지 러그 깔아두니까 거실에서 맨발로 다니기 포근해짐\n러그를 바꿀지 말지 고민 중임?", "t": "2026-11-13 09:47:32Z"}
+{"step": "refill-add", "id": 211, "product": 137, "at": "2026-11-14 12:26", "style": "전환형", "t": "2026-11-13 09:47:32Z"}
+{"step": "refill-no-product", "day": "2026-11-14", "left": 4, "t": "2026-11-13 09:47:32Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-13 09:47:32Z"}
