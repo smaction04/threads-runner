@@ -18297,3 +18297,11 @@
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-13 18:40:23Z"}
 {"step": "status", "due": [201, 202, 204, 205, 206, 207, 208], "pending": 10, "t": "2026-11-13 18:40:23Z"}
 {"id": 206, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-13 18:40:23Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 118, "text": "거실 바닥에 앉을 때마다 차갑고 딱딱해서 배기던 번거로움이 싹 사라짐\n러그 살 때 세탁 편하고 도톰한지부터 봐\n후기 789개 읽어 보니 맨발로 지내기 편하다더라\n바닥 생활을 바꿀지 고민 중이라면 이 제품도 괜찮음", "t": "2026-11-13 18:47:17Z"}
+{"step": "refill-add", "id": 212, "product": 137, "at": "2026-11-14 08:44", "style": "이야기형", "t": "2026-11-13 18:47:17Z"}
+{"step": "refill-no-product", "day": "2026-11-14", "left": 1, "t": "2026-11-13 18:47:17Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-13 18:47:18Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 120, "text": "거실 바닥에 앉을 때마다 차갑고 배기던 번거로움이 싹 사라짐\n러그 살 때 먼지 안 나고 세탁 편한지부터 봐\n후기 789개 읽어 보니 맨발로 뒹굴기 좋다더라\n러그를 깔지 말지 고민 중이라면 이 방식을 쓰는 것도 괜찮음", "t": "2026-11-13 18:47:19Z"}
+{"step": "refill-add", "id": 212, "product": 137, "at": "2026-11-17 14:40", "style": "이야기형", "t": "2026-11-13 18:47:19Z"}
+{"step": "refill-no-product", "day": "2026-11-17", "left": 1, "t": "2026-11-13 18:47:19Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-13 18:47:19Z"}
