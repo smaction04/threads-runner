@@ -17830,3 +17830,10 @@
 {"step": "refill-add", "id": 211, "product": 121, "at": "2026-11-14 14:48", "style": "전환형", "t": "2026-11-13 06:39:45Z"}
 {"step": "refill-no-product", "day": "2026-11-14", "left": 4, "t": "2026-11-13 06:39:45Z"}
 {"step": "refill-done", "added": 0, "t": "2026-11-13 06:39:45Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-13 06:40:22Z"}
+{"step": "status", "due": [192, 200, 202, 203, 206], "pending": 10, "t": "2026-11-13 06:40:22Z"}
+{"id": 192, "step": "skip", "why": "min gap", "t": "2026-11-13 06:40:22Z"}
+{"id": 200, "step": "skip", "why": "min gap", "t": "2026-11-13 06:40:22Z"}
+{"id": 203, "step": "skip", "why": "min gap", "t": "2026-11-13 06:40:22Z"}
+{"id": 206, "step": "skip", "why": "min gap", "t": "2026-11-13 06:40:22Z"}
+{"id": 202, "step": "skip", "why": "min gap", "t": "2026-11-13 06:40:22Z"}
