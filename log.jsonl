@@ -18668,3 +18668,11 @@
 {"id": 208, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/Dftg0uiFi7g", "t": "2026-11-14 06:01:24Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-14 06:10:23Z"}
 {"step": "status", "due": [], "pending": 3, "t": "2026-11-14 06:10:23Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-14 06:16:43Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 128, "text": "거실 바닥에 앉을 때마다 차가운 기운 올라오고 배기던 번거로움이 싹 사라짐\n러그 살 때 밀림 방지랑 세탁 편한지부터 봐\n후기 789개 읽어 보니 맨발로 지내기 편하다더라\n바닥에 앉아 있는 시간이 많다면 이 러그를 두는 것도 괜찮음", "t": "2026-11-14 06:16:48Z"}
+{"step": "refill-add", "id": 212, "product": 137, "at": "2026-11-14 22:18", "style": "이야기형", "t": "2026-11-14 06:16:48Z"}
+{"step": "refill-no-product", "day": "2026-11-14", "left": 1, "t": "2026-11-14 06:16:48Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 122, "text": "바닥에 먼지 쌓이고 발에 닿는 느낌 차가워서 찌뿌둥하던 번거로움이 싹 사라짐\n러그 살 때 세탁 편하고 도톰한지부터 봐\n후기 789개 읽어 보니 맨발로 딛기 편하다더라\n러그를 둘지 말지 고민 중이라면 깔아두는 것도 괜찮음", "t": "2026-11-14 06:16:53Z"}
+{"step": "refill-add", "id": 212, "product": 137, "at": "2026-11-17 08:52", "style": "이야기형", "t": "2026-11-14 06:16:53Z"}
+{"step": "refill-no-product", "day": "2026-11-17", "left": 1, "t": "2026-11-14 06:16:53Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-14 06:16:53Z"}
