@@ -18727,3 +18727,14 @@
 {"step": "status", "due": [], "pending": 3, "t": "2026-11-14 09:30:29Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-14 09:40:21Z"}
 {"step": "status", "due": [], "pending": 3, "t": "2026-11-14 09:40:21Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-14 09:47:17Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-14 09:47:18Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-14 09:47:28Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-14 09:47:34Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 133, "text": "거실 바닥에 앉을 때마다 차갑고 딱딱해서 배기던 번거로움이 싹 사라짐\n러그 살 때 세탁하기 편하고 촉감 부드러운지부터 봐\n후기 789개 읽어 보니 맨발로 지내기 편하다더라\n바닥 생활을 바꿀지 말지 고민 중이라면 이 러그를 두는 것도 괜찮음", "t": "2026-11-14 09:47:35Z"}
+{"step": "refill-add", "id": 212, "product": 137, "at": "2026-11-14 21:04", "style": "이야기형", "t": "2026-11-14 09:47:35Z"}
+{"step": "refill-no-product", "day": "2026-11-14", "left": 1, "t": "2026-11-14 09:47:35Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 124, "text": "바닥에 먼지 날리고 발 시려서 맨발로 걷기 꺼려지던 번거로움이 싹 사라짐\n러그 살 때 세탁 편하고 도톰한지부터 봐\n후기 789개 읽어 보니 맨발로 밟기 편하다더라\n러그를 둘지 말지 고민 중이라면 이 방식을 쓰는 것도 괜찮음", "t": "2026-11-14 09:47:37Z"}
+{"step": "refill-add", "id": 212, "product": 137, "at": "2026-11-17 10:36", "style": "이야기형", "t": "2026-11-14 09:47:37Z"}
+{"step": "refill-no-product", "day": "2026-11-17", "left": 1, "t": "2026-11-14 09:47:37Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-14 09:47:37Z"}
