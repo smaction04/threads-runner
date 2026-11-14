@@ -18825,3 +18825,7 @@
 {"step": "status", "due": [], "pending": 3, "t": "2026-11-14 15:30:31Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-14 15:40:22Z"}
 {"step": "status", "due": [], "pending": 3, "t": "2026-11-14 15:40:22Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 114, "text": "맨발로 바닥 걸을 때마다 차갑고 휑하던 번거로움이 싹 사라짐\n러그 살 때 밀림 방지랑 세탁 편한지부터 봐\n후기 789개 읽어 보니 마감 튼튼하다더라\n바닥 분위기를 바꿀지 고민 중이라면 깔아보는 것도 괜찮음", "t": "2026-11-14 15:47:13Z"}
+{"step": "refill-add", "id": 212, "product": 137, "at": "2026-11-17 13:37", "style": "이야기형", "t": "2026-11-14 15:47:13Z"}
+{"step": "refill-no-product", "day": "2026-11-17", "left": 1, "t": "2026-11-14 15:47:13Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-14 15:47:13Z"}
