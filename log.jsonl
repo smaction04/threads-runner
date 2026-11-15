@@ -19087,3 +19087,13 @@
 {"step": "status", "due": [], "pending": 2, "t": "2026-11-15 09:30:29Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-15 09:40:22Z"}
 {"step": "status", "due": [], "pending": 2, "t": "2026-11-15 09:40:22Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-15 09:47:14Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-15 09:47:15Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 141, "text": "바닥에 먼지나 머리카락 날려서 밟을 때마다 찝찝하던 번거로움이 싹 사라짐\n러그 살 때 세탁하기 편하고 촉감 부드러운지부터 봐\n호이데코 워셔블 코지 러그 깔아두니까 거실에 누워있기 편해짐\n후기 789개 읽어 보니 마음에 걸린다면 한번 깔아보는 것도 괜찮음", "t": "2026-11-15 09:47:15Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 152, "text": "바닥에 먼지랑 머리카락 굴러다녀서 맨발로 걷기 찝찝하던 번거로움이 싹 사라짐\n러그 살 때 세탁하기 편하고 촉감 부드러운지부터 봐\n호이데코 워셔블 코지 러그 깔아두니까 방 안이 아늑해짐\n후기 789개 읽어 보니 마감 깔끔하다더라\n러그를 바꿀지 고민 중이라면 이 제품도 괜찮음", "t": "2026-11-15 09:47:17Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-15 09:47:18Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-15 09:47:18Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 126, "text": "바닥에 먼지 쌓이고 발에 닿는 느낌 차가워서 찌뿌둥하던 번거로움이 싹 사라짐\n러그 살 때 세탁 편하고 도톰한지부터 봐\n후기 789개 읽어 보니 마감 깔끔하고 쓰기 편하다더라\n러그를 깔아둘지 말지 고민 중이라면 이 제품도 괜찮음", "t": "2026-11-15 09:47:20Z"}
+{"step": "refill-add", "id": 212, "product": 137, "at": "2026-11-17 11:05", "style": "이야기형", "t": "2026-11-15 09:47:20Z"}
+{"step": "refill-no-product", "day": "2026-11-17", "left": 1, "t": "2026-11-15 09:47:20Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-15 09:47:20Z"}
