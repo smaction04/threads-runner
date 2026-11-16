@@ -1408,272 +1408,299 @@
  },
  {
   "id": 139,
-  "name": "세타필 모이스춰라이징 로션, 591ml, 1개",
+  "name": "세타필 모이스춰라이징 로션 591ml",
   "price": 12360,
   "reviews": 242443,
   "link": "https://link.coupang.com/a/iI6J44YQSa",
   "tier": "high",
   "use": true,
-  "kind": "바디로션"
+  "kind": "바디로션",
+  "full_name": "세타필 모이스춰라이징 로션, 591ml, 1개"
  },
  {
   "id": 140,
-  "name": "귤탐 당도선별 11Brix 감귤, 2kg(로열과), 1개",
+  "name": "귤탐 당도선별 감귤 2kg",
   "price": 12990,
   "reviews": 146777,
   "link": "https://link.coupang.com/a/iI6LEqbbRA",
   "tier": "high",
   "use": true,
-  "kind": "귤"
+  "kind": "귤",
+  "full_name": "귤탐 당도선별 11Brix 감귤, 2kg(로열과), 1개"
  },
  {
   "id": 141,
-  "name": "케라시스 퍼퓸 샴푸 러블리 앤 로맨틱향, 980ml, 3개",
+  "name": "케라시스 퍼퓸 샴푸 980ml 3개",
   "price": 15950,
   "reviews": 137391,
   "link": "https://link.coupang.com/a/iI6MtnirHo",
   "tier": "high",
   "use": true,
-  "kind": "샴푸"
+  "kind": "샴푸",
+  "full_name": "케라시스 퍼퓸 샴푸 러블리 앤 로맨틱향, 980ml, 3개"
  },
  {
   "id": 142,
-  "name": "미쟝센 퍼펙트 오리지널 헤어 세럼, 80ml, 1개",
+  "name": "미쟝센 퍼펙트 헤어 세럼 80ml",
   "price": 8310,
   "reviews": 104091,
   "link": "https://link.coupang.com/a/iI6Nhy3tqS",
   "tier": "high",
   "use": true,
-  "kind": "헤어에센스"
+  "kind": "헤어에센스",
+  "full_name": "미쟝센 퍼펙트 오리지널 헤어 세럼, 80ml, 1개"
  },
  {
   "id": 143,
-  "name": "밀크바오밥 바디워시 화이트머스크향, 1L, 1개",
+  "name": "밀크바오밥 바디워시 1L",
   "price": 11810,
   "reviews": 100991,
   "link": "https://link.coupang.com/a/iI6N4Dobym",
   "tier": "high",
   "use": true,
-  "kind": "바디워시"
+  "kind": "바디워시",
+  "full_name": "밀크바오밥 바디워시 화이트머스크향, 1L, 1개"
  },
  {
   "id": 144,
-  "name": "아임리빙 중량업 블랙라인 호텔용 마이크로필에버 베개솜 지퍼형, 화이트, 2개",
+  "name": "아임리빙 호텔용 베개솜 2개",
   "price": 17190,
   "reviews": 51285,
   "link": "https://link.coupang.com/a/iI6OQjyfn2",
   "tier": "high",
   "use": true,
-  "kind": "베개"
+  "kind": "베개",
+  "full_name": "아임리빙 중량업 블랙라인 호텔용 마이크로필에버 베개솜 지퍼형, 화이트, 2개"
  },
  {
   "id": 145,
-  "name": "더자리 마이블랭킷 극세사 담요",
+  "name": "더자리 극세사 담요",
   "price": 5200,
   "reviews": 49985,
   "link": "https://link.coupang.com/a/iI6PCFcwPA",
   "tier": "high",
   "use": true,
-  "kind": "담요"
+  "kind": "담요",
+  "full_name": "더자리 마이블랭킷 극세사 담요"
  },
  {
   "id": 146,
-  "name": "AHC 슈프림 리얼 아이크림 포 페이스, 30ml, 2개",
+  "name": "AHC 아이크림 포 페이스 2개",
   "price": 17000,
   "reviews": 24915,
   "link": "https://link.coupang.com/a/iI6QoXGrdY",
   "tier": "high",
   "use": true,
-  "kind": "아이크림"
+  "kind": "아이크림",
+  "full_name": "AHC 슈프림 리얼 아이크림 포 페이스, 30ml, 2개"
  },
  {
   "id": 147,
-  "name": "리빙선데이 스마트 6종 채칼 세트, 혼합색상, 1세트",
+  "name": "리빙선데이 6종 채칼 세트",
   "price": 7570,
   "reviews": 17952,
   "link": "https://link.coupang.com/a/iI6RbisGyG",
   "tier": "high",
   "use": true,
-  "kind": "채칼"
+  "kind": "채칼",
+  "full_name": "리빙선데이 스마트 6종 채칼 세트, 혼합색상, 1세트"
  },
  {
   "id": 148,
-  "name": "코멧 4단 책장선반, 화이트",
+  "name": "코멧 4단 책장선반",
   "price": 24650,
   "reviews": 32398,
   "link": "https://link.coupang.com/a/iI6RZbBAXI",
   "tier": "high",
   "use": true,
-  "kind": "책장"
+  "kind": "책장",
+  "full_name": "코멧 4단 책장선반, 화이트"
  },
  {
   "id": 149,
-  "name": "행거전문가 튼튼한 고정식 옷걸이행거 와이드2단 38mm, 화이트",
+  "name": "행거전문가 와이드 2단 행거",
   "price": 40800,
   "reviews": 15028,
   "link": "https://link.coupang.com/a/iI6UbkXu2K",
   "tier": "high",
   "use": true,
-  "kind": "행거"
+  "kind": "행거",
+  "full_name": "행거전문가 튼튼한 고정식 옷걸이행거 와이드2단 38mm, 화이트"
  },
  {
   "id": 150,
-  "name": "유세븐 남성용 다이얼 운동화 트래킹화 DM907",
+  "name": "유세븐 다이얼 트래킹화",
   "price": 31460,
   "reviews": 8774,
   "link": "https://link.coupang.com/a/iI6UXk69dI",
   "tier": "high",
   "use": true,
-  "kind": "등산화"
+  "kind": "등산화",
+  "full_name": "유세븐 남성용 다이얼 운동화 트래킹화 DM907"
  },
  {
   "id": 151,
-  "name": "케이투세이프티 BOA 안전화 K2-67S",
+  "name": "케이투세이프티 BOA 안전화",
   "price": 90200,
   "reviews": 8017,
   "link": "https://link.coupang.com/a/iI6VJJ2WZg",
   "tier": "high",
   "use": true,
-  "kind": "안전화"
+  "kind": "안전화",
+  "full_name": "케이투세이프티 BOA 안전화 K2-67S"
  },
  {
   "id": 152,
-  "name": "밴프 시그니처 릴렉스 캠핑의자 특대, 블랙, 1개",
+  "name": "밴프 릴렉스 캠핑의자 특대",
   "price": 44420,
   "reviews": 2568,
   "link": "https://link.coupang.com/a/iI6W9ULC3M",
   "tier": "high",
   "use": true,
-  "kind": "캠핑의자"
+  "kind": "캠핑의자",
+  "full_name": "밴프 시그니처 릴렉스 캠핑의자 특대, 블랙, 1개"
  },
  {
   "id": 153,
-  "name": "코멧 홈 인테리어 가죽 쿠션 원목 디자인 에펠체어, 화이트, 2개",
+  "name": "코멧 원목 에펠체어 2개",
   "price": 44990,
   "reviews": 2097,
   "link": "https://link.coupang.com/a/iI6X1jRWIS",
   "tier": "high",
   "use": true,
-  "kind": "식탁의자"
+  "kind": "식탁의자",
+  "full_name": "코멧 홈 인테리어 가죽 쿠션 원목 디자인 에펠체어, 화이트, 2개"
  },
  {
   "id": 154,
-  "name": "이지고 MPack 스포츠 백팩 노트북가방 학생백팩 대용량 방수",
+  "name": "이지고 스포츠 백팩",
   "price": 32900,
   "reviews": 2024,
   "link": "https://link.coupang.com/a/iI6YNjp2ES",
   "tier": "high",
   "use": true,
-  "kind": "백팩"
+  "kind": "백팩",
+  "full_name": "이지고 MPack 스포츠 백팩 노트북가방 학생백팩 대용량 방수"
  },
  {
   "id": 155,
-  "name": "까사마루 매직파티션 중형, 화이트",
+  "name": "까사마루 매직파티션 중형",
   "price": 47900,
   "reviews": 1612,
   "link": "https://link.coupang.com/a/iI6Zx17ikC",
   "tier": "high",
   "use": true,
-  "kind": "파티션"
+  "kind": "파티션",
+  "full_name": "까사마루 매직파티션 중형, 화이트"
  },
  {
   "id": 156,
-  "name": "삼익가구 레이즈 LED 4단 수납 침대 슈퍼싱글 퀸 SS Q 일반 독립스프링 라텍스, 화이트",
+  "name": "삼익가구 LED 수납 침대",
   "price": 189000,
   "reviews": 6304,
   "link": "https://link.coupang.com/a/iI60kBEnfw",
   "tier": "high",
   "use": true,
-  "kind": "침대프레임"
+  "kind": "침대프레임",
+  "full_name": "삼익가구 레이즈 LED 4단 수납 침대 슈퍼싱글 퀸 SS Q 일반 독립스프링 라텍스, 화이트"
  },
  {
   "id": 157,
-  "name": "위닉스 인버터 컴팩트 건조기 4kg 고객직접설치, HS3P400-OEK, 화이트베이지",
+  "name": "위닉스 컴팩트 건조기 4kg",
   "price": 325130,
   "reviews": 3376,
   "link": "https://link.coupang.com/a/iI605TqtNs",
   "tier": "high",
   "use": true,
-  "kind": "건조기"
+  "kind": "건조기",
+  "full_name": "위닉스 인버터 컴팩트 건조기 4kg 고객직접설치, HS3P400-OEK, 화이트베이지"
  },
  {
   "id": 158,
-  "name": "퓨리얼 직수형 정수기 PPA-100 + 필터 세트, PPA-100 (화이트)",
+  "name": "퓨리얼 직수형 정수기",
   "price": 227000,
   "reviews": 2565,
   "link": "https://link.coupang.com/a/iI61TJR2Si",
   "tier": "high",
   "use": true,
-  "kind": "정수기"
+  "kind": "정수기",
+  "full_name": "퓨리얼 직수형 정수기 PPA-100 + 필터 세트, PPA-100 (화이트)"
  },
  {
   "id": 159,
-  "name": "[27년형 신제품] 한일의료기 탄소매트 프리미엄 카본매트, 그레이, 슈퍼싱글(110 x 200 cm)",
+  "name": "한일의료기 탄소매트",
   "price": 99000,
   "reviews": 1436,
   "link": "https://link.coupang.com/a/iI62Jg48QK",
   "tier": "high",
   "use": true,
-  "kind": "탄소매트"
+  "kind": "탄소매트",
+  "full_name": "[27년형 신제품] 한일의료기 탄소매트 프리미엄 카본매트, 그레이, 슈퍼싱글(110 x 200 cm)"
  },
  {
   "id": 160,
-  "name": "케이컴퍼니 LPM 이음1600장롱세트CD(3서랍옷장+긴문장) 장롱세트, 화이트",
+  "name": "케이컴퍼니 장롱세트",
   "price": 158000,
   "reviews": 1344,
   "link": "https://link.coupang.com/a/iI64av1eQC",
   "tier": "high",
   "use": true,
-  "kind": "옷장"
+  "kind": "옷장",
+  "full_name": "케이컴퍼니 LPM 이음1600장롱세트CD(3서랍옷장+긴문장) 장롱세트, 화이트"
  },
  {
   "id": 161,
-  "name": "파로마 에일리 수납 화장대 600 단품 방문설치, 화이트",
+  "name": "파로마 에일리 수납 화장대",
   "price": 134990,
   "reviews": 618,
   "link": "https://link.coupang.com/a/iI65aMBnC8",
   "tier": "high",
   "use": true,
-  "kind": "화장대"
+  "kind": "화장대",
+  "full_name": "파로마 에일리 수납 화장대 600 단품 방문설치, 화이트"
  },
  {
   "id": 162,
-  "name": "따뜻한 겨울 침구 프리미엄 모노 극세사 차렵이불",
+  "name": "모노 극세사 차렵이불",
   "price": 59800,
   "reviews": 3267,
   "link": "https://link.coupang.com/a/iI7cuoPKAm",
   "tier": "high",
   "use": true,
-  "kind": "극세사이불"
+  "kind": "극세사이불",
+  "full_name": "따뜻한 겨울 침구 프리미엄 모노 극세사 차렵이불"
  },
  {
   "id": 163,
-  "name": "삼익가구 데일 4인용 원목 식탁세트, 03.4인용(의자4), 월넛, 일반의자 4",
+  "name": "삼익가구 데일 4인용 식탁",
   "price": 229000,
   "reviews": 1490,
   "link": "https://link.coupang.com/a/iI7f7RDhWC",
   "tier": "high",
   "use": true,
-  "kind": "식탁"
+  "kind": "식탁",
+  "full_name": "삼익가구 데일 4인용 원목 식탁세트, 03.4인용(의자4), 월넛, 일반의자 4"
  },
  {
   "id": 164,
-  "name": "홈위시 폭800 모션데스크 전동 높이조절 사무용 컴퓨터 책상, 블랙",
+  "name": "홈위시 전동 모션데스크",
   "price": 199000,
   "reviews": 44,
   "link": "https://link.coupang.com/a/iI7gYV4Es8",
   "tier": "high",
   "use": true,
-  "kind": "책상"
+  "kind": "책상",
+  "full_name": "홈위시 폭800 모션데스크 전동 높이조절 사무용 컴퓨터 책상, 블랙"
  },
  {
   "id": 165,
-  "name": "26~27신상 100%정품 호주 에버어그 EVER UGG 사미르 레이스업 어그운동화 부츠 이루웰 호주아저씨 매장직배송 어그브러시 증정",
+  "name": "에버어그 레이스업 어그부츠",
   "price": 154910,
   "reviews": 97,
   "link": "https://link.coupang.com/a/iI7kvMdvem",
   "tier": "high",
   "use": true,
-  "kind": "어그부츠"
+  "kind": "어그부츠",
+  "full_name": "26~27신상 100%정품 호주 에버어그 EVER UGG 사미르 레이스업 어그운동화 부츠 이루웰 호주아저씨 매장직배송 어그브러시 증정"
  }
 ]
