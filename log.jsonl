@@ -19405,3 +19405,7 @@
 {"step": "status", "due": [], "pending": 0, "t": "2026-11-16 06:30:30Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-16 06:40:44Z"}
 {"step": "status", "due": [], "pending": 0, "t": "2026-11-16 06:40:44Z"}
+{"step": "refill-reject", "prod": 137, "dup": false, "n": 121, "text": "거실 바닥에 앉을 때마다 차갑고 엉덩이 배기던 번거로움이 싹 사라짐\n러그 살 때 세탁하기 편하고 두께감 적당한지부터 봐\n후기 789개 읽어 보니 맨발로 지내기 좋다더라\n러그를 깔지 말지 고민 중이라면 이 제품도 괜찮음", "t": "2026-11-16 06:47:14Z"}
+{"step": "refill-add", "id": 212, "product": 137, "at": "2026-11-17 15:11", "style": "이야기형", "t": "2026-11-16 06:47:14Z"}
+{"step": "refill-no-product", "day": "2026-11-17", "left": 1, "t": "2026-11-16 06:47:14Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-16 06:47:14Z"}
