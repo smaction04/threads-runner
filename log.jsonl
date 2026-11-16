@@ -19572,3 +19572,19 @@
 {"step": "status", "due": [], "pending": 12, "t": "2026-11-16 15:30:31Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-16 15:40:26Z"}
 {"step": "status", "due": [], "pending": 12, "t": "2026-11-16 15:40:26Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-16 15:47:12Z"}
+{"step": "refill-reject", "prod": 143, "dup": false, "n": 114, "text": "찬바람 불고 피부가 금세 하얗게 트고 건조해지던 번거로움이 싹 사라짐\n바디워시 살 때 보습 오래가고 향 은은한지부터 봐\n후기 100,991개 읽어 보니 촉촉함이 남다르다더라\n너희도 겨울 준비 미리 마쳤음?", "t": "2026-11-16 15:47:13Z"}
+{"step": "refill-add", "id": 224, "product": 143, "at": "2026-11-20 14:41", "style": "계절형", "t": "2026-11-16 15:47:13Z"}
+{"step": "refill-reject", "prod": 152, "dup": false, "n": 118, "text": "캠핑 가서 앉을 자리 찾고 불편하게 허리 숙이던 번거로움이 싹 사라짐\n캠핑의자 살 때 튼튼하고 오래 앉아도 편한지부터 봐\n밴프 릴렉스 캠핑의자 특대 들여놓으니까 푹 쉬게 됨\n후기 2,568개인데 써본 사람 있어?", "t": "2026-11-16 15:47:13Z"}
+{"step": "refill-add", "id": 225, "product": 152, "at": "2026-11-20 15:54", "style": "가치형", "t": "2026-11-16 15:47:13Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-16 15:47:14Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-16 15:47:15Z"}
+{"step": "refill-reject", "prod": 160, "dup": false, "n": 115, "text": "옷 고를 때마다 공간 부족하고 뒤죽박죽 엉키던 번거로움이 싹 사라짐\n옷장 살 때 수납 넉넉하고 튼튼하게 오래 쓰는지부터 봐\n케이컴퍼니 장롱세트 들여놓으니까 방 안이 깔끔해짐\n너희도 수납공간 부족해서 답답함?", "t": "2026-11-16 15:47:16Z"}
+{"step": "refill-add", "id": 226, "product": 160, "at": "2026-11-20 10:26", "style": "전환형", "t": "2026-11-16 15:47:16Z"}
+{"step": "refill-reject", "prod": 144, "dup": false, "n": 105, "text": "자고 일어나도 목이 뻐근하고 잠 설 치던 번거로움이 싹 사라짐\n베개 살 때 경추 잘 받쳐주고 높이 딱 맞는지부터 봐\n후기 51,285개 읽어 보니 꿀잠 잔다더라\n너네도 이런 건 줄 몰랐지?", "t": "2026-11-16 15:47:16Z"}
+{"step": "refill-add", "id": 227, "product": 144, "at": "2026-11-20 12:17", "style": "발견형", "t": "2026-11-16 15:47:16Z"}
+{"step": "refill-reject", "prod": 153, "dup": false, "n": 126, "text": "식탁에 앉을 때마다 흔들리고 자세가 어정쩡해지던 번거로움이 싹 사라짐\n식탁의자 살 때 몸 잘 받쳐주고 흔들림 없는지부터 봐\n코멧 원목 에펠체어 2개 들여놓으니까 편안하게 기대어 앉게 됨\n후기 2,097개 읽어 보니 튼튼하다더라", "t": "2026-11-16 15:47:18Z"}
+{"step": "refill-add", "id": 228, "product": 153, "at": "2026-11-20 22:37", "style": "이야기형", "t": "2026-11-16 15:47:18Z"}
+{"step": "refill-reject", "prod": 161, "dup": false, "n": 122, "text": "화장할 때마다 물건 굴러떨어지고 자리 부족하던 번거로움이 싹 사라짐\n화장대 살 때 수납 넉넉하고 튼튼하게 오래 쓰는지부터 봐\n파로마 에일리 수납 화장대 들여놓으니까 정리정돈이 편해짐\n후기 618개 읽어 보니 튼튼하다더라", "t": "2026-11-16 15:47:19Z"}
+{"step": "refill-add", "id": 229, "product": 161, "at": "2026-11-20 20:30", "style": "가치형", "t": "2026-11-16 15:47:19Z"}
+{"step": "refill-done", "added": 6, "t": "2026-11-16 15:47:19Z"}
