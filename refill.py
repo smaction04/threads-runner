@@ -327,7 +327,7 @@ def main():
     used_ids = {i.get("product") for i in items}
     pool = [p for p in allp if p.get("use") and p["id"] not in used_ids and band(p.get("price", 0))
             and re.fullmatch(r"https://link\.coupang\.com/a/[A-Za-z0-9]+", str(p.get("link", "")))]
-    pool.sort(key=lambda p: -p.get("reviews", 0))
+    pool.sort(key=lambda p: p["id"])
     dash = json.load(open(DASH, encoding="utf-8"))
     nid = max([i["id"] for i in items if isinstance(i["id"], int)], default=0) + 1
     nno = max([r.get("no", 0) for r in dash], default=0) + 1
