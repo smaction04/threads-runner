@@ -27,7 +27,7 @@ FOLLOWUP_SEC = 150 * 60
 ACTIVE = ("scheduled", "published", "partial", "publishing", "unsure")
 HOURS = [8, 9, 10, 11, 14] * 3 + list(range(12, 23))
 HIGH_PRICE = 30000
-MAX_PER_DAY = 9
+MAX_PER_DAY = 15
 BUDGET_SEC = 330
 T0 = time.time()
 DISCLOSURE = "[광고] 이 게시글은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
@@ -341,7 +341,9 @@ def main():
         times = [x[0] for x in act]
         snap = (len(items), len(dash), len(recent), len(recent_styles), len(act), nid, nno, added, list(pool))
         day = time.strftime("%Y-%m-%d", time.gmtime(d * 86400))
-        for _ in range(target(times, d, cap) - sum(day_of(t) == d for t in times)):
+        want = target(times, d, cap)
+        need = want - sum(day_of(t) == d for t in times)
+        for k in range(need):
             if time.time() - T0 > BUDGET_SEC:
                 fail = "refill-budget"
                 break
@@ -353,6 +355,8 @@ def main():
             day_b = [band(p.get("price", 0)) for t, p in act if p and day_of(t) == d]
             near_b = [band(p.get("price", 0)) for t, p in act if p and d - 2 <= day_of(t) <= d]
             order = sorted("SML", key=lambda x: (x in day_b, near_b.count(x)))
+            if k == need - 1 and want > 3 and {"S", "M", "L"} <= set(day_b):
+                order = ["S"] + [x for x in order if x != "S"]
             prod = next((p for x in order for p in pool if band(p["price"]) == x and kind_of(p) not in kinds), None)
             if not prod:
                 fail = "refill-no-product"

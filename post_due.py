@@ -16,7 +16,7 @@ UID = "me"
 DRY = os.environ.get("DRY_RUN", "1") != "0"
 MIN_GAP = 3600
 MIN_DAILY_CAP = 5
-MAX_PER_DAY = 10
+MAX_PER_DAY = 15
 REPLY_DELAY = 8
 REPLY_TRIES = 3
 REPLY_RETRY_GAP = 20
@@ -208,7 +208,7 @@ def _ts(x):
 
 
 def daily_cap(done, now, warn):
-    """하루 상한 = 전날 실제 올라간 개수 + 1 (최소 5, 최대 10). 경고 상한(warn)이 있으면 그 이하."""
+    """하루 상한 = 전날 실제 올라간 개수 + 1 (최소 5, 최대 15). 경고 상한(warn)이 있으면 그 이하."""
     yesterday = sum(bool(i.get("post_id")) and kst_day(sent_at(i)) == kst_day(now - 86400) for i in done)
     cap = min(max(yesterday + 1, MIN_DAILY_CAP), MAX_PER_DAY)
     return min(cap, warn) if warn is not None else cap
