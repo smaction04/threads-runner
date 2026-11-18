@@ -325,7 +325,7 @@ def main():
     allp = json.load(open(POOL, encoding="utf-8"))
     prods = {p["id"]: p for p in allp}
     used_ids = {i.get("product") for i in items}
-    pool = [p for p in allp if p.get("use") and p["id"] not in used_ids and band(p.get("price", 0))
+    pool = [p for p in allp if p.get("use") and p["id"] not in used_ids and p.get("price", 0) > 0
             and re.fullmatch(r"https://link\.coupang\.com/a/[A-Za-z0-9]+", str(p.get("link", "")))]
     pool.sort(key=lambda p: p["id"])
     dash = json.load(open(DASH, encoding="utf-8"))
@@ -355,9 +355,12 @@ def main():
             day_b = [band(p.get("price", 0)) for t, p in act if p and day_of(t) == d]
             near_b = [band(p.get("price", 0)) for t, p in act if p and d - 2 <= day_of(t) <= d]
             order = sorted("SML", key=lambda x: (x in day_b, near_b.count(x)))
-            if k == need - 1 and want > 3 and {"S", "M", "L"} <= set(day_b):
+            extra = k == need - 1 and want > 3 and {"S", "M", "L"} <= set(day_b)
+            if extra:
                 order = ["S"] + [x for x in order if x != "S"]
             prod = next((p for x in order for p in pool if band(p["price"]) == x and kind_of(p) not in kinds), None)
+            if not prod and extra:
+                prod = next((p for p in pool if p["price"] < 5000 and kind_of(p) not in kinds), None)
             if not prod:
                 fail = "refill-no-product"
                 break
