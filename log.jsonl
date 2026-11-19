@@ -20593,3 +20593,22 @@
 {"step": "status", "due": [], "pending": 21, "t": "2026-11-19 14:30:36Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-19 14:40:24Z"}
 {"step": "status", "due": [], "pending": 21, "t": "2026-11-19 14:40:24Z"}
+{"step": "refill-reject", "prod": 168, "dup": false, "n": 125, "text": "옷장 열 때마다 패딩이랑 이불 때문에 문 안 닫히고 미어터지던 번거로움이 싹 사라짐\n압축팩 살 때 공기 잘 안 새고 튼튼하게 밀봉되는지부터 봐\n후기 34,918개 읽어 보니 수납 공간 확 늘었다는데 너네도 옷장 정리 끝냈냐?", "t": "2026-11-19 14:45:06Z"}
+{"step": "refill-add", "id": 245, "product": 168, "at": "2026-11-20 17:13", "style": "공감형", "t": "2026-11-19 14:45:06Z"}
+{"step": "refill-reject", "prod": 174, "dup": false, "n": 109, "text": "아침마다 거울 볼 때 건조해서 화장 뜨고 푸석해지던 번거로움이 싹 사라짐\n크림 살 때 피부에 순하게 흡수되고 촉촉함 오래가는지부터 봐\n후기 58,983개 읽어 보니 촉촉해진다는데 써본 사람 있어?", "t": "2026-11-19 14:45:18Z"}
+{"step": "refill-add", "id": 246, "product": 174, "at": "2026-11-20 09:25", "style": "가치형", "t": "2026-11-19 14:45:18Z"}
+{"step": "refill-reject", "prod": 196, "dup": false, "n": 123, "text": "퇴근할 때마다 온몸 뻐근하고 굳어있던 번거로움이 싹 사라짐\n안마의자 살 때 마사지 부드럽고 몸에 꼭 맞게 눕혀지는지부터 봐\n브람스 올인 안마의자 들여놓으니까 매일 피로 푸는 게 편해짐\n너네도 집에서 피로 풀 때 안 됐음?", "t": "2026-11-19 14:45:26Z"}
+{"step": "refill-add", "id": 247, "product": 196, "at": "2026-11-20 18:16", "style": "전환형", "t": "2026-11-19 14:45:26Z"}
+{"step": "refill-reject", "prod": 169, "dup": false, "n": 113, "text": "요리할 때마다 옷에 양념 튀고 젖어서 신경 쓰이던 번거로움이 싹 사라짐\n앞치마 살 때 물에 잘 젖지 않고 튼튼하게 입어지는지부터 봐\n후기 5,135개 읽어 보니 편하다는데 너네도 요리할 때 앞치마 쓰냐?", "t": "2026-11-19 14:45:34Z"}
+{"step": "refill-add", "id": 248, "product": 169, "at": "2026-11-20 13:26", "style": "발견형", "t": "2026-11-19 14:45:34Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-19 14:45:41Z"}
+{"step": "refill-reject", "prod": 175, "dup": false, "n": 159, "text": "게임할 때마다 화면 끊기고 잔상 남아서 눈 아프던 번거로움이 싹 사라짐\n모니터 살 때 주사율 높고 잔상 없이 매끄럽게 움직이는지부터 봐\n한성 FHD 144Hz 게이밍 모니터 들여놓으니까 부드럽게 화면 보는 게 편해짐\n후기 5,042개 읽어 보니 고민 중이라면 이 정도 주사율이면 괜찮음", "t": "2026-11-19 14:45:50Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-19 14:45:59Z"}
+{"step": "refill-reject", "prod": 175, "dup": false, "n": 166, "text": "퇴근하고 게임 할 때 화면 끊기고 잔상 남아서 답답하던 번거로움이 싹 사라짐\n모니터 살 때 주사율 높고 화면 부드럽게 이어지는지부터 봐\n한성 FHD 144Hz 게이밍 모니터 들여놓으니까 화면 선명하게 보는 게 편해짐\n후기 5,042개 읽어 보니 화질 괜찮다는데 모니터 고민 중이면 이 정도면 충분함", "t": "2026-11-19 14:46:09Z"}
+{"step": "refill-reject", "prod": 175, "dup": false, "n": 159, "text": "게임할 때마다 화면 뚝뚝 끊기고 눈 아프던 번거로움이 싹 사라짐\n모니터 살 때 주사율 높고 화면 부드럽게 이어지는지부터 봐\n한성 FHD 144Hz 게이밍 모니터 설치하니까 매일 게임하는 게 편해짐\n후기 5,042개 읽어 보니 화면 부드럽다는데 고민 중이라면 주사율 신경 쓰일 때 괜찮음", "t": "2026-11-19 14:46:17Z"}
+{"step": "refill-reject", "prod": 175, "dup": false, "n": 161, "text": "퇴근하고 게임 할 때 화면 끊기고 잔상 남아서 답답하던 번거로움이 싹 사라짐\n모니터 살 때 주사율 높고 화면 부드럽게 이어지는지부터 봐\n한성 FHD 144Hz 게이밍 모니터 들여놓으니까 화면 선명하게 보는 게 편해짐\n후기 5,042개 읽어 보니 화질 좋다는데 너네도 모니터 바꿀 때 됐냐?", "t": "2026-11-19 14:46:26Z"}
+{"step": "refill-reject", "prod": 175, "dup": false, "n": 159, "text": "방에 앉아서 게임할 때 화면 끊기고 잔상 남아서 답답하던 번거로움이 싹 사라짐\n모니터 살 때 화면 부드럽고 잔상 없이 움직이는지부터 봐\n한성 FHD 144Hz 게이밍 모니터 들여놓으니까 화면 선명하게 보는 게 편해짐\n후기 5,042개 읽어 보니 고민 중이라면 굳이 망설일 필요 없겠더라", "t": "2026-11-19 14:46:35Z"}
+{"step": "refill-reject", "prod": 175, "dup": false, "n": 165, "text": "퇴근하고 게임할 때 화면 끊기고 잔상 남아서 답답하던 번거로움이 싹 사라짐\n모니터 살 때 주사율 높고 화면 부드럽게 이어지는지부터 봐\n한성 FHD 144Hz 게이밍 모니터 들여놓으니까 부드럽게 몰입하는 게 편해짐\n후기 5,042개 읽어 보니 화면 부드럽다는데 모니터 고민 중이면 이 정도면 충분함", "t": "2026-11-19 14:46:44Z"}
+{"step": "refill-no-text", "day": "2026-11-21", "left": 28, "t": "2026-11-19 14:46:44Z"}
+{"step": "refill-done", "added": 4, "t": "2026-11-19 14:46:44Z"}
+{"step": "refill-alert-sent", "reason": "refill-no-text", "telegram": true, "t": "2026-11-19 14:46:45Z"}
