@@ -369,12 +369,20 @@ def main():
                 break
             pool.remove(prod)
             text = None
-            for _ in range(4):
-                names = HIGH_STYLES if is_high(prod) else STYLES
-                style = random.choice([x for x in names if x not in recent_styles[-3:]] or list(names))
-                text = make_text(prod, recent, style, at)
-                if text:
+            for _try in range(3):
+                for _ in range(4):
+                    names = HIGH_STYLES if is_high(prod) else STYLES
+                    style = random.choice([x for x in names if x not in recent_styles[-3:]] or list(names))
+                    text = make_text(prod, recent, style, at)
+                    if text:
+                        break
+                if text or time.time() - T0 > BUDGET_SEC:
                     break
+                alt = next((p for p in pool if band(p["price"]) == band(prod["price"]) and kind_of(p) not in kinds), None)
+                if not alt:
+                    break
+                prod = alt
+                pool.remove(prod)
             if not text:
                 fail = "refill-no-text"
                 break
