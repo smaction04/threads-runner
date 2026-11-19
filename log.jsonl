@@ -20612,3 +20612,30 @@
 {"step": "refill-no-text", "day": "2026-11-21", "left": 28, "t": "2026-11-19 14:46:44Z"}
 {"step": "refill-done", "added": 4, "t": "2026-11-19 14:46:44Z"}
 {"step": "refill-alert-sent", "reason": "refill-no-text", "telegram": true, "t": "2026-11-19 14:46:45Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-19 14:48:59Z"}
+{"step": "refill-reject", "prod": 175, "dup": false, "n": 150, "text": "게임할 때 화면 끊기고 잔상 남아서 눈 아프던 번거로움이 싹 사라짐\n모니터 살 때 주사율 높고 화면 부드럽게 이어지는지부터 봐\n한성 FHD 144Hz 게이밍 모니터 들여놓으니까 부드럽게 몰입하는 게 편해짐\n후기 5,042개 읽어 보니 화질 선명하다는데 써본 사람 있어?", "t": "2026-11-19 14:49:12Z"}
+{"step": "refill-reject", "prod": 175, "dup": false, "n": 126, "text": "게임할 때마다 화면 끊기고 눈 피로하던 번거로움이 싹 사라짐\n모니터 살 때 주사율 높고 잔상 없이 부드러운지부터 봐\n한성 FHD 144Hz 게이밍 모니터 들여놓으니까 화면 보는 게 편해짐\n후기 5,042개인데 써본 사람 있어?", "t": "2026-11-19 14:49:18Z"}
+{"step": "refill-add", "id": 249, "product": 175, "at": "2026-11-21 18:40", "style": "가치형", "t": "2026-11-19 14:49:18Z"}
+{"step": "refill-llm-error", "error": "The read operation timed out", "t": "2026-11-19 14:49:48Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-19 14:49:56Z"}
+{"step": "refill-reject", "prod": 197, "dup": false, "n": 122, "text": "출퇴근할 때마다 언덕길에서 숨차고 다리 아프던 번거로움이 싹 사라짐\n전기자전거 살 때 배터리 오래가고 접었을 때 휴대 편한지부터 봐\n제이텍 접이식 전기자전거 타니까 이동하는 게 편해짐\n너네도 출퇴근길 바꿀 때 안 됐음?", "t": "2026-11-19 14:50:01Z"}
+{"step": "refill-add", "id": 250, "product": 197, "at": "2026-11-21 10:27", "style": "전환형", "t": "2026-11-19 14:50:01Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-19 14:50:12Z"}
+{"step": "refill-reject", "prod": 170, "dup": false, "n": 111, "text": "빨래할 때마다 꿉꿉한 냄새랑 얼룩 때문에 인상 찌푸리던 번거로움이 싹 사라짐\n비누 살 때 거품 잘 나고 성분 순한지부터 봐\n후기 74,741개 읽어 보니 세정력 좋다는데 너네도 빨래 쉽게 하고 있냐?", "t": "2026-11-19 14:50:21Z"}
+{"step": "refill-add", "id": 251, "product": 170, "at": "2026-11-21 17:34", "style": "질문형", "t": "2026-11-19 14:50:21Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-19 14:50:26Z"}
+{"step": "refill-reject", "prod": 171, "dup": false, "n": 116, "text": "일 년 계획 세울 때마다 작심삼일로 끝나던 번거로움이 싹 사라짐\n다이어리 살 때 내지 구성 알차고 먼슬리 쓰기 편한지부터 봐\n후기 1,071개 읽어 보니 속지 튼튼하다는데 너네도 새해 계획 쉽게 세우고 있냐?", "t": "2026-11-19 14:50:31Z"}
+{"step": "refill-add", "id": 252, "product": 171, "at": "2026-11-21 19:45", "style": "체크리스트형", "t": "2026-11-19 14:50:31Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-19 14:50:40Z"}
+{"step": "refill-reject", "prod": 199, "dup": false, "n": 127, "text": "더울 때마다 땀 흘리고 거실에서 끈적이던 번거로움이 싹 사라짐\n에어컨 살 때 바람 시원하고 공간 고르게 닿는지부터 봐\n삼성 AI Q9000 스탠드에어컨 들여놓으니까 시원하게 있는 게 편해짐\n후기 3,675개인데 써본 사람 있어?", "t": "2026-11-19 14:50:48Z"}
+{"step": "refill-add", "id": 253, "product": 199, "at": "2026-11-22 15:42", "style": "가치형", "t": "2026-11-19 14:50:48Z"}
+{"step": "refill-reject", "prod": 180, "dup": false, "n": 115, "text": "아침마다 피곤하고 몸 무거워서 찌푸리던 번거로움이 싹 사라짐\n오메가3 살 때 순도 높고 목넘김 편한지부터 봐\n나우푸드 울트라 오메가3 180정 챙겨 먹으니까 하루가 가벼워짐\n너네도 영양제 바꿀 때 안 됐음?", "t": "2026-11-19 14:50:52Z"}
+{"step": "refill-add", "id": 254, "product": 180, "at": "2026-11-22 22:20", "style": "전환형", "t": "2026-11-19 14:50:52Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-19 14:51:01Z"}
+{"step": "refill-reject", "prod": 200, "dup": false, "n": 155, "text": "요리할 때마다 재료 꽉 차서 문 열기 좁고 답답하던 번거로움이 싹 사라짐\n냉장고 살 때 내부 넓고 양문으로 여닫기 편한지부터 봐\nLG 디오스 양문형 냉장고 832L 들여놓으니까 식재료 꺼내는 게 편해짐\n후기 6,037개 읽어 보니 수납력 좋다는데 너네도 주방 바꿀 때 안 됐음?", "t": "2026-11-19 14:51:03Z"}
+{"step": "refill-reject", "prod": 200, "dup": false, "n": 116, "text": "장보기 며칠 지나면 식재료 상해서 버리던 번거로움이 싹 사라짐\n냉장고 살 때 내부 용량 넉넉하고 선반 정리 편한지부터 봐\n후기 6,037개 읽어 보니 수납 공간 넓다는데 식재료 넉넉하게 보관하고 싶으면 괜찮음", "t": "2026-11-19 14:51:12Z"}
+{"step": "refill-add", "id": 255, "product": 200, "at": "2026-11-22 09:32", "style": "이야기형", "t": "2026-11-19 14:51:12Z"}
+{"step": "refill-reject", "prod": 172, "dup": false, "n": 131, "text": "외출할 때마다 지갑이랑 폰 겨겨우 쑤셔넣고 빵빵해지던 번거로움이 싹 사라짐\n크로스백 살 때 수납 공간 넉넉하고 어깨 안 아픈지부터 봐\n보테가베네타 인트레치아토 크로스백 메고 다니니까 외출하는 게 가벼워짐\n너네도 가방 바꿀 때 안 됐음?", "t": "2026-11-19 14:51:21Z"}
+{"step": "refill-add", "id": 256, "product": 172, "at": "2026-11-22 16:43", "style": "비교형", "t": "2026-11-19 14:51:21Z"}
+{"step": "refill-done", "added": 8, "t": "2026-11-19 14:51:21Z"}
+{"step": "refill-alert-resolved", "reason": "refill-no-text", "t": "2026-11-19 14:51:21Z"}
