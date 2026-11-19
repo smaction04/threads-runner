@@ -28,6 +28,7 @@ ACTIVE = ("scheduled", "published", "partial", "publishing", "unsure")
 HOURS = [8, 9, 10, 11, 14] * 3 + list(range(12, 23))
 HIGH_PRICE = 30000
 MAX_PER_DAY = 15
+MIN_DAILY = 10
 BUDGET_SEC = 330
 T0 = time.time()
 DISCLOSURE = "[광고] 이 게시글은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
@@ -176,8 +177,10 @@ def kind_of(prod):
     return prod.get("kind") or re.sub(r"[^가-힣a-z]", "", prod["name"].lower())[:8]
 
 
-def target(times, d, cap):
+def target(times, d, cap, today=None):
     want = sum(day_of(t) == d - 1 for t in times) + 1
+    if today is not None and d > today:
+        want = max(want, MIN_DAILY)
     return min(want, cap) if cap is not None else want
 
 
@@ -185,7 +188,7 @@ def day_plan(times, now, cap):
     """오늘~3일 뒤까지 날마다 목표 = 전날 개수 + 1 (경고 뒤엔 cap 이하). 모자란 날과 개수만 돌려준다."""
     times, plan = list(times), []
     for d in range(day_of(now), day_of(now) + AHEAD_DAYS + 1):
-        n = target(times, d, cap) - sum(day_of(t) == d for t in times)
+        n = target(times, d, cap, day_of(now)) - sum(day_of(t) == d for t in times)
         if n > 0:
             plan.append((d, n))
             times += [d * 86400 - KST + 12 * 3600] * n
@@ -341,7 +344,7 @@ def main():
         times = [x[0] for x in act]
         snap = (len(items), len(dash), len(recent), len(recent_styles), len(act), nid, nno, added, list(pool))
         day = time.strftime("%Y-%m-%d", time.gmtime(d * 86400))
-        want = target(times, d, cap)
+        want = target(times, d, cap, day_of(now))
         need = want - sum(day_of(t) == d for t in times)
         for k in range(need):
             if time.time() - T0 > BUDGET_SEC:
