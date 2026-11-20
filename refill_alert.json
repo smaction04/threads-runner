@@ -2,7 +2,7 @@
  "reason": "refill-no-slot",
  "day": "2026-11-23",
  "at": 1795120319,
- "followup": false,
+ "followup": true,
  "sent": true,
  "prev": "refill-no-text",
  "prev_sent": true
