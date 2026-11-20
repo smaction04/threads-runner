@@ -2110,5 +2110,60 @@
   "use": true,
   "kind": "서큘레이터",
   "full_name": "아이리스 써큘레이터 KPCF-HD15N, KPCF-HD15N(화이트)"
+ },
+ {
+  "id": 203,
+  "name": "르무통 메이트 메리노울 운동화",
+  "price": 118100,
+  "reviews": 25324,
+  "link": "https://link.coupang.com/a/iOZ1zuvwM8",
+  "tier": "high",
+  "use": true,
+  "kind": "메리노울운동화",
+  "full_name": "르무통 메이트 발 편한 메리노울 운동화"
+ },
+ {
+  "id": 204,
+  "name": "바이얼리 남녀공용 롱패딩",
+  "price": 59800,
+  "reviews": 3410,
+  "link": "https://link.coupang.com/a/iOZ2ktGKJg",
+  "tier": "high",
+  "use": true,
+  "kind": "롱패딩",
+  "full_name": "바이얼리 남녀공용 넉넉한 충전재 충분한 기장 롱패딩"
+ },
+ {
+  "id": 205,
+  "name": "크록스 비아 클로그 샌들",
+  "price": 39900,
+  "reviews": 9344,
+  "link": "https://link.coupang.com/a/iOZ27jwcE0",
+  "tier": "high",
+  "use": true,
+  "kind": "클로그",
+  "full_name": "크록스 비아 클로그 샌들"
+ },
+ {
+  "id": 206,
+  "name": "해남 절임배추 20kg 해가온",
+  "price": 39900,
+  "reviews": 4479,
+  "link": "https://link.coupang.com/a/iOZ3REXAn6",
+  "tier": "high",
+  "use": true,
+  "kind": "절임배추",
+  "full_name": "해남 절임배추 10kg / 20kg 절인배추 김장 해가온, 1박스, 도착일 필수 입력"
+ },
+ {
+  "id": 207,
+  "name": "뉴발란스 530 스틸그레이",
+  "price": 84870,
+  "reviews": 5384,
+  "link": "https://link.coupang.com/a/iOZ5o6AfeK",
+  "tier": "high",
+  "use": true,
+  "kind": "스니커즈",
+  "full_name": "국내매장판/AS가능 뉴발란스 530 스틸그레이 MR530KA"
  }
 ]
