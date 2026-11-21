@@ -21952,3 +21952,5 @@
 {"step": "refill-add", "id": 281, "product": 209, "at": "2026-11-24 21:19", "style": "전환형", "t": "2026-11-21 15:48:02Z"}
 {"step": "refill-no-slot", "day": "2026-11-24", "left": 18, "t": "2026-11-21 15:48:02Z"}
 {"step": "refill-done", "added": 0, "t": "2026-11-21 15:48:02Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-21 15:50:24Z"}
+{"step": "status", "due": [], "pending": 25, "t": "2026-11-21 15:50:24Z"}
