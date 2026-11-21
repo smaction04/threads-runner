@@ -21602,3 +21602,10 @@
 {"step": "refill-no-slot", "day": "2026-11-24", "left": 18, "t": "2026-11-21 03:47:26Z"}
 {"step": "refill-done", "added": 0, "t": "2026-11-21 03:47:26Z"}
 {"step": "refill-alert-new", "reason": "refill-no-slot", "prev": "refill-no-product", "telegram": true, "t": "2026-11-21 03:47:27Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-21 03:50:23Z"}
+{"step": "status", "due": [231], "pending": 33, "t": "2026-11-21 03:50:23Z"}
+{"step": "publish-timing", "kind": "post", "gap_sec": 18.3, "attempts": 1, "t": "2026-11-21 03:50:44Z"}
+{"id": 231, "step": "post", "post_id": "17928516207200748", "t": "2026-11-21 03:50:44Z"}
+{"step": "publish-timing", "kind": "reply", "gap_sec": 20.9, "attempts": 1, "t": "2026-11-21 03:51:15Z"}
+{"id": 231, "step": "reply", "reply_id": "18106716902381998", "t": "2026-11-21 03:51:15Z"}
+{"id": 231, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/Df_TfiXjhsg", "t": "2026-11-21 03:51:15Z"}
