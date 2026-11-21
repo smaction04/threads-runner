@@ -21842,3 +21842,35 @@
 {"step": "status", "due": [], "pending": 26, "t": "2026-11-21 12:30:34Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-21 12:40:25Z"}
 {"step": "status", "due": [], "pending": 26, "t": "2026-11-21 12:40:25Z"}
+{"step": "refill-reject", "prod": 210, "dup": false, "n": 126, "text": "알람 울릴 때마다 핸드폰 찾으러 이리저리 휘젓던 번거로움이 싹 사라짐\n스마트워치 살 때 화면 시원하고 배터리 오래 가는지부터 봐\n샤오미 레드미 워치6 차고 다니니까 시간 확인할 때 편해짐\n후기 1,847개 읽어 보니 가볍다더라", "t": "2026-11-21 12:47:15Z"}
+{"step": "refill-add", "id": 270, "product": 210, "at": "2026-11-24 22:30", "style": "이야기형", "t": "2026-11-21 12:47:15Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-21 12:47:16Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-21 12:47:16Z"}
+{"step": "refill-reject", "prod": 185, "dup": false, "n": 122, "text": "빨래 갤 때마다 꿉꿉한 냄새 올라와서 코 막던 번거로움이 싹 사라짐\n섬유유연제 살 때 향 오래 가고 잔향 은은한지부터 봐\n다비네스 섬유유연제 쓰니까 옷 입을 때마다 기분 좋아짐\n후기 3,421개 읽어 보니 향기 좋다더라", "t": "2026-11-21 12:47:17Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-21 12:47:18Z"}
+{"step": "refill-reject", "prod": 185, "dup": false, "n": 124, "text": "패딩 꺼내 입을 때마다 꿉꿉한 냄새 올라와서 신경 쓰이던 번거로움이 싹 사라짐\n섬유유연제 살 때 향 오래 가고 잔향 은은한지부터 봐\n후기 175,171개 읽어 보니 향 좋다고 하더라\n너네도 옷에 밴 냄새 잡을 준비 끝냈음?", "t": "2026-11-21 12:47:18Z"}
+{"step": "refill-add", "id": 271, "product": 185, "at": "2026-11-24 13:18", "style": "계절형", "t": "2026-11-21 12:47:18Z"}
+{"step": "refill-reject", "prod": 205, "dup": false, "n": 125, "text": "외출할 때마다 신고 벗기 번거롭고 발 불편해서 찝찝하던 번거로움이 싹 사라짐\n클로그 살 때 발 편하고 신고 벗기 편한지부터 봐\n크록스 비아 클로그 샌들 신으니까 가볍게 나가는 게 편해짐\n후기 3,421개인데 써본 사람 있어?", "t": "2026-11-21 12:47:19Z"}
+{"step": "refill-reject", "prod": 205, "dup": false, "n": 121, "text": "외출할 때마다 신고 벗기 불편하고 발등 쓸리던 번거로움이 싹 사라짐\n클로그 살 때 발 편하고 디자인 무난한지부터 봐\n크록스 비아 클로그 샌들 신으니까 가볍게 나서는 게 편해짐\n후기 많은데 너네도 하나 들일 생각 있음?", "t": "2026-11-21 12:47:29Z"}
+{"step": "refill-add", "id": 272, "product": 205, "at": "2026-11-24 11:41", "style": "전환형", "t": "2026-11-21 12:47:29Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-21 12:47:29Z"}
+{"step": "refill-reject", "prod": 186, "dup": false, "n": 104, "text": "양치할 때마다 입안 텁텁하고 개운하지 않던 번거로움이 싹 사라짐\n치약 살 때 거품 잘 나고 성분 순한지부터 봐\n후기 83,774개 읽어 보니 상쾌하다더라\n너네도 이런 게 있는 줄 알았음?", "t": "2026-11-21 12:47:33Z"}
+{"step": "refill-add", "id": 273, "product": 186, "at": "2026-11-24 09:36", "style": "발견형", "t": "2026-11-21 12:47:33Z"}
+{"step": "refill-reject", "prod": 187, "dup": false, "n": 111, "text": "비올 때마다 바람에 뒤집히고 옷 젖던 번거로움이 싹 사라짐\n장우산 살 때 튼튼하고 살대 부러질 일 없는지부터 봐\n자동 3단 장우산 쓰니까 비 오는 날 외출이 편해짐\n후기 많은데 너네도 하나 장만했음?", "t": "2026-11-21 12:47:34Z"}
+{"step": "refill-add", "id": 274, "product": 187, "at": "2026-11-24 17:44", "style": "비교형", "t": "2026-11-21 12:47:34Z"}
+{"step": "refill-reject", "prod": 206, "dup": false, "n": 147, "text": "김장철마다 물 빠지고 간 맞추기 번거롭던 번거로움이 싹 사라짐\n배추 살 때 줄기 단단하고 간 잘 배는지부터 봐\n해남 절임배추 20kg 해가온 쓰니까 김치 담그는 게 편해짐\n후기 4,479개 읽어 보니 짜지 않다더라\n김장 고민 중이라면 올해는 이걸로 넘어가도 괜찮음", "t": "2026-11-21 12:47:38Z"}
+{"step": "refill-reject", "prod": 206, "dup": false, "n": 127, "text": "김장할 때마다 절인 배추 상태 고르지 못해 애먹던 번거로움이 싹 사라짐\n절임배추 살 때 숨 잘 죽어 있고 상태 깨끗한지부터 봐\n해남 절임배추 20kg 해가온 쓰니까 김치 담그는 게 편해짐\n후기 4,479개 읽어 보니 깔끔하다더라", "t": "2026-11-21 12:47:39Z"}
+{"step": "refill-add", "id": 275, "product": 206, "at": "2026-11-24 16:16", "style": "이야기형", "t": "2026-11-21 12:47:39Z"}
+{"step": "refill-reject", "prod": 188, "dup": false, "n": 134, "text": "신발 벗을 때마다 발냄새 나고 꿉꿉해서 신경 쓰이던 번거로움이 싹 사라짐\n양말 살 때 땀 잘 흡수하고 발가락 안 조이는지부터 봐\n페이크삭스 넉넉하게 쟁여두니까 매일 아침 고민하는 게 줄어듦\n후기 47,869개 읽어 보니 흘러내리지 않는다더라", "t": "2026-11-21 12:47:43Z"}
+{"step": "refill-add", "id": 276, "product": 188, "at": "2026-11-24 10:39", "style": "추천형", "t": "2026-11-21 12:47:43Z"}
+{"step": "refill-reject", "prod": 207, "dup": false, "n": 124, "text": "외출할 때마다 발 무겁고 오래 걸으면 피로하던 번거로움이 싹 사라짐\n스니커즈 살 때 착화감 편하고 발등 안 아픈지부터 봐\n뉴발란스 530 스틸그레이 신으니까 하루 종일 걸어 다니는 게 편해짐\n너네도 이걸로 바꿀 생각 있음?", "t": "2026-11-21 12:47:43Z"}
+{"step": "refill-add", "id": 277, "product": 207, "at": "2026-11-24 14:46", "style": "전환형", "t": "2026-11-21 12:47:43Z"}
+{"step": "refill-llm-error", "error": "gemini 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.go", "t": "2026-11-21 12:47:43Z"}
+{"step": "refill-reject", "prod": 189, "dup": false, "n": 117, "text": "샤워할 때마다 거품 잘 안 나고 개운치 않던 번거로움이 싹 사라짐\n샤워타월 고를 때 거품 풍성하고 살결 안 아픈지부터 봐\n후기 27,503개 읽어 보니 개운하다더라\n너네도 화장실에 이거 하나 들일 준비 끝냈음?", "t": "2026-11-21 12:47:47Z"}
+{"step": "refill-add", "id": 278, "product": 189, "at": "2026-11-24 20:40", "style": "체크리스트형", "t": "2026-11-21 12:47:47Z"}
+{"step": "refill-reject", "prod": 208, "dup": false, "n": 133, "text": "아침마다 면도 자극 때문에 따갑고 시간 뺏기던 번거로움이 싹 사라짐\n전기면도기 살 때 피부 자극 적고 절사력 깔끔한지부터 봐\nBRAUN 시리즈3 전기면도기 쓰니까 바쁜 아침에 거울 보는 게 편해짐\n후기 25,041개 읽어 보니 부드럽다더라", "t": "2026-11-21 12:47:48Z"}
+{"step": "refill-add", "id": 279, "product": 208, "at": "2026-11-24 08:30", "style": "이야기형", "t": "2026-11-21 12:47:48Z"}
+{"step": "refill-reject", "prod": 190, "dup": false, "n": 117, "text": "빨래할 때마다 찌든 때 안 지워지고 꿉꿉하던 번거로움이 싹 사라짐\n세탁세제 살 때 성분 순하고 잔여물 안 남는지부터 봐\n후기 267,804개 읽어 보니 개운하다더라\n너네도 세탁실에 이거 하나 들일 준비 끝냈음?", "t": "2026-11-21 12:47:49Z"}
+{"step": "refill-add", "id": 280, "product": 190, "at": "2026-11-24 18:58", "style": "공감형", "t": "2026-11-21 12:47:49Z"}
+{"step": "refill-no-slot", "day": "2026-11-24", "left": 18, "t": "2026-11-21 12:47:49Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-21 12:47:49Z"}
