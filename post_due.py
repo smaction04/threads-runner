@@ -104,8 +104,7 @@ def publish(text, reply_to=None):
     cid = api("POST", f"/{UID}/threads", p)["id"]
     t_made = time.time()
     wait_ready(cid)
-    if not DRY:
-        time.sleep(PUBLISH_DELAY)
+    time.sleep(PUBLISH_DELAY)
     for n in range(len(PUBLISH_RETRY_GAPS) + 1):
         try:
             pid = api("POST", f"/{UID}/threads_publish", {"creation_id": cid})["id"]
@@ -120,16 +119,14 @@ def publish(text, reply_to=None):
             if not MNF_RE.search(str(e)) or n == len(PUBLISH_RETRY_GAPS):
                 raise
             log(step="publish-retry-mnf", kind="reply" if reply_to else "post", gap_sec=round(time.time() - t_made, 1), n=n + 1)
-            if not DRY:
-                time.sleep(PUBLISH_RETRY_GAPS[n])
+            time.sleep(PUBLISH_RETRY_GAPS[n])
 
 
 def publish_reply(text, post_id):
     """방금 올린 글에 곧바로 댓글을 달면 'Media Not Found'(400)가 나는 일이 있어, 잠깐 기다린 뒤 400대 거절에 한해 짧게 재시도한다.
     응답 없음/5xx(Ambiguous)는 실제로 게시됐을 수 있고, 컨테이너 미준비(NotReady)는 재시도해도 시간만 늘어나므로 둘 다 그대로 올린다.
     재시도 직전에는 이미 달린 댓글이 있는지 찾아보고, 조회가 실패하면 재시도하지 않는다."""
-    if not DRY:
-        time.sleep(REPLY_DELAY)
+    time.sleep(REPLY_DELAY)
     tries = max(1, REPLY_TRIES)
     for i in range(tries):
         try:
@@ -140,8 +137,6 @@ def publish_reply(text, post_id):
             if i == tries - 1:
                 raise
             log(step="reply-retry-soon", post_id=post_id, n=i + 1, error=str(e)[:120])
-            if DRY:
-                continue
             time.sleep(REPLY_RETRY_GAP)
             try:
                 found = find_reply(post_id, text)

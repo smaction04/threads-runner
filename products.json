@@ -2165,5 +2165,71 @@
   "use": true,
   "kind": "스니커즈",
   "full_name": "국내매장판/AS가능 뉴발란스 530 스틸그레이 MR530KA"
+ },
+ {
+  "id": 208,
+  "name": "BRAUN 시리즈3 전기면도기",
+  "price": 47300,
+  "reviews": 25041,
+  "link": "https://link.coupang.com/a/iQIqQ0KhLo",
+  "tier": "high",
+  "use": true,
+  "kind": "전기면도기",
+  "full_name": "BRAUN 시리즈3 전기면도기, 300s, 블랙"
+ },
+ {
+  "id": 209,
+  "name": "체어클럽 M2 메쉬 사무용의자",
+  "price": 44900,
+  "reviews": 21338,
+  "link": "https://link.coupang.com/a/iQIrFr0tO0",
+  "tier": "high",
+  "use": true,
+  "kind": "사무용의자",
+  "full_name": "체어클럽 M2 헤더형 메쉬의자, 블랙"
+ },
+ {
+  "id": 210,
+  "name": "샤오미 레드미 워치6",
+  "price": 139600,
+  "reviews": 1847,
+  "link": "https://link.coupang.com/a/iQIssId80W",
+  "tier": "high",
+  "use": true,
+  "kind": "스마트워치",
+  "full_name": "샤오미 Xiaomi 레드미 스마트워치 6, 옵시디언 블랙, 52.58mm, GPS + 블루투스"
+ },
+ {
+  "id": 211,
+  "name": "스윗캠핑 400W 전기히터",
+  "price": 39900,
+  "reviews": 679,
+  "link": "https://link.coupang.com/a/iQIteOW5OS",
+  "tier": "high",
+  "use": true,
+  "kind": "캠핑난로",
+  "full_name": "400와트 스윗캠핑히터 캠핑 난로 전기 히터 무소음 저소음 미니 차박 캠핑용 팬히터 온풍기 이동식 휴대용 스윗플래닛, 400W"
+ },
+ {
+  "id": 212,
+  "name": "돌체구스토 지니오S 베이직",
+  "price": 63800,
+  "reviews": 7306,
+  "link": "https://link.coupang.com/a/iQIt2R1BoO",
+  "tier": "high",
+  "use": true,
+  "kind": "캡슐커피머신",
+  "full_name": "돌체구스토 지니오S 베이직 캡슐 커피머신, 9784, 화이트"
+ },
+ {
+  "id": 213,
+  "name": "위도어 초저소음 통세척 가습기",
+  "price": 67800,
+  "reviews": 1699,
+  "link": "https://link.coupang.com/a/iQIuO0uHKK",
+  "tier": "high",
+  "use": true,
+  "kind": "가습기",
+  "full_name": "위도어 초저소음 대용량 간편 통세척 초음파 가습기, 웜 화이트, WDR-HT002"
  }
 ]

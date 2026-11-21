@@ -81,16 +81,8 @@ def gemini(prompt):
     return d["candidates"][0]["content"]["parts"][0]["text"]
 
 
-FORBIDDEN = ("기절", "소름", "소오름", "현타", "충격받", "충격먹")
-UNITS = ("ml", "kg", "cm", "mm")
-
-
 def norm(t):
     return re.sub(r"\s+", "", t)
-
-
-def key(t):
-    return re.sub(r"[\s.,!?~ㅋㅎㅠㅜ;:'\"·…\-_()]+", "", t).lower()
 
 
 NO_TIP = {"한줄형", "체크리스트형"}
