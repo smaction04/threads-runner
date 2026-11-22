@@ -22782,3 +22782,33 @@
 {"step": "status", "due": [], "pending": 13, "t": "2026-11-22 18:30:32Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-22 18:40:24Z"}
 {"step": "status", "due": [], "pending": 13, "t": "2026-11-22 18:40:24Z"}
+{"step": "refill-reject", "prod": 210, "dup": false, "n": 135, "text": "알람 울릴 때마다 스마트폰 찾으려고 이불 속 뒤지던 번거로움이 싹 사라짐\n스마트워치 살 때 화면 잘 보이고 배터리 오래가는지부터 봐\n샤오미 레드미 워치6 차고 다니니까 일상에서 시간 확인하는 게 편해짐\n후기 1,847개 읽어 보니 쓸만하다더라", "t": "2026-11-22 18:47:14Z"}
+{"step": "refill-add", "id": 270, "product": 210, "at": "2026-11-24 10:46", "style": "이야기형", "t": "2026-11-22 18:47:14Z"}
+{"step": "refill-reject", "prod": 185, "dup": false, "n": 121, "text": "빨래할 때마다 꿉꿉한 냄새 남아있어서 몇 번씩 다시 돌리던 번거로움이 싹 사라짐\n섬유유연제 고를 때 향 오래 가고 성분 순한지부터 봐\n후기 175,171개 읽어 보니 잔향이 은은하다더라\n너네도 이런 건 줄 알았냐 ㅋㅋ", "t": "2026-11-22 18:47:19Z"}
+{"step": "refill-add", "id": 271, "product": 185, "at": "2026-11-24 13:42", "style": "발견형", "t": "2026-11-22 18:47:19Z"}
+{"step": "refill-reject", "prod": 205, "dup": false, "n": 125, "text": "현관 앞 나갈 때마다 신발 신기 귀찮고 발등 쓸리던 번거로움이 싹 사라짐\n클로그 살 때 발 편안하고 신고 벗기 편한지부터 봐\n크록스 비아 클로그 샌들 신으니까 가볍게 외출하는 게 편해짐\n후기 9,344개인데 써본 사람 있어?", "t": "2026-11-22 18:47:20Z"}
+{"step": "refill-add", "id": 272, "product": 205, "at": "2026-11-24 20:36", "style": "가치형", "t": "2026-11-22 18:47:20Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-22 18:47:24Z"}
+{"step": "refill-reject", "prod": 186, "dup": false, "n": 108, "text": "찬바람 불 때마다 양치해도 텁텁하고 입안 개운하지 않던 번거로움이 싹 사라짐\n치약 고를 때 상쾌함 오래 가고 성분 안전한지부터 봐\n후기 83,774개 읽어 보니 개운하다더라\n너네도 준비했냐 ㅋㅋ", "t": "2026-11-22 18:47:28Z"}
+{"step": "refill-add", "id": 273, "product": 186, "at": "2026-11-24 09:40", "style": "계절형", "t": "2026-11-22 18:47:28Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-22 18:47:30Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-22 18:47:30Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-22 18:47:36Z"}
+{"step": "refill-reject", "prod": 187, "dup": false, "n": 108, "text": "갑자기 쏟아진 비에 옷 다 젖고 우산 망가지던 번거로움이 싹 사라짐\n장우산 고를 때 튼튼하고 바람 잘 버티는지부터 봐\n후기 7,905개 읽어 보니 튼튼하다더라\n너네도 비 올 때마다 고생하냐 ㅋㅋ", "t": "2026-11-22 18:47:41Z"}
+{"step": "refill-add", "id": 274, "product": 187, "at": "2026-11-24 12:22", "style": "공감형", "t": "2026-11-22 18:47:41Z"}
+{"step": "refill-llm-error", "error": "gemini 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABL", "t": "2026-11-22 18:47:45Z"}
+{"step": "refill-reject", "prod": 206, "dup": false, "n": 117, "text": "김장철마다 소금 절이고 물 빠질 때까지 기다리던 번거로움이 싹 사라짐\n배추 고를 때 잎사귀 속이 알차고 달달한지부터 봐\n해남 절임배추 20kg 해가온 쓰니까 김치 담그는 게 편해짐\n후기 많은데 써본 사람 있어?", "t": "2026-11-22 18:47:49Z"}
+{"step": "refill-add", "id": 275, "product": 206, "at": "2026-11-24 08:01", "style": "전환형", "t": "2026-11-22 18:47:49Z"}
+{"step": "refill-reject", "prod": 188, "dup": false, "n": 105, "text": "아침마다 양말 흘러내리고 발목 조여서 답답하던 번거로움이 싹 사라짐\n양말 살 때 목 안 늘어나고 면 짱짱한지부터 봐\n후기 47,869개 읽어 보니 편하다더라\n너네도 발 편한 걸로 신냐 ㅋㅋ", "t": "2026-11-22 18:47:53Z"}
+{"step": "refill-add", "id": 276, "product": 188, "at": "2026-11-24 15:45", "style": "질문형", "t": "2026-11-22 18:47:53Z"}
+{"step": "refill-reject", "prod": 207, "dup": false, "n": 122, "text": "외출할 때마다 신발 매칭 안 돼서 고민하던 번거로움이 싹 사라짐\n스니커즈 살 때 디자인 무난하고 발 안 아픈지부터 봐\n뉴발란스 530 스틸그레이 신으니까 대충 입어도 코디가 살아남\n후기 5,384개인데 써본 사람 있어?", "t": "2026-11-22 18:47:58Z"}
+{"step": "refill-add", "id": 277, "product": 207, "at": "2026-11-24 17:31", "style": "가치형", "t": "2026-11-22 18:47:58Z"}
+{"step": "refill-reject", "prod": 189, "dup": false, "n": 117, "text": "샤워할 때마다 거품 안 나고 등드름 나서 스트레스 받던 번거로움이 싹 사라짐\n샤워타월 고를 때 거품 잘 나고 각질 제거 잘 되는지부터 봐\n후기 27,503개 읽어 보니 개운하다더라\n너네도 이거 저장해 뒀냐 ㅋㅋ", "t": "2026-11-22 18:48:03Z"}
+{"step": "refill-add", "id": 278, "product": 189, "at": "2026-11-24 18:51", "style": "체크리스트형", "t": "2026-11-22 18:48:03Z"}
+{"step": "refill-reject", "prod": 208, "dup": false, "n": 129, "text": "아침마다 면도칼에 베이고 피부 빨갛게 달아오르던 번거로움이 싹 사라짐\n전기면도기 고를 때 피부 자극 없고 절삭력 좋은지부터 봐\nBRAUN 시리즈3 전기면도기 쓰니까 매일 아침 준비하는 게 편해짐\n너네도 면도할 때마다 상처 나냐 ㄷㄷ", "t": "2026-11-22 18:48:04Z"}
+{"step": "refill-add", "id": 279, "product": 208, "at": "2026-11-24 14:43", "style": "전환형", "t": "2026-11-22 18:48:04Z"}
+{"step": "refill-reject", "prod": 190, "dup": false, "n": 106, "text": "빨래할 때마다 찌든 때 안 지워지고 냄새 나던 번거로움이 싹 사라짐\n세제 살 때 세정력 좋고 잔여물 안 남는지부터 봐\n후기 267,804개 읽어 보니 깨끗하다더라\n너네도 이런 건 몰랐지 ㅋㅋ", "t": "2026-11-22 18:48:05Z"}
+{"step": "refill-add", "id": 280, "product": 190, "at": "2026-11-24 21:58", "style": "발견형", "t": "2026-11-22 18:48:05Z"}
+{"step": "refill-no-slot", "day": "2026-11-24", "left": 18, "t": "2026-11-22 18:48:05Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-22 18:48:05Z"}
+{"step": "refill-alert-followup", "reason": "refill-no-slot", "t": "2026-11-22 18:48:06Z"}
