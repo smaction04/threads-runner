@@ -22265,3 +22265,42 @@
 {"step": "status", "due": [], "pending": 21, "t": "2026-11-22 03:30:30Z"}
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-22 03:40:23Z"}
 {"step": "status", "due": [], "pending": 21, "t": "2026-11-22 03:40:23Z"}
+{"step": "refill-reject", "prod": 210, "dup": false, "n": 131, "text": "운동할 때마다 기록 놓치고 스마트폰 꺼내기 귀찮던 번거로움이 싹 사라짐\n스마트워치 살 때 화면 잘 보이고 배터리 오래가는지부터 봐\n샤오미 레드미 워치6 차고 다니니까 일상 체크하는 게 편해짐\n후기 1,847개 읽어 보니 가성비 좋다더라", "t": "2026-11-22 03:47:14Z"}
+{"step": "refill-add", "id": 270, "product": 210, "at": "2026-11-24 19:13", "style": "이야기형", "t": "2026-11-22 03:47:14Z"}
+{"step": "refill-reject", "prod": 185, "dup": false, "n": 117, "text": "빨래 돌릴 때마다 꿉꿉한 냄새 남아있어서 몇 번씩 다시 돌리던 번거로움이 싹 사라짐\n섬유유연제 살 때 향 오래가고 잔향 남는지부터 봐\n후기 175,171개 읽어 보니 향기 진하다더라\n너네도 이런 건 줄 몰랐지?", "t": "2026-11-22 03:47:15Z"}
+{"step": "refill-add", "id": 271, "product": 185, "at": "2026-11-24 20:21", "style": "발견형", "t": "2026-11-22 03:47:15Z"}
+{"step": "refill-reject", "prod": 205, "dup": false, "n": 86, "text": "외출할 때마다 신발 고르기 귀찮고 발 아프던 번거로움이 싹 사라짐\n클로그 살 때 발 편하고 신고 벗기 편한지부터 봐\n후기 9,344개인데 써본 사람 있어?", "t": "2026-11-22 03:47:15Z"}
+{"step": "refill-add", "id": 272, "product": 205, "at": "2026-11-24 21:24", "style": "가치형", "t": "2026-11-22 03:47:15Z"}
+{"step": "refill-reject", "prod": 186, "dup": false, "n": 108, "text": "양치할 때마다 개운하지 않고 텁텁해서 찝찝하던 번거로움이 싹 사라짐\n치약 고를 때 성분 안전하고 상쾌함 오래가는지부터 봐\n후기 145,210개 읽어 보니 개운하다더라\n너네도 이런 건 줄 몰랐지?", "t": "2026-11-22 03:47:16Z"}
+{"step": "refill-reject", "prod": 186, "dup": false, "n": 108, "text": "양치할 때마다 텁텁함 안 가셔서 가글까지 몇 번씩 하던 번거로움이 싹 사라짐\n치약 살 때 상쾌함 오래가고 개운한지부터 봐\n후기 152,431개 읽어 보니 개운하다더라\n너네도 이런 건 줄 몰랐지?", "t": "2026-11-22 03:47:17Z"}
+{"step": "refill-reject", "prod": 186, "dup": false, "n": 108, "text": "양치할 때마다 개운하지 않고 텁텁함 남아서 몇 번씩 헹구던 번거로움이 싹 사라짐\n치약 살 때 거품 잘 나고 상쾌한지부터 봐\n후기 83,774개 읽어 보니 개운하다더라\n너네도 이런 건 줄 몰랐지?", "t": "2026-11-22 03:47:18Z"}
+{"step": "refill-add", "id": 273, "product": 186, "at": "2026-11-24 09:32", "style": "공감형", "t": "2026-11-22 03:47:18Z"}
+{"step": "refill-reject", "prod": 187, "dup": false, "n": 137, "text": "갑자기 비 올 때마다 우산 부러질까 봐 조마조마하던 번거로움이 싹 사라짐\n장우산 살 때 바람 잘 버티고 튼튼한지부터 봐\n튼튼한 장우산 하나 쟁여두면 비 오는 날 마음 편함\n후기 7,905개 읽어 보니 튼튼하다더라\n나중에 찾아 헤매지 말고 저장해둬", "t": "2026-11-22 03:47:19Z"}
+{"step": "refill-add", "id": 274, "product": 187, "at": "2026-11-24 14:47", "style": "추천형", "t": "2026-11-22 03:47:19Z"}
+{"step": "refill-reject", "prod": 206, "dup": false, "n": 125, "text": "김장할 때마다 절이기 힘들고 시간 오래 걸리던 번거로움이 싹 사라짐\n절임배추 살 때 숨 잘 죽고 세척 꼼꼼한지부터 봐\n해남 절임배추 20kg 해가온 준비해두니까 김치 담그는 게 편해짐\n후기 4,479개 읽어 보니 깔끔하다더라", "t": "2026-11-22 03:47:20Z"}
+{"step": "refill-add", "id": 275, "product": 206, "at": "2026-11-24 08:05", "style": "이야기형", "t": "2026-11-22 03:47:20Z"}
+{"step": "refill-reject", "prod": 188, "dup": false, "n": 81, "text": "걸을 때마다 양말 흘러내리고 발가락 아프던 번거로움이 싹 사라짐\n양말 살 때 조이지 않고 도톰한지부터 봐\n후기 47,869개 읽어 보니 편하다더라", "t": "2026-11-22 03:47:20Z"}
+{"step": "refill-add", "id": 276, "product": 188, "at": "2026-11-24 11:27", "style": "한줄형", "t": "2026-11-22 03:47:20Z"}
+{"step": "refill-reject", "prod": 207, "dup": false, "n": 126, "text": "외출할 때마다 어떤 옷에 신을지 고민하고 발 피곤하던 번거로움이 싹 사라짐\n스니커즈 살 때 발 안 아프고 코디 쉬운지부터 봐\n뉴발란스 530 스틸그레이 신으니까 하루 종일 돌아다녀도 편함\n후기 5,384개인데 써본 사람 있어?", "t": "2026-11-22 03:47:21Z"}
+{"step": "refill-add", "id": 277, "product": 207, "at": "2026-11-24 16:32", "style": "가치형", "t": "2026-11-22 03:47:21Z"}
+{"step": "refill-reject", "prod": 189, "dup": false, "n": 98, "text": "샤워할 때마다 대충 닦여서 찝찝하던 번거로움이 싹 사라짐\n샤워타월 살 때 거품 잘 나고 부드러운지부터 봐\n후기 34,120개 읽어 보니 개운하다더라\n너네도 이런 건 줄 몰랐지?", "t": "2026-11-22 03:47:22Z"}
+{"step": "refill-reject", "prod": 189, "dup": false, "n": 98, "text": "샤워할 때마다 대충 닦아서 찝찝하던 번거로움이 싹 사라짐\n샤워타월 살 때 거품 잘 나고 부드러운지부터 봐\n후기 32,410개 읽어 보니 시원하다더라\n너네도 이런 건 줄 몰랐지?", "t": "2026-11-22 03:47:23Z"}
+{"step": "refill-reject", "prod": 189, "dup": false, "n": 99, "text": "샤워할 때마다 거품 안 나고 찝찝하던 번거로움이 싹 사라짐\n샤워타월 살 때 부드럽고 거품 잘 나는지부터 봐\n후기 27,503개 읽어 보니 개운하다더라\n너네도 이런 건 줄 몰랐지?", "t": "2026-11-22 03:47:23Z"}
+{"step": "refill-add", "id": 278, "product": 189, "at": "2026-11-24 22:42", "style": "발견형", "t": "2026-11-22 03:47:23Z"}
+{"step": "refill-reject", "prod": 208, "dup": false, "n": 127, "text": "아침마다 면도 덜 돼서 거울 앞에서 수염 깎고 또 깎던 번거로움이 싹 사라짐\n전기면도기 살 때 피부 안 다치고 깔끔하게 깎이는지부터 봐\n브라운 시리즈3 전기면도기 쓰니까 바쁜 아침에 면도 시간이 확 줄어듦\n너네도 이걸로 바꿀래?", "t": "2026-11-22 03:47:24Z"}
+{"step": "refill-add", "id": 279, "product": 208, "at": "2026-11-24 12:45", "style": "전환형", "t": "2026-11-22 03:47:24Z"}
+{"step": "refill-llm-error", "error": "gemini 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.go", "t": "2026-11-22 03:47:24Z"}
+{"step": "refill-reject", "prod": 190, "dup": false, "n": 134, "text": "빨래할 때마다 찌든 때 안 지워지고 냄새 나던 번거로움이 싹 사라짐\n세탁세제 살 때 성분 순하고 세척력 좋은지부터 봐\n세탁세제 하나 쟁여두면 빨래할 때 마음 편함\n후기 267,804개 읽어 보니 개운하다더라\n나중에 찾아 헤매지 말고 저장해둬", "t": "2026-11-22 03:47:25Z"}
+{"step": "refill-add", "id": 280, "product": 190, "at": "2026-11-24 18:04", "style": "추천형", "t": "2026-11-22 03:47:25Z"}
+{"step": "refill-llm-error", "error": "gemini 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.go", "t": "2026-11-22 03:47:25Z"}
+{"step": "refill-reject", "prod": 209, "dup": false, "n": 156, "text": "하루 종일 앉아 일할 때마다 허리 아프고 쑤시던 번거로움이 싹 사라짐\n사무용의자 살 때 자세 잘 잡아주고 편안한지부터 봐\n체어클럽 M2 메쉬 사무용의자 쓰니까 오래 앉아 있어도 허리가 편안해짐\n후기 21,338개 읽어 보니 편하다더라\n의자 바꾸려고 고민 중이라면 이 정도면 충분함", "t": "2026-11-22 03:47:26Z"}
+{"step": "refill-llm-error", "error": "gemini 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.go", "t": "2026-11-22 03:47:26Z"}
+{"step": "refill-llm-error", "error": "gemini 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.go", "t": "2026-11-22 03:47:26Z"}
+{"step": "refill-llm-error", "error": "gemini 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.go", "t": "2026-11-22 03:47:27Z"}
+{"step": "refill-llm-error", "error": "gemini 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.go", "t": "2026-11-22 03:47:27Z"}
+{"step": "refill-llm-error", "error": "gemini 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.go", "t": "2026-11-22 03:47:27Z"}
+{"step": "refill-llm-error", "error": "gemini 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.go", "t": "2026-11-22 03:47:27Z"}
+{"step": "refill-reject", "prod": 211, "dup": false, "n": 114, "text": "캠핑 가서 텐트 안 추울까 봐 덜덜 떨며 잠 설치던 번거로움이 싹 사라짐\n캠핑난로 살 때 화력 세고 안전한지부터 봐\n스윗캠핑 400W 전기히터 두니까 텐트 안이 따뜻해짐\n후기 679개인데 써본 사람 있어?", "t": "2026-11-22 03:47:28Z"}
+{"step": "refill-add", "id": 281, "product": 211, "at": "2026-11-24 13:47", "style": "가치형", "t": "2026-11-22 03:47:28Z"}
+{"step": "refill-no-slot", "day": "2026-11-24", "left": 18, "t": "2026-11-22 03:47:28Z"}
+{"step": "refill-done", "added": 0, "t": "2026-11-22 03:47:28Z"}
