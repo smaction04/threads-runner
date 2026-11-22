@@ -22597,3 +22597,6 @@
 {"step": "refill-add", "id": 281, "product": 212, "at": "2026-11-24 16:05", "style": "가치형", "t": "2026-11-22 11:17:11Z"}
 {"step": "refill-no-slot", "day": "2026-11-24", "left": 18, "t": "2026-11-22 11:17:11Z"}
 {"step": "refill-done", "added": 0, "t": "2026-11-22 11:17:11Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-22 11:20:22Z"}
+{"step": "status", "due": [241], "pending": 15, "t": "2026-11-22 11:20:22Z"}
+{"id": 241, "step": "skip", "why": "min gap", "t": "2026-11-22 11:20:22Z"}
