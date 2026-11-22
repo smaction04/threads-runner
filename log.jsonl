@@ -22321,3 +22321,5 @@
 {"step": "publish-timing", "kind": "reply", "gap_sec": 28.1, "attempts": 1, "t": "2026-11-22 04:41:24Z"}
 {"id": 237, "step": "reply", "reply_id": "17860780380697169", "t": "2026-11-22 04:41:24Z"}
 {"id": 237, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DgB-BV1joOc", "t": "2026-11-22 04:41:24Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-22 04:50:23Z"}
+{"step": "status", "due": [], "pending": 20, "t": "2026-11-22 04:50:23Z"}
