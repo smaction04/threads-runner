@@ -4,7 +4,6 @@ import random
 import re
 import sys
 import time
-import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -14,9 +13,6 @@ Q = "queue.json"
 LOG = "log.jsonl"
 POOL = "products.json"
 DASH = "dash/dash_base.json"
-KEY = os.environ.get("GEMINI_API_KEY", "")
-QUOTA = False
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 DRY = os.environ.get("DRY_RUN", "1") != "0"
 KST = 9 * 3600
 MAXLEN = 140
@@ -69,21 +65,6 @@ def log(**kw):
     print(kw)
 
 
-def gemini(prompt):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
-    body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
-                       "generationConfig": {"temperature": 1.0, "responseMimeType": "application/json"}}).encode()
-    req = urllib.request.Request(url, data=body, headers={"x-goog-api-key": KEY, "Content-Type": "application/json"})
-    try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            d = json.loads(r.read().decode())
-    except urllib.error.HTTPError as e:
-        global QUOTA
-        QUOTA = QUOTA or e.code == 429
-        raise RuntimeError(f"gemini {e.code} {e.read().decode(errors='replace')[:200]}") from None
-    return d["candidates"][0]["content"]["parts"][0]["text"]
-
-
 def norm(t):
     return re.sub(r"\s+", "", t)
 
@@ -125,37 +106,7 @@ def is_high(prod):
     return prod.get("price", 0) > HIGH_PRICE
 
 
-def make_text(prod, recent, style, at):
-    kind = prod.get("kind") or prod["name"]
-    high = is_high(prod)
-    rule = (HIGH_STYLES if high else STYLES)[style].replace("{MONTH}", str(month_of(at)))
-    rv = reviews_of(prod)
-    prompt = "\n".join([
-        "너는 스레드에 올릴 짧은 후킹 글 작성자다.",
-        "[공통 규칙]", BASE_RULE,
-        *(["[비싼 상품 규칙]", HIGH_RULE, f"[상품명] {prod['name']}"] if high else []),
-        f"[이번 글의 형식: {style}]", rule,
-        f"[상품 종류] {kind}",
-        *(["[고르는 법 한 줄] 글 안에 이 종류 물건을 살 때 확인할 점 한 가지를 '나는 이런 건 살 때 ~부터 봐'처럼 내 기준을 말하는 한 줄로 넣는다같은 말투·기준으로 일관되게 쓴다. 이 상품이 그 점을 갖췄다고 말하지 않는다. 줄 수와 길이는 위 형식·[공통 규칙] 그대로 지킨다."] if style not in NO_TIP else []),
-        *([f"[후기 수] {rv:,}개. 쓰려면 '후기 {rv:,}개'처럼 이 숫자 그대로만 쓴다. 별점·후기 내용은 지어내지 않는다. 자격을 보일 땐 '후기 {rv:,}개 읽어 보니'처럼 우리가 실제로 한 일(후기 읽기)로만 말하고, '써 보니·써 봤는데·직접 써 보니' 같은 사용 경험은 쓰지 않는다."] if rv and style not in NO_COUNT else []),
-        *([f"[실제 후기에 자주 나온 말] {prod['review_note']} (쓰려면 이 말 그대로 따옴표로)"] if prod.get("review_note") else []),
-        "[이미 쓴 글: 첫 줄과 표현이 겹치지 않게 새로 쓸 것]",
-        "\n---\n".join(recent[-8:]),
-        '출력은 JSON만: {"text": "글"}',
-    ])
-    for _ in range(2):
-        if QUOTA or time.time() - T0 > BUDGET_SEC:
-            return None
-        try:
-            t = str(json.loads(gemini(prompt)).get("text", "")).strip()
-        except Exception as e:
-            log(step="refill-llm-error", error=str(e)[:200])
-            continue
-        firsts = {norm(r.splitlines()[0]) for r in recent if r.strip()}
-        log(step='refill-reject', prod=prod['id'], dup=norm(t.splitlines()[0]) in firsts if t.strip() else None, n=len(t), text=t[:300])
-        if valid(t, prod) and norm(t.splitlines()[0]) not in firsts:
-            return t
-    return None
+make_text = None  # 클로드 글쓰기 도구(claude_write_drive.py)가 채워 넣는다
 
 
 def day_of(ts):
@@ -234,7 +185,7 @@ FIX = {"refill-limits-bad": "limits.json을 고치거나 지워 주세요. warn_
        "refill-no-product": "새 물건(특히 중간·큰 가격 칸)을 products.json에 보충해 주세요.",
        "refill-band-missing": "비어 있는 가격 칸의 물건을 products.json에 보충해 주세요.",
        "refill-no-slot": "그날 예약 시간이 꽉 찼는지 queue.json을 확인해 주세요.",
-       "refill-no-text": "글 만들기 키(GEMINI_API_KEY)와 실행 기록을 확인해 주세요.",
+       "refill-no-text": "클로드가 넘긴 글이 모자라요. 실행 기록을 확인해 주세요.",
        "refill-claude-needed": "클로드 세션에서 스레드 운영 설명서 4-1대로 글을 써 채워 주세요.",
        "refill-budget": "실행 시간이 모자랐어요. 다음 실행에서 이어 채우는지 지켜봐 주세요."}
 
@@ -321,7 +272,7 @@ def main():
         log(step="refill-skip", pending=sum(i["status"] == "scheduled" for i in items))
         alert_state(None, None, now)
         return
-    if not KEY:
+    if make_text is None:
         log(step="refill-claude-needed", pending=sum(i["status"] == "scheduled" for i in items))
         if alert_state("refill-claude-needed", time.strftime("%Y-%m-%d", time.gmtime(plan[0][0] * 86400)), now):
             sys.exit(1)
@@ -375,9 +326,9 @@ def main():
                     names = HIGH_STYLES if is_high(prod) else STYLES
                     style = random.choice([x for x in names if x not in recent_styles[-3:]] or list(names))
                     text = make_text(prod, recent, style, at)
-                    if text or QUOTA:
+                    if text:
                         break
-                if text or QUOTA or time.time() - T0 > BUDGET_SEC:
+                if text or time.time() - T0 > BUDGET_SEC:
                     break
                 alt = next((p for p in pool if band(p["price"]) == band(prod["price"]) and kind_of(p) not in kinds), None)
                 if not alt:
