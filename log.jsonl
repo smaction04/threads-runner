@@ -23172,3 +23172,20 @@
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-23 05:30:37Z"}
 {"step": "status", "due": [257], "pending": 8, "t": "2026-11-23 05:30:37Z"}
 {"id": 257, "step": "skip", "why": "min gap", "t": "2026-11-23 05:30:37Z"}
+{"step": "refill-add", "id": 270, "product": 210, "at": "2026-11-24 12:53", "style": "이야기형", "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-add", "id": 271, "product": 185, "at": "2026-11-24 16:53", "style": "한줄형", "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-add", "id": 272, "product": 205, "at": "2026-11-24 08:53", "style": "전환형", "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-add", "id": 273, "product": 186, "at": "2026-11-24 15:53", "style": "비교형", "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-add", "id": 274, "product": 187, "at": "2026-11-24 10:53", "style": "발견형", "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-add", "id": 275, "product": 206, "at": "2026-11-24 22:53", "style": "이야기형", "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-add", "id": 276, "product": 188, "at": "2026-11-24 20:53", "style": "질문형", "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-add", "id": 277, "product": 207, "at": "2026-11-24 21:53", "style": "전환형", "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-add", "id": 278, "product": 189, "at": "2026-11-24 09:53", "style": "계절형", "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-add", "id": 279, "product": 208, "at": "2026-11-24 18:53", "style": "가치형", "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-add", "id": 280, "product": 190, "at": "2026-11-24 14:53", "style": "추천형", "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-add", "id": 281, "product": 209, "at": "2026-11-24 19:53", "style": "이야기형", "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-add", "id": 282, "product": 192, "at": "2026-11-24 17:53", "style": "발견형", "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-add", "id": 283, "product": 193, "at": "2026-11-24 13:53", "style": "한줄형", "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-no-text", "day": "2026-11-25", "left": 4, "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-done", "added": 14, "t": "2026-11-23 05:34:50Z"}
+{"step": "refill-alert-new", "reason": "refill-no-text", "prev": "refill-no-slot", "telegram": false, "t": "2026-11-23 05:34:50Z"}
