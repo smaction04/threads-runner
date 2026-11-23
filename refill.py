@@ -226,7 +226,8 @@ REASON = {"refill-limits-bad": "상한 파일(limits.json)이 이상함",
           "refill-no-product": "새 물건이 바닥남(가격 칸·같은 종류 규칙에 맞는 물건 없음)",
           "refill-band-missing": "가격 세 칸을 다 채울 물건이 없음",
           "refill-no-slot": "넣을 시간 칸이 없음", "refill-no-text": "글 만들기 실패",
-          "refill-budget": "실행 시간 부족"}
+          "refill-budget": "실행 시간 부족",
+          "refill-claude-needed": "예약이 모자라요(클로드가 글을 써서 채우는 방식)"}
 
 
 FIX = {"refill-limits-bad": "limits.json을 고치거나 지워 주세요. warn_cap 칸 하나에 0 이상 정수만 넣습니다.",
@@ -234,6 +235,7 @@ FIX = {"refill-limits-bad": "limits.json을 고치거나 지워 주세요. warn_
        "refill-band-missing": "비어 있는 가격 칸의 물건을 products.json에 보충해 주세요.",
        "refill-no-slot": "그날 예약 시간이 꽉 찼는지 queue.json을 확인해 주세요.",
        "refill-no-text": "글 만들기 키(GEMINI_API_KEY)와 실행 기록을 확인해 주세요.",
+       "refill-claude-needed": "클로드 세션에서 스레드 운영 설명서 4-1대로 글을 써 채워 주세요.",
        "refill-budget": "실행 시간이 모자랐어요. 다음 실행에서 이어 채우는지 지켜봐 주세요."}
 
 
@@ -320,8 +322,10 @@ def main():
         alert_state(None, None, now)
         return
     if not KEY:
-        log(step="refill-fatal", error="GEMINI_API_KEY 없음")
-        sys.exit(1)
+        log(step="refill-claude-needed", pending=sum(i["status"] == "scheduled" for i in items))
+        if alert_state("refill-claude-needed", time.strftime("%Y-%m-%d", time.gmtime(plan[0][0] * 86400)), now):
+            sys.exit(1)
+        return
     allp = json.load(open(POOL, encoding="utf-8"))
     prods = {p["id"]: p for p in allp}
     used_ids = {i.get("product") for i in items}
