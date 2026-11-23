@@ -23464,3 +23464,6 @@
 {"id": 267, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-23 18:40:25Z"}
 {"step": "refill-claude-needed", "pending": 45, "t": "2026-11-23 18:47:13Z"}
 {"step": "refill-alert-followup", "reason": "refill-claude-needed", "t": "2026-11-23 18:47:13Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-23 18:50:25Z"}
+{"step": "status", "due": [267], "pending": 45, "t": "2026-11-23 18:50:25Z"}
+{"id": 267, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-23 18:50:25Z"}
