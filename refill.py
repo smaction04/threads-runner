@@ -189,8 +189,10 @@ def day_plan(times, now, cap):
 
 def pick_time(d, taken, now, rnd=random):
     base = d * 86400 - KST
-    for _ in range(500):
-        t = base + rnd.choice(HOURS) * 3600 + rnd.randint(1, 59) * 60
+    day = [x for x in taken if base <= x < base + 86400]
+    fixed = (day[0] - base) // 60 % 60 if day else rnd.randint(1, 59)
+    for n in range(500):
+        t = base + rnd.choice(HOURS) * 3600 + (fixed if n < 300 else rnd.randint(1, 59)) * 60
         if t > now + 3600 and all(abs(t - x) >= MIN_SLOT_GAP for x in taken):
             return t
     return None
