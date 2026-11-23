@@ -1,9 +1,9 @@
 {
- "reason": "refill-no-text",
+ "reason": "refill-no-slot",
  "day": "2026-11-24",
- "at": 1795398013,
+ "at": 1795405635,
  "followup": false,
  "sent": true,
- "prev": "refill-no-slot",
+ "prev": "refill-no-text",
  "prev_sent": true
 }
