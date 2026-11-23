@@ -2583,5 +2583,130 @@
   "use": true,
   "kind": "와인셀러",
   "full_name": "LG전자 LG 디오스 와인셀러 미니 방문설치 8병, 블랙, W087B"
+ },
+ {
+  "id": 246,
+  "name": "테팔 솔레이 토스터",
+  "price": 34900,
+  "reviews": 9521,
+  "link": "https://link.coupang.com/a/iUDrQcX0TY",
+  "tier": "high",
+  "use": true,
+  "kind": "토스터",
+  "full_name": "테팔 솔레이 토스터, TT303AKR",
+  "review_note": "처음 쓸 때 타는 냄새가 난다는 후기가 2명"
+ },
+ {
+  "id": 247,
+  "name": "필립스 핸드블렌더 5000",
+  "price": 61650,
+  "reviews": 1110,
+  "link": "https://link.coupang.com/a/iUDsBEUJVc",
+  "tier": "high",
+  "use": true,
+  "kind": "핸드블렌더",
+  "full_name": "필립스 파워 핸드블렌더 5000 시리즈 블랙 메탈, HR2681/00",
+  "review_note": "소리가 큰 편이라는 후기가 여러 명"
+ },
+ {
+  "id": 248,
+  "name": "KURUA Y형 빨래건조대",
+  "price": 42800,
+  "reviews": 1437,
+  "link": "https://link.coupang.com/a/iUDtokaJEq",
+  "tier": "high",
+  "use": true,
+  "kind": "빨래건조대",
+  "full_name": "KURUA 홈 Y형 튼튼한 접이식 대형 빨래건조대, 크림 화이트"
+ },
+ {
+  "id": 249,
+  "name": "쿠쿠 스피드팟 멀티쿠커",
+  "price": 93620,
+  "reviews": 5713,
+  "link": "https://link.coupang.com/a/iUDt9e47mn",
+  "tier": "high",
+  "use": true,
+  "kind": "멀티쿠커",
+  "full_name": "쿠쿠 스피드팟 멀티쿠커, CMC-A0655FB"
+ },
+ {
+  "id": 250,
+  "name": "베어그릭스 요거트메이커",
+  "price": 35300,
+  "reviews": 2727,
+  "link": "https://link.coupang.com/a/iUDuTDjSqi",
+  "tier": "high",
+  "use": true,
+  "kind": "요거트메이커",
+  "full_name": "베어그릭스 꾸덕 요거트메이커 1.7L, 혼합색상, 1개"
+ },
+ {
+  "id": 251,
+  "name": "마이디어 전자레인지 20L",
+  "price": 57900,
+  "reviews": 11334,
+  "link": "https://link.coupang.com/a/iUDvD2JDYi",
+  "tier": "high",
+  "use": true,
+  "kind": "전자레인지",
+  "full_name": "마이디어 전자레인지 다이얼식 20L, MW3400BL"
+ },
+ {
+  "id": 252,
+  "name": "카멜 모니터암 CA1H",
+  "price": 40200,
+  "reviews": 805,
+  "link": "https://link.coupang.com/a/iUDwoR8oxM",
+  "tier": "high",
+  "use": true,
+  "kind": "모니터암",
+  "full_name": "카멜 고중량 싱글 거치대 모니터암 CA1H, 블랙, 1개"
+ },
+ {
+  "id": 253,
+  "name": "LG 27인치 모니터",
+  "price": 199000,
+  "reviews": 2836,
+  "link": "https://link.coupang.com/a/iUDxdkLacS",
+  "tier": "high",
+  "use": true,
+  "kind": "모니터",
+  "full_name": "LG전자 FHD PC 모니터, 68.6cm, 27MS500"
+ },
+ {
+  "id": 254,
+  "name": "아이뮤즈 뮤패드 태블릿",
+  "price": 255550,
+  "reviews": 2956,
+  "link": "https://link.coupang.com/a/iUDxZyZNkW",
+  "tier": "high",
+  "use": true,
+  "kind": "태블릿",
+  "full_name": "아이뮤즈 포유디지탈 27.9cm 뮤패드 K11 LTE 안드로이드 태블릿PC 8GB, 실버, 128GB, Wi-Fi+Cellular",
+  "review_note": "고사양 게임과 카메라는 아쉽다는 후기가 3명"
+ },
+ {
+  "id": 255,
+  "name": "Arcbliss 리클라이너 의자",
+  "price": 169000,
+  "reviews": 1573,
+  "link": "https://link.coupang.com/a/iUDyKNWrCe",
+  "tier": "high",
+  "use": true,
+  "kind": "게이밍의자",
+  "full_name": "Arcbliss 침대형 리클라이너 특대형 중역 pc방 게이밍 컴퓨터 메쉬 의자, 블랙"
+ },
+ {
+  "id": 256,
+  "name": "하이센스 4K 구글TV 55",
+  "price": 559550,
+  "reviews": 2107,
+  "link": "https://link.coupang.com/a/iUDzSx9E84",
+  "tier": "high",
+  "use": true,
+  "kind": "TV",
+  "full_name": "Hisense하이센스 4K LED 구글TV, 139cm(55인치), 55A6N, 벽걸이형, 방문설치",
+  "review_note": "스피커 소리가 약하다는 후기가 2명 이상"
  }
 ]
