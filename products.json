@@ -1,7 +1,7 @@
 [
  {
   "id": 1,
-  "name": "\uc5e0\ube44\ucf54 \uad6d\ub0b4\uc0b0 \ub2e4\uc6a9\ub3c4 \ud32c\ud2b8\ub9ac \uc815\ub9ac\ud568 \ud654\uc774\ud2b8 4\uac1c",
+  "name": "엠비코 국내산 다용도 팬트리 정리함 화이트 4개",
   "price": 9280,
   "link": "https://link.coupang.com/a/hJgOJPc9GS",
   "channel": false,
@@ -9,7 +9,7 @@
  },
  {
   "id": 2,
-  "name": "\ud55c\ub204\ub124 \uad6d\ub0b4\uc0dd\uc0b0 \ub2e4\uc6a9\ub3c4 \ub0c9\uc7a5\uace0 \uc815\ub9ac\ud568 8\uac1c \ubc18\ud22c\uba85",
+  "name": "한누네 국내생산 다용도 냉장고 정리함 8개 반투명",
   "price": 15900,
   "link": "https://link.coupang.com/a/hJlOWczgHs",
   "channel": false,
@@ -17,7 +17,7 @@
  },
  {
   "id": 3,
-  "name": "\ud074\ub9b0\ubc15\uc0ac \uc2f1\ud06c\ub300 \uc74c\uc2dd\ubb3c \ubc30\uc218\uad6c \uac70\ub984\ub9dd 1\uc138\ud2b8 600\uac1c",
+  "name": "클린박사 싱크대 음식물 배수구 거름망 1세트 600개",
   "price": 6900,
   "link": "https://link.coupang.com/a/hJlP3Buzts",
   "channel": false,
@@ -25,7 +25,7 @@
  },
  {
   "id": 4,
-  "name": "E\uc564B\ud558\uc6b0\uc2a4 \ub300\ud615 \uc774\ubd88 \uc138\ud0c1 \ube68\ub798\ub9dd \ud654\uc774\ud2b8 2\uac1c",
+  "name": "E앤B하우스 대형 이불 세탁 빨래망 화이트 2개",
   "price": 11000,
   "link": "https://link.coupang.com/a/hJlQGKNHsy",
   "channel": false,
@@ -33,7 +33,7 @@
  },
  {
   "id": 5,
-  "name": "\ub77d\uc564\ub77d \ucc29\ucc29 \ubc00\ud3d0\uc6a9\uae30 5\uc885 \uc138\ud2b8 230ml 500ml 920ml 1.6L 2.7L",
+  "name": "락앤락 착착 밀폐용기 5종 세트 230ml 500ml 920ml 1.6L 2.7L",
   "price": 15700,
   "link": "https://link.coupang.com/a/hJlRJXURt6",
   "channel": false,
@@ -41,7 +41,7 @@
  },
  {
   "id": 6,
-  "name": "\uc4f0\ub9ac\uc624\ube0c\uc5b4\uc2a4 \uc2a4\ud150 \ucf54\ub108\uc120\ubc18 \ubb34\ud0c0\uacf5 SUS304 \uc2e4\ubc84 \ub300\ud615 L",
+  "name": "쓰리오브어스 스텐 코너선반 무타공 SUS304 실버 대형 L",
   "price": 18500,
   "link": "https://link.coupang.com/a/hJlSneeMZo",
   "channel": false,
@@ -49,2451 +49,2451 @@
  },
  {
   "id": 7,
-  "name": "\ud648\uc2a4\ud0c0 \uc2e0\ubc1c\uc744 \ubd80\ud0c1\ud574 \ud0c8\ucde8\uc81c \ubcf8\ud488 500ml 2\uac1c",
+  "name": "홈스타 신발을 부탁해 탈취제 본품 500ml 2개",
   "price": 9700,
   "link": "https://link.coupang.com/a/hOsFrCFDrh",
   "channel": true,
   "use": true,
-  "kind": "\uc2e0\ubc1c \ud0c8\ucde8\uc81c",
+  "kind": "신발 탈취제",
   "ban": [
-   "\ud648\uc2a4\ud0c0",
-   "\uc2e0\ubc1c\uc744\ubd80\ud0c1\ud574"
+   "홈스타",
+   "신발을부탁해"
   ]
  },
  {
   "id": 8,
-  "name": "\ubc14\uc2a4\ud504 \ub9e4\uc9c1\ube14\ub7ed \uc911\ud615 \ubcf8\ud488 100\uac1c",
+  "name": "바스프 매직블럭 중형 본품 100개",
   "price": 10240,
   "link": "https://link.coupang.com/a/hWJ7Lol9Xg",
   "channel": true,
   "use": true,
-  "kind": "\uccad\uc18c \uc2a4\ud380\uc9c0",
+  "kind": "청소 스펀지",
   "ban": [
-   "\ubc14\uc2a4\ud504",
-   "\ub9e4\uc9c1\ube14\ub7ed",
-   "\ub9e4\uc9c1\ube14\ub85d",
-   "\ucf54\uba67"
+   "바스프",
+   "매직블럭",
+   "매직블록",
+   "코멧"
   ]
  },
  {
   "id": 9,
-  "name": "\ud648\uc2a4\ud0c0 \uc5d8\uc9c0 \ub9c9\ud78c\uacf3\uc744 \ubd80\ud0c1\ud574 \ub9e4\uc9c1\ud391\ud391 2L",
+  "name": "홈스타 엘지 막힌곳을 부탁해 매직펑펑 2L",
   "price": 3990,
   "link": "https://link.coupang.com/a/hOsEbffRCe",
   "channel": true,
   "use": true,
-  "kind": "\ubc30\uc218\uad6c \uc138\uc815\uc81c",
+  "kind": "배수구 세정제",
   "ban": [
-   "\ud648\uc2a4\ud0c0",
-   "\uc5d8\uc9c0",
+   "홈스타",
+   "엘지",
    "lg",
-   "\ub9c9\ud78c\uacf3\uc744\ubd80\ud0c1\ud574",
-   "\ub9e4\uc9c1\ud391\ud391"
+   "막힌곳을부탁해",
+   "매직펑펑"
   ]
  },
  {
   "id": 10,
-  "name": "\ud648\uc2a4\ud0c0 \ubfcc\ub9ac\ub294 \uacf0\ud321\uc774 \uc2f9 \uc138\uc815\uc81c 900ml 2\uac1c",
+  "name": "홈스타 뿌리는 곰팡이 싹 세정제 900ml 2개",
   "price": 8700,
   "link": "https://link.coupang.com/a/hOsEuUvcSy",
   "channel": true,
   "use": true,
-  "kind": "\uacf0\ud321\uc774 \uc138\uc815\uc81c",
+  "kind": "곰팡이 세정제",
   "ban": [
-   "\ud648\uc2a4\ud0c0",
-   "\uacf0\ud321\uc774\uc2f9"
+   "홈스타",
+   "곰팡이싹"
   ]
  },
  {
   "id": 11,
-  "name": "\ub808\uc778\ubcf4\uc6b0\uc0f5 \uacfc\ud0c4\uc0b0\uc18c\ub2e4 \uc0b0\uc18c\uacc4 \ud45c\ubc31\uc81c 3kg",
+  "name": "레인보우샵 과탄산소다 산소계 표백제 3kg",
   "price": 9400,
   "link": "https://link.coupang.com/a/hOsEOvItd6",
   "channel": true,
   "use": true,
-  "kind": "\uc0b0\uc18c\uacc4 \ud45c\ubc31\uc81c",
+  "kind": "산소계 표백제",
   "ban": [
-   "\ub808\uc778\ubcf4\uc6b0\uc0f5"
+   "레인보우샵"
   ]
  },
  {
   "id": 12,
-  "name": "\ud53c\ube44\uc6d0 \uc624\ube10\ud06c\ub9ac\ub108 \uace8\ub4dc \ub808\ubaac\ud5a5 500ml",
+  "name": "피비원 오븐크리너 골드 레몬향 500ml",
   "price": 5100,
   "link": "https://link.coupang.com/a/hWJ05inNuu",
   "channel": true,
   "use": true,
-  "kind": "\uc624\ube10 \ud06c\ub9ac\ub108",
+  "kind": "오븐 크리너",
   "ban": [
-   "\ud53c\ube44\uc6d0",
-   "\uace8\ub4dc",
-   "\ucf54\ucf54\uc988"
+   "피비원",
+   "골드",
+   "코코즈"
   ]
  },
  {
   "id": 13,
-  "name": "\ud544\ub9bd\uc2a4 \ud578\ub514\ud615 \uc2a4\ud300\ub2e4\ub9ac\ubbf8 1000 \uc2dc\ub9ac\uc988, STH1010/10, \ud63c\ud569\uc0c9\uc0c1",
+  "name": "필립스 핸디형 스팀다리미 1000 시리즈, STH1010/10, 혼합색상",
   "price": 30190,
   "link": "https://link.coupang.com/a/h1LxnQrlLM",
   "channel": false,
   "use": true,
-  "kind": "\ud578\ub514 \uc2a4\ud300\ub2e4\ub9ac\ubbf8",
+  "kind": "핸디 스팀다리미",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 14,
-  "name": "\ud14c\ud314 \ub85c\ud504\ud2b8 \uc804\uae30\ud3ec\ud2b8 \ud654\uc774\ud2b8, KO2501KR",
+  "name": "테팔 로프트 전기포트 화이트, KO2501KR",
   "price": 34750,
   "link": "https://link.coupang.com/a/h1LxY21dzU",
   "channel": false,
   "use": true,
-  "kind": "\uc804\uae30\ud3ec\ud2b8",
+  "kind": "전기포트",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 15,
-  "name": "\ud0a4\uce5c\uc544\ud2b8 \ud5c8\ube0c \uc640\uc774\ub4dc \uc804\uae30\uadf8\ub9b4, KNG-W660NK",
+  "name": "키친아트 허브 와이드 전기그릴, KNG-W660NK",
   "price": 47400,
   "link": "https://link.coupang.com/a/h1LyAlicjA",
   "channel": false,
   "use": true,
-  "kind": "\uc804\uae30\uadf8\ub9b4",
+  "kind": "전기그릴",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 16,
-  "name": "\ucfe0\uccb8 \uc5d0\uc5b4\ud504\ub77c\uc774\uc5b4 5L, COV-D050G, GRAY",
+  "name": "쿠첸 에어프라이어 5L, COV-D050G, GRAY",
   "price": 62700,
   "link": "https://link.coupang.com/a/h1LzbpFxmK",
   "channel": false,
   "use": true,
-  "kind": "\uc5d0\uc5b4\ud504\ub77c\uc774\uc5b4",
+  "kind": "에어프라이어",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 17,
-  "name": "HanilMedical \ud0c4\uc18c\uc5f4\uc120 \uace0\uae09 \uc804\uae30\uc694 HL-D205(25), \ubd81\uadf9\uacf0",
+  "name": "HanilMedical 탄소열선 고급 전기요 HL-D205(25), 북극곰",
   "price": 30900,
   "link": "https://link.coupang.com/a/igQ5sfzzeC",
   "channel": false,
   "use": true,
-  "kind": "\uc804\uae30\uc7a5\ud310",
+  "kind": "전기장판",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 18,
-  "name": "\ud648\ud50c\ub798\ub2db \ucd08\uc74c\ud30c \uac00\uc2b5\uae30 4L, H1001D11",
+  "name": "홈플래닛 초음파 가습기 4L, H1001D11",
   "price": 26900,
   "link": "https://link.coupang.com/a/igQ9LhIC8i",
   "channel": false,
   "use": true,
-  "kind": "\uac00\uc2b5\uae30",
+  "kind": "가습기",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 19,
-  "name": "\ud53c\ud06c\ub974 304 \uc2a4\ud14c\uc778\ub9ac\uc2a4 \ubcf4\uc628\ub3c4\uc2dc\ub77d\ud1b5 \uc804\uc790\ub808\uc778\uc9c0",
+  "name": "피크르 304 스테인리스 보온도시락통 전자레인지",
   "price": 22800,
   "link": "https://link.coupang.com/a/igRaFenPKS",
   "channel": false,
   "use": true,
-  "kind": "\ubcf4\uc628\ub3c4\uc2dc\ub77d",
+  "kind": "보온도시락",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 20,
-  "name": "\uc5e0\ub514\uc2a4\ud53d \ub4dc \ubc14\ub9ac\uc2a4\ud0c0 \ud578\ub4dc\ud06c\ub9bc \ubb34\ud5a5, 300g, 1\uac1c",
+  "name": "엠디스픽 드 바리스타 핸드크림 무향, 300g, 1개",
   "price": 18970,
   "link": "https://link.coupang.com/a/igRbz7KjcW",
   "channel": false,
   "use": true,
-  "kind": "\ud578\ub4dc\ud06c\ub9bc",
+  "kind": "핸드크림",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 21,
-  "name": "\ucfe0\ucfe0 \uc5d0\ucf54\uc6e8\uc77c \uac74\uc870\ubd84\uc1c4 \uc74c\uc2dd\ubb3c\ucc98\ub9ac\uae30 \uac00\uc815\uc6a9 CFD-ENL201DCGW",
+  "name": "쿠쿠 에코웨일 건조분쇄 음식물처리기 가정용 CFD-ENL201DCGW",
   "price": 351240,
   "link": "https://link.coupang.com/a/ihQS3XeDoy",
   "channel": false,
   "use": true,
-  "kind": "\uc74c\uc2dd\ubb3c\ucc98\ub9ac\uae30",
+  "kind": "음식물처리기",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 22,
-  "name": "\uc77c\uc6d4 \uc232\uc18d\uc560 \uc628\uc218\ub9e4\ud2b8 \ub354\ube14(150x200)",
+  "name": "일월 숲속애 온수매트 더블(150x200)",
   "price": 134100,
   "link": "https://link.coupang.com/a/ihRaQHe55E",
   "channel": false,
   "use": true,
-  "kind": "\uc628\uc218\ub9e4\ud2b8",
+  "kind": "온수매트",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 23,
-  "name": "\ub514\ubca0\uc544 \uc6d0\uc2a4\ud15d \ubb34\uc120\uccad\uc18c\uae30 \ucc28\uc774\uc2a8 ONE STEP + \ud074\ub9b0\uc2a4\ud14c\uc774\uc158",
+  "name": "디베아 원스텝 무선청소기 차이슨 ONE STEP + 클린스테이션",
   "price": 289000,
   "link": "https://link.coupang.com/a/ihRcsyDHeS",
   "channel": false,
   "use": true,
-  "kind": "\ubb34\uc120\uccad\uc18c\uae30",
+  "kind": "무선청소기",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 24,
-  "name": "\ucf54\uba67 \ud648 \uc591\uba74 \uadf9\uc138\uc0ac \uc194\ub9ac\ub4dc \ucc28\ub835\uc774\ubd88",
+  "name": "코멧 홈 양면 극세사 솔리드 차렵이불",
   "price": 47800,
   "link": "https://link.coupang.com/a/ihRDce6NNc",
   "channel": false,
   "use": true,
-  "kind": "\ucc28\ub835\uc774\ubd88",
+  "kind": "차렵이불",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 25,
-  "name": "\ub354\ucfe0 \uaca8\uc6b8 \uc804\uae30 \uc628\ud48d\uae30 PTC 3\ub2e8\uacc4 \uc628\ub3c4\uc870\uc808 \uc18c\ud615 QG20-T17",
+  "name": "더쿠 겨울 전기 온풍기 PTC 3단계 온도조절 소형 QG20-T17",
   "price": 89900,
   "link": "https://link.coupang.com/a/ihRELmZlQG",
   "channel": false,
   "use": true,
-  "kind": "\uc18c\ud615\uc628\ud48d\uae30",
+  "kind": "소형온풍기",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 26,
-  "name": "\ub8e8\ub2c8\uc2a4 \ubc1c\ub09c\ub85c \ud30c\ud2f0\uc158 \ud788\ud130 4\uba74 (+\ubb34\ub98e\ub2f4\uc694)",
+  "name": "루니스 발난로 파티션 히터 4면 (+무릎담요)",
   "price": 69900,
   "link": "https://link.coupang.com/a/ihRGjJFETk",
   "channel": false,
   "use": true,
-  "kind": "\ubc1c\ub09c\ub85c",
+  "kind": "발난로",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 27,
-  "name": "\ud55c\uacbd\ud76c \ucd08\uc800\uc18c\uc74c \uadf8\ub798\ud540 PTC \uc628\ud48d\uae30 PTC-2280AY",
+  "name": "한경희 초저소음 그래핀 PTC 온풍기 PTC-2280AY",
   "price": 199000,
   "link": "https://link.coupang.com/a/ihRHRGy57Y",
   "channel": false,
   "use": true,
-  "kind": "\uc628\ud48d\uae30",
+  "kind": "온풍기",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 28,
-  "name": "\ud648\ub9ac\uc544 \ub85c\ubd07\uccad\uc18c\uae30 \uc2a4\ub9c8\ud2b8 \ubb3c\uac78\ub808 \uc790\ub3d9\ucda9\uc804 \ud074\ub9b0\uc2a4\ud14c\uc774\uc158",
+  "name": "홈리아 로봇청소기 스마트 물걸레 자동충전 클린스테이션",
   "price": 369800,
   "link": "https://link.coupang.com/a/ihRJqcsVb2",
   "channel": false,
   "use": true,
-  "kind": "\ub85c\ubd07\uccad\uc18c\uae30",
+  "kind": "로봇청소기",
   "ban": [],
   "tier": "high"
  },
  {
   "id": 29,
-  "name": "\ubb3c\uba39\ub294\ud558\ub9c8 \uc2b5\uae30\uc81c\uac70\uc81c \uc637\uc7a5\uc6a9 300g 8\uac1c",
+  "name": "물먹는하마 습기제거제 옷장용 300g 8개",
   "price": 16900,
   "reviews": 87209,
   "link": "https://link.coupang.com/a/ihUFvk8Ixg",
   "tier": "high",
   "use": true,
-  "kind": "\uc2b5\uae30\uc81c\uac70\uc81c"
+  "kind": "습기제거제"
  },
  {
   "id": 30,
-  "name": "\ud0d0\uc0ac \ube5b\ucc28\ub2e8 \ubf41\ubf41\uc774 \ub2e8\uc5f4\uc2dc\ud2b8 2\uac1c",
+  "name": "탐사 빛차단 뽁뽁이 단열시트 2개",
   "price": 11490,
   "reviews": 6877,
   "link": "https://link.coupang.com/a/ihUIDArFgz",
   "tier": "high",
   "use": true,
-  "kind": "\ub2e8\uc5f4\uc2dc\ud2b8"
+  "kind": "단열시트"
  },
  {
   "id": 31,
-  "name": "\ub9c8\uc774\ud56b \ubcf4\uc628\ub300 160g 10\uac1c",
+  "name": "마이핫 보온대 160g 10개",
   "price": 10000,
   "reviews": 18813,
   "link": "https://link.coupang.com/a/ihUDWpxC2e",
   "tier": "high",
   "use": true,
-  "kind": "\ud56b\ud329"
+  "kind": "핫팩"
  },
  {
   "id": 32,
-  "name": "\ud2f0\ub098\uc778 \ubcf4\ud480\uc81c\uac70\uae30 TN-3000",
+  "name": "티나인 보풀제거기 TN-3000",
   "price": 67800,
   "reviews": 7115,
   "link": "https://link.coupang.com/a/ihUOlY4pdk",
   "tier": "high",
   "use": true,
-  "kind": "\ubcf4\ud480\uc81c\uac70\uae30"
+  "kind": "보풀제거기"
  },
  {
   "id": 33,
-  "name": "HanilElectric \ubc24\ud558\ub298\uace0\ub798 \uc591\uba74 \uc804\uae30\ubc29\uc11d JH1018A",
+  "name": "HanilElectric 밤하늘고래 양면 전기방석 JH1018A",
   "price": 26900,
   "reviews": 4936,
   "link": "https://link.coupang.com/a/ihUG4izDdA",
   "tier": "high",
   "use": true,
-  "kind": "\uc804\uae30\ubc29\uc11d"
+  "kind": "전기방석"
  },
  {
   "id": 34,
-  "name": "\uc190\uc77c\ubcd1 \uad70\uc6a9 \ud56b\ud329 180g 50\uac1c",
+  "name": "손일병 군용 핫팩 180g 50개",
   "price": 50000,
   "reviews": 17872,
   "link": "https://link.coupang.com/a/ihU7Otvxwi",
   "tier": "high",
   "use": true,
-  "kind": "\ud56b\ud329"
+  "kind": "핫팩"
  },
  {
   "id": 35,
-  "name": "\ucfe0\uccb8 \ub354\ud54f \uc2ac\ub9bc \uc555\ub825\ubc25\uc1a5 6\uc778\uc6a9 CRS-FSWD0640W",
+  "name": "쿠첸 더핏 슬림 압력밥솥 6인용 CRS-FSWD0640W",
   "price": 209000,
   "reviews": 10801,
   "link": "https://link.coupang.com/a/ihUWqZULBI",
   "tier": "high",
   "use": true,
-  "kind": "\uc555\ub825\ubc25\uc1a5"
+  "kind": "압력밥솥"
  },
  {
   "id": 36,
-  "name": "\ud788\ud2b8\ud0a4\ud37c \ud504\ub9ac\ubbf8\uc5c4 \uc2e0\uc18c\uc7ac 20m \ubb38\ud48d\uc9c0",
+  "name": "히트키퍼 프리미엄 신소재 20m 문풍지",
   "price": 29980,
   "reviews": 4748,
   "link": "https://link.coupang.com/a/ihUKNdxxPE",
   "tier": "high",
   "use": true,
-  "kind": "\ubb38\ud48d\uc9c0"
+  "kind": "문풍지"
  },
  {
   "id": 37,
-  "name": "\ud544\ub9bd\uc2a4 \ubcf4\ud480\uc81c\uac70\uae30 GC-026",
+  "name": "필립스 보풀제거기 GC-026",
   "price": 25000,
   "reviews": 41670,
   "link": "https://link.coupang.com/a/ihUCijcWSy",
   "tier": "high",
   "use": true,
-  "kind": "\ubcf4\ud480\uc81c\uac70\uae30"
+  "kind": "보풀제거기"
  },
  {
   "id": 38,
-  "name": "\ub2c8\ucf54 \ud0c0\uc6cc\ud615 \uce74\ubcf8\ud788\ud130 NKH-T600CB",
+  "name": "니코 타워형 카본히터 NKH-T600CB",
   "price": 69900,
   "reviews": 193,
   "link": "https://link.coupang.com/a/ihUURCVXdA",
   "tier": "high",
   "use": true,
-  "kind": "\ud788\ud130"
+  "kind": "히터"
  },
  {
   "id": 39,
-  "name": "\uc774\uc9c0\ud558\uc784 \uc218\uba74\uc591\ub9d0 4\ucf24\ub808",
+  "name": "이지하임 수면양말 4켤레",
   "price": 19800,
   "reviews": 4100,
   "link": "https://link.coupang.com/a/ihUMMM8V1U",
   "tier": "high",
   "use": true,
-  "kind": "\uc218\uba74\uc591\ub9d0"
+  "kind": "수면양말"
  },
  {
   "id": 40,
-  "name": "\ub2e8\uc5f4\ubf41\ubf41\uc774\uc6d0 6\uc911 \ub178\uc6cc\ud130",
+  "name": "단열뽁뽁이원 6중 노워터",
   "price": 39000,
   "reviews": 1379,
   "link": "https://link.coupang.com/a/ihVaHpTspU",
   "tier": "high",
   "use": true,
-  "kind": "\ub2e8\uc5f4\uc2dc\ud2b8"
+  "kind": "단열시트"
  },
  {
   "id": 41,
-  "name": "\uc0bc\uc131\uc804\uc790 \ube14\ub8e8\uc2a4\uce74\uc774 3100 \uacf5\uae30\uccad\uc815\uae30 AP70F03102RVD",
+  "name": "삼성전자 블루스카이 3100 공기청정기 AP70F03102RVD",
   "price": 319000,
   "reviews": 1703,
   "link": "https://link.coupang.com/a/ihUX2hbBg4",
   "tier": "high",
   "use": true,
-  "kind": "\uacf5\uae30\uccad\uc815\uae30"
+  "kind": "공기청정기"
  },
  {
   "id": 42,
-  "name": "\uc704\ub2c9\uc2a4 \ubf40\uc1a1 \uc81c\uc2b5\uae30 12L DXTE120-MPK",
+  "name": "위닉스 뽀송 제습기 12L DXTE120-MPK",
   "price": 226480,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iiaxnRf43M",
   "tier": "high",
   "use": true,
-  "kind": "\uc81c\uc2b5\uae30"
+  "kind": "제습기"
  },
  {
   "id": 43,
-  "name": "\ubcf4\ub9cc \ucc28\ub7c9 \uac00\uc815\uc6a9 \ud578\ub514\ud615 \ubb34\uc120\uccad\uc18c\uae30 \ud654\uc774\ud2b8",
+  "name": "보만 차량 가정용 핸디형 무선청소기 화이트",
   "price": 56860,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iibAJfxzAy",
   "tier": "high",
   "use": true,
-  "kind": "\ubb34\uc120\uccad\uc18c\uae30"
+  "kind": "무선청소기"
  },
  {
   "id": 44,
-  "name": "\ub204\ube44\uc544 \uc2dd\uae30\uc138\ucc99\uae30 6\uc778\uc6a9 UV\ucf00\uc5b4 \uace0\uc628\uc0b4\uade0",
+  "name": "누비아 식기세척기 6인용 UV케어 고온살균",
   "price": 369000,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iibCgBoN3s",
   "tier": "high",
   "use": true,
-  "kind": "\uc2dd\uae30\uc138\ucc99\uae30"
+  "kind": "식기세척기"
  },
  {
   "id": 45,
-  "name": "\ube44\uc624\uce74 BEOKA Ti pro max-A1 \uc2a4\ub9c8\ud2b8 \uac00\ubcc0 \uc9c4\ud3ed \ub9c8\uc0ac\uc9c0\uac74",
+  "name": "비오카 BEOKA Ti pro max-A1 스마트 가변 진폭 마사지건",
   "price": 200880,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iibDNw1TFY",
   "tier": "high",
   "use": true,
-  "kind": "\ub9c8\uc0ac\uc9c0\uac74"
+  "kind": "마사지건"
  },
  {
   "id": 46,
-  "name": "OYEAH \uc800\uc18c\uc74c \uc5d0\uc5b4\ud504\ub77c\uc774\uc5b4 4.5L \uac00\uc815\uc6a9",
+  "name": "OYEAH 저소음 에어프라이어 4.5L 가정용",
   "price": 36800,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iibFlJCZTE",
   "tier": "high",
   "use": true,
-  "kind": "\uc5d0\uc5b4\ud504\ub77c\uc774\uc5b4"
+  "kind": "에어프라이어"
  },
  {
   "id": 47,
-  "name": "\ub124\uc2a4\ud504\ub808\uc18c \ubc84\uce04\uc624 \ud31d \ud50c\ub7ec\uc2a4 \ucee4\ud53c\uba38\uc2e0 GCV6 \ud654\uc774\ud2b8",
+  "name": "네스프레소 버츄오 팝 플러스 커피머신 GCV6 화이트",
   "price": 98900,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iibGSKZAyG",
   "tier": "high",
   "use": true,
-  "kind": "\ucee4\ud53c\uba38\uc2e0"
+  "kind": "커피머신"
  },
  {
   "id": 48,
-  "name": "BARI \uac00\uc815\uc6a9 \uc800\uc18c\uc74c \ud56d\uacf5\ubaa8\ud130 \ud5e4\uc5b4 \ub4dc\ub77c\uc774\uae30",
+  "name": "BARI 가정용 저소음 항공모터 헤어 드라이기",
   "price": 69700,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iicfR9VBsa",
   "tier": "high",
   "use": true,
-  "kind": "\ud5e4\uc5b4\ub4dc\ub77c\uc774\uc5b4"
+  "kind": "헤어드라이어"
  },
  {
   "id": 49,
-  "name": "\ud544\ub9bd\uc2a4 \uc18c\ub2c9\ucf00\uc5b4 3100 \uc2dc\ub9ac\uc988 \uc804\ub3d9\uce6b\uc194",
+  "name": "필립스 소닉케어 3100 시리즈 전동칫솔",
   "price": 54900,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iichpnMxP2",
   "tier": "high",
   "use": true,
-  "kind": "\uc804\ub3d9\uce6b\uc194"
+  "kind": "전동칫솔"
  },
  {
   "id": 50,
-  "name": "\uc0e4\uc624\ubbf8 \uc0ac\uc6b4\ub4dc \uc544\uc6c3\ub3c4\uc5b4 \ube14\ub8e8\ud22c\uc2a4 \uc2a4\ud53c\ucee4 MDZ-38-DB \ube14\ub8e8",
+  "name": "샤오미 사운드 아웃도어 블루투스 스피커 MDZ-38-DB 블루",
   "price": 66600,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iiciW8gljw",
   "tier": "high",
   "use": true,
-  "kind": "\ube14\ub8e8\ud22c\uc2a4\uc2a4\ud53c\ucee4"
+  "kind": "블루투스스피커"
  },
  {
   "id": 51,
-  "name": "\ud544\ub9bd\uc2a4 \ube14\ub80c\ub354 3000 \uc2dc\ub9ac\uc988 HR2041/01",
+  "name": "필립스 블렌더 3000 시리즈 HR2041/01",
   "price": 38010,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iickucTS8q",
   "tier": "high",
   "use": true,
-  "kind": "\ubbf9\uc11c\uae30"
+  "kind": "믹서기"
  },
  {
   "id": 52,
-  "name": "\ubca0\uc774\uc2a4\uc5b4\uc2a4 \uc624\ud508\ud615 MC2 \uc5d0\uc5b4\ucfe0\uc158 \ube14\ub8e8\ud22c\uc2a4 \ubb34\uc120 \uc774\uc5b4\ud3f0",
+  "name": "베이스어스 오픈형 MC2 에어쿠션 블루투스 무선 이어폰",
   "price": 78880,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iicl1KoFVY",
   "tier": "high",
   "use": true,
-  "kind": "\ubb34\uc120\uc774\uc5b4\ud3f0"
+  "kind": "무선이어폰"
  },
  {
   "id": 53,
-  "name": "\uc2e0\uc77c \uc62c\uc2a4\ud150 \uc790\ub3d9 \uc804\uae30 \ubb3c\ub053\uc774\uae30 9L \uc628\uc218\ud1b5",
+  "name": "신일 올스텐 자동 전기 물끓이기 9L 온수통",
   "price": 119900,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iicny48Ho4",
   "tier": "high",
   "use": true,
-  "kind": "\uc804\uae30\ud3ec\ud2b8"
+  "kind": "전기포트"
  },
  {
   "id": 54,
-  "name": "\ud30c\ub098\uc18c\ub2c9 UV\uc0b4\uade0 \uc774\ubd88 \uce68\uad6c \uccad\uc18c\uae30 \ud654\uc774\ud2b8 MC-DC10W",
+  "name": "파나소닉 UV살균 이불 침구 청소기 화이트 MC-DC10W",
   "price": 114000,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iico6djFbE",
   "tier": "high",
   "use": true,
-  "kind": "\uce68\uad6c\uccad\uc18c\uae30"
+  "kind": "침구청소기"
  },
  {
   "id": 55,
-  "name": "\ud5c8\ub2c8\uc564\ubc84\ub2c8 \ud140\ube14\ub7ec \ub300\uc6a9\ub7c9 \uc2a4\ud150 \ubcf4\uc628 \ubcf4\ub0c9 \ucc28\ub7c9\uc6a9",
+  "name": "허니앤버니 텀블러 대용량 스텐 보온 보냉 차량용",
   "price": 28700,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iicqEbD6Wq",
   "tier": "high",
   "use": true,
-  "kind": "\ud140\ube14\ub7ec"
+  "kind": "텀블러"
  },
  {
   "id": 56,
-  "name": "\ub9ac\ube59\ub3c4\uac10 \ub0a8\ub140\uacf5\uc6a9 \ubc29\ud55c \ub125\uc6cc\uba38 \ubaa9\ud1a0\uc2dc",
+  "name": "리빙도감 남녀공용 방한 넥워머 목토시",
   "price": 6400,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iicsa1jCPA",
   "tier": "high",
   "use": true,
-  "kind": "\ub125\uc6cc\uba38"
+  "kind": "넥워머"
  },
  {
   "id": 57,
-  "name": "\ud5c8\uadf8\ub8f8 \uc591\ud138 \ubf40\uae00\uc774 \uc2e4\ub0b4\ud654",
+  "name": "허그룸 양털 뽀글이 실내화",
   "price": 22900,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iictHvTZFR",
   "tier": "high",
   "use": true,
-  "kind": "\ud138\uc2ac\ub9ac\ud37c"
+  "kind": "털슬리퍼"
  },
  {
   "id": 58,
-  "name": "\uc544\uc988\ud15c \uccb4\ud06c \ubb34\ub2ac \uac00\ubcbc\uc6b4 \ubb34\ub98e\ub2f4\uc694",
+  "name": "아즈템 체크 무늬 가벼운 무릎담요",
   "price": 29900,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iicvepS0Xc",
   "tier": "high",
   "use": true,
-  "kind": "\ubb34\ub98e\ub2f4\uc694"
+  "kind": "무릎담요"
  },
  {
   "id": 59,
-  "name": "\ucee4\ubc84\uc6d0 3\ucd08 \ubc1c\uc5f4 \uc591\uba74 \uc804\uc790 \ucda9\uc804\uc2dd \uc190\ub09c\ub85c \ub300\uc6a9\ub7c9",
+  "name": "커버원 3초 발열 양면 전자 충전식 손난로 대용량",
   "price": 19800,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iic5PvpYD6",
   "tier": "high",
   "use": true,
-  "kind": "\uc190\ub09c\ub85c"
+  "kind": "손난로"
  },
  {
   "id": 60,
-  "name": "\ud574\ud53c\uc81c\uc774 \uc18c\ub9ac \uad6c\uba4d \ubc29\ud55c \uadc0\ub9c8\uac1c \ube14\ub799",
+  "name": "해피제이 소리 구멍 방한 귀마개 블랙",
   "price": 9400,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iic7n3AAKG",
   "tier": "high",
   "use": true,
-  "kind": "\uadc0\ub9c8\uac1c"
+  "kind": "귀마개"
  },
  {
   "id": 61,
-  "name": "\uc190\ub354 \ub0a8\ub140\uacf5\uc6a9 \ubc29\ud55c \ubcf4\uc628 \ub2c8\ud2b8\uc7a5\uac11 \uc2a4\ub9c8\ud2b8\ud3f0 \ud130\uce58",
+  "name": "손더 남녀공용 방한 보온 니트장갑 스마트폰 터치",
   "price": 6900,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iic8UrmAto",
   "tier": "high",
   "use": true,
-  "kind": "\uc7a5\uac11"
+  "kind": "장갑"
  },
  {
   "id": 62,
-  "name": "\ud734\uc564\ubd07 \uc871\uc695\uae30 \uc870\uc6a9\ud55c \ubc84\ube14 \uac01\ud0d5\uae30",
+  "name": "휴앤봇 족욕기 조용한 버블 각탕기",
   "price": 69360,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iiddIBQkI8",
   "tier": "high",
   "use": true,
-  "kind": "\uc871\uc695\uae30"
+  "kind": "족욕기"
  },
  {
   "id": 63,
-  "name": "\ud734\ub9ac\uc544 \ubaa9 \uc5b4\uae68 \ub450\ub4dc\ub9bc \ub9c8\uc0ac\uc9c0\uae30 \uc628\uc5f4",
+  "name": "휴리아 목 어깨 두드림 마사지기 온열",
   "price": 99800,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iidffLULAG",
   "tier": "high",
   "use": true,
-  "kind": "\ubaa9\uc5b4\uae68\ub9c8\uc0ac\uc9c0\uae30"
+  "kind": "목어깨마사지기"
  },
  {
   "id": 64,
-  "name": "\uc81c\uc2a4\ud30c \uad6d\ub0b4\uc81c\uc870 \uc804\uae30 \uc628\uc5f4 \ucc1c\uc9c8\uae30 SHP6751",
+  "name": "제스파 국내제조 전기 온열 찜질기 SHP6751",
   "price": 30400,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iidgM94Zum",
   "tier": "high",
   "use": true,
-  "kind": "\ucc1c\uc9c8\uae30"
+  "kind": "찜질기"
  },
  {
   "id": 65,
-  "name": "\ud544\ub9bd\uc2a4 \uc2a4\ud0e0\ub4dc\ud615 \uc2a4\ud300\ub2e4\ub9ac\ubbf8 3000\uc2dc\ub9ac\uc988 STE3170/80",
+  "name": "필립스 스탠드형 스팀다리미 3000시리즈 STE3170/80",
   "price": 149900,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iidijIuuSO",
   "tier": "high",
   "use": true,
-  "kind": "\uc2a4\ud0e0\ub4dc \uc2a4\ud300\ub2e4\ub9ac\ubbf8"
+  "kind": "스탠드 스팀다리미"
  },
  {
   "id": 66,
-  "name": "\ub9ac\ube59\uc6f0 40L \ub300\uc6a9\ub7c9 \ucee8\ubca1\uc158\uc624\ube10 \uc0c1\ud558\ub3c5\ub9bd\uc5f4\uc120",
+  "name": "리빙웰 40L 대용량 컨벡션오븐 상하독립열선",
   "price": 187000,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iidjQv4512",
   "tier": "high",
   "use": true,
-  "kind": "\uc804\uae30\uc624\ube10"
+  "kind": "전기오븐"
  },
  {
   "id": 67,
-  "name": "\ub098\ube44\uc5d4\ub9e4\uc9c1 \uc804\uae30\ub808\uc778\uc9c0 \uc778\ub355\uc158 3\uad6c \ube14\ub799",
+  "name": "나비엔매직 전기레인지 인덕션 3구 블랙",
   "price": 529000,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iidln1OLBY",
   "tier": "high",
   "use": true,
-  "kind": "\uc778\ub355\uc158"
+  "kind": "인덕션"
  },
  {
   "id": 68,
-  "name": "\ud30c\uc26c \ub3c5\uc77c \ubcf4\uc628\ubb3c\uc8fc\uba38\ub2c8 2L \ubca8\ubcb3\ucee4\ubc84",
+  "name": "파쉬 독일 보온물주머니 2L 벨벳커버",
   "price": 15000,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iiNs9WPVYq",
   "tier": "high",
   "use": true,
-  "kind": "\ubcf4\uc628 \ubb3c\uc8fc\uba38\ub2c8"
+  "kind": "보온 물주머니"
  },
  {
   "id": 69,
-  "name": "\uc720\uc720\ub77c\ud0a4 \uc774\uc5b4\ud50c\ub9bd \ubc29\uc6b8 \uc2a4\ud2b8\ub7a9 \uadc0\ub2ec\uc774\ubaa8\uc790",
+  "name": "유유라키 이어플립 방울 스트랩 귀달이모자",
   "price": 18500,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iiNLjBuyia",
   "tier": "high",
   "use": true,
-  "kind": "\ud138\ubaa8\uc790"
+  "kind": "털모자"
  },
  {
   "id": 70,
-  "name": "\uace0\uc0e4\uc778 \ucc28\ub7c9\uc6a9 \uae38\uc774\uc870\uc808 \uc131\uc5d0\uc81c\uac70\uae30 \ub208\uc194",
+  "name": "고샤인 차량용 길이조절 성에제거기 눈솔",
   "price": 15800,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iiNxXXwXWC",
   "tier": "high",
   "use": true,
-  "kind": "\uc131\uc5d0\uc81c\uac70\uae30"
+  "kind": "성에제거기"
  },
  {
   "id": 71,
-  "name": "\uc774\ub2c8\uc2a4\ud504\ub9ac \uc720\ucc44\uafc0 \ub9bd\ubc24 \ucd08\ubcf4\uc2b5 3.5g",
+  "name": "이니스프리 유채꿀 립밤 초보습 3.5g",
   "price": 6260,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iiNzxWoMuG",
   "tier": "high",
   "use": true,
-  "kind": "\ub9bd\ubc24"
+  "kind": "립밤"
  },
  {
   "id": 72,
-  "name": "\uac13\ud79b \ubc1c\uc5f4\uc870\ub07c \uaca8\uc6b8 \uc5f4\uc120 \uc628\uc5f4 \ud328\ub529",
+  "name": "갓힛 발열조끼 겨울 열선 온열 패딩",
   "price": 57800,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iiNA7gGQQS",
   "tier": "high",
   "use": true,
-  "kind": "\ubc1c\uc5f4\uc870\ub07c"
+  "kind": "발열조끼"
  },
  {
   "id": 73,
-  "name": "\ub3c4\ubb34\uc2a4 \ube0c\ub93c\uc140 \ud22c\uac8c\ub354 \uc640\ud50c\uba54\uc774\ucee4",
+  "name": "도무스 브뤼셀 투게더 와플메이커",
   "price": 35910,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iiNCNVQFrM",
   "tier": "high",
   "use": true,
-  "kind": "\uc640\ud50c\uba54\uc774\ucee4"
+  "kind": "와플메이커"
  },
  {
   "id": 74,
-  "name": "\uc2a4\ub9ac\ud06c SRIK \ubc29\ud55c\ud654 \ud328\ub529 \ubc29\ud55c\ubd80\uce20",
+  "name": "스리크 SRIK 방한화 패딩 방한부츠",
   "price": 79000,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iiNEmr04L6",
   "tier": "high",
   "use": true,
-  "kind": "\ubc29\ud55c\ubd80\uce20"
+  "kind": "방한부츠"
  },
  {
   "id": 75,
-  "name": "\ud55c\uc591 \ubbf8\ub2c8 \uac74\uc870\uae30 5KG \uc3d9\ud54f5 UV\uc0b4\uade0",
+  "name": "한양 미니 건조기 5KG 쏙핏5 UV살균",
   "price": 295000,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iiNFW63MIf",
   "tier": "high",
   "use": true,
-  "kind": "\ubbf8\ub2c8 \uc758\ub958\uac74\uc870\uae30"
+  "kind": "미니 의류건조기"
  },
  {
   "id": 76,
-  "name": "\ube0c\ub78c\uc2a4 \uc62c\uc778S \ube14\ub8e8\ud22c\uc2a4 \uc885\uc544\ub9ac\uc2a4\ud06c\ub7fd \uc548\ub9c8\uc758\uc790",
+  "name": "브람스 올인S 블루투스 종아리스크럽 안마의자",
   "price": 1177500,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iiNHDhhj76",
   "tier": "high",
   "use": true,
-  "kind": "\uc548\ub9c8\uc758\uc790"
+  "kind": "안마의자"
  },
  {
   "id": 77,
-  "name": "\uc2a4\uc719 \ud30c\uc6cc\uc2a4\uc719 \ubb34\uc120 \uc9c4\uacf5 \ubb3c\uac78\ub808 \uccad\uc18c\uae30",
+  "name": "스윙 파워스윙 무선 진공 물걸레 청소기",
   "price": 428000,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iiNJh6jnzg",
   "tier": "high",
   "use": true,
-  "kind": "\ubb3c\uac78\ub808\uccad\uc18c\uae30"
+  "kind": "물걸레청소기"
  },
  {
   "id": 78,
-  "name": "\ub974\uc62c \ub9c8\uc57d \uad6c\uc2a4 \uc774\ubd88 \uac70\uc704\ud138 \ub2e4\uc6b4 \ud55c\uaca8\uc6b8\uc6a9 \uac70\uc704\ud138\uc774\ubd88",
+  "name": "르올 마약 구스 이불 거위털 다운 한겨울용 거위털이불",
   "price": 119000,
   "reviews": 0,
   "link": "https://link.coupang.com/a/ilk3FAaIqy",
   "tier": "high",
   "use": true,
-  "kind": "\uad6c\uc2a4\uc774\ubd88"
+  "kind": "구스이불"
  },
  {
   "id": 79,
-  "name": "\ucfe0\ucfe0 \ud3ec\ud130\ube14 \uc81c\ube59\uae30 CIM-AS09M10S",
+  "name": "쿠쿠 포터블 제빙기 CIM-AS09M10S",
   "price": 155160,
   "reviews": 0,
   "link": "https://link.coupang.com/a/ilk35f3Dbw",
   "tier": "high",
   "use": true,
-  "kind": "\uc81c\ube59\uae30"
+  "kind": "제빙기"
  },
  {
   "id": 80,
-  "name": "\ub9ac\ud045 8\ub2e8 \uc2dd\ud488\uac74\uc870\uae30 LD-918BH",
+  "name": "리큅 8단 식품건조기 LD-918BH",
   "price": 151320,
   "reviews": 0,
   "link": "https://link.coupang.com/a/ilk4vgiMGO",
   "tier": "high",
   "use": true,
-  "kind": "\uc2dd\ud488\uac74\uc870\uae30"
+  "kind": "식품건조기"
  },
  {
   "id": 81,
-  "name": "\uba54\uac00\uc36c \uc2a4\ud150 \uc804\uae30\uc628\uc218\uae30 15\ub9ac\ud130 \ud558\ud5a5\uc2dd \ubcbd\uac78\uc774",
+  "name": "메가썬 스텐 전기온수기 15리터 하향식 벽걸이",
   "price": 98900,
   "reviews": 0,
   "link": "https://link.coupang.com/a/ilk4T99X1E",
   "tier": "high",
   "use": true,
-  "kind": "\uc804\uae30\uc628\uc218\uae30"
+  "kind": "전기온수기"
  },
  {
   "id": 82,
-  "name": "VANKYO \ube54\ud504\ub85c\uc81d\ud130 \ubb34\uc120 \ubbf8\ub7ec\ub9c1 \ube14\ub8e8\ud22c\uc2a45.0 \ud734\ub300\uc6a9",
+  "name": "VANKYO 빔프로젝터 무선 미러링 블루투스5.0 휴대용",
   "price": 99000,
   "reviews": 0,
   "link": "https://link.coupang.com/a/ilk5ju3EhU",
   "tier": "high",
   "use": true,
-  "kind": "\ube54\ud504\ub85c\uc81d\ud130"
+  "kind": "빔프로젝터"
  },
  {
   "id": 83,
-  "name": "\ud648\uc564\uc544\ud2b8 \ud4e8\uc5b4 \uc2a4\ud300\uccad\uc18c\uae30 AMS-200",
+  "name": "홈앤아트 퓨어 스팀청소기 AMS-200",
   "price": 164000,
   "reviews": 0,
   "link": "https://link.coupang.com/a/ilk5ISGgYm",
   "tier": "high",
   "use": true,
-  "kind": "\uc2a4\ud300\uccad\uc18c\uae30"
+  "kind": "스팀청소기"
  },
  {
   "id": 84,
-  "name": "\uc2a4\ud14c\uc778\ub9ac\uc2a4 \uba74\uad6d\uc218 \ucc1c\uae30 \uc804\uae30\ub808\uc778\uc9c0\uc6a9 \uc870\ub9ac\uae30",
+  "name": "스테인리스 면국수 찜기 전기레인지용 조리기",
   "price": 22800,
   "reviews": 0,
   "link": "https://link.coupang.com/a/ilk58tHzc4",
   "tier": "high",
   "use": true,
-  "kind": "\uad6d\uc218\ucc1c\uae30"
+  "kind": "국수찜기"
  },
  {
   "id": 85,
-  "name": "\ud074\ub798\ud30c 2\ub2e8 \uc62c\uc2a4\ud150 \uacc4\ub780\ucc1c\uae30 \ucf54\ub4dc\ubd84\ub9ac\ud615 CES-232W",
+  "name": "클래파 2단 올스텐 계란찜기 코드분리형 CES-232W",
   "price": 39800,
   "reviews": 0,
   "link": "https://link.coupang.com/a/ilk6xYTv7k",
   "tier": "high",
   "use": true,
-  "kind": "\uacc4\ub780\ucc1c\uae30"
+  "kind": "계란찜기"
  },
  {
   "id": 86,
-  "name": "\ud4e8\uc5b4\uc378 \ub9ac\ud544 \ud544\ud130 \uc0e4\uc6cc\uae30\uc6a9 3p",
+  "name": "퓨어썸 리필 필터 샤워기용 3p",
   "price": 10350,
   "reviews": 0,
   "link": "https://link.coupang.com/a/ilk6Xso0zs",
   "tier": "high",
   "use": true,
-  "kind": "\uc0e4\uc6cc\ud544\ud130"
+  "kind": "샤워필터"
  },
  {
   "id": 87,
-  "name": "\ud544\ub9bd\uc2a4 \ub370\uc77c\ub9ac \ud578\ub4dc\ube14\ub80c\ub354 3000 \uc2dc\ub9ac\uc988 \ud654\uc774\ud2b8",
+  "name": "필립스 데일리 핸드블렌더 3000 시리즈 화이트",
   "price": 26680,
   "reviews": 0,
   "link": "https://link.coupang.com/a/ilkzXmtis8",
   "tier": "high",
   "use": true,
-  "kind": "\ud578\ub4dc\ube14\ub80c\ub354"
+  "kind": "핸드블렌더"
  },
  {
   "id": 88,
-  "name": "\uc0b4\ub9bc\ub300\ud45c \ud3ec\uadfc\ud55c \ub2c8\ud2b8 \ubaa9\ub3c4\ub9ac 12\uceec\ub7ec",
+  "name": "살림대표 포근한 니트 목도리 12컬러",
   "price": 9080,
   "reviews": 0,
   "link": "https://link.coupang.com/a/ioue91Rk3U",
   "tier": "high",
   "use": true,
-  "kind": "\ubaa9\ub3c4\ub9ac"
+  "kind": "목도리"
  },
  {
   "id": 89,
-  "name": "\ucfe0\uc789 \ucef5\uc6cc\uba38 \uba38\uadf8\uc6cc\uba38 USB \uc628\ub3c4\uc720\uc9c0",
+  "name": "쿠잉 컵워머 머그워머 USB 온도유지",
   "price": 18700,
   "reviews": 0,
   "link": "https://link.coupang.com/a/ioulKYGynA",
   "tier": "high",
   "use": true,
-  "kind": "\ucef5\uc6cc\uba38"
+  "kind": "컵워머"
  },
  {
   "id": 90,
-  "name": "\uc5d0\ud398\uc774\uc624\uc2a4 \ubc30\uc4f0\ubc24 12\uc885 \uc120\ubb3c\uc138\ud2b8 840g",
+  "name": "에페이오스 배쓰밤 12종 선물세트 840g",
   "price": 20900,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iouncxpGRE",
   "tier": "high",
   "use": true,
-  "kind": "\uc785\uc695\uc81c"
+  "kind": "입욕제"
  },
  {
   "id": 91,
-  "name": "\uba55\ub9ac\ub4ec \uc2a4\ud300 \uc544\uc774\ub9c8\uc2a4\ud06c \ub77c\ubca4\ub354\ud5a5 12\ub9e4\uc785",
+  "name": "멕리듬 스팀 아이마스크 라벤더향 12매입",
   "price": 10700,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iouyhI0F1o",
   "tier": "high",
   "use": true,
-  "kind": "\uc628\uc5f4\uc548\ub300"
+  "kind": "온열안대"
  },
  {
   "id": 92,
-  "name": "\uc774\ub178\uc6f0 \uc138\ub77c\ubbf9 \ucf54\ud305 \uba40\ud2f0\ucfe0\ucee4 \uac00\uc815\uc6a9 \uc804\uae30\ub0c4\ube44 2L EX-60B",
+  "name": "이노웰 세라믹 코팅 멀티쿠커 가정용 전기냄비 2L EX-60B",
   "price": 33510,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iouoDi2dQy",
   "tier": "high",
   "use": true,
-  "kind": "\uba40\ud2f0\ucfe0\ucee4"
+  "kind": "멀티쿠커"
  },
  {
   "id": 93,
-  "name": "\uc62c\uc5c5 \ubbf8\ub2c8\uc138\ud0c1\uae30 UV\uc0b4\uade0 12L \uc18d\uc637 \uc591\ub9d0 \uc544\uae30\uc637 \ubd84\ub9ac\uc138\ud0c1",
+  "name": "올업 미니세탁기 UV살균 12L 속옷 양말 아기옷 분리세탁",
   "price": 69900,
   "reviews": 0,
   "link": "https://link.coupang.com/a/ioup3wUVEW",
   "tier": "high",
   "use": true,
-  "kind": "\ubbf8\ub2c8\uc138\ud0c1\uae30"
+  "kind": "미니세탁기"
  },
  {
   "id": 94,
-  "name": "\ub4c0\ud50c\ub809\uc2a4 \uc2a4\ud0e0\ub4dc\ud615 \uc11c\ud058\ub808\uc774\ud130 DPK-55CF",
+  "name": "듀플렉스 스탠드형 서큘레이터 DPK-55CF",
   "price": 39800,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iourtGBQv6",
   "tier": "high",
   "use": true,
-  "kind": "\uc11c\ud058\ub808\uc774\ud130"
+  "kind": "서큘레이터"
  },
  {
   "id": 95,
-  "name": "\ub450\uc2a4\ub8ec \uc811\uc774\uc2dd \uc6cc\ud0b9\uba38\uc2e0 \uc811\uc774\uc2dd \ub7f0\ub2dd\uba38\uc2e0 \uac00\uc815\uc6a9",
+  "name": "두스룬 접이식 워킹머신 접이식 런닝머신 가정용",
   "price": 185280,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iousTOknxQ",
   "tier": "high",
   "use": true,
-  "kind": "\uc6cc\ud0b9\uba38\uc2e0"
+  "kind": "워킹머신"
  },
  {
   "id": 96,
-  "name": "\ub9e4\uc9c1\uc250\ud504 \uc62c \uc2a4\ud150 \ubb34\ud68c\uc804 25L \ub300\uc6a9\ub7c9 \ud50c\ub7ab \uc804\uc790\ub808\uc778\uc9c0",
+  "name": "매직쉐프 올 스텐 무회전 25L 대용량 플랫 전자레인지",
   "price": 199000,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iouuj8pOUu",
   "tier": "high",
   "use": true,
-  "kind": "\uc804\uc790\ub808\uc778\uc9c0"
+  "kind": "전자레인지"
  },
  {
   "id": 97,
-  "name": "LG\uc804\uc790 \ubbf8\ub2c8 1\ub3c4\uc5b4 \ub0c9\uc7a5\uace0 43L",
+  "name": "LG전자 미니 1도어 냉장고 43L",
   "price": 155000,
   "reviews": 0,
   "link": "https://link.coupang.com/a/iouvJYik6m",
   "tier": "high",
   "use": true,
-  "kind": "\ubbf8\ub2c8\ub0c9\uc7a5\uace0"
+  "kind": "미니냉장고"
  },
  {
   "id": 98,
-  "name": "\ub514\ub204\uc2a4 \ubcc4 1\uc778\uc6a9 \uadf9\uc138\uc0ac \uc804\uae30\ubc29\uc11d",
+  "name": "디누스 별 1인용 극세사 전기방석",
   "price": 20800,
   "reviews": 9426,
   "link": "https://link.coupang.com/a/itzzKlvRTM",
   "tier": "high",
   "use": true,
-  "kind": "\uc804\uae30\ubc29\uc11d"
+  "kind": "전기방석"
  },
  {
   "id": 99,
-  "name": "\ud648\ud50c\ub798\ub2db LED \uc548\ud2f0 \ube14\ub8e8\ub77c\uc774\ud2b8 \ud559\uc2b5\uc6a9 \uc2a4\ud0e0\ub4dc",
+  "name": "홈플래닛 LED 안티 블루라이트 학습용 스탠드",
   "price": 23760,
   "reviews": 20046,
   "link": "https://link.coupang.com/a/itzUvLdaM0",
   "tier": "high",
   "use": true,
-  "kind": "\uc2a4\ud0e0\ub4dc"
+  "kind": "스탠드"
  },
  {
   "id": 100,
-  "name": "\ube44\ub2ec\uc0ac\uc21c \ud30c\uc6cc \ub4dc\ub77c\uc774\uc5b4 2000W VSD120K",
+  "name": "비달사순 파워 드라이어 2000W VSD120K",
   "price": 19500,
   "reviews": 33698,
   "link": "https://link.coupang.com/a/itzIxnURdA",
   "tier": "high",
   "use": true,
-  "kind": "\ud5e4\uc5b4\ub4dc\ub77c\uc774\uc5b4"
+  "kind": "헤어드라이어"
  },
  {
   "id": 101,
-  "name": "\ud648\ud50c\ub798\ub2db \ubca0\uc774\uc9c1 2\uad6c \ud1a0\uc2a4\ud130 TA1057K",
+  "name": "홈플래닛 베이직 2구 토스터 TA1057K",
   "price": 12060,
   "reviews": 13610,
   "link": "https://link.coupang.com/a/itzD8yhgMS",
   "tier": "high",
   "use": true,
-  "kind": "\ud1a0\uc2a4\ud130"
+  "kind": "토스터"
  },
  {
   "id": 102,
-  "name": "\ud648\ud50c\ub798\ub2db \ubc18\ubc18 \uba40\ud2f0 \uc804\uae30\uadf8\ub9b4 AD-SK18",
+  "name": "홈플래닛 반반 멀티 전기그릴 AD-SK18",
   "price": 31650,
   "reviews": 5664,
   "link": "https://link.coupang.com/a/itzFrXrXkO",
   "tier": "high",
   "use": true,
-  "kind": "\uc804\uae30\uadf8\ub9b4"
+  "kind": "전기그릴"
  },
  {
   "id": 103,
-  "name": "\ud2b8\ub8e8\ub9ac\ube59 \uba40\ud2f0 \ud560\ub85c\uac90 \uad11\ud30c\uc624\ube10 12L",
+  "name": "트루리빙 멀티 할로겐 광파오븐 12L",
   "price": 54190,
   "reviews": 1620,
   "link": "https://link.coupang.com/a/itzNtTyTbE",
   "tier": "high",
   "use": true,
-  "kind": "\uad11\ud30c\uc624\ube10"
+  "kind": "광파오븐"
  },
  {
   "id": 104,
-  "name": "\ud63c\uc2a4 \uce68\uad6c\uccad\uc18c\uae30 HSBC-1000",
+  "name": "혼스 침구청소기 HSBC-1000",
   "price": 57900,
   "reviews": 6681,
   "link": "https://link.coupang.com/a/itzONHsoBE",
   "tier": "high",
   "use": true,
-  "kind": "\uce68\uad6c\uccad\uc18c\uae30"
+  "kind": "침구청소기"
  },
  {
   "id": 105,
-  "name": "\uc0bc\uc131 \uae40\uce58\ud50c\ub7ec\uc2a4 126L \ub69c\uaed1\ud615 \uae40\uce58\ub0c9\uc7a5\uace0",
+  "name": "삼성 김치플러스 126L 뚜껑형 김치냉장고",
   "price": 484030,
   "reviews": 3815,
   "link": "https://link.coupang.com/a/itzP6cytOK",
   "tier": "high",
   "use": true,
-  "kind": "\uae40\uce58\ub0c9\uc7a5\uace0"
+  "kind": "김치냉장고"
  },
  {
   "id": 106,
-  "name": "LG \ud4e8\ub9ac\ucf00\uc5b4 360 \uacf5\uae30\uccad\uc815\uae30 62\u33a1",
+  "name": "LG 퓨리케어 360 공기청정기 62㎡",
   "price": 342130,
   "reviews": 2227,
   "link": "https://link.coupang.com/a/itzRpmRLJQ",
   "tier": "high",
   "use": true,
-  "kind": "\uacf5\uae30\uccad\uc815\uae30"
+  "kind": "공기청정기"
  },
  {
   "id": 107,
-  "name": "\ucfe0\uccb8 \ub354\ud54f \uc2ac\ub9bc \uc804\uae30 \uc555\ub825\ubc25\uc1a5 6\uc778\uc6a9",
+  "name": "쿠첸 더핏 슬림 전기 압력밥솥 6인용",
   "price": 128250,
   "reviews": 10984,
   "link": "https://link.coupang.com/a/itzSG8AagC",
   "tier": "high",
   "use": true,
-  "kind": "\uc555\ub825\ubc25\uc1a5"
+  "kind": "압력밥솥"
  },
  {
   "id": 108,
-  "name": "\ucf54\uba67 \ubb3c\ud2f0\uc288",
+  "name": "코멧 물티슈",
   "price": 10890,
   "reviews": 487698,
   "link": "https://link.coupang.com/a/iuqPUIN2B2",
   "tier": "high",
   "use": true,
-  "kind": "\ubb3c\ud2f0\uc288"
+  "kind": "물티슈"
  },
  {
   "id": 109,
-  "name": "\ubbf8\uc7dd\uc13c \uc27d\uace0 \ube60\ub978 \uac70\ud488 \uc5fc\uc0c9 \uc0c8\uce58\uc804\uc6a9 3N\ud751\uac08\uc0c9 2\uac1c",
+  "name": "미쟝센 쉽고 빠른 거품 염색 새치전용 3N흑갈색 2개",
   "price": 20360,
   "reviews": 217721,
   "link": "https://link.coupang.com/a/iuqR8CR1oG",
   "tier": "high",
   "use": true,
-  "kind": "\uc5fc\uc0c9\uc57d"
+  "kind": "염색약"
  },
  {
   "id": 110,
-  "name": "\ucf54\uba67 \ucf54\ud305 \ub17c\uc2ac\ub9bd \uc637\uac78\uc774 \uadf8\ub808\uc774 30\uac1c",
+  "name": "코멧 코팅 논슬립 옷걸이 그레이 30개",
   "price": 9790,
   "reviews": 75030,
   "link": "https://link.coupang.com/a/iuqUvxYzhQ",
   "tier": "high",
   "use": true,
-  "kind": "\uc637\uac78\uc774"
+  "kind": "옷걸이"
  },
  {
   "id": 111,
-  "name": "\ub178\ubc14\ub9ac\ube59 \uceec\ub7ec \ubc31\ub77c\uc774\ud2b8 \uc0ac\uac01 \uccb4\uc911\uacc4",
+  "name": "노바리빙 컬러 백라이트 사각 체중계",
   "price": 9020,
   "reviews": 49638,
   "link": "https://link.coupang.com/a/iuqVLJc0Xs",
   "tier": "high",
   "use": true,
-  "kind": "\uccb4\uc911\uacc4"
+  "kind": "체중계"
  },
  {
   "id": 112,
-  "name": "\uc5d0\ucf54\ud30c\uc6cc\ud0ed \uc21c\ub3d9 \uc77c\uccb4\ud615 \uac1c\ubcc4 \uc2a4\uc704\uce58 \uba40\ud2f0\ud0ed",
+  "name": "에코파워탭 순동 일체형 개별 스위치 멀티탭",
   "price": 14900,
   "reviews": 33090,
   "link": "https://link.coupang.com/a/iuqW1MkArk",
   "tier": "high",
   "use": true,
-  "kind": "\uba40\ud2f0\ud0ed"
+  "kind": "멀티탭"
  },
  {
   "id": 113,
-  "name": "\ucf54\uba67 \uc774\ub3d9\uc811\uc774\uc2dd \ube68\ub798\uac74\uc870\ub300 \ud2b9\ub300\ud615",
+  "name": "코멧 이동접이식 빨래건조대 특대형",
   "price": 24130,
   "reviews": 31788,
   "link": "https://link.coupang.com/a/iuqYh0mprM",
   "tier": "high",
   "use": true,
-  "kind": "\ube68\ub798\uac74\uc870\ub300"
+  "kind": "빨래건조대"
  },
  {
   "id": 114,
-  "name": "\ud32c\ud1a4 PD 22.5W \ucf00\uc774\ube14 \uc77c\uccb4\ud615 \ubcf4\uc870\ubc30\ud130\ub9ac PGB-20",
+  "name": "팬톤 PD 22.5W 케이블 일체형 보조배터리 PGB-20",
   "price": 18590,
   "reviews": 28208,
   "link": "https://link.coupang.com/a/iuqZxRGNSS",
   "tier": "high",
   "use": true,
-  "kind": "\ubcf4\uc870\ubc30\ud130\ub9ac"
+  "kind": "보조배터리"
  },
  {
   "id": 115,
-  "name": "\ub370\ucf54\ud37c\ub2c8\uccd0 \uac70\uce58\uacbd \uc804\uc2e0\uac70\uc6b8 \ud654\uc774\ud2b8",
+  "name": "데코퍼니쳐 거치경 전신거울 화이트",
   "price": 21640,
   "reviews": 26163,
   "link": "https://link.coupang.com/a/iuq0NUHgd2",
   "tier": "high",
   "use": true,
-  "kind": "\uc804\uc2e0\uac70\uc6b8"
+  "kind": "전신거울"
  },
  {
   "id": 116,
-  "name": "\ub9ac\ucf54\uc140 \ub124\uc774\ucc98\ub9ac\ucee4\ubc84\ub9ac \ub9c8\uc2a4\ud06c\ud329 100\uac1c\uc785",
+  "name": "리코셀 네이처리커버리 마스크팩 100개입",
   "price": 23180,
   "reviews": 25390,
   "link": "https://link.coupang.com/a/iuq130ws9c",
   "tier": "high",
   "use": true,
-  "kind": "\ub9c8\uc2a4\ud06c\ud329"
+  "kind": "마스크팩"
  },
  {
   "id": 117,
-  "name": "\ucfe0\ucfe0 \uc804\uae30\ubcf4\uc628 \uc5d0\uadf8\ubc25\uc1a5 6\uc778\uc6a9 CR-0675FW",
+  "name": "쿠쿠 전기보온 에그밥솥 6인용 CR-0675FW",
   "price": 72170,
   "reviews": 21058,
   "link": "https://link.coupang.com/a/iuq5xUzzHM",
   "tier": "high",
   "use": true,
-  "kind": "\uc804\uae30\ubc25\uc1a5"
+  "kind": "전기밥솥"
  },
  {
   "id": 118,
-  "name": "KURUA \uce68\ub300 \ub9e4\ud2b8\ub9ac\uc2a4 \ub3c5\ub9bd\uc2a4\ud504\ub9c1",
+  "name": "KURUA 침대 매트리스 독립스프링",
   "price": 69800,
   "reviews": 17397,
   "link": "https://link.coupang.com/a/iuq6NQtGlU",
   "tier": "high",
   "use": true,
-  "kind": "\ub9e4\ud2b8\ub9ac\uc2a4"
+  "kind": "매트리스"
  },
  {
   "id": 119,
-  "name": "\ub530\uc218\ubbf8 \ud328\ube0c\ub9ad \ub09c\ubc29\ud150\ud2b8 2\uc778\uc6a9",
+  "name": "따수미 패브릭 난방텐트 2인용",
   "price": 64900,
   "reviews": 8723,
   "link": "https://link.coupang.com/a/iuq73YQn2i",
   "tier": "high",
   "use": true,
-  "kind": "\ub09c\ubc29\ud150\ud2b8"
+  "kind": "난방텐트"
  },
  {
   "id": 120,
-  "name": "\ucf54\uba67 \uad6d\ub0b4\uc0dd\uc0b0 \ud3ed \ub113\uc740 \ubaa8\ub358 \uc11c\ub78d\uc7a5 4\ub2e8 \ud654\uc774\ud2b8",
+  "name": "코멧 국내생산 폭 넓은 모던 서랍장 4단 화이트",
   "price": 37570,
   "reviews": 7860,
   "link": "https://link.coupang.com/a/iuq9j6M8Jg",
   "tier": "high",
   "use": true,
-  "kind": "\uc11c\ub78d\uc7a5"
+  "kind": "서랍장"
  },
  {
   "id": 121,
-  "name": "BBK-112 \uac00\uc815\uc6a9 \ubb34\uc18c\uc74c \uc2e4\ub0b4\uc790\uc804\uac70",
+  "name": "BBK-112 가정용 무소음 실내자전거",
   "price": 87800,
   "reviews": 2544,
   "link": "https://link.coupang.com/a/iuraAcaDYq",
   "tier": "high",
   "use": true,
-  "kind": "\uc2e4\ub0b4\uc790\uc804\uac70"
+  "kind": "실내자전거"
  },
  {
   "id": 122,
-  "name": "Munjjing IPX5 \ubc29\uc218 \ube44\ub370 B358C",
+  "name": "Munjjing IPX5 방수 비데 B358C",
   "price": 98900,
   "reviews": 2844,
   "link": "https://link.coupang.com/a/iurbQuU0S4",
   "tier": "high",
   "use": true,
-  "kind": "\ube44\ub370"
+  "kind": "비데"
  },
  {
   "id": 123,
-  "name": "LG\uc804\uc790 \ud2b8\ub86c \uc138\ud0c1\uae30 10kg TR10WV4",
+  "name": "LG전자 트롬 세탁기 10kg TR10WV4",
   "price": 373140,
   "reviews": 9479,
   "link": "https://link.coupang.com/a/iurc6n5Lxs",
   "tier": "high",
   "use": true,
-  "kind": "\uc138\ud0c1\uae30"
+  "kind": "세탁기"
  },
  {
   "id": 124,
-  "name": "\uc624\ub298\ube44\ub370 WSB-210 \ud544\ud130 \uc5c6\ub294 \ube44\ub370",
+  "name": "오늘비데 WSB-210 필터 없는 비데",
   "price": 118800,
   "reviews": 5613,
   "link": "https://link.coupang.com/a/iuremHXFG8",
   "tier": "high",
   "use": true,
-  "kind": "\ube44\ub370"
+  "kind": "비데"
  },
  {
   "id": 125,
-  "name": "\ubbf8\ub2c9\uc2a4 \ub354 \ud50c\ub80c\ub354 PRO \uc74c\uc2dd\ubb3c \ucc98\ub9ac\uae30",
+  "name": "미닉스 더 플렌더 PRO 음식물 처리기",
   "price": 362780,
   "reviews": 5197,
   "link": "https://link.coupang.com/a/iurfCAH3My",
   "tier": "high",
   "use": true,
-  "kind": "\uc74c\uc2dd\ubb3c\ucc98\ub9ac\uae30"
+  "kind": "음식물처리기"
  },
  {
   "id": 126,
-  "name": "LG\uc804\uc790 2\ub3c4\uc5b4 \uc77c\ubc18\ub0c9\uc7a5\uace0 189L B182W13",
+  "name": "LG전자 2도어 일반냉장고 189L B182W13",
   "price": 369370,
   "reviews": 3755,
   "link": "https://link.coupang.com/a/iurgSI52jI",
   "tier": "high",
   "use": true,
-  "kind": "\uc77c\ubc18\ub0c9\uc7a5\uace0"
+  "kind": "일반냉장고"
  },
  {
   "id": 127,
-  "name": "\uc0bc\uc775\uac00\uad6c \uc5d0\ud074\ub808\ub974 3\uc778\uc6a9 \uac00\uc8fd \uc18c\ud30c",
+  "name": "삼익가구 에클레르 3인용 가죽 소파",
   "price": 329000,
   "reviews": 2200,
   "link": "https://link.coupang.com/a/iurh9fJTki",
   "tier": "high",
   "use": true,
-  "kind": "\uc18c\ud30c"
+  "kind": "소파"
  },
  {
   "id": 128,
-  "name": "\ubc14\uc774\ud06cTRA \uc804\uae30 \uc790\uc804\uac70 \ubbf8\ub2c8\ubca8\ub85c",
+  "name": "바이크TRA 전기 자전거 미니벨로",
   "price": 264400,
   "reviews": 1604,
   "link": "https://link.coupang.com/a/iurjpIpmvY",
   "tier": "high",
   "use": true,
-  "kind": "\uc804\uae30\uc790\uc804\uac70"
+  "kind": "전기자전거"
  },
  {
   "id": 129,
-  "name": "LG \uc6b8\ud2b8\ub77cPC 15U560 15.6\uc778\uce58 \ub178\ud2b8\ubd81",
+  "name": "LG 울트라PC 15U560 15.6인치 노트북",
   "price": 298000,
   "reviews": 863,
   "link": "https://link.coupang.com/a/iurkEXRZvM",
   "tier": "high",
   "use": true,
-  "kind": "\ub178\ud2b8\ubd81"
+  "kind": "노트북"
  },
  {
   "id": 130,
-  "name": "\uce90\ub9ac\uc5b4 \uc778\ubc84\ud130 \ubcbd\uac78\uc774\ud615 \ub0c9\ub09c\ubc29\uae30 ARQ09VB",
+  "name": "캐리어 인버터 벽걸이형 냉난방기 ARQ09VB",
   "price": 577110,
   "reviews": 170,
   "link": "https://link.coupang.com/a/iurlVmGb1g",
   "tier": "high",
   "use": true,
-  "kind": "\ub0c9\ub09c\ubc29\uae30"
+  "kind": "냉난방기"
  },
  {
   "id": 131,
-  "name": "\uc5d1\uc0ac\uc774\ub354 \uc811\uc774\uc2dd \uc2e4\ub0b4\uc790\uc804\uac70 CF1000C",
+  "name": "엑사이더 접이식 실내자전거 CF1000C",
   "price": 144530,
   "reviews": 10290,
   "link": "https://link.coupang.com/a/iurnbCKclo",
   "tier": "high",
   "use": true,
-  "kind": "\uc2e4\ub0b4\uc790\uc804\uac70"
+  "kind": "실내자전거"
  },
  {
   "id": 132,
-  "name": "\ube0c\ub77c\uc774\ud2bc \ube0c\uc774 \uc5ec\ud589\uc6a9 \ud655\uc7a5\ud615 \uce90\ub9ac\uc5b4",
+  "name": "브라이튼 브이 여행용 확장형 캐리어",
   "price": 47400,
   "reviews": 34612,
   "link": "https://link.coupang.com/a/iurD6CWCGq",
   "tier": "high",
   "use": true,
-  "kind": "\uc5ec\ud589\uc6a9\uce90\ub9ac\uc5b4"
+  "kind": "여행용캐리어"
  },
  {
   "id": 133,
-  "name": "\uae40\uc601\uc8fc\uc2a4\ud3ec\uce20 \ub0a8\uc131 \uc6f0\ub860 \uacbd\ub7c9 \ud328\ub529 \uc810\ud37c MJ100",
+  "name": "김영주스포츠 남성 웰론 경량 패딩 점퍼 MJ100",
   "price": 39900,
   "reviews": 3747,
   "link": "https://link.coupang.com/a/iurFmLszDw",
   "tier": "high",
   "use": true,
-  "kind": "\uacbd\ub7c9\ud328\ub529"
+  "kind": "경량패딩"
  },
  {
   "id": 134,
-  "name": "\uc54c\ud0c0\uc774\uce74 \ub0a8\uc131\uc6a9 \ud2b8\ub808\ud0b9 \ub4f1\uc0b0\ud654 AT-01",
+  "name": "알타이카 남성용 트레킹 등산화 AT-01",
   "price": 39500,
   "reviews": 8251,
   "link": "https://link.coupang.com/a/iurGCV54mq",
   "tier": "high",
   "use": true,
-  "kind": "\ud2b8\ub808\ud0b9\ud654"
+  "kind": "트레킹화"
  },
  {
   "id": 135,
-  "name": "\uc18c\ub2c8 \ube14\ub8e8\ud22c\uc2a4 \ud5e4\ub4dc\ud3f0 WH-CH520",
+  "name": "소니 블루투스 헤드폰 WH-CH520",
   "price": 58000,
   "reviews": 5314,
   "link": "https://link.coupang.com/a/iurHS40JAi",
   "tier": "high",
   "use": true,
-  "kind": "\ubb34\uc120\ud5e4\ub4dc\ud3f0"
+  "kind": "무선헤드폰"
  },
  {
   "id": 136,
-  "name": "COX \uad50\uccb4\ucd95 \ub808\uc778\ubcf4\uc6b0 LED \uac8c\uc774\ubc0d \uae30\uacc4\uc2dd \ud0a4\ubcf4\ub4dc",
+  "name": "COX 교체축 레인보우 LED 게이밍 기계식 키보드",
   "price": 31900,
   "reviews": 18102,
   "link": "https://link.coupang.com/a/iurI9rbyUu",
   "tier": "high",
   "use": true,
-  "kind": "\ud0a4\ubcf4\ub4dc"
+  "kind": "키보드"
  },
  {
   "id": 137,
-  "name": "\ud638\uc774\ub370\ucf54 \uc6cc\uc154\ube14 \ucf54\uc9c0 \ub7ec\uadf8",
+  "name": "호이데코 워셔블 코지 러그",
   "price": 69900,
   "reviews": 789,
   "link": "https://link.coupang.com/a/iurKpug0gm",
   "tier": "high",
   "use": true,
-  "kind": "\ub7ec\uadf8"
+  "kind": "러그"
  },
  {
   "id": 138,
-  "name": "\ucf54\uba67 \uc6d0\ud130\uce58 \uc811\uc774\uc2dd \uc774\ub3d9\uc2dd \uc120\ubc18 5\ub2e8",
+  "name": "코멧 원터치 접이식 이동식 선반 5단",
   "price": 32970,
   "reviews": 10980,
   "link": "https://link.coupang.com/a/iurLFwY0ce",
   "tier": "high",
   "use": true,
-  "kind": "\uc120\ubc18"
+  "kind": "선반"
  },
  {
   "id": 139,
-  "name": "\uc138\ud0c0\ud544 \ubaa8\uc774\uc2a4\ucdb0\ub77c\uc774\uc9d5 \ub85c\uc158 591ml",
+  "name": "세타필 모이스춰라이징 로션 591ml",
   "price": 12360,
   "reviews": 242443,
   "link": "https://link.coupang.com/a/iI6J44YQSa",
   "tier": "high",
   "use": true,
-  "kind": "\ubc14\ub514\ub85c\uc158",
-  "full_name": "\uc138\ud0c0\ud544 \ubaa8\uc774\uc2a4\ucdb0\ub77c\uc774\uc9d5 \ub85c\uc158, 591ml, 1\uac1c"
+  "kind": "바디로션",
+  "full_name": "세타필 모이스춰라이징 로션, 591ml, 1개"
  },
  {
   "id": 140,
-  "name": "\uade4\ud0d0 \ub2f9\ub3c4\uc120\ubcc4 \uac10\uade4 2kg",
+  "name": "귤탐 당도선별 감귤 2kg",
   "price": 12990,
   "reviews": 146777,
   "link": "https://link.coupang.com/a/iI6LEqbbRA",
   "tier": "high",
   "use": true,
-  "kind": "\uade4",
-  "full_name": "\uade4\ud0d0 \ub2f9\ub3c4\uc120\ubcc4 11Brix \uac10\uade4, 2kg(\ub85c\uc5f4\uacfc), 1\uac1c"
+  "kind": "귤",
+  "full_name": "귤탐 당도선별 11Brix 감귤, 2kg(로열과), 1개"
  },
  {
   "id": 141,
-  "name": "\ucf00\ub77c\uc2dc\uc2a4 \ud37c\ud4f8 \uc0f4\ud478 980ml 3\uac1c",
+  "name": "케라시스 퍼퓸 샴푸 980ml 3개",
   "price": 15950,
   "reviews": 137391,
   "link": "https://link.coupang.com/a/iI6MtnirHo",
   "tier": "high",
   "use": true,
-  "kind": "\uc0f4\ud478",
-  "full_name": "\ucf00\ub77c\uc2dc\uc2a4 \ud37c\ud4f8 \uc0f4\ud478 \ub7ec\ube14\ub9ac \uc564 \ub85c\ub9e8\ud2f1\ud5a5, 980ml, 3\uac1c"
+  "kind": "샴푸",
+  "full_name": "케라시스 퍼퓸 샴푸 러블리 앤 로맨틱향, 980ml, 3개"
  },
  {
   "id": 142,
-  "name": "\ubbf8\uc7dd\uc13c \ud37c\ud399\ud2b8 \ud5e4\uc5b4 \uc138\ub7fc 80ml",
+  "name": "미쟝센 퍼펙트 헤어 세럼 80ml",
   "price": 8310,
   "reviews": 104091,
   "link": "https://link.coupang.com/a/iI6Nhy3tqS",
   "tier": "high",
   "use": true,
-  "kind": "\ud5e4\uc5b4\uc5d0\uc13c\uc2a4",
-  "full_name": "\ubbf8\uc7dd\uc13c \ud37c\ud399\ud2b8 \uc624\ub9ac\uc9c0\ub110 \ud5e4\uc5b4 \uc138\ub7fc, 80ml, 1\uac1c"
+  "kind": "헤어에센스",
+  "full_name": "미쟝센 퍼펙트 오리지널 헤어 세럼, 80ml, 1개"
  },
  {
   "id": 143,
-  "name": "\ubc00\ud06c\ubc14\uc624\ubc25 \ubc14\ub514\uc6cc\uc2dc 1L",
+  "name": "밀크바오밥 바디워시 1L",
   "price": 11810,
   "reviews": 100991,
   "link": "https://link.coupang.com/a/iI6N4Dobym",
   "tier": "high",
   "use": true,
-  "kind": "\ubc14\ub514\uc6cc\uc2dc",
-  "full_name": "\ubc00\ud06c\ubc14\uc624\ubc25 \ubc14\ub514\uc6cc\uc2dc \ud654\uc774\ud2b8\uba38\uc2a4\ud06c\ud5a5, 1L, 1\uac1c"
+  "kind": "바디워시",
+  "full_name": "밀크바오밥 바디워시 화이트머스크향, 1L, 1개"
  },
  {
   "id": 144,
-  "name": "\uc544\uc784\ub9ac\ube59 \ud638\ud154\uc6a9 \ubca0\uac1c\uc19c 2\uac1c",
+  "name": "아임리빙 호텔용 베개솜 2개",
   "price": 17190,
   "reviews": 51285,
   "link": "https://link.coupang.com/a/iI6OQjyfn2",
   "tier": "high",
   "use": true,
-  "kind": "\ubca0\uac1c",
-  "full_name": "\uc544\uc784\ub9ac\ube59 \uc911\ub7c9\uc5c5 \ube14\ub799\ub77c\uc778 \ud638\ud154\uc6a9 \ub9c8\uc774\ud06c\ub85c\ud544\uc5d0\ubc84 \ubca0\uac1c\uc19c \uc9c0\ud37c\ud615, \ud654\uc774\ud2b8, 2\uac1c"
+  "kind": "베개",
+  "full_name": "아임리빙 중량업 블랙라인 호텔용 마이크로필에버 베개솜 지퍼형, 화이트, 2개"
  },
  {
   "id": 145,
-  "name": "\ub354\uc790\ub9ac \uadf9\uc138\uc0ac \ub2f4\uc694",
+  "name": "더자리 극세사 담요",
   "price": 5200,
   "reviews": 49985,
   "link": "https://link.coupang.com/a/iI6PCFcwPA",
   "tier": "high",
   "use": true,
-  "kind": "\ub2f4\uc694",
-  "full_name": "\ub354\uc790\ub9ac \ub9c8\uc774\ube14\ub7ad\ud0b7 \uadf9\uc138\uc0ac \ub2f4\uc694"
+  "kind": "담요",
+  "full_name": "더자리 마이블랭킷 극세사 담요"
  },
  {
   "id": 146,
-  "name": "AHC \uc544\uc774\ud06c\ub9bc \ud3ec \ud398\uc774\uc2a4 2\uac1c",
+  "name": "AHC 아이크림 포 페이스 2개",
   "price": 17000,
   "reviews": 24915,
   "link": "https://link.coupang.com/a/iI6QoXGrdY",
   "tier": "high",
   "use": true,
-  "kind": "\uc544\uc774\ud06c\ub9bc",
-  "full_name": "AHC \uc288\ud504\ub9bc \ub9ac\uc5bc \uc544\uc774\ud06c\ub9bc \ud3ec \ud398\uc774\uc2a4, 30ml, 2\uac1c"
+  "kind": "아이크림",
+  "full_name": "AHC 슈프림 리얼 아이크림 포 페이스, 30ml, 2개"
  },
  {
   "id": 147,
-  "name": "\ub9ac\ube59\uc120\ub370\uc774 6\uc885 \ucc44\uce7c \uc138\ud2b8",
+  "name": "리빙선데이 6종 채칼 세트",
   "price": 7570,
   "reviews": 17952,
   "link": "https://link.coupang.com/a/iI6RbisGyG",
   "tier": "high",
   "use": true,
-  "kind": "\ucc44\uce7c",
-  "full_name": "\ub9ac\ube59\uc120\ub370\uc774 \uc2a4\ub9c8\ud2b8 6\uc885 \ucc44\uce7c \uc138\ud2b8, \ud63c\ud569\uc0c9\uc0c1, 1\uc138\ud2b8"
+  "kind": "채칼",
+  "full_name": "리빙선데이 스마트 6종 채칼 세트, 혼합색상, 1세트"
  },
  {
   "id": 148,
-  "name": "\ucf54\uba67 4\ub2e8 \ucc45\uc7a5\uc120\ubc18",
+  "name": "코멧 4단 책장선반",
   "price": 24650,
   "reviews": 32398,
   "link": "https://link.coupang.com/a/iI6RZbBAXI",
   "tier": "high",
   "use": true,
-  "kind": "\ucc45\uc7a5",
-  "full_name": "\ucf54\uba67 4\ub2e8 \ucc45\uc7a5\uc120\ubc18, \ud654\uc774\ud2b8"
+  "kind": "책장",
+  "full_name": "코멧 4단 책장선반, 화이트"
  },
  {
   "id": 149,
-  "name": "\ud589\uac70\uc804\ubb38\uac00 \uc640\uc774\ub4dc 2\ub2e8 \ud589\uac70",
+  "name": "행거전문가 와이드 2단 행거",
   "price": 40800,
   "reviews": 15028,
   "link": "https://link.coupang.com/a/iI6UbkXu2K",
   "tier": "high",
   "use": true,
-  "kind": "\ud589\uac70",
-  "full_name": "\ud589\uac70\uc804\ubb38\uac00 \ud2bc\ud2bc\ud55c \uace0\uc815\uc2dd \uc637\uac78\uc774\ud589\uac70 \uc640\uc774\ub4dc2\ub2e8 38mm, \ud654\uc774\ud2b8"
+  "kind": "행거",
+  "full_name": "행거전문가 튼튼한 고정식 옷걸이행거 와이드2단 38mm, 화이트"
  },
  {
   "id": 150,
-  "name": "\uc720\uc138\ube10 \ub2e4\uc774\uc5bc \ud2b8\ub798\ud0b9\ud654",
+  "name": "유세븐 다이얼 트래킹화",
   "price": 31460,
   "reviews": 8774,
   "link": "https://link.coupang.com/a/iI6UXk69dI",
   "tier": "high",
   "use": true,
-  "kind": "\ub4f1\uc0b0\ud654",
-  "full_name": "\uc720\uc138\ube10 \ub0a8\uc131\uc6a9 \ub2e4\uc774\uc5bc \uc6b4\ub3d9\ud654 \ud2b8\ub798\ud0b9\ud654 DM907"
+  "kind": "등산화",
+  "full_name": "유세븐 남성용 다이얼 운동화 트래킹화 DM907"
  },
  {
   "id": 151,
-  "name": "\ucf00\uc774\ud22c\uc138\uc774\ud504\ud2f0 BOA \uc548\uc804\ud654",
+  "name": "케이투세이프티 BOA 안전화",
   "price": 90200,
   "reviews": 8017,
   "link": "https://link.coupang.com/a/iI6VJJ2WZg",
   "tier": "high",
   "use": true,
-  "kind": "\uc548\uc804\ud654",
-  "full_name": "\ucf00\uc774\ud22c\uc138\uc774\ud504\ud2f0 BOA \uc548\uc804\ud654 K2-67S"
+  "kind": "안전화",
+  "full_name": "케이투세이프티 BOA 안전화 K2-67S"
  },
  {
   "id": 152,
-  "name": "\ubc34\ud504 \ub9b4\ub809\uc2a4 \ucea0\ud551\uc758\uc790 \ud2b9\ub300",
+  "name": "밴프 릴렉스 캠핑의자 특대",
   "price": 44420,
   "reviews": 2568,
   "link": "https://link.coupang.com/a/iI6W9ULC3M",
   "tier": "high",
   "use": true,
-  "kind": "\ucea0\ud551\uc758\uc790",
-  "full_name": "\ubc34\ud504 \uc2dc\uadf8\ub2c8\ucc98 \ub9b4\ub809\uc2a4 \ucea0\ud551\uc758\uc790 \ud2b9\ub300, \ube14\ub799, 1\uac1c"
+  "kind": "캠핑의자",
+  "full_name": "밴프 시그니처 릴렉스 캠핑의자 특대, 블랙, 1개"
  },
  {
   "id": 153,
-  "name": "\ucf54\uba67 \uc6d0\ubaa9 \uc5d0\ud3a0\uccb4\uc5b4 2\uac1c",
+  "name": "코멧 원목 에펠체어 2개",
   "price": 44990,
   "reviews": 2097,
   "link": "https://link.coupang.com/a/iI6X1jRWIS",
   "tier": "high",
   "use": true,
-  "kind": "\uc2dd\ud0c1\uc758\uc790",
-  "full_name": "\ucf54\uba67 \ud648 \uc778\ud14c\ub9ac\uc5b4 \uac00\uc8fd \ucfe0\uc158 \uc6d0\ubaa9 \ub514\uc790\uc778 \uc5d0\ud3a0\uccb4\uc5b4, \ud654\uc774\ud2b8, 2\uac1c"
+  "kind": "식탁의자",
+  "full_name": "코멧 홈 인테리어 가죽 쿠션 원목 디자인 에펠체어, 화이트, 2개"
  },
  {
   "id": 154,
-  "name": "\uc774\uc9c0\uace0 \uc2a4\ud3ec\uce20 \ubc31\ud329",
+  "name": "이지고 스포츠 백팩",
   "price": 32900,
   "reviews": 2024,
   "link": "https://link.coupang.com/a/iI6YNjp2ES",
   "tier": "high",
   "use": true,
-  "kind": "\ubc31\ud329",
-  "full_name": "\uc774\uc9c0\uace0 MPack \uc2a4\ud3ec\uce20 \ubc31\ud329 \ub178\ud2b8\ubd81\uac00\ubc29 \ud559\uc0dd\ubc31\ud329 \ub300\uc6a9\ub7c9 \ubc29\uc218"
+  "kind": "백팩",
+  "full_name": "이지고 MPack 스포츠 백팩 노트북가방 학생백팩 대용량 방수"
  },
  {
   "id": 155,
-  "name": "\uae4c\uc0ac\ub9c8\ub8e8 \ub9e4\uc9c1\ud30c\ud2f0\uc158 \uc911\ud615",
+  "name": "까사마루 매직파티션 중형",
   "price": 47900,
   "reviews": 1612,
   "link": "https://link.coupang.com/a/iI6Zx17ikC",
   "tier": "high",
   "use": true,
-  "kind": "\ud30c\ud2f0\uc158",
-  "full_name": "\uae4c\uc0ac\ub9c8\ub8e8 \ub9e4\uc9c1\ud30c\ud2f0\uc158 \uc911\ud615, \ud654\uc774\ud2b8"
+  "kind": "파티션",
+  "full_name": "까사마루 매직파티션 중형, 화이트"
  },
  {
   "id": 156,
-  "name": "\uc0bc\uc775\uac00\uad6c LED \uc218\ub0a9 \uce68\ub300",
+  "name": "삼익가구 LED 수납 침대",
   "price": 189000,
   "reviews": 6304,
   "link": "https://link.coupang.com/a/iI60kBEnfw",
   "tier": "high",
   "use": true,
-  "kind": "\uce68\ub300\ud504\ub808\uc784",
-  "full_name": "\uc0bc\uc775\uac00\uad6c \ub808\uc774\uc988 LED 4\ub2e8 \uc218\ub0a9 \uce68\ub300 \uc288\ud37c\uc2f1\uae00 \ud038 SS Q \uc77c\ubc18 \ub3c5\ub9bd\uc2a4\ud504\ub9c1 \ub77c\ud14d\uc2a4, \ud654\uc774\ud2b8"
+  "kind": "침대프레임",
+  "full_name": "삼익가구 레이즈 LED 4단 수납 침대 슈퍼싱글 퀸 SS Q 일반 독립스프링 라텍스, 화이트"
  },
  {
   "id": 157,
-  "name": "\uc704\ub2c9\uc2a4 \ucef4\ud329\ud2b8 \uac74\uc870\uae30 4kg",
+  "name": "위닉스 컴팩트 건조기 4kg",
   "price": 325130,
   "reviews": 3376,
   "link": "https://link.coupang.com/a/iI605TqtNs",
   "tier": "high",
   "use": true,
-  "kind": "\uac74\uc870\uae30",
-  "full_name": "\uc704\ub2c9\uc2a4 \uc778\ubc84\ud130 \ucef4\ud329\ud2b8 \uac74\uc870\uae30 4kg \uace0\uac1d\uc9c1\uc811\uc124\uce58, HS3P400-OEK, \ud654\uc774\ud2b8\ubca0\uc774\uc9c0"
+  "kind": "건조기",
+  "full_name": "위닉스 인버터 컴팩트 건조기 4kg 고객직접설치, HS3P400-OEK, 화이트베이지"
  },
  {
   "id": 158,
-  "name": "\ud4e8\ub9ac\uc5bc \uc9c1\uc218\ud615 \uc815\uc218\uae30",
+  "name": "퓨리얼 직수형 정수기",
   "price": 227000,
   "reviews": 2565,
   "link": "https://link.coupang.com/a/iI61TJR2Si",
   "tier": "high",
   "use": true,
-  "kind": "\uc815\uc218\uae30",
-  "full_name": "\ud4e8\ub9ac\uc5bc \uc9c1\uc218\ud615 \uc815\uc218\uae30 PPA-100 + \ud544\ud130 \uc138\ud2b8, PPA-100 (\ud654\uc774\ud2b8)"
+  "kind": "정수기",
+  "full_name": "퓨리얼 직수형 정수기 PPA-100 + 필터 세트, PPA-100 (화이트)"
  },
  {
   "id": 159,
-  "name": "\ud55c\uc77c\uc758\ub8cc\uae30 \ud0c4\uc18c\ub9e4\ud2b8",
+  "name": "한일의료기 탄소매트",
   "price": 99000,
   "reviews": 1436,
   "link": "https://link.coupang.com/a/iI62Jg48QK",
   "tier": "high",
   "use": true,
-  "kind": "\ud0c4\uc18c\ub9e4\ud2b8",
-  "full_name": "[27\ub144\ud615 \uc2e0\uc81c\ud488] \ud55c\uc77c\uc758\ub8cc\uae30 \ud0c4\uc18c\ub9e4\ud2b8 \ud504\ub9ac\ubbf8\uc5c4 \uce74\ubcf8\ub9e4\ud2b8, \uadf8\ub808\uc774, \uc288\ud37c\uc2f1\uae00(110 x 200 cm)"
+  "kind": "탄소매트",
+  "full_name": "[27년형 신제품] 한일의료기 탄소매트 프리미엄 카본매트, 그레이, 슈퍼싱글(110 x 200 cm)"
  },
  {
   "id": 160,
-  "name": "\ucf00\uc774\ucef4\ud37c\ub2c8 \uc7a5\ub871\uc138\ud2b8",
+  "name": "케이컴퍼니 장롱세트",
   "price": 158000,
   "reviews": 1344,
   "link": "https://link.coupang.com/a/iI64av1eQC",
   "tier": "high",
   "use": true,
-  "kind": "\uc637\uc7a5",
-  "full_name": "\ucf00\uc774\ucef4\ud37c\ub2c8 LPM \uc774\uc74c1600\uc7a5\ub871\uc138\ud2b8CD(3\uc11c\ub78d\uc637\uc7a5+\uae34\ubb38\uc7a5) \uc7a5\ub871\uc138\ud2b8, \ud654\uc774\ud2b8"
+  "kind": "옷장",
+  "full_name": "케이컴퍼니 LPM 이음1600장롱세트CD(3서랍옷장+긴문장) 장롱세트, 화이트"
  },
  {
   "id": 161,
-  "name": "\ud30c\ub85c\ub9c8 \uc5d0\uc77c\ub9ac \uc218\ub0a9 \ud654\uc7a5\ub300",
+  "name": "파로마 에일리 수납 화장대",
   "price": 134990,
   "reviews": 618,
   "link": "https://link.coupang.com/a/iI65aMBnC8",
   "tier": "high",
   "use": true,
-  "kind": "\ud654\uc7a5\ub300",
-  "full_name": "\ud30c\ub85c\ub9c8 \uc5d0\uc77c\ub9ac \uc218\ub0a9 \ud654\uc7a5\ub300 600 \ub2e8\ud488 \ubc29\ubb38\uc124\uce58, \ud654\uc774\ud2b8"
+  "kind": "화장대",
+  "full_name": "파로마 에일리 수납 화장대 600 단품 방문설치, 화이트"
  },
  {
   "id": 162,
-  "name": "\ubaa8\ub178 \uadf9\uc138\uc0ac \ucc28\ub835\uc774\ubd88",
+  "name": "모노 극세사 차렵이불",
   "price": 59800,
   "reviews": 3267,
   "link": "https://link.coupang.com/a/iI7cuoPKAm",
   "tier": "high",
   "use": true,
-  "kind": "\uadf9\uc138\uc0ac\uc774\ubd88",
-  "full_name": "\ub530\ub73b\ud55c \uaca8\uc6b8 \uce68\uad6c \ud504\ub9ac\ubbf8\uc5c4 \ubaa8\ub178 \uadf9\uc138\uc0ac \ucc28\ub835\uc774\ubd88"
+  "kind": "극세사이불",
+  "full_name": "따뜻한 겨울 침구 프리미엄 모노 극세사 차렵이불"
  },
  {
   "id": 163,
-  "name": "\uc0bc\uc775\uac00\uad6c \ub370\uc77c 4\uc778\uc6a9 \uc2dd\ud0c1",
+  "name": "삼익가구 데일 4인용 식탁",
   "price": 229000,
   "reviews": 1490,
   "link": "https://link.coupang.com/a/iI7f7RDhWC",
   "tier": "high",
   "use": true,
-  "kind": "\uc2dd\ud0c1",
-  "full_name": "\uc0bc\uc775\uac00\uad6c \ub370\uc77c 4\uc778\uc6a9 \uc6d0\ubaa9 \uc2dd\ud0c1\uc138\ud2b8, 03.4\uc778\uc6a9(\uc758\uc7904), \uc6d4\ub11b, \uc77c\ubc18\uc758\uc790 4"
+  "kind": "식탁",
+  "full_name": "삼익가구 데일 4인용 원목 식탁세트, 03.4인용(의자4), 월넛, 일반의자 4"
  },
  {
   "id": 164,
-  "name": "\ud648\uc704\uc2dc \uc804\ub3d9 \ubaa8\uc158\ub370\uc2a4\ud06c",
+  "name": "홈위시 전동 모션데스크",
   "price": 199000,
   "reviews": 44,
   "link": "https://link.coupang.com/a/iI7gYV4Es8",
   "tier": "high",
   "use": true,
-  "kind": "\ucc45\uc0c1",
-  "full_name": "\ud648\uc704\uc2dc \ud3ed800 \ubaa8\uc158\ub370\uc2a4\ud06c \uc804\ub3d9 \ub192\uc774\uc870\uc808 \uc0ac\ubb34\uc6a9 \ucef4\ud4e8\ud130 \ucc45\uc0c1, \ube14\ub799"
+  "kind": "책상",
+  "full_name": "홈위시 폭800 모션데스크 전동 높이조절 사무용 컴퓨터 책상, 블랙"
  },
  {
   "id": 165,
-  "name": "\uc5d0\ubc84\uc5b4\uadf8 \ub808\uc774\uc2a4\uc5c5 \uc5b4\uadf8\ubd80\uce20",
+  "name": "에버어그 레이스업 어그부츠",
   "price": 154910,
   "reviews": 97,
   "link": "https://link.coupang.com/a/iI7kvMdvem",
   "tier": "high",
   "use": true,
-  "kind": "\uc5b4\uadf8\ubd80\uce20",
-  "full_name": "26~27\uc2e0\uc0c1 100%\uc815\ud488 \ud638\uc8fc \uc5d0\ubc84\uc5b4\uadf8 EVER UGG \uc0ac\ubbf8\ub974 \ub808\uc774\uc2a4\uc5c5 \uc5b4\uadf8\uc6b4\ub3d9\ud654 \ubd80\uce20 \uc774\ub8e8\uc6f0 \ud638\uc8fc\uc544\uc800\uc528 \ub9e4\uc7a5\uc9c1\ubc30\uc1a1 \uc5b4\uadf8\ube0c\ub7ec\uc2dc \uc99d\uc815"
+  "kind": "어그부츠",
+  "full_name": "26~27신상 100%정품 호주 에버어그 EVER UGG 사미르 레이스업 어그운동화 부츠 이루웰 호주아저씨 매장직배송 어그브러시 증정"
  },
  {
   "id": 166,
-  "name": "\uc2a4\uce74\uce58\ube0c\ub77c\uc774\ud2b8 \uc81c\ub85c \uc2a4\ud06c\ub798\uce58 \uc218\uc138\ubbf8",
+  "name": "스카치브라이트 제로 스크래치 수세미",
   "price": 10100,
   "reviews": 40687,
   "link": "https://link.coupang.com/a/iLCGjpAcPk",
   "tier": "high",
   "use": true,
-  "kind": "\uc218\uc138\ubbf8",
-  "full_name": "\uc2a4\uce74\uce58\ube0c\ub77c\uc774\ud2b8 \ubca0\uc774\uc9c1 \uc81c\ub85c \uc2a4\ud06c\ub798\uce58 \uc2a4\ud380\uc9c0 \uc218\uc138\ubbf8, 8\uac1c\uc785, 1\uac1c"
+  "kind": "수세미",
+  "full_name": "스카치브라이트 베이직 제로 스크래치 스펀지 수세미, 8개입, 1개"
  },
  {
   "id": 167,
-  "name": "\ud648\ube14\ub9b0 \uc790\ub3d9 \ubcc0\uae30\uc138\uc815\uc81c",
+  "name": "홈블린 자동 변기세정제",
   "price": 7700,
   "reviews": 9875,
   "link": "https://link.coupang.com/a/iLCG7xJK7U",
   "tier": "high",
   "use": true,
-  "kind": "\ubcc0\uae30\uc138\uc815\uc81c",
-  "full_name": "\ud648\ube14\ub9b0 \ub300\uc6a9\ub7c9 \uc790\ub3d9 \ud074\ub9ac\ub108 \ubcc0\uae30\uc138\uc815\uc81c (\uc704\uc0dd\uc904 \ud3ec\ud568) B144, 4\uac1c, 320g"
+  "kind": "변기세정제",
+  "full_name": "홈블린 대용량 자동 클리너 변기세정제 (위생줄 포함) B144, 4개, 320g"
  },
  {
   "id": 168,
-  "name": "\ucf54\uba67 \uc774\ubd88 \uc555\ucd95\ud329",
+  "name": "코멧 이불 압축팩",
   "price": 7990,
   "reviews": 34918,
   "link": "https://link.coupang.com/a/iLCHVq0tie",
   "tier": "high",
   "use": true,
-  "kind": "\uc555\ucd95\ud329",
-  "full_name": "\ucf54\uba67 \uc774\ubd88 \uc555\ucd95\ud329, 5\uac1c\uc785, 1\uac1c"
+  "kind": "압축팩",
+  "full_name": "코멧 이불 압축팩, 5개입, 1개"
  },
  {
   "id": 169,
-  "name": "\ub2e4\ud37c\ub0a8 \uce94\ubc84\uc2a4 \ubc29\uc218 \uc55e\uce58\ub9c8",
+  "name": "다퍼남 캔버스 방수 앞치마",
   "price": 5490,
   "reviews": 5135,
   "link": "https://link.coupang.com/a/iLCIJmZmZU",
   "tier": "high",
   "use": true,
-  "kind": "\uc55e\uce58\ub9c8",
-  "full_name": "\ub2e4\ud37c\ub0a8 \uce94\ubc84\uc2a4 \ubc29\uc218 \uc55e\uce58\ub9c8, \ube14\ub799, 1\uac1c"
+  "kind": "앞치마",
+  "full_name": "다퍼남 캔버스 방수 앞치마, 블랙, 1개"
  },
  {
   "id": 170,
-  "name": "\ub3c4\ube0c \ubdf0\ud2f0 \ud06c\ub9bc\ubc14 12\uac1c\uc785",
+  "name": "도브 뷰티 크림바 12개입",
   "price": 13440,
   "reviews": 74741,
   "link": "https://link.coupang.com/a/iLCJxxViPA",
   "tier": "high",
   "use": true,
-  "kind": "\ube44\ub204",
-  "full_name": "\ub3c4\ube0c \ubdf0\ud2f0 \ud06c\ub9bc\ubc14, 90g, 12\uac1c\uc785"
+  "kind": "비누",
+  "full_name": "도브 뷰티 크림바, 90g, 12개입"
  },
  {
   "id": 171,
-  "name": "\ub9ac\ub4dc\ud648 \ud558\ub4dc\ucf00\uc774\uc2a4 \ub9cc\ub144 \ub2e4\uc774\uc5b4\ub9ac",
+  "name": "리드홈 하드케이스 만년 다이어리",
   "price": 5800,
   "reviews": 1071,
   "link": "https://link.coupang.com/a/iLCK6yYknc",
   "tier": "high",
   "use": true,
-  "kind": "\ub2e4\uc774\uc5b4\ub9ac",
-  "full_name": "\ub9ac\ub4dc\ud648 \ud558\ub4dc\ucf00\uc774\uc2a4 \ub9cc\ub144 \ub2e4\uc774\uc5b4\ub9ac \ub178\ud2b8\ubd81, \ube14\ub799, 1\uac1c"
+  "kind": "다이어리",
+  "full_name": "리드홈 하드케이스 만년 다이어리 노트북, 블랙, 1개"
  },
  {
   "id": 172,
-  "name": "\ubca0\ub85c \ud06c\ub85c\uc640\uc0c1 \ud06c\ub85c\uc2a4\ubc31",
+  "name": "베로 크로와상 크로스백",
   "price": 9700,
   "reviews": 5552,
   "link": "https://link.coupang.com/a/iLCLWZJhNA",
   "tier": "high",
   "use": true,
-  "kind": "\ud06c\ub85c\uc2a4\ubc31",
-  "full_name": "\ubca0\ub85c \uac00\ubcbc\uc6b4 \ud06c\ub85c\uc640\uc0c1 \ud06c\ub85c\uc2a4\ubc31"
+  "kind": "크로스백",
+  "full_name": "베로 가벼운 크로와상 크로스백"
  },
  {
   "id": 173,
-  "name": "macci \ubcf4\uc544\ud138 \ud6c4\ub9ac\uc2a4 \uc9d1\uc5c5",
+  "name": "macci 보아털 후리스 집업",
   "price": 31970,
   "reviews": 1513,
   "link": "https://link.coupang.com/a/iLCMJpbLbM",
   "tier": "high",
   "use": true,
-  "kind": "\ud6c4\ub9ac\uc2a4",
-  "full_name": "macci (\ub9c8\ucc0c) \ud788\ud2b8\ud3ec\ubbac\ub7ec ROKA \uc790\uc218 \ucf54\ub9ac\uc544 \uc544\ubbf8 \ubcf4\uc544\ud138 \uae30\ubaa8 \ub85c\uce74 \ud6c4\ub9ac\uc2a4 \uc9d1\uc5c5 (\uc815\ud488)"
+  "kind": "후리스",
+  "full_name": "macci (마찌) 히트포뮬러 ROKA 자수 코리아 아미 보아털 기모 로카 후리스 집업 (정품)"
  },
  {
   "id": 174,
-  "name": "\uc13c\ud154\ub9ac\uc54824 \ub9c8\ub370\uce74 \ud06c\ub9bc",
+  "name": "센텔리안24 마데카 크림",
   "price": 71190,
   "reviews": 58983,
   "link": "https://link.coupang.com/a/iLCKjWk5sW",
   "tier": "high",
   "use": true,
-  "kind": "\ub9c8\ub370\uce74\ud06c\ub9bc",
-  "full_name": "\uc13c\ud154\ub9ac\uc54824 \ub354 \ub9c8\ub370\uce74 \ud06c\ub9bc 45ml, 10\uac1c"
+  "kind": "마데카크림",
+  "full_name": "센텔리안24 더 마데카 크림 45ml, 10개"
  },
  {
   "id": 175,
-  "name": "\ud55c\uc131 FHD 144Hz \uac8c\uc774\ubc0d \ubaa8\ub2c8\ud130",
+  "name": "한성 FHD 144Hz 게이밍 모니터",
   "price": 98100,
   "reviews": 5042,
   "link": "https://link.coupang.com/a/iLCOkWeWJM",
   "tier": "high",
   "use": true,
-  "kind": "\ubaa8\ub2c8\ud130",
-  "full_name": "\ud55c\uc131\ucef4\ud4e8\ud130 FHD IPS 144Hz \uac8c\uc774\ubc0d \ubaa8\ub2c8\ud130, 62.2cm, TFG24F14P2(\uc77c\ubc18)"
+  "kind": "모니터",
+  "full_name": "한성컴퓨터 FHD IPS 144Hz 게이밍 모니터, 62.2cm, TFG24F14P2(일반)"
  },
  {
   "id": 176,
-  "name": "\uc704\ub4dc\ub77c\uc774\ud504 43\uc778\uce58 FHD TV",
+  "name": "위드라이프 43인치 FHD TV",
   "price": 247000,
   "reviews": 7027,
   "link": "https://link.coupang.com/a/iLCPiBwFnE",
   "tier": "high",
   "use": true,
   "kind": "TV",
-  "full_name": "\uc704\ub4dc\ub77c\uc774\ud504 43\uc778\uce58 FHD TV \ub300\uae30\uc5c5\uc815\ud488\ud328\ub110 \uc5d0\ub108\uc9c01\ub4f1\uae09 \uace0\ud654\uc9c8\ud2f0\ube44, 43F, \ubc29\ubb38\uc124\uce58, \uc2a4\ud0e0\ub4dc\ud615, 109cm/43\uc778\uce58"
+  "full_name": "위드라이프 43인치 FHD TV 대기업정품패널 에너지1등급 고화질티비, 43F, 방문설치, 스탠드형, 109cm/43인치"
  },
  {
   "id": 177,
-  "name": "\ubbf8\ub77c\ud074\uc5e0 \ubbf8\ub77c\ud074\ud0ed 10.1 \ud0dc\ube14\ub9bf",
+  "name": "미라클엠 미라클탭 10.1 태블릿",
   "price": 179800,
   "reviews": 1377,
   "link": "https://link.coupang.com/a/iLCP6BVVDg",
   "tier": "high",
   "use": true,
-  "kind": "\ud0dc\ube14\ub9bf",
-  "full_name": "\ubbf8\ub77c\ud074\uc5e0 \ubbf8\ub77c\ud074\ud0ed 10.1 \ud0dc\ube14\ub9bf PC + \ucf00\uc774\uc2a4 + \ud544\ub984, \uadf8\ub808\uc774, 64GB, Wi-Fi"
+  "kind": "태블릿",
+  "full_name": "미라클엠 미라클탭 10.1 태블릿 PC + 케이스 + 필름, 그레이, 64GB, Wi-Fi"
  },
  {
   "id": 178,
-  "name": "\ud558\ub9bc \ub0c9\uc7a5 \ub2ed\uac00\uc2b4\uc0b4 1kg",
+  "name": "하림 냉장 닭가슴살 1kg",
   "price": 9520,
   "reviews": 9344,
   "link": "https://link.coupang.com/a/iLGvznp0lo",
   "tier": "high",
   "use": true,
-  "kind": "\ub2ed\uac00\uc2b4\uc0b4",
-  "full_name": "\ud558\ub9bc \ub2ed\uac00\uc2b4\uc0b4 (\ub0c9\uc7a5), 1\uac1c, 1kg"
+  "kind": "닭가슴살",
+  "full_name": "하림 닭가슴살 (냉장), 1개, 1kg"
  },
  {
   "id": 179,
-  "name": "\uad6d\ub0b4\uc0b0 \ud587 \uafc0\uace0\uad6c\ub9c8 1.5kg",
+  "name": "국내산 햇 꿀고구마 1.5kg",
   "price": 7990,
   "reviews": 240411,
   "link": "https://link.coupang.com/a/iLGwl6Xj8C",
   "tier": "high",
   "use": true,
-  "kind": "\uace0\uad6c\ub9c8",
-  "full_name": "\uad6d\ub0b4\uc0b0 \ud587 \uafc0\uace0\uad6c\ub9c8, 1.5kg, 1\ubc15\uc2a4"
+  "kind": "고구마",
+  "full_name": "국내산 햇 꿀고구마, 1.5kg, 1박스"
  },
  {
   "id": 180,
-  "name": "\ub098\uc6b0\ud478\ub4dc \uc6b8\ud2b8\ub77c \uc624\uba54\uac003 180\uc815",
+  "name": "나우푸드 울트라 오메가3 180정",
   "price": 37940,
   "reviews": 39491,
   "link": "https://link.coupang.com/a/iLGw7506qO",
   "tier": "high",
   "use": true,
-  "kind": "\uc624\uba54\uac003",
-  "full_name": "\ub098\uc6b0\ud478\ub4dc \uc6b8\ud2b8\ub77c \uc624\uba54\uac00 3 500 EPA 250 DHA \uc18c\ud504\ud2b8\uc824, 180\uc815, 1\uac1c"
+  "kind": "오메가3",
+  "full_name": "나우푸드 울트라 오메가 3 500 EPA 250 DHA 소프트젤, 180정, 1개"
  },
  {
   "id": 181,
-  "name": "\uace0\uc0b0\uc9c0 \ub2f9\ub3c4\uc120\ubcc4 \uc0ac\uacfc 1.5kg",
+  "name": "고산지 당도선별 사과 1.5kg",
   "price": 9990,
   "reviews": 137868,
   "link": "https://link.coupang.com/a/iLGxUcu1Wm",
   "tier": "high",
   "use": true,
-  "kind": "\uc0ac\uacfc",
-  "full_name": "\uace0\uc0b0\uc9c0 \uc7ac\ubc30 \ub2f9\ub3c4\uc120\ubcc4 \uc0ac\uacfc, 1.5kg(\uc911\uacfc), 1\ubd09"
+  "kind": "사과",
+  "full_name": "고산지 재배 당도선별 사과, 1.5kg(중과), 1봉"
  },
  {
   "id": 182,
-  "name": "\uc1a1\uc6d4\ud0c0\uc6d4 \ud638\ud154\uc218\uac74 5\uac1c",
+  "name": "송월타월 호텔수건 5개",
   "price": 15500,
   "reviews": 19290,
   "link": "https://link.coupang.com/a/iLGyIlRaKW",
   "tier": "high",
   "use": true,
-  "kind": "\uc218\uac74",
-  "full_name": "\uc1a1\uc6d4\ud0c0\uc6d4 \ud638\ud154\uc218\uac74 \ud06c\ub7ec\uc26c 150g 30\uc218 \uba74\uc0ac, \uc9c4\ud68c\uc0c9, 5\uac1c"
+  "kind": "수건",
+  "full_name": "송월타월 호텔수건 크러쉬 150g 30수 면사, 진회색, 5개"
  },
  {
   "id": 183,
-  "name": "\ud06c\ub9ac\ub125\uc2a4 \ud0a4\uce5c\ud0c0\uc62c 4\ub864",
+  "name": "크리넥스 키친타올 4롤",
   "price": 4720,
   "reviews": 105723,
   "link": "https://link.coupang.com/a/iLGzthDc8i",
   "tier": "high",
   "use": true,
-  "kind": "\ud0a4\uce5c\ud0c0\uc6d4",
-  "full_name": "\ud06c\ub9ac\ub125\uc2a4 \uc548\uc2ec \ud0a4\uce5c\ud0c0\uc62c 120\ub9e4, 4\ub864, 1\uac1c",
-  "review_note": "\ubb3c\uae30\ub098 \uae30\ub984\uae30\ub97c \ub2e6\uc744 \ub54c"
+  "kind": "키친타월",
+  "full_name": "크리넥스 안심 키친타올 120매, 4롤, 1개",
+  "review_note": "물기나 기름기를 닦을 때"
  },
  {
   "id": 184,
-  "name": "\ud504\ub9b4 \ubca0\uc774\ud0b9\uc18c\ub2e4 \uc138\uc81c \ub9ac\ud544 2\uac1c",
+  "name": "프릴 베이킹소다 세제 리필 2개",
   "price": 8900,
   "reviews": 181119,
   "link": "https://link.coupang.com/a/iLGAefcx3s",
   "tier": "high",
   "use": true,
-  "kind": "\uc8fc\ubc29\uc138\uc81c",
-  "full_name": "\ud504\ub9b4 \uc2dc\ud06c\ub9bf\uc624\ube0c \ubca0\uc774\ud0b9\uc18c\ub2e4 \ud4e8\uc5b4\ub808\ubaac\ud5a5 \ub9ac\ud544, 1L, 2\uac1c"
+  "kind": "주방세제",
+  "full_name": "프릴 시크릿오브 베이킹소다 퓨어레몬향 리필, 1L, 2개"
  },
  {
   "id": 185,
-  "name": "\uc2a4\ub108\uae00 \uc12c\uc720\uc720\uc5f0\uc81c 2L",
+  "name": "스너글 섬유유연제 2L",
   "price": 10320,
   "reviews": 175171,
   "link": "https://link.coupang.com/a/iLGA1bHH4e",
   "tier": "high",
   "use": true,
-  "kind": "\uc12c\uc720\uc720\uc5f0\uc81c",
-  "full_name": "\uc2a4\ub108\uae00 \ucd08\uace0\ub18d\ucd95 \uc12c\uc720\uc720\uc5f0\uc81c \uc624\ub9ac\uc9c0\ub110 \ud5c8\uac70\ube14 \ucf54\ud2bc \ubcf8\ud488, 2L, 1\uac1c"
+  "kind": "섬유유연제",
+  "full_name": "스너글 초고농축 섬유유연제 오리지널 허거블 코튼 본품, 2L, 1개"
  },
  {
   "id": 186,
-  "name": "\ud398\ub9ac\uc624 \ud6c4\ub808\uc26c \uc54c\ud30c \uce58\uc57d 10\uac1c",
+  "name": "페리오 후레쉬 알파 치약 10개",
   "price": 9700,
   "reviews": 83774,
   "link": "https://link.coupang.com/a/iLGBOjJcSy",
   "tier": "high",
   "use": true,
-  "kind": "\uce58\uc57d",
-  "full_name": "\ud398\ub9ac\uc624 \ub274 \ud6c4\ub808\uc26c \uc54c\ud30c \uce58\uc57d, 170g, 10\uac1c"
+  "kind": "치약",
+  "full_name": "페리오 뉴 후레쉬 알파 치약, 170g, 10개"
  },
  {
   "id": 187,
-  "name": "\uc9c0\ube0c\ub77c \uc790\uc678\uc120\ucc28\ub2e8 \ub300\ud615 \uc7a5\uc6b0\uc0b0",
+  "name": "지브라 자외선차단 대형 장우산",
   "price": 10350,
   "reviews": 7905,
   "link": "https://link.coupang.com/a/iLGDpko5Fk",
   "tier": "high",
   "use": true,
-  "kind": "\uc7a5\uc6b0\uc0b0",
-  "full_name": "\uc9c0\ube0c\ub77c 75\uc0ac\uc774\uc988 \uc790\uc678\uc120 \ucc28\ub2e8 \ub300\ud615 \uace8\ud504 \uc7a5\uc6b0\uc0b0"
+  "kind": "장우산",
+  "full_name": "지브라 75사이즈 자외선 차단 대형 골프 장우산"
  },
  {
   "id": 188,
-  "name": "\ubca0\uc774\uc2a4\uc54c\ud30c \uc5ec\uc131 \uc911\ubaa9\uc591\ub9d0 10\ucf24\ub808",
+  "name": "베이스알파 여성 중목양말 10켤레",
   "price": 9430,
   "reviews": 47869,
   "link": "https://link.coupang.com/a/iLGEb3fZFk",
   "tier": "high",
   "use": true,
-  "kind": "\uc591\ub9d0",
-  "full_name": "\ubca0\uc774\uc2a4\uc54c\ud30c\uc5d0\uc13c\uc15c \uc5ec\uc131\uc6a9 \ubb34\uc9c0 \uc911\ubaa9 \uc591\ub9d0 10\ucf24\ub808"
+  "kind": "양말",
+  "full_name": "베이스알파에센셜 여성용 무지 중목 양말 10켤레"
  },
  {
   "id": 189,
-  "name": "\ub514\uc5b4\ucee4\uc2a4 \uc548\ub155\ud55c\uc9c0 \uc0e4\uc6cc\ud0c0\uc6d4",
+  "name": "디어커스 안녕한지 샤워타월",
   "price": 6900,
   "reviews": 27503,
   "link": "https://link.coupang.com/a/iLGEY3L7kG",
   "tier": "high",
   "use": true,
-  "kind": "\uc0e4\uc6cc\ud0c0\uc6d4",
-  "full_name": "\ub514\uc5b4\ucee4\uc2a4 \uc548\ub155\ud55c\uc9c0 \uc0e4\uc6cc\ud0c0\uc6d4, 1\uac1c\uc785, 1\uac1c"
+  "kind": "샤워타월",
+  "full_name": "디어커스 안녕한지 샤워타월, 1개입, 1개"
  },
  {
   "id": 190,
-  "name": "\ud0d0\uc0ac \ud30c\uc6cc\uc6cc\uc2dc \uc561\uccb4\uc138\uc81c 4\uac1c",
+  "name": "탐사 파워워시 액체세제 4개",
   "price": 10990,
   "reviews": 267804,
   "link": "https://link.coupang.com/a/iLGFSnhGSa",
   "tier": "high",
   "use": true,
-  "kind": "\uc138\ud0c1\uc138\uc81c",
-  "full_name": "\ud0d0\uc0ac \ud30c\uc6cc\uc6cc\uc2dc \uc561\uccb4\uc138\uc81c \ubcf8\ud488, 2.5L, 4\uac1c"
+  "kind": "세탁세제",
+  "full_name": "탐사 파워워시 액체세제 본품, 2.5L, 4개"
  },
  {
   "id": 191,
-  "name": "\uacf0\uacf0 \ud585\uc300 20kg",
+  "name": "곰곰 햅쌀 20kg",
   "price": 66990,
   "reviews": 650990,
   "link": "https://link.coupang.com/a/iLGGDNQc3M",
   "tier": "high",
   "use": true,
-  "kind": "\uc300",
-  "full_name": "\uacf0\uacf0 2026\ub144\uc0b0 \ud585\uc300 \uc18c\uc911\ud55c \uc6b0\ub9ac\uc300 \uc0c1\ub4f1\uae09, 20kg, 1\uac1c"
+  "kind": "쌀",
+  "full_name": "곰곰 2026년산 햅쌀 소중한 우리쌀 상등급, 20kg, 1개"
  },
  {
   "id": 192,
-  "name": "\ud544\ub9bd\uc2a4 ENC \ubb34\uc120 \uc774\uc5b4\ud3f0",
+  "name": "필립스 ENC 무선 이어폰",
   "price": 18900,
   "reviews": 16156,
   "link": "https://link.coupang.com/a/iLGHrjxDcy",
   "tier": "high",
   "use": true,
-  "kind": "\ubb34\uc120\uc774\uc5b4\ud3f0",
-  "full_name": "\ud544\ub9bd\uc2a4 \ubb34\uc120 ENC\ub178\uc774\uc988\uce94\uc2ac\ub9c1 \ube14\ub8e8\ud22c\uc2a4 \uc774\uc5b4\ud3f0, TAT1109, \ud654\uc774\ud2b8"
+  "kind": "무선이어폰",
+  "full_name": "필립스 무선 ENC노이즈캔슬링 블루투스 이어폰, TAT1109, 화이트"
  },
  {
   "id": 193,
-  "name": "SNRD \ub7f0\ub2dd\ud654 SN192",
+  "name": "SNRD 런닝화 SN192",
   "price": 19900,
   "reviews": 22561,
   "link": "https://link.coupang.com/a/iLGIozL0Hk",
   "tier": "high",
   "use": true,
-  "kind": "\ub7ec\ub2dd\ud654",
-  "full_name": "SNRD \ub7f0\ub2dd\ud654 SN192"
+  "kind": "러닝화",
+  "full_name": "SNRD 런닝화 SN192"
  },
  {
   "id": 194,
-  "name": "\ud2b8\ub809\uc2a4\ud0c0 \ub9c8\uc824\ub78032 \ub4f1\uc0b0\ubc30\ub0ad",
+  "name": "트렉스타 마젤란32 등산배낭",
   "price": 49800,
   "reviews": 954,
   "link": "https://link.coupang.com/a/iLGI9u6EzQ",
   "tier": "high",
   "use": true,
-  "kind": "\ub4f1\uc0b0\ubc30\ub0ad",
-  "full_name": "\ucd5c\uc2e0 \ud2b8\ub809\uc2a4\ud0c0 \ub9c8\uc824\ub78032 \ub4f1\uc0b0\uac00\ubc29 \ub4f1\uc0b0\ubc30\ub0ad \uc544\uc6c3\ub3c4\uc5b4 \ub514\uc790\uc778 \ubc31\ud329, \ub124\uc774\ube44"
+  "kind": "등산배낭",
+  "full_name": "최신 트렉스타 마젤란32 등산가방 등산배낭 아웃도어 디자인 백팩, 네이비"
  },
  {
   "id": 195,
-  "name": "\uc2a4\uc704\uc2a4\ub9c8\uc6b4\ud2f4 \ud5e5\uc0ac\ub3d4 \ud150\ud2b8 6\uc778",
+  "name": "스위스마운틴 헥사돔 텐트 6인",
   "price": 77180,
   "reviews": 4901,
   "link": "https://link.coupang.com/a/iLGJVIwaJ2",
   "tier": "high",
   "use": true,
-  "kind": "\ucea0\ud551\ud150\ud2b8",
-  "full_name": "\uc2a4\uc704\uc2a4\ub9c8\uc6b4\ud2f4 \ud5e5\uc0ac\ub3d4 \uc6d0\ud130\uce58\ud150\ud2b8, \ud0c4, 6\uc778\uc6a9"
+  "kind": "캠핑텐트",
+  "full_name": "스위스마운틴 헥사돔 원터치텐트, 탄, 6인용"
  },
  {
   "id": 196,
-  "name": "\ube0c\ub78c\uc2a4 \uc62c\uc778 \uc548\ub9c8\uc758\uc790",
+  "name": "브람스 올인 안마의자",
   "price": 1058990,
   "reviews": 1250,
   "link": "https://link.coupang.com/a/iLGKIahxaC",
   "tier": "high",
   "use": true,
-  "kind": "\uc548\ub9c8\uc758\uc790",
-  "full_name": "\ube0c\ub78c\uc2a4 \uc62c\uc778 \uc548\ub9c8\uc758\uc790 \ubc29\ubb38\uc124\uce58, BRAMS-K7G777BA, \ubca0\uc774\uc9c0\uacc4\uc5f4"
+  "kind": "안마의자",
+  "full_name": "브람스 올인 안마의자 방문설치, BRAMS-K7G777BA, 베이지계열"
  },
  {
   "id": 197,
-  "name": "\uc81c\uc774\ud14d \uc811\uc774\uc2dd \uc804\uae30\uc790\uc804\uac70",
+  "name": "제이텍 접이식 전기자전거",
   "price": 282000,
   "reviews": 694,
   "link": "https://link.coupang.com/a/iLGLuW6OZw",
   "tier": "high",
   "use": true,
-  "kind": "\uc804\uae30\uc790\uc804\uac70",
-  "full_name": "\uc81c\uc774\ud14d \uc811\uc774\uc2dd \uc804\uae30\uc790\uc804\uac70 48V \uace0\ucd9c\ub825 \ubaa8\ud130 \uc804\ub3d9 PAS \ubc30\ub2ec \ub300\ub9ac\uc6b4\uc804 \ucd9c\ud1f4\uadfc \ubbf8\ub2c8, 01. \uae30\ubcf8\ud615/6Ah/25Km, \uacbd\ub7c9\uc2a4\ud2f8"
+  "kind": "전기자전거",
+  "full_name": "제이텍 접이식 전기자전거 48V 고출력 모터 전동 PAS 배달 대리운전 출퇴근 미니, 01. 기본형/6Ah/25Km, 경량스틸"
  },
  {
   "id": 198,
-  "name": "\uc5e3\uc9c0\ud648 \uc637\uc7a5\ud615 \uac74\uc870\uae30 15kg",
+  "name": "엣지홈 옷장형 건조기 15kg",
   "price": 72610,
   "reviews": 1451,
   "link": "https://link.coupang.com/a/iLGM3UaqMm",
   "tier": "high",
   "use": true,
-  "kind": "\uc2a4\ud0c0\uc77c\ub7ec",
-  "full_name": "\uc5e3\uc9c0\ud648 \uc637\uc7a5\ud615 \uac74\uc870\uae30 \uc2a4\ud0c0\uc77c\ub7ec \uacb8\uc6a9 \ucd5c\ub300 15kg HP-001, \uc544\uc774\ubcf4\ub9ac"
+  "kind": "스타일러",
+  "full_name": "엣지홈 옷장형 건조기 스타일러 겸용 최대 15kg HP-001, 아이보리"
  },
  {
   "id": 199,
-  "name": "\uc0bc\uc131 AI Q9000 \uc2a4\ud0e0\ub4dc\uc5d0\uc5b4\ucee8",
+  "name": "삼성 AI Q9000 스탠드에어컨",
   "price": 1301000,
   "reviews": 3675,
   "link": "https://link.coupang.com/a/iLGNSM7dHU",
   "tier": "high",
   "use": true,
-  "kind": "\uc5d0\uc5b4\ucee8",
-  "full_name": "\uc0bc\uc131\uc804\uc790 56.9\u33a1(17.2\ud3c9) AI Q9000 \uc2a4\ud0e0\ub4dc\ud615 \uc5d0\uc5b4\ucee8 + \ub9ac\ubaa8\ucee8 \uc138\ud2b8 AF60F17D11GT \ubc29\ubb38\uc124\uce58, \uc77c\ubc18\ubc30\uad00\ud615"
+  "kind": "에어컨",
+  "full_name": "삼성전자 56.9㎡(17.2평) AI Q9000 스탠드형 에어컨 + 리모컨 세트 AF60F17D11GT 방문설치, 일반배관형"
  },
  {
   "id": 200,
-  "name": "LG \ub514\uc624\uc2a4 \uc591\ubb38\ud615 \ub0c9\uc7a5\uace0 832L",
+  "name": "LG 디오스 양문형 냉장고 832L",
   "price": 1369000,
   "reviews": 6037,
   "link": "https://link.coupang.com/a/iLGOFaiT3A",
   "tier": "high",
   "use": true,
-  "kind": "\uc591\ubb38\ud615\ub0c9\uc7a5\uace0",
-  "full_name": "LG\uc804\uc790 \ub514\uc624\uc2a4 AI \uc624\ube0c\uc81c\uceec\ub809\uc158 832L \uc591\ubb38\ud615 \ub0c9\uc7a5\uace0 \ubc29\ubb38\uc124\uce58, S836MWW002"
+  "kind": "양문형냉장고",
+  "full_name": "LG전자 디오스 AI 오브제컬렉션 832L 양문형 냉장고 방문설치, S836MWW002"
  },
  {
   "id": 201,
-  "name": "\uc0bc\uc131 AI \uac74\uc870\uae30 21kg",
+  "name": "삼성 AI 건조기 21kg",
   "price": 1078980,
   "reviews": 2954,
   "link": "https://link.coupang.com/a/iLGPsM1EKy",
   "tier": "high",
   "use": true,
-  "kind": "\uac74\uc870\uae30",
-  "full_name": "\uc0bc\uc131\uc804\uc790 AI \uac74\uc870\uae30 21kg \ubc29\ubb38\uc124\uce58, DV21DG8200BV, \ube14\ub799\uce90\ube44\uc5b4"
+  "kind": "건조기",
+  "full_name": "삼성전자 AI 건조기 21kg 방문설치, DV21DG8200BV, 블랙캐비어"
  },
  {
   "id": 202,
-  "name": "\uc544\uc774\ub9ac\uc2a4 \uc368\ud058\ub808\uc774\ud130 KPCF",
+  "name": "아이리스 써큘레이터 KPCF",
   "price": 31300,
   "reviews": 13633,
   "link": "https://link.coupang.com/a/iLGQexQUHQ",
   "tier": "high",
   "use": true,
-  "kind": "\uc11c\ud058\ub808\uc774\ud130",
-  "full_name": "\uc544\uc774\ub9ac\uc2a4 \uc368\ud058\ub808\uc774\ud130 KPCF-HD15N, KPCF-HD15N(\ud654\uc774\ud2b8)"
+  "kind": "서큘레이터",
+  "full_name": "아이리스 써큘레이터 KPCF-HD15N, KPCF-HD15N(화이트)"
  },
  {
   "id": 203,
-  "name": "\ub974\ubb34\ud1b5 \uba54\uc774\ud2b8 \uba54\ub9ac\ub178\uc6b8 \uc6b4\ub3d9\ud654",
+  "name": "르무통 메이트 메리노울 운동화",
   "price": 118100,
   "reviews": 25324,
   "link": "https://link.coupang.com/a/iOZ1zuvwM8",
   "tier": "high",
   "use": true,
-  "kind": "\uba54\ub9ac\ub178\uc6b8\uc6b4\ub3d9\ud654",
-  "full_name": "\ub974\ubb34\ud1b5 \uba54\uc774\ud2b8 \ubc1c \ud3b8\ud55c \uba54\ub9ac\ub178\uc6b8 \uc6b4\ub3d9\ud654"
+  "kind": "메리노울운동화",
+  "full_name": "르무통 메이트 발 편한 메리노울 운동화"
  },
  {
   "id": 204,
-  "name": "\ubc14\uc774\uc5bc\ub9ac \ub0a8\ub140\uacf5\uc6a9 \ub871\ud328\ub529",
+  "name": "바이얼리 남녀공용 롱패딩",
   "price": 59800,
   "reviews": 3410,
   "link": "https://link.coupang.com/a/iOZ2ktGKJg",
   "tier": "high",
   "use": true,
-  "kind": "\ub871\ud328\ub529",
-  "full_name": "\ubc14\uc774\uc5bc\ub9ac \ub0a8\ub140\uacf5\uc6a9 \ub109\ub109\ud55c \ucda9\uc804\uc7ac \ucda9\ubd84\ud55c \uae30\uc7a5 \ub871\ud328\ub529"
+  "kind": "롱패딩",
+  "full_name": "바이얼리 남녀공용 넉넉한 충전재 충분한 기장 롱패딩"
  },
  {
   "id": 205,
-  "name": "\ud06c\ub85d\uc2a4 \ube44\uc544 \ud074\ub85c\uadf8 \uc0cc\ub4e4",
+  "name": "크록스 비아 클로그 샌들",
   "price": 39900,
   "reviews": 9344,
   "link": "https://link.coupang.com/a/iOZ27jwcE0",
   "tier": "high",
   "use": true,
-  "kind": "\ud074\ub85c\uadf8",
-  "full_name": "\ud06c\ub85d\uc2a4 \ube44\uc544 \ud074\ub85c\uadf8 \uc0cc\ub4e4"
+  "kind": "클로그",
+  "full_name": "크록스 비아 클로그 샌들"
  },
  {
   "id": 206,
-  "name": "\ud574\ub0a8 \uc808\uc784\ubc30\ucd94 20kg \ud574\uac00\uc628",
+  "name": "해남 절임배추 20kg 해가온",
   "price": 39900,
   "reviews": 4479,
   "link": "https://link.coupang.com/a/iOZ3REXAn6",
   "tier": "high",
   "use": true,
-  "kind": "\uc808\uc784\ubc30\ucd94",
-  "full_name": "\ud574\ub0a8 \uc808\uc784\ubc30\ucd94 10kg / 20kg \uc808\uc778\ubc30\ucd94 \uae40\uc7a5 \ud574\uac00\uc628, 1\ubc15\uc2a4, \ub3c4\ucc29\uc77c \ud544\uc218 \uc785\ub825"
+  "kind": "절임배추",
+  "full_name": "해남 절임배추 10kg / 20kg 절인배추 김장 해가온, 1박스, 도착일 필수 입력"
  },
  {
   "id": 207,
-  "name": "\ub274\ubc1c\ub780\uc2a4 530 \uc2a4\ud2f8\uadf8\ub808\uc774",
+  "name": "뉴발란스 530 스틸그레이",
   "price": 84870,
   "reviews": 5384,
   "link": "https://link.coupang.com/a/iOZ5o6AfeK",
   "tier": "high",
   "use": true,
-  "kind": "\uc2a4\ub2c8\ucee4\uc988",
-  "full_name": "\uad6d\ub0b4\ub9e4\uc7a5\ud310/AS\uac00\ub2a5 \ub274\ubc1c\ub780\uc2a4 530 \uc2a4\ud2f8\uadf8\ub808\uc774 MR530KA"
+  "kind": "스니커즈",
+  "full_name": "국내매장판/AS가능 뉴발란스 530 스틸그레이 MR530KA"
  },
  {
   "id": 208,
-  "name": "BRAUN \uc2dc\ub9ac\uc9883 \uc804\uae30\uba74\ub3c4\uae30",
+  "name": "BRAUN 시리즈3 전기면도기",
   "price": 47300,
   "reviews": 25041,
   "link": "https://link.coupang.com/a/iQIqQ0KhLo",
   "tier": "high",
   "use": true,
-  "kind": "\uc804\uae30\uba74\ub3c4\uae30",
-  "full_name": "BRAUN \uc2dc\ub9ac\uc9883 \uc804\uae30\uba74\ub3c4\uae30, 300s, \ube14\ub799"
+  "kind": "전기면도기",
+  "full_name": "BRAUN 시리즈3 전기면도기, 300s, 블랙"
  },
  {
   "id": 209,
-  "name": "\uccb4\uc5b4\ud074\ub7fd M2 \uba54\uc26c \uc0ac\ubb34\uc6a9\uc758\uc790",
+  "name": "체어클럽 M2 메쉬 사무용의자",
   "price": 44900,
   "reviews": 21338,
   "link": "https://link.coupang.com/a/iQIrFr0tO0",
   "tier": "high",
   "use": true,
-  "kind": "\uc0ac\ubb34\uc6a9\uc758\uc790",
-  "full_name": "\uccb4\uc5b4\ud074\ub7fd M2 \ud5e4\ub354\ud615 \uba54\uc26c\uc758\uc790, \ube14\ub799"
+  "kind": "사무용의자",
+  "full_name": "체어클럽 M2 헤더형 메쉬의자, 블랙"
  },
  {
   "id": 210,
-  "name": "\uc0e4\uc624\ubbf8 \ub808\ub4dc\ubbf8 \uc6cc\uce586",
+  "name": "샤오미 레드미 워치6",
   "price": 139600,
   "reviews": 1847,
   "link": "https://link.coupang.com/a/iQIssId80W",
   "tier": "high",
   "use": true,
-  "kind": "\uc2a4\ub9c8\ud2b8\uc6cc\uce58",
-  "full_name": "\uc0e4\uc624\ubbf8 Xiaomi \ub808\ub4dc\ubbf8 \uc2a4\ub9c8\ud2b8\uc6cc\uce58 6, \uc635\uc2dc\ub514\uc5b8 \ube14\ub799, 52.58mm, GPS + \ube14\ub8e8\ud22c\uc2a4"
+  "kind": "스마트워치",
+  "full_name": "샤오미 Xiaomi 레드미 스마트워치 6, 옵시디언 블랙, 52.58mm, GPS + 블루투스"
  },
  {
   "id": 211,
-  "name": "\uc2a4\uc717\ucea0\ud551 400W \uc804\uae30\ud788\ud130",
+  "name": "스윗캠핑 400W 전기히터",
   "price": 39900,
   "reviews": 679,
   "link": "https://link.coupang.com/a/iQIteOW5OS",
   "tier": "high",
   "use": true,
-  "kind": "\ucea0\ud551\ub09c\ub85c",
-  "full_name": "400\uc640\ud2b8 \uc2a4\uc717\ucea0\ud551\ud788\ud130 \ucea0\ud551 \ub09c\ub85c \uc804\uae30 \ud788\ud130 \ubb34\uc18c\uc74c \uc800\uc18c\uc74c \ubbf8\ub2c8 \ucc28\ubc15 \ucea0\ud551\uc6a9 \ud32c\ud788\ud130 \uc628\ud48d\uae30 \uc774\ub3d9\uc2dd \ud734\ub300\uc6a9 \uc2a4\uc717\ud50c\ub798\ub2db, 400W"
+  "kind": "캠핑난로",
+  "full_name": "400와트 스윗캠핑히터 캠핑 난로 전기 히터 무소음 저소음 미니 차박 캠핑용 팬히터 온풍기 이동식 휴대용 스윗플래닛, 400W"
  },
  {
   "id": 212,
-  "name": "\ub3cc\uccb4\uad6c\uc2a4\ud1a0 \uc9c0\ub2c8\uc624S \ubca0\uc774\uc9c1",
+  "name": "돌체구스토 지니오S 베이직",
   "price": 63800,
   "reviews": 7306,
   "link": "https://link.coupang.com/a/iQIt2R1BoO",
   "tier": "high",
   "use": true,
-  "kind": "\ucea1\uc290\ucee4\ud53c\uba38\uc2e0",
-  "full_name": "\ub3cc\uccb4\uad6c\uc2a4\ud1a0 \uc9c0\ub2c8\uc624S \ubca0\uc774\uc9c1 \ucea1\uc290 \ucee4\ud53c\uba38\uc2e0, 9784, \ud654\uc774\ud2b8"
+  "kind": "캡슐커피머신",
+  "full_name": "돌체구스토 지니오S 베이직 캡슐 커피머신, 9784, 화이트"
  },
  {
   "id": 213,
-  "name": "\uc704\ub3c4\uc5b4 \ucd08\uc800\uc18c\uc74c \ud1b5\uc138\ucc99 \uac00\uc2b5\uae30",
+  "name": "위도어 초저소음 통세척 가습기",
   "price": 67800,
   "reviews": 1699,
   "link": "https://link.coupang.com/a/iQIuO0uHKK",
   "tier": "high",
   "use": true,
-  "kind": "\uac00\uc2b5\uae30",
-  "full_name": "\uc704\ub3c4\uc5b4 \ucd08\uc800\uc18c\uc74c \ub300\uc6a9\ub7c9 \uac04\ud3b8 \ud1b5\uc138\ucc99 \ucd08\uc74c\ud30c \uac00\uc2b5\uae30, \uc6dc \ud654\uc774\ud2b8, WDR-HT002"
+  "kind": "가습기",
+  "full_name": "위도어 초저소음 대용량 간편 통세척 초음파 가습기, 웜 화이트, WDR-HT002"
  },
  {
   "id": 214,
-  "name": "\ud604\ub300\ud2f0\uc564\uc54c 2\ucc44\ub110 \ube14\ub799\ubc15\uc2a4",
+  "name": "현대티앤알 2채널 블랙박스",
   "price": 157610,
   "reviews": 6011,
   "link": "https://link.coupang.com/a/iUhtc7jEaG",
   "tier": "high",
   "use": true,
-  "kind": "\ube14\ub799\ubc15\uc2a4",
-  "full_name": "\ud604\ub300\ud2f0\uc564\uc54c 2\ucc44\ub110 FHD/FHD \ucc28\ub7c9\uc6a9 2\ucc44\ub110 \ube14\ub799\ubc15\uc2a4 UNIQ500 WIFI \uc5f0\ub3d9\uc9c0\uc6d0 GPS\uc99d\uc815, 64GB, GPS+WIFI\ub3d9\uae00+\ubb34\ub8cc\ucd9c\uc7a5\uc7a5\ucc29\uad8c"
+  "kind": "블랙박스",
+  "full_name": "현대티앤알 2채널 FHD/FHD 차량용 2채널 블랙박스 UNIQ500 WIFI 연동지원 GPS증정, 64GB, GPS+WIFI동글+무료출장장착권"
  },
  {
   "id": 215,
-  "name": "\ubcf4\uc544\ub974 \ud63c\uc694 \uba40\ud2f0 \uc804\uace8\ub0c4\ube44",
+  "name": "보아르 혼요 멀티 전골냄비",
   "price": 54800,
   "reviews": 1887,
   "link": "https://link.coupang.com/a/iUhtZZkJtA",
   "tier": "high",
   "use": true,
-  "kind": "\uc0e4\ube0c\uc0e4\ube0c\ub0c4\ube44",
-  "full_name": "\ubcf4\uc544\ub974 \ud63c\uc694 \uba40\ud2f0 \uc804\uace8 \uc804\uae30 \ub0c4\ube44 \ub9cc\ub2a5 \ud14c\uc774\ube14 \ucfe0\ucee4, VO-KI006"
+  "kind": "샤브샤브냄비",
+  "full_name": "보아르 혼요 멀티 전골 전기 냄비 만능 테이블 쿠커, VO-KI006"
  },
  {
   "id": 216,
-  "name": "\ucf54\ucf54\ub77c\uc774\ud504 \uc804\uae30\ub808\uc778\uc9c0 1\uad6c",
+  "name": "코코라이프 전기레인지 1구",
   "price": 36730,
   "reviews": 4875,
   "link": "https://link.coupang.com/a/iUhuKOYtdk",
   "tier": "high",
   "use": true,
-  "kind": "\ud56b\ud50c\ub808\uc774\ud2b8",
-  "full_name": "\ub300\uc6c5\ubaa8\ub2dd\ucef4 \ucf54\ucf54\ub77c\uc774\ud504 \ud558\uc774\ub77c\uc774\ud2b8 \uc804\uae30\ub808\uc778\uc9c0 1\uad6c, DW-HL880, \uc77c\ubc18\ud615"
+  "kind": "핫플레이트",
+  "full_name": "대웅모닝컴 코코라이프 하이라이트 전기레인지 1구, DW-HL880, 일반형"
  },
  {
   "id": 217,
-  "name": "\ud55c\uc77c\uc758\ub8cc\uae30 \ud0c4\uc18c\uc5f4\uc120 \uc804\uae30\uc694",
+  "name": "한일의료기 탄소열선 전기요",
   "price": 30940,
   "reviews": 77922,
   "link": "https://link.coupang.com/a/iUhvw7kYlU",
   "tier": "high",
   "use": true,
-  "kind": "\uc804\uae30\uc694",
-  "full_name": "HanilMedical \ud0c4\uc18c\uc5f4\uc120 \uace0\uae09 \uc804\uae30\uc694 HL-D205(25), \ubd81\uadf9\uacf0, L (135 x 180 cm)"
+  "kind": "전기요",
+  "full_name": "HanilMedical 탄소열선 고급 전기요 HL-D205(25), 북극곰, L (135 x 180 cm)"
  },
  {
   "id": 218,
-  "name": "\uc544\uc6c3\ud305 \ud06c\ub9ac\uc2a4\ub9c8\uc2a4 \ud2b8\ub9ac",
+  "name": "아웃팅 크리스마스 트리",
   "price": 27280,
   "reviews": 5572,
   "link": "https://link.coupang.com/a/iUhwjuXt2i",
   "tier": "high",
   "use": true,
-  "kind": "\ud06c\ub9ac\uc2a4\ub9c8\uc2a4\ud2b8\ub9ac",
-  "full_name": "\uc544\uc6c3\ud305 \ud06c\ub9ac\uc2a4\ub9c8\uc2a4 \ud2b8\ub9ac \ud480\uc138\ud2b8, \ubca8\ubcb3 \ubc84\uac74\ub514"
+  "kind": "크리스마스트리",
+  "full_name": "아웃팅 크리스마스 트리 풀세트, 벨벳 버건디"
  },
  {
   "id": 219,
-  "name": "\uc2a4\uce74\uce58\ube0c\ub77c\uc774\ud2b8 \uace0\ubb34\uc7a5\uac11",
+  "name": "스카치브라이트 고무장갑",
   "price": 11900,
   "reviews": 50444,
   "link": "https://link.coupang.com/a/iUhw6rlqvY",
   "tier": "high",
   "use": true,
-  "kind": "\uace0\ubb34\uc7a5\uac11",
-  "full_name": "\uc2a4\uce74\uce58\ube0c\ub77c\uc774\ud2b8 \ubca0\uc774\uc9c1 \uace0\ubb34\uc7a5\uac11 5p, \ud30c\uc2a4\ud154\ud551\ud06c, \uc911(M), 1\uc138\ud2b8"
+  "kind": "고무장갑",
+  "full_name": "스카치브라이트 베이직 고무장갑 5p, 파스텔핑크, 중(M), 1세트"
  },
  {
   "id": 220,
-  "name": "\ub2f4\ud130 \uafc0\uc720\uc790\ucc28",
+  "name": "담터 꿀유자차",
   "price": 6540,
   "reviews": 31790,
   "link": "https://link.coupang.com/a/iUhxRV17Tg",
   "tier": "high",
   "use": true,
-  "kind": "\uc720\uc790\ucc28",
-  "full_name": "\ub2f4\ud130 \uafc0\uc720\uc790\ucc28, 1kg, 1\uac1c, 1\uac1c\uc785"
+  "kind": "유자차",
+  "full_name": "담터 꿀유자차, 1kg, 1개, 1개입"
  },
  {
   "id": 221,
-  "name": "\ucf54\uba67 NBR \uc694\uac00\ub9e4\ud2b8",
+  "name": "코멧 NBR 요가매트",
   "price": 8620,
   "reviews": 36964,
   "link": "https://link.coupang.com/a/iUhyDCW4yW",
   "tier": "high",
   "use": true,
-  "kind": "\uc694\uac00\ub9e4\ud2b8",
-  "full_name": "\ucf54\uba67 NBR 10mm \uc694\uac00\ub9e4\ud2b8, \ub124\uc774\ube44, 1\uac1c"
+  "kind": "요가매트",
+  "full_name": "코멧 NBR 10mm 요가매트, 네이비, 1개"
  },
  {
   "id": 222,
-  "name": "\ucf54\uba67 \ucda9\uc804\uc2dd \ucea0\ud551\ub79c\ud134",
+  "name": "코멧 충전식 캠핑랜턴",
   "price": 8290,
   "reviews": 2402,
   "link": "https://link.coupang.com/a/iUhzpIgSZM",
   "tier": "high",
   "use": true,
-  "kind": "\ucea0\ud551\ub79c\ud134",
-  "full_name": "\ucf54\uba67 \uac78\uc5b4\uc11c \uc0ac\uc6a9\ud558\ub294 \ucda9\uc804\uc2dd LED \uac10\uc131 \ucea0\ud551 \ub79c\ud134, \ube14\ub799, 1\uac1c"
+  "kind": "캠핑랜턴",
+  "full_name": "코멧 걸어서 사용하는 충전식 LED 감성 캠핑 랜턴, 블랙, 1개"
  },
  {
   "id": 223,
-  "name": "\ub9c8\ub978\ud30c\uc774\ube0c \ub0a8\uc131 \ubc1c\uc5f4\ub0b4\uc758",
+  "name": "마른파이브 남성 발열내의",
   "price": 19800,
   "reviews": 18750,
   "link": "https://link.coupang.com/a/iUhAbXMxyu",
   "tier": "high",
   "use": true,
-  "kind": "\ubc1c\uc5f4\ub0b4\uc758",
-  "full_name": "\ub9c8\ub978\ud30c\uc774\ube0c \ub0a8\uc131\uc6a9 \ud788\ud2b8\ud130\uce58 \uae30\ubaa8 \ubc1c\uc5f4\ub0b4\uc758 \uc138\ud2b8"
+  "kind": "발열내의",
+  "full_name": "마른파이브 남성용 히트터치 기모 발열내의 세트"
  },
  {
   "id": 224,
-  "name": "\uc5d0\uc774\ud50c \uaca8\uc6b8 \uae30\ubaa8\ubc14\uc9c0",
+  "name": "에이플 겨울 기모바지",
   "price": 14900,
   "reviews": 16739,
   "link": "https://link.coupang.com/a/iUhAYIDNVk",
   "tier": "high",
   "use": true,
-  "kind": "\uae30\ubaa8\ubc14\uc9c0",
-  "full_name": "\uc5d0\uc774\ud50c\uc2ec\ud50c \uaca8\uc6b8 \uae30\ubaa8\ubc14\uc9c0 \ube14\ub799"
+  "kind": "기모바지",
+  "full_name": "에이플심플 겨울 기모바지 블랙"
  },
  {
   "id": 225,
-  "name": "\uc2a4\ud53c\ub514 \ubb34\uc120\ucda9\uc804 \uac70\uce58\ub300",
+  "name": "스피디 무선충전 거치대",
   "price": 6900,
   "reviews": 13794,
   "link": "https://link.coupang.com/a/iUhBK5pwdw",
   "tier": "high",
   "use": true,
-  "kind": "\ubb34\uc120\ucda9\uc804\uae30",
-  "full_name": "\uc2a4\ud53c\ub514 15W \uace0\uc18d \ubb34\uc120\ucda9\uc804 \uac70\uce58\ub300, \ube14\ub799, 1\uac1c"
+  "kind": "무선충전기",
+  "full_name": "스피디 15W 고속 무선충전 거치대, 블랙, 1개"
  },
  {
   "id": 226,
-  "name": "\ub77d\uc564\ub77d \ube44\uc2a4\ud504\ub9ac \ubc00\ud3d0\uc6a9\uae30",
+  "name": "락앤락 비스프리 밀폐용기",
   "price": 15900,
   "reviews": 25962,
   "link": "https://link.coupang.com/a/iUhCwU71Vc",
   "tier": "high",
   "use": true,
-  "kind": "\ubc00\ud3d0\uc6a9\uae30",
-  "full_name": "\ub77d\uc564\ub77d \ube44\uc2a4\ud504\ub9ac \ubaa8\ub4c8\ub7ec \uc815\uc0ac\uac01 \ubc00\ud3d0\uc6a9\uae30, 1\uac1c\uc785, 4\uac1c"
+  "kind": "밀폐용기",
+  "full_name": "락앤락 비스프리 모듈러 정사각 밀폐용기, 1개입, 4개"
  },
  {
   "id": 227,
-  "name": "\uae68\ub057\ud55c\ub370\uc774 \uae40\uc7a5\ub9e4\ud2b8",
+  "name": "깨끗한데이 김장매트",
   "price": 10900,
   "reviews": 9703,
   "link": "https://link.coupang.com/a/iUhDhJ6yse",
   "tier": "high",
   "use": true,
-  "kind": "\uae40\uc7a5\ub9e4\ud2b8",
-  "full_name": "\uae68\ub057\ud55c\ub370\uc774 \uad6d\uc0b0 \ud4e8\uc5b4 GB \uae40\uc7a5\ub9e4\ud2b8, 1\uac1c"
+  "kind": "김장매트",
+  "full_name": "깨끗한데이 국산 퓨어 GB 김장매트, 1개"
  },
  {
   "id": 228,
-  "name": "\ub124\uc774\ucc98\uc544\uba38 \uad6c\uc2a4 \uce68\ub0ad",
+  "name": "네이처아머 구스 침낭",
   "price": 99000,
   "reviews": 1941,
   "link": "https://link.coupang.com/a/iUlPFgarwO",
   "tier": "high",
   "use": true,
-  "kind": "\uce68\ub0ad",
-  "full_name": "\ub124\uc774\ucc98\uc544\uba38 \uad6c\uc2a4 \uce68\ub0ad \ud640\ub9ac\ub370\uc774 \uac70\uc704\ud138 \uad70\uc6a9 \ubbf8\uad70 \ucea0\ud551 \ubc31\ud328\ud0b9 \uc774\ubd88 \ubd04 \uc5ec\ub984 \uac00\uc744 \uaca8\uc6b8 4\uacc4\uc808 3\uacc4\uc808 \ub3d9\uacc4 \uc0ac\uacc4\uc808, \uad6c\uc2a4\uce68\ub0ad: \ube14\ub799\ub808\ub4dc 1500g"
+  "kind": "침낭",
+  "full_name": "네이처아머 구스 침낭 홀리데이 거위털 군용 미군 캠핑 백패킹 이불 봄 여름 가을 겨울 4계절 3계절 동계 사계절, 구스침낭: 블랙레드 1500g"
  },
  {
   "id": 229,
-  "name": "\ubcf4\uc26c \uc218\uacf5\uad6c 108\uc885",
+  "name": "보쉬 수공구 108종",
   "price": 52710,
   "reviews": 980,
   "link": "https://link.coupang.com/a/iUlQqDvVvg",
   "tier": "high",
   "use": true,
-  "kind": "\uacf5\uad6c\uc138\ud2b8",
-  "full_name": "\ubcf4\uc26c \uac00\uc815\uc6a9 \uc218\uacf5\uad6c 108\uc885 \uc138\ud2b8, \uacf5\uad6c 108\uc885, 1\uac1c"
+  "kind": "공구세트",
+  "full_name": "보쉬 가정용 수공구 108종 세트, 공구 108종, 1개"
  },
  {
   "id": 230,
-  "name": "\ub2cc\ud150\ub3c4 \uc2a4\uc704\uce58 HAC-001",
+  "name": "닌텐도 스위치 HAC-001",
   "price": 199000,
   "reviews": 7269,
   "link": "https://link.coupang.com/a/iUlRePVcLQ",
   "tier": "high",
   "use": true,
-  "kind": "\ub2cc\ud150\ub3c4\uc2a4\uc704\uce58",
-  "full_name": "\ub2cc\ud150\ub3c4 \uc2a4\uc704\uce58, HAC-001"
+  "kind": "닌텐도스위치",
+  "full_name": "닌텐도 스위치, HAC-001"
  },
  {
   "id": 231,
-  "name": "TCL \uc0ac\uc6b4\ub4dc\ubc14 S45H",
+  "name": "TCL 사운드바 S45H",
   "price": 105730,
   "reviews": 653,
   "link": "https://link.coupang.com/a/iUlR0N9Gns",
   "tier": "high",
   "use": true,
-  "kind": "\uc0ac\uc6b4\ub4dc\ubc14",
-  "full_name": "TCL 2\ucc44\ub110 \ub3cc\ube44 \uc560\ud2b8\ubaa8\uc2a4 \uc62c\uc778\uc6d0 \uc0ac\uc6b4\ub4dc\ubc14, S45H"
+  "kind": "사운드바",
+  "full_name": "TCL 2채널 돌비 애트모스 올인원 사운드바, S45H"
  },
  {
   "id": 232,
-  "name": "\ub864\ub9ac\uace0\uace0 \uc804\ub3d9\ud0a5\ubcf4\ub4dc",
+  "name": "롤리고고 전동킥보드",
   "price": 365000,
   "reviews": 757,
   "link": "https://link.coupang.com/a/iUlSMjH2qa",
   "tier": "high",
   "use": true,
-  "kind": "\uc804\ub3d9\ud0a5\ubcf4\ub4dc",
-  "full_name": "\ub864\ub9ac\uace0\uace0 \uc804\ub3d9 \ud0a5\ubcf4\ub4dc 10Ah, LGO-E350 LITE, \ube14\ub799, 1\uac1c"
+  "kind": "전동킥보드",
+  "full_name": "롤리고고 전동 킥보드 10Ah, LGO-E350 LITE, 블랙, 1개"
  },
  {
   "id": 233,
-  "name": "\ucea0\ud551\ud790\uc2a4 \ucea0\ud551 \ud14c\uc774\ube14",
+  "name": "캠핑힐스 캠핑 테이블",
   "price": 24800,
   "reviews": 827,
   "link": "https://link.coupang.com/a/iUlTxWi9sq",
   "tier": "high",
   "use": true,
-  "kind": "\ucea0\ud551\ud14c\uc774\ube14",
-  "full_name": "\ucea0\ud551\ud790\uc2a4 \ub192\uc774\uc870\uc808 \uc811\uc774\uc2dd \ucea0\ud551 \ud14c\uc774\ube14, \ube14\ub799"
+  "kind": "캠핑테이블",
+  "full_name": "캠핑힐스 높이조절 접이식 캠핑 테이블, 블랙"
  },
  {
   "id": 234,
-  "name": "\ub77d\uc564\ub77d \uc544\uc6c3\ub3c4\uc5b4 \ubcf4\uc628\ubcd1",
+  "name": "락앤락 아웃도어 보온병",
   "price": 36850,
   "reviews": 5020,
   "link": "https://link.coupang.com/a/iUlUj4urTw",
   "tier": "high",
   "use": true,
-  "kind": "\ubcf4\uc628\ubcd1",
-  "full_name": "\ub77d\uc564\ub77d \uc544\uc6c3\ub3c4\uc5b4 \ubcf4\uc628\ubcd1, \uc544\uc774\ubcf4\ub9ac, 1.5L, 1\uac1c"
+  "kind": "보온병",
+  "full_name": "락앤락 아웃도어 보온병, 아이보리, 1.5L, 1개"
  },
  {
   "id": 235,
-  "name": "\ub85c\uc9c0\ud14d \ub77c\uc774\ud2b8\uc2a4\ud53c\ub4dc \ub9c8\uc6b0\uc2a4",
+  "name": "로지텍 라이트스피드 마우스",
   "price": 33820,
   "reviews": 28615,
   "link": "https://link.coupang.com/a/iUlU8unfcy",
   "tier": "high",
   "use": true,
-  "kind": "\ubb34\uc120\ub9c8\uc6b0\uc2a4",
-  "full_name": "\ub85c\uc9c0\ud14d LIGHTSPEED \ubb34\uc120 \uac8c\uc774\ubc0d \ub9c8\uc6b0\uc2a4, M-R0071, \ube14\ub799"
+  "kind": "무선마우스",
+  "full_name": "로지텍 LIGHTSPEED 무선 게이밍 마우스, M-R0071, 블랙"
  },
  {
   "id": 236,
-  "name": "\uc77c\uc0c1\ud3ec\uc778\ud2b8 \ud2c8\uc0c8 \uc2e0\ubc1c\uc7a5",
+  "name": "일상포인트 틈새 신발장",
   "price": 12900,
   "reviews": 4139,
   "link": "https://link.coupang.com/a/iUlVUPb7y8",
   "tier": "high",
   "use": true,
-  "kind": "\uc2e0\ubc1c\uc7a5",
-  "full_name": "\uc77c\uc0c1\ud3ec\uc778\ud2b8 \ud2bc\ud2bc\ud55c \ud2c8\uc0c8 \uc2e0\ubc1c\uc7a5 \uc2e0\ubc1c \uc815\ub9ac\ub300, \ud654\uc774\ud2b8, 9\ub2e8"
+  "kind": "신발장",
+  "full_name": "일상포인트 튼튼한 틈새 신발장 신발 정리대, 화이트, 9단"
  },
  {
   "id": 237,
-  "name": "\ud5e4\uc774\ud648 \uc2a4\ub9c8\ud2b8 \ud50c\ub7ec\uadf8",
+  "name": "헤이홈 스마트 플러그",
   "price": 17900,
   "reviews": 3736,
   "link": "https://link.coupang.com/a/iUlWIdMmRM",
   "tier": "high",
   "use": true,
-  "kind": "\uc2a4\ub9c8\ud2b8\ud50c\ub7ec\uadf8",
-  "full_name": "\ud5e4\uc774\ud648 \uc6d0\uaca9 \uc81c\uc5b4 \ucf58\uc13c\ud2b8 \uc2a4\ub9c8\ud2b8 mini \ud50c\ub7ec\uadf8, 7.3cm, 1\uac1c"
+  "kind": "스마트플러그",
+  "full_name": "헤이홈 원격 제어 콘센트 스마트 mini 플러그, 7.3cm, 1개"
  }
 ]
