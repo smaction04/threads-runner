@@ -1,9 +1,0 @@
-{
- "reason": "refill-claude-needed",
- "day": "2026-11-26",
- "at": 1795416434,
- "followup": false,
- "sent": true,
- "prev": "refill-no-product",
- "prev_sent": false
-}

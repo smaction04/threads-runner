@@ -2495,5 +2495,93 @@
   "use": true,
   "kind": "스마트플러그",
   "full_name": "헤이홈 원격 제어 콘센트 스마트 mini 플러그, 7.3cm, 1개"
+ },
+ {
+  "id": 238,
+  "name": "쿠킨 샌드위치 와플메이커",
+  "price": 16110,
+  "reviews": 3972,
+  "link": "https://link.coupang.com/a/iUpSNanusC",
+  "tier": "high",
+  "use": true,
+  "kind": "샌드위치메이커",
+  "full_name": "쿠킨 2in1 샌드위치 와플메이커, KFW-JT300DCP"
+ },
+ {
+  "id": 239,
+  "name": "코멧 EPP 폼롤러",
+  "price": 10890,
+  "reviews": 23796,
+  "link": "https://link.coupang.com/a/iUpTBF8HPE",
+  "tier": "high",
+  "use": true,
+  "kind": "폼롤러",
+  "full_name": "코멧 EPP 폼롤러, 블랙 + 화이트, 1개"
+ },
+ {
+  "id": 240,
+  "name": "HOMEY NEST 암막커튼",
+  "price": 39900,
+  "reviews": 10298,
+  "link": "https://link.coupang.com/a/iUpUnOOuzc",
+  "tier": "high",
+  "use": true,
+  "kind": "암막커튼",
+  "full_name": "1+1 HOMEY NEST 완벽 빛차단 3중직 단열 방풍 암막커튼 거실 커텐 아일렛형"
+ },
+ {
+  "id": 241,
+  "name": "솔리티 웰콤 디지털도어락",
+  "price": 63300,
+  "reviews": 9776,
+  "link": "https://link.coupang.com/a/iUpVd4ZClE",
+  "tier": "high",
+  "use": true,
+  "kind": "디지털도어락",
+  "full_name": "솔리티 웰콤 스마트 무타공 주키 디지털도어락 WTS-700 + 카드키 4장, 고객직접설치"
+ },
+ {
+  "id": 242,
+  "name": "피티즘 무게조절 덤벨",
+  "price": 20900,
+  "reviews": 4423,
+  "link": "https://link.coupang.com/a/iUpV0qTFYq",
+  "tier": "high",
+  "use": true,
+  "kind": "덤벨",
+  "full_name": "피티즘 무게조절 덤벨 바벨 세트, 20kg, 1세트"
+ },
+ {
+  "id": 243,
+  "name": "이고진 트위스트 스텝퍼",
+  "price": 77900,
+  "reviews": 3045,
+  "link": "https://link.coupang.com/a/iUpWLoQurI",
+  "tier": "high",
+  "use": true,
+  "kind": "스텝퍼",
+  "full_name": "이고진 트위스트 워킹 스텝퍼 파워플러스 조각매트 포함, 베이지"
+ },
+ {
+  "id": 244,
+  "name": "DJI 오즈모 액션4",
+  "price": 295000,
+  "reviews": 214,
+  "link": "https://link.coupang.com/a/iUpXw70Jsi",
+  "tier": "high",
+  "use": true,
+  "kind": "액션캠",
+  "full_name": "DJI Osmo Action 4 에센셜 콤보 액션캠, AC003, 블랙"
+ },
+ {
+  "id": 245,
+  "name": "LG 디오스 와인셀러",
+  "price": 344490,
+  "reviews": 138,
+  "link": "https://link.coupang.com/a/iUpYkamfFk",
+  "tier": "high",
+  "use": true,
+  "kind": "와인셀러",
+  "full_name": "LG전자 LG 디오스 와인셀러 미니 방문설치 8병, 블랙, W087B"
  }
 ]
