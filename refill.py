@@ -15,6 +15,7 @@ LOG = "log.jsonl"
 POOL = "products.json"
 DASH = "dash/dash_base.json"
 KEY = os.environ.get("GEMINI_API_KEY", "")
+QUOTA = False
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 DRY = os.environ.get("DRY_RUN", "1") != "0"
 KST = 9 * 3600
@@ -77,6 +78,8 @@ def gemini(prompt):
         with urllib.request.urlopen(req, timeout=30) as r:
             d = json.loads(r.read().decode())
     except urllib.error.HTTPError as e:
+        global QUOTA
+        QUOTA = QUOTA or e.code == 429
         raise RuntimeError(f"gemini {e.code} {e.read().decode(errors='replace')[:200]}") from None
     return d["candidates"][0]["content"]["parts"][0]["text"]
 
@@ -141,7 +144,7 @@ def make_text(prod, recent, style, at):
         '출력은 JSON만: {"text": "글"}',
     ])
     for _ in range(2):
-        if time.time() - T0 > BUDGET_SEC:
+        if QUOTA or time.time() - T0 > BUDGET_SEC:
             return None
         try:
             t = str(json.loads(gemini(prompt)).get("text", "")).strip()
@@ -368,9 +371,9 @@ def main():
                     names = HIGH_STYLES if is_high(prod) else STYLES
                     style = random.choice([x for x in names if x not in recent_styles[-3:]] or list(names))
                     text = make_text(prod, recent, style, at)
-                    if text:
+                    if text or QUOTA:
                         break
-                if text or time.time() - T0 > BUDGET_SEC:
+                if text or QUOTA or time.time() - T0 > BUDGET_SEC:
                     break
                 alt = next((p for p in pool if band(p["price"]) == band(prod["price"]) and kind_of(p) not in kinds), None)
                 if not alt:
