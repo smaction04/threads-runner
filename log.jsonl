@@ -23672,3 +23672,20 @@
 {"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-24 06:00:38Z"}
 {"step": "status", "due": [280], "pending": 39, "t": "2026-11-24 06:00:38Z"}
 {"id": 280, "step": "skip", "why": "min gap", "t": "2026-11-24 06:00:38Z"}
+{"step": "refill-add", "id": 314, "product": 253, "at": "2026-11-27 12:53", "style": "가치형", "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-add", "id": 315, "product": 236, "at": "2026-11-27 16:53", "style": "질문형", "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-add", "id": 316, "product": 246, "at": "2026-11-27 08:53", "style": "전환형", "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-add", "id": 317, "product": 254, "at": "2026-11-27 15:53", "style": "이야기형", "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-add", "id": 318, "product": 255, "at": "2026-11-27 10:53", "style": "가치형", "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-add", "id": 319, "product": 256, "at": "2026-11-27 22:53", "style": "이야기형", "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-add", "id": 320, "product": 237, "at": "2026-11-27 20:53", "style": "질문형", "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-add", "id": 321, "product": 238, "at": "2026-11-27 21:53", "style": "체크리스트형", "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-add", "id": 322, "product": 239, "at": "2026-11-27 09:53", "style": "계절형", "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-add", "id": 323, "product": 247, "at": "2026-11-27 18:53", "style": "가치형", "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-add", "id": 324, "product": 242, "at": "2026-11-27 14:53", "style": "추천형", "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-add", "id": 325, "product": 248, "at": "2026-11-27 19:53", "style": "이야기형", "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-add", "id": 326, "product": 249, "at": "2026-11-27 17:53", "style": "전환형", "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-add", "id": 327, "product": 250, "at": "2026-11-27 13:53", "style": "가치형", "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-add", "id": 328, "product": 251, "at": "2026-11-27 11:53", "style": "가치형", "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-done", "added": 15, "t": "2026-11-24 06:04:47Z"}
+{"step": "refill-alert-resolved", "reason": "refill-claude-needed", "t": "2026-11-24 06:04:47Z"}
