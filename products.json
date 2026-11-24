@@ -2708,5 +2708,115 @@
   "kind": "TV",
   "full_name": "Hisense하이센스 4K LED 구글TV, 139cm(55인치), 55A6N, 벽걸이형, 방문설치",
   "review_note": "스피커 소리가 약하다는 후기가 2명 이상"
+ },
+ {
+  "id": 257,
+  "name": "마더스홈 메모리폼 발매트",
+  "price": 10000,
+  "reviews": 29913,
+  "link": "https://link.coupang.com/a/iVYLycIwr6",
+  "tier": "high",
+  "use": true,
+  "kind": "발매트",
+  "full_name": "마더스홈 메모리폼 발매트"
+ },
+ {
+  "id": 258,
+  "name": "에이덤스 차량용 거치대",
+  "price": 9780,
+  "reviews": 13033,
+  "link": "https://link.coupang.com/a/iVYMl5RqQ8",
+  "tier": "high",
+  "use": true,
+  "kind": "차량용거치대",
+  "full_name": "에이덤스 차량용 대쉬보드 흡착식 휴대폰 거치대, 1개, 블랙"
+ },
+ {
+  "id": 259,
+  "name": "코멧 티타늄 후라이팬 28cm",
+  "price": 12790,
+  "reviews": 29727,
+  "link": "https://link.coupang.com/a/iVYM8uXpqS",
+  "tier": "high",
+  "use": true,
+  "kind": "후라이팬",
+  "full_name": "코멧 키친 티타늄코팅 후라이팬, 28 cm, 1개"
+ },
+ {
+  "id": 260,
+  "name": "필립스 전기주전자 HD9318",
+  "price": 23820,
+  "reviews": 48542,
+  "link": "https://link.coupang.com/a/iVYN4eJE0i",
+  "tier": "high",
+  "use": true,
+  "kind": "전기주전자",
+  "full_name": "필립스 3000 시리즈 무선 전기 주전자, HD9318/00"
+ },
+ {
+  "id": 261,
+  "name": "홈플래닛 노트북 거치대",
+  "price": 25410,
+  "reviews": 20804,
+  "link": "https://link.coupang.com/a/iVYOQyYtPw",
+  "tier": "high",
+  "use": true,
+  "kind": "노트북거치대",
+  "full_name": "홈플래닛 와이드형 메탈 쿨링홀 노트북 거치대(높이 각도 조절), 라이트 실버, 1개"
+ },
+ {
+  "id": 262,
+  "name": "로지텍 웹캠 C270",
+  "price": 23890,
+  "reviews": 2831,
+  "link": "https://link.coupang.com/a/iVYW1AKdDo",
+  "tier": "high",
+  "use": true,
+  "kind": "웹캠",
+  "full_name": "로지텍 HD 웹캠, C270, 혼합 색상"
+ },
+ {
+  "id": 263,
+  "name": "티피링크 AX12 공유기",
+  "price": 45500,
+  "reviews": 7036,
+  "link": "https://link.coupang.com/a/iVYXNx0eB2",
+  "tier": "high",
+  "use": true,
+  "kind": "공유기",
+  "full_name": "티피링크 AX1500 듀얼 밴드 기가비트 Wi-Fi 6 인터넷 공유기, Archer AX12, 1개"
+ },
+ {
+  "id": 264,
+  "name": "GERDU 대형 캣타워",
+  "price": 36990,
+  "reviews": 1024,
+  "link": "https://link.coupang.com/a/iVYSL6JwOq",
+  "tier": "high",
+  "use": true,
+  "kind": "캣타워",
+  "full_name": "GERDU 고양이 캣타워 대형 튼튼한 다층 놀이터 스크래쳐 숨숨집, 1개, 나무색"
+ },
+ {
+  "id": 265,
+  "name": "삼성 잉크젯 복합기 J1680",
+  "price": 74900,
+  "reviews": 9282,
+  "link": "https://link.coupang.com/a/iVYTyvCNWu",
+  "tier": "high",
+  "use": true,
+  "kind": "복합기",
+  "full_name": "삼성전자 컬러 잉크젯 복합기 SL-J1680 + 잉크"
+ },
+ {
+  "id": 266,
+  "name": "샌디스크 익스트림 SSD 1TB",
+  "price": 298950,
+  "reviews": 1886,
+  "link": "https://link.coupang.com/a/iVYUlx7Mc0",
+  "tier": "high",
+  "use": true,
+  "kind": "외장SSD",
+  "full_name": "샌디스크 익스트림 포터블 외장 SSD e61, 1TB, 블랙"
  }
 ]
