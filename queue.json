@@ -111,7 +111,7 @@
    "post_id": "18130067323704435",
    "reply_id": "18095484956540320",
    "verified": "ok",
-   "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":4279009,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with id 17911523610518775 cannot be found.\",\"fbtrace_id\":\"AhQXS5xRYg411RyYTXq_0C7\"}}",
+   "error": null,
    "source_draft": 54,
    "product": 8
   },
@@ -225,7 +225,7 @@
    "post_id": "18014911304978048",
    "reply_id": "18110103815169849",
    "verified": "ok",
-   "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":4279009,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with id 17911982421518775 cannot be found.\",\"fbtrace_id\":\"AXeOLPaNjWT4RL3sTZor0EN\"}}",
+   "error": null,
    "source_draft": null,
    "product": 10,
    "auto": true,

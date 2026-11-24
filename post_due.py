@@ -60,7 +60,8 @@ class Ambiguous(RuntimeError):
 
 def log(**kw):
     kw["t"] = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()) + "Z"
-    if not DRY:
+    idle = kw.get("step") in ("whoami", "refill-skip") or (kw.get("step") == "status" and not kw.get("due"))
+    if not DRY and not (idle and time.gmtime().tm_min >= 10):
         with open(LOG, "a", encoding="utf-8") as f:
             f.write(json.dumps(kw, ensure_ascii=False) + "\n")
     print(kw)
