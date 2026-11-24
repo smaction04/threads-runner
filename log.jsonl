@@ -23846,3 +23846,5 @@
 {"id": 277, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-24 15:40:24Z"}
 {"step": "refill-claude-needed", "pending": 47, "t": "2026-11-24 15:47:14Z"}
 {"step": "refill-alert-sent", "reason": "refill-claude-needed", "telegram": true, "t": "2026-11-24 15:47:14Z"}
+{"step": "status", "due": [275, 277], "pending": 47, "t": "2026-11-24 15:50:25Z"}
+{"id": 277, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-24 15:50:25Z"}
