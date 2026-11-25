@@ -23975,3 +23975,5 @@
 {"step": "publish-timing", "kind": "reply", "gap_sec": 22.7, "attempts": 1, "t": "2026-11-25 00:11:21Z"}
 {"id": 275, "step": "reply", "reply_id": "18648282040018475", "t": "2026-11-25 00:11:21Z"}
 {"id": 275, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DgJNgG1kelR", "t": "2026-11-25 00:11:23Z"}
+{"step": "status", "due": [286], "pending": 45, "t": "2026-11-25 00:20:31Z"}
+{"id": 286, "step": "skip", "why": "min gap", "t": "2026-11-25 00:20:31Z"}
