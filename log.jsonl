@@ -24430,3 +24430,6 @@
 {"step": "refill-claude-needed", "pending": 34, "t": "2026-11-25 21:47:14Z"}
 {"step": "status", "due": [289, 290, 291, 293], "pending": 34, "t": "2026-11-25 21:50:25Z"}
 {"id": 293, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-25 21:50:25Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-25 22:00:39Z"}
+{"step": "status", "due": [289, 290, 291, 293], "pending": 34, "t": "2026-11-25 22:00:39Z"}
+{"id": 293, "step": "skip", "why": "발행 시간대(KST 8~23시) 밖", "t": "2026-11-25 22:00:39Z"}
