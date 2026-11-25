@@ -24168,3 +24168,7 @@
 {"id": 296, "step": "reply", "reply_id": "18349257004285408", "t": "2026-11-25 08:21:15Z"}
 {"id": 296, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DgKFldwG7Bm", "t": "2026-11-25 08:21:15Z"}
 {"step": "refill-claude-needed", "pending": 38, "t": "2026-11-25 08:27:09Z"}
+{"step": "status", "due": [285, 287, 294], "pending": 38, "t": "2026-11-25 08:30:37Z"}
+{"id": 287, "step": "skip", "why": "min gap", "t": "2026-11-25 08:30:37Z"}
+{"id": 285, "step": "skip", "why": "min gap", "t": "2026-11-25 08:30:37Z"}
+{"id": 294, "step": "skip", "why": "min gap", "t": "2026-11-25 08:30:37Z"}
