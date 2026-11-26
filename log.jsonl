@@ -24638,3 +24638,9 @@
 {"step": "publish-timing", "kind": "reply", "gap_sec": 21.3, "attempts": 1, "t": "2026-11-26 04:51:21Z"}
 {"id": 307, "step": "reply", "reply_id": "17917467288510209", "t": "2026-11-26 04:51:21Z"}
 {"id": 307, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DgMSWO4G1AX", "t": "2026-11-26 04:51:22Z"}
+{"step": "whoami", "username": "happyday_more", "dry": false, "t": "2026-11-26 05:00:38Z"}
+{"step": "status", "due": [299, 302, 303, 310], "pending": 28, "t": "2026-11-26 05:00:38Z"}
+{"id": 303, "step": "skip", "why": "min gap", "t": "2026-11-26 05:00:38Z"}
+{"id": 302, "step": "skip", "why": "min gap", "t": "2026-11-26 05:00:38Z"}
+{"id": 299, "step": "skip", "why": "min gap", "t": "2026-11-26 05:00:38Z"}
+{"id": 310, "step": "skip", "why": "min gap", "t": "2026-11-26 05:00:38Z"}
