@@ -24928,3 +24928,4 @@
 {"id": 308, "step": "skip", "why": "min gap", "t": "2026-11-26 12:40:24Z"}
 {"id": 312, "step": "skip", "why": "min gap", "t": "2026-11-26 12:40:24Z"}
 {"id": 306, "step": "skip", "why": "min gap", "t": "2026-11-26 12:40:24Z"}
+{"step": "refill-claude-needed", "pending": 22, "t": "2026-11-26 12:47:16Z"}
