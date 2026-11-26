@@ -24498,3 +24498,8 @@
 {"id": 301, "step": "skip", "why": "min gap", "t": "2026-11-26 00:40:25Z"}
 {"id": 307, "step": "skip", "why": "min gap", "t": "2026-11-26 00:40:25Z"}
 {"step": "refill-claude-needed", "pending": 32, "t": "2026-11-26 00:47:12Z"}
+{"step": "status", "due": [289, 291, 301, 307], "pending": 32, "t": "2026-11-26 00:50:23Z"}
+{"id": 291, "step": "skip", "why": "min gap", "t": "2026-11-26 00:50:23Z"}
+{"id": 289, "step": "skip", "why": "min gap", "t": "2026-11-26 00:50:23Z"}
+{"id": 301, "step": "skip", "why": "min gap", "t": "2026-11-26 00:50:23Z"}
+{"id": 307, "step": "skip", "why": "min gap", "t": "2026-11-26 00:50:23Z"}
