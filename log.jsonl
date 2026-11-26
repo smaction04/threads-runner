@@ -24599,3 +24599,4 @@
 {"step": "publish-timing", "kind": "reply", "gap_sec": 20.6, "attempts": 1, "t": "2026-11-26 03:41:17Z"}
 {"id": 301, "step": "reply", "reply_id": "17976094365187402", "t": "2026-11-26 03:41:17Z"}
 {"id": 301, "step": "verify", "result": "ok", "url": "https://www.threads.com/@happyday_more/post/DgMKU5wkWwp", "t": "2026-11-26 03:41:17Z"}
+{"step": "refill-claude-needed", "pending": 29, "t": "2026-11-26 03:47:11Z"}
