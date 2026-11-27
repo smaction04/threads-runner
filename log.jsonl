@@ -25478,3 +25478,11 @@
 {"step": "refill-add", "id": 373, "product": 300, "at": "2026-11-30 10:09", "style": "발견형", "t": "2026-11-27 06:25:34Z"}
 {"step": "refill-done", "added": 45, "t": "2026-11-27 06:25:34Z"}
 {"step": "refill-alert-resolved", "reason": "refill-claude-needed", "t": "2026-11-27 06:25:34Z"}
+{"step": "status", "due": [314, 317, 318, 322, 324, 327, 328], "pending": 59, "t": "2026-11-27 06:30:32Z"}
+{"id": 322, "step": "skip", "why": "min gap", "t": "2026-11-27 06:30:32Z"}
+{"id": 318, "step": "skip", "why": "min gap", "t": "2026-11-27 06:30:32Z"}
+{"id": 328, "step": "skip", "why": "min gap", "t": "2026-11-27 06:30:32Z"}
+{"id": 314, "step": "skip", "why": "min gap", "t": "2026-11-27 06:30:32Z"}
+{"id": 327, "step": "skip", "why": "min gap", "t": "2026-11-27 06:30:32Z"}
+{"id": 324, "step": "skip", "why": "min gap", "t": "2026-11-27 06:30:32Z"}
+{"id": 317, "step": "skip", "why": "min gap", "t": "2026-11-27 06:30:32Z"}
