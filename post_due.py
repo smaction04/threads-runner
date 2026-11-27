@@ -15,6 +15,7 @@ TOKEN = os.environ.get("THREADS_TOKEN", "")
 UID = "me"
 DRY = os.environ.get("DRY_RUN", "1") != "0"
 MIN_GAP = 3600
+GAP_WAIT_MAX = 420
 MIN_DAILY_CAP = 10
 MAX_PER_DAY = 15
 REPLY_DELAY = 8
@@ -360,8 +361,12 @@ def main():
             log(id=it["id"], step="skip", why="daily cap")
             continue
         if last and now - last < MIN_GAP:
-            log(id=it["id"], step="skip", why="min gap")
-            continue
+            wait = MIN_GAP - (now - last)
+            if DRY or wait > GAP_WAIT_MAX or kst_hour(now + wait) >= WIN_END:
+                log(id=it["id"], step="skip", why="min gap")
+                continue
+            time.sleep(wait)
+            now = int(time.time())
         if DRY:
             log(id=it["id"], step="dry-run", would_post=it["text"][:40])
             continue
