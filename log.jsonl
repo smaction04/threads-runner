@@ -26222,3 +26222,10 @@
 {"step": "refill-add", "id": 388, "product": 309, "at": "2026-12-01 13:07", "style": "질문형", "t": "2026-11-28 04:42:58Z"}
 {"step": "refill-done", "added": 15, "t": "2026-11-28 04:42:58Z"}
 {"step": "refill-alert-resolved", "reason": "refill-claude-needed", "t": "2026-11-28 04:42:58Z"}
+{"step": "status", "due": [319, 329, 331, 333, 337, 343], "pending": 61, "t": "2026-11-28 04:50:24Z"}
+{"id": 319, "step": "skip", "why": "min gap", "t": "2026-11-28 04:50:24Z"}
+{"id": 331, "step": "skip", "why": "min gap", "t": "2026-11-28 04:50:24Z"}
+{"id": 337, "step": "skip", "why": "min gap", "t": "2026-11-28 04:50:24Z"}
+{"id": 333, "step": "skip", "why": "min gap", "t": "2026-11-28 04:50:24Z"}
+{"id": 343, "step": "skip", "why": "min gap", "t": "2026-11-28 04:50:24Z"}
+{"id": 329, "step": "skip", "why": "min gap", "t": "2026-11-28 04:50:24Z"}
