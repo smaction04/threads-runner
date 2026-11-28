@@ -3665,5 +3665,137 @@
   "use": true,
   "kind": "식기건조대",
   "full_name": "4BNK 프레임 식기건조대, 1단, 다크그레이, 1개"
+ },
+ {
+  "id": 344,
+  "name": "코멧 메쉬 세탁망 2개",
+  "price": 3390,
+  "reviews": 18637,
+  "link": "https://link.coupang.com/a/i2GNhReLmu",
+  "tier": "high",
+  "use": true,
+  "kind": "세탁망",
+  "full_name": "코멧 홈 메쉬 사각 세탁망 50 x 60 cm, 화이트, 2개"
+ },
+ {
+  "id": 345,
+  "name": "코멧 테이프클리너 세트",
+  "price": 11790,
+  "reviews": 35622,
+  "link": "https://link.coupang.com/a/i2GN3k7pPU",
+  "tier": "high",
+  "use": true,
+  "kind": "테이프클리너",
+  "full_name": "코멧 사선컷팅 테이프 클리너 핸들 + 거치대 + 리필 10개 (16cm x 12m), 1개"
+ },
+ {
+  "id": 346,
+  "name": "코멧 빨래바구니 2개",
+  "price": 8990,
+  "reviews": 14518,
+  "link": "https://link.coupang.com/a/i2GOPBy4Em",
+  "tier": "high",
+  "use": true,
+  "kind": "빨래바구니",
+  "full_name": "코멧 트임형 빨래바구니 2개입, 그레이"
+ },
+ {
+  "id": 347,
+  "name": "아이깨끗해 폼 핸드솝 3개",
+  "price": 13590,
+  "reviews": 158698,
+  "link": "https://link.coupang.com/a/i2GPA4tPEW",
+  "tier": "high",
+  "use": true,
+  "kind": "핸드워시",
+  "full_name": "아이깨끗해 항균 폼 핸드솝 순 보송보송 파우더향, 490ml, 3개"
+ },
+ {
+  "id": 348,
+  "name": "페브리즈 섬유탈취제 3개",
+  "price": 15930,
+  "reviews": 82554,
+  "link": "https://link.coupang.com/a/i2GQnuKlW0",
+  "tier": "high",
+  "use": true,
+  "kind": "섬유탈취제",
+  "full_name": "페브리즈 항균플러스 섬유탈취제 깨끗한향 본품, 360ml, 3개"
+ },
+ {
+  "id": 349,
+  "name": "요이치 마우스 장패드",
+  "price": 5900,
+  "reviews": 26451,
+  "link": "https://link.coupang.com/a/i2GQ9btiRE",
+  "tier": "high",
+  "use": true,
+  "kind": "마우스패드",
+  "full_name": "요이치 게이밍 마우스 장패드 800 x 300 x 5 mm, 블랙, 1개"
+ },
+ {
+  "id": 350,
+  "name": "한스웰 KF94 마스크 100개",
+  "price": 15700,
+  "reviews": 81092,
+  "link": "https://link.coupang.com/a/i2GRVdM5Ia",
+  "tier": "high",
+  "use": true,
+  "kind": "마스크",
+  "full_name": "한스웰 한마음 황사 마스크 대형 성인용 KF94, 1개입, 100개, 화이트"
+ },
+ {
+  "id": 351,
+  "name": "크리넥스 빨아쓰는 행주 6개",
+  "price": 11490,
+  "reviews": 48780,
+  "link": "https://link.coupang.com/a/i2GSHWpRO8",
+  "tier": "high",
+  "use": true,
+  "kind": "행주",
+  "full_name": "크리넥스 빨아쓰는 위생행주 블루, 72매, 6개"
+ },
+ {
+  "id": 352,
+  "name": "우스틴스 충전 전동드릴",
+  "price": 43980,
+  "reviews": 3814,
+  "link": "https://link.coupang.com/a/i2GTsGYm7w",
+  "tier": "high",
+  "use": true,
+  "kind": "전동드릴",
+  "full_name": "우스틴스 20V 리튬이온 충전 햄머 전동드릴세트 TCR300, 1세트, 본품 + 배터리 1개"
+ },
+ {
+  "id": 353,
+  "name": "다룸 자동센서 쓰레기통",
+  "price": 52140,
+  "reviews": 3049,
+  "link": "https://link.coupang.com/a/i2GUeD42q4",
+  "tier": "high",
+  "use": true,
+  "kind": "쓰레기통",
+  "full_name": "다룸 스마트 자동센서 스마트 쓰레기통 날개형 + 전용봉투, 화이트, 1개"
+ },
+ {
+  "id": 354,
+  "name": "디클펫 자동급식기 4L",
+  "price": 45700,
+  "reviews": 2754,
+  "link": "https://link.coupang.com/a/i2GUZGlLR6",
+  "tier": "high",
+  "use": true,
+  "kind": "자동급식기",
+  "full_name": "디클펫 반려동물 자동급식기 AT-310, 4L, 화이트 + 불투명, 1개"
+ },
+ {
+  "id": 355,
+  "name": "샤오미 다용도 에어펌프 2",
+  "price": 32240,
+  "reviews": 2478,
+  "link": "https://link.coupang.com/a/i2GVLkt3XE",
+  "tier": "high",
+  "use": true,
+  "kind": "에어펌프",
+  "full_name": "샤오미 다용도 에어펌프 2 블랙, 1개"
  }
 ]
